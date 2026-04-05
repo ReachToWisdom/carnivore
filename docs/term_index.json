@@ -1,6 +1,6 @@
 {
   "description": "카니보어 원고 용어 색인 — 용어별 등장 위치",
-  "generatedAt": "2026-04-05T18:17:47.755773",
+  "generatedAt": "2026-04-05T20:42:57.448462",
   "totalTerms": 80,
   "index": {
     "BHB": [
@@ -21,62 +21,67 @@
       },
       {
         "file": "part1-overview",
-        "line": 373,
+        "line": 486,
         "context": "- 케톤체(BHB) 생산 → 뇌에 안정적 에너지 공급"
       },
       {
         "file": "part2-chapter02",
-        "line": 29,
+        "line": 22,
+        "context": "케톤체란, 탄수화물 섭취가 줄어 혈당이 낮아지면 간이 저장된 지방을 분해하여 만들어내는 대체 연료 물질이다. 지방산이 간에서 β-산화를 거쳐 아"
+      },
+      {
+        "file": "part2-chapter02",
+        "line": 32,
         "context": "| **최종 결과** | 뇌 에너지 안정 (BHB 공급) → **집중력 향상, 수면 개선** | 장-뇌축 회복 (세로토닌 정상화) → **우울·"
       },
       {
         "file": "part2-chapter02",
-        "line": 35,
+        "line": 38,
         "context": "케톤체(β-hydroxybutyrate, BHB)는"
       },
       {
         "file": "part2-chapter02",
-        "line": 39,
+        "line": 42,
         "context": "Shimazu et al.(*Science*, 2013)은 쥐의 신장 세포와 생체 실험에서 BHB가 히스톤 탈아세틸화효소(HDAC)의 Class"
       },
       {
         "file": "part2-chapter02",
-        "line": 161,
+        "line": 164,
         "context": "케톤 대사로 전환되면서 BHB 자체가 강력한 항염·항산화 작용을 한다"
       },
       {
         "file": "part2-chapter02",
-        "line": 220,
+        "line": 223,
         "context": "Youm et al.(*Nature Medicine*, 2015)은 쥐와 인간 단핵구를 대상으로 한 실험에서, BHB가 NLRP3 인플라마좀의 "
       },
       {
         "file": "part2-chapter02",
-        "line": 224,
+        "line": 227,
         "context": "BHB가 HDAC를 억제하여 BDNF 유전자 프로모터의 히스톤 아세틸화를 증가시키고,"
       },
       {
         "file": "part2-chapter02",
-        "line": 226,
+        "line": 229,
         "context": "(Sleiman et al., *eLife*, 2016). 이 연구는 쥐에게 운동을 시킨 뒤 해마(hippocampus)에서 BHB 농도와 BD"
       },
       {
         "file": "part2-chapter02",
-        "line": 248,
+        "line": 251,
         "context": "BHB(케톤체)가 HDAC를 억제하여 항산화 유전자를 활성화하는 것이"
       },
       {
         "file": "part2-chapter02",
-        "line": 351,
+        "line": 354,
         "context": "탄수화물 제거 시 생성되는 **β-하이드록시뷰티레이트(BHB)**는 단순한 에너지원이 아니다. Youm et al.(*Nature Medicin"
       },
       {
         "file": "part2-chapter03",
-        "line": 153,
+        "line": 146,
         "context": "탄수화물을 극도로 제한하면 간에서 케톤체(BHB)가 생성되고,"
       },
       {
         "file": "part2-chapter03",
-        "line": 154,
+        "line": 147,
         "context": "이 BHB는 단순한 대체 연료가 아니라"
       }
     ],
@@ -93,7 +98,7 @@
       },
       {
         "file": "part1-overview",
-        "line": 63,
+        "line": 90,
         "context": "BYU의 생리학 교수 Benjamin Bikman은"
       },
       {
@@ -120,63 +125,63 @@
       },
       {
         "file": "part1-chapter03c",
-        "line": 41,
+        "line": 50,
         "context": "오메가-3(EPA·DHA)는 다음 효과가 실제로 확인됐다:"
       },
       {
         "file": "part1-chapter03c",
-        "line": 58,
+        "line": 67,
         "context": "- 크릴 오일 한 캡슐에 EPA+DHA는 약 100~250mg으로 어유보다 낮다"
       },
       {
         "file": "part1-chapter03c",
-        "line": 59,
+        "line": 68,
         "context": "- 같은 EPA+DHA 용량을 얻으려면 훨씬 많은 캡슐이 필요하다"
       },
       {
         "file": "part1-chapter03c",
-        "line": 67,
+        "line": 76,
         "context": "동물성 식품에는 EPA·DHA가 이미 풍부하게 들어 있다."
       },
       {
         "file": "part1-overview",
-        "line": 206,
+        "line": 272,
         "context": "연어유를 먹으면 세포막에 DHA가 늘고,"
       },
       {
         "file": "part2-chapter01",
-        "line": 136,
+        "line": 148,
         "context": "적은 양으로도 뇌가 필요로 하는 DHA, 아라키돈산, 콜레스테롤을"
       },
       {
         "file": "part2-chapter01",
-        "line": 137,
+        "line": 149,
         "context": "한꺼번에 공급했다. DHA는 뇌 건조중량의 약 25%를 차지하며,"
       },
       {
         "file": "part2-chapter01",
-        "line": 139,
+        "line": 151,
         "context": "식물성 ALA에서 DHA로의 전환율이 0~3.8%에 불과하다는 사실(3부 3장 참조)을 고려하면,"
       },
       {
         "file": "part2-chapter02",
-        "line": 96,
+        "line": 99,
         "context": "| 오메가3 (EPA/DHA) | 어류, 달걀 | 식물성 ALA 전환율 <5% |"
       },
       {
         "file": "part2-chapter02",
-        "line": 260,
+        "line": 263,
         "context": "| **오메가3(DHA)** | 뇌 유전자 발현 조절 | 연어, 고등어, 정어리 |"
       },
       {
         "file": "part2-chapter02",
-        "line": 267,
+        "line": 270,
         "context": "활성형 비타민A(레티놀)와 DHA도 동물성에서만 직접 얻을 수 있다."
       },
       {
         "file": "part2-chapter03",
-        "line": 29,
-        "context": "반면 동물성 식품은 어떤가? 2부의 스테이크 200g 비교표를 다시 보자. 소고기 한 접시로 철분, 아연, B12, 완전 단백질, DHA가 한꺼"
+        "line": 22,
+        "context": "반면 동물성 식품은 어떤가? 앞서 2부에서 살펴본 스테이크 200g 비교표를 떠올려보자. 소고기 한 접시로 철분, 아연, B12, 완전 단백질,"
       },
       {
         "file": "part3-chapter02b",
@@ -292,7 +297,7 @@
       },
       {
         "file": "part2-chapter02",
-        "line": 265,
+        "line": 268,
         "context": "메티오닌은 식물성 단백질에서 가장 부족한 아미노산이고(3부 3장의 DIAAS 표 참고),"
       },
       {
@@ -354,27 +359,27 @@
       },
       {
         "file": "part1-chapter03c",
-        "line": 41,
+        "line": 50,
         "context": "오메가-3(EPA·DHA)는 다음 효과가 실제로 확인됐다:"
       },
       {
         "file": "part1-chapter03c",
-        "line": 58,
+        "line": 67,
         "context": "- 크릴 오일 한 캡슐에 EPA+DHA는 약 100~250mg으로 어유보다 낮다"
       },
       {
         "file": "part1-chapter03c",
-        "line": 59,
+        "line": 68,
         "context": "- 같은 EPA+DHA 용량을 얻으려면 훨씬 많은 캡슐이 필요하다"
       },
       {
         "file": "part1-chapter03c",
-        "line": 67,
+        "line": 76,
         "context": "동물성 식품에는 EPA·DHA가 이미 풍부하게 들어 있다."
       },
       {
         "file": "part2-chapter02",
-        "line": 96,
+        "line": 99,
         "context": "| 오메가3 (EPA/DHA) | 어류, 달걀 | 식물성 ALA 전환율 <5% |"
       },
       {
@@ -451,7 +456,7 @@
       },
       {
         "file": "part1-overview",
-        "line": 293,
+        "line": 406,
         "context": "Fasano(*Physiological Reviews*, 2011)가 규명한 zonulin 경로가"
       },
       {
@@ -503,32 +508,32 @@
       },
       {
         "file": "part1-chapter03c",
-        "line": 103,
+        "line": 112,
         "context": "중성지방을 높이며 HDL을 낮춘다."
       },
       {
         "file": "part1-overview",
-        "line": 90,
+        "line": 117,
         "context": "인슐린 저항성 → 중성지방(TG) 상승 + HDL 저하"
       },
       {
         "file": "part1-overview",
-        "line": 100,
+        "line": 138,
         "context": "진짜 위험 지표는 **TG/HDL 비율**이다."
       },
       {
         "file": "part1-overview",
-        "line": 240,
+        "line": 326,
         "context": "LDL을 올리고 HDL을 내리는, 지질 프로필에 가장 해로운 지방이다."
       },
       {
         "file": "part2-chapter03",
-        "line": 62,
+        "line": 55,
         "context": "LDL을 올리고 HDL을 내리는, 지질 프로필에 가장 해로운 지방이다."
       },
       {
         "file": "part2-chapter03",
-        "line": 147,
+        "line": 140,
         "context": "혈중 지표(TG/HDL 비율, 공복 인슐린, 염증 마커)가 계속 호전된다."
       },
       {
@@ -635,17 +640,17 @@
     "IL-6": [
       {
         "file": "part1-overview",
-        "line": 53,
+        "line": 67,
         "context": "| **5단계** | 전신 염증(TNF-α, IL-6 증가) → 간, 근육, 뇌, 혈관 손상 | 집 전체에 불이 번진다 |"
       },
       {
         "file": "part1-overview",
-        "line": 107,
+        "line": 145,
         "context": "고인슐린혈증 → 염증성 사이토카인(TNF-α, IL-6) 증가"
       },
       {
         "file": "part2-chapter02",
-        "line": 27,
+        "line": 30,
         "context": "| **1차 회복** | 지방 대사 복귀 (케톤체 생성) | 전신 염증 감소 (TNF-α↓ IL-6↓) | 호르몬 균형 회복 |"
       },
       {
@@ -667,7 +672,7 @@
       },
       {
         "file": "part1-overview",
-        "line": 83,
+        "line": 110,
         "context": "Jason Fung 박사가 *The Obesity Code*(2016)에서 정리한 핵심이 이것이다."
       },
       {
@@ -719,8 +724,13 @@
       },
       {
         "file": "part1-chapter02",
-        "line": 52,
+        "line": 53,
         "context": "저탄수화물·고지방 식단에서 LDL이 높아져도"
+      },
+      {
+        "file": "part1-chapter02",
+        "line": 56,
+        "context": "LMHR 연구가 주목받는 이유는 LDL 수치만으로 심혈관 위험을 판단하는 기존 공식에 의문을 제기하기 때문이다. LDL이 높아도 실제 동맥에 칼"
       },
       {
         "file": "part1-chapter03b",
@@ -769,7 +779,7 @@
       },
       {
         "file": "part1-chapter03b",
-        "line": 206,
+        "line": 209,
         "context": "스타틴(LDL 콜레스테롤 저하제)은 콜레스테롤 가설이 없으면 존재할 수 없다."
       },
       {
@@ -779,72 +789,92 @@
       },
       {
         "file": "part1-chapter03c",
-        "line": 94,
+        "line": 34,
+        "context": "① 혈중 LDL 입자(특히 작고 조밀한 sdLDL)가 손상된 혈관 내피 아래로 침투한다."
+      },
+      {
+        "file": "part1-chapter03c",
+        "line": 35,
+        "context": "② 침투한 LDL이 활성산소(ROS)에 의해 **산화**된다. 산화된 LDL(oxLDL)은 면역계가 '이물질'로 인식하는 위험 신호가 된다."
+      },
+      {
+        "file": "part1-chapter03c",
+        "line": 36,
+        "context": "③ 면역세포인 단핵구(monocyte)가 혈관벽으로 이동하여 대식세포(macrophage)로 분화한 뒤, oxLDL을 탐식한다. 이때 대식세포는"
+      },
+      {
+        "file": "part1-chapter03c",
+        "line": 103,
         "context": "포화지방은 LDL 콜레스테롤을 올릴 수 있다. 이것은 사실이다."
       },
       {
         "file": "part1-chapter03c",
-        "line": 95,
+        "line": 104,
         "context": "그런데 **어떤 LDL을 올리는가**가 핵심이다."
       },
       {
         "file": "part1-chapter03c",
-        "line": 97,
+        "line": 106,
         "context": "LDL에는 두 종류가 있다:"
       },
       {
         "file": "part1-chapter03c",
-        "line": 98,
+        "line": 107,
         "context": "- **Pattern A (크고 가벼운 LDL)**: 동맥벽 침투 어려움, 산화 저항성 높음"
       },
       {
         "file": "part1-chapter03c",
-        "line": 99,
+        "line": 108,
         "context": "- **Pattern B (작고 조밀한 sdLDL)**: 동맥벽 침투 쉬움, 산화되면 플라크 형성"
       },
       {
         "file": "part1-chapter03c",
-        "line": 108,
+        "line": 117,
         "context": "따라서 \"총 LDL 수치\"만 보는 것은 불완전하다."
       },
       {
         "file": "part1-chapter03c",
-        "line": 109,
+        "line": 118,
         "context": "포화지방이 LDL 수치를 올려도, 그것이 심장병 위험을 높이지 않는 이유가 여기에 있다."
       },
       {
         "file": "part1-chapter03c",
-        "line": 124,
+        "line": 133,
         "context": "| **진짜 범인** | 설탕·정제 탄수화물 → 소형 LDL, 인슐린 저항성, 염증 |"
       },
       {
         "file": "part1-overview",
-        "line": 91,
+        "line": 118,
         "context": "→ 간에서 소형 고밀도 LDL(sdLDL) 대량 생산"
       },
       {
         "file": "part1-overview",
-        "line": 92,
+        "line": 119,
         "context": "→ sdLDL이 혈관벽 침투 → 산화 → 동맥경화"
       },
       {
         "file": "part1-overview",
-        "line": 97,
+        "line": 127,
+        "context": "VLDL 입자에 실려 혈류로 방출된다."
+      },
+      {
+        "file": "part1-overview",
+        "line": 135,
         "context": "그러나 진짜 위험한 것은 총 LDL이 아니라 **소형 고밀도 LDL(sdLDL)**이다."
       },
       {
         "file": "part1-overview",
-        "line": 98,
+        "line": 136,
         "context": "그리고 sdLDL을 만드는 것은 포화지방이 아니라 **탄수화물 과잉 + 인슐린 저항성**이다."
       },
       {
         "file": "part1-overview",
-        "line": 240,
+        "line": 326,
         "context": "LDL을 올리고 HDL을 내리는, 지질 프로필에 가장 해로운 지방이다."
       },
       {
         "file": "part2-chapter03",
-        "line": 62,
+        "line": 55,
         "context": "LDL을 올리고 HDL을 내리는, 지질 프로필에 가장 해로운 지방이다."
       },
       {
@@ -1041,7 +1071,7 @@
     "LPS": [
       {
         "file": "part1-overview",
-        "line": 288,
+        "line": 396,
         "context": "| **3단계** | 소화되지 않은 독소·세균이 혈류로 유입 | LPS(내독소) 등 |"
       },
       {
@@ -1063,12 +1093,12 @@
     "PCOS": [
       {
         "file": "part1-overview",
-        "line": 123,
+        "line": 161,
         "context": "→ 내분비 교란 → PCOS, 불임, 성장 저해"
       },
       {
         "file": "part2-chapter02",
-        "line": 28,
+        "line": 31,
         "context": "| **2차 회복** | 에너지 안정, 체지방 감소, 지방간 해소 | 자가면역 완화, 피부 회복, 관절통 감소 | PCOS/갑상선 정상화, 생리"
       },
       {
@@ -1080,13 +1110,28 @@
     "PUFA": [
       {
         "file": "part1-overview",
-        "line": 188,
+        "line": 243,
         "context": "| 6. 탈취 | **200~270°C 고온**에서 냄새 제거 | PUFA 산화 가속 |"
       },
       {
         "file": "part1-overview",
-        "line": 216,
+        "line": 251,
+        "context": "PUFA는 제조 공정 중 고온(200~270°C)에 노출되는 단계에서 이미 산화가 시작된다."
+      },
+      {
+        "file": "part1-overview",
+        "line": 282,
         "context": "피부 세포막에 다불포화지방산(PUFA)이 많으면"
+      },
+      {
+        "file": "part1-overview",
+        "line": 288,
+        "context": "PUFA가 풍부한 세포막은 자외선에 극도로 취약해지고,"
+      },
+      {
+        "file": "part1-overview",
+        "line": 292,
+        "context": "결과적으로 PUFA 과잉 → UV 피부 손상 → 썬크림 사용 → 비타민D 합성 차단이라는"
       },
       {
         "file": "part3-chapter02c",
@@ -1127,7 +1172,7 @@
       },
       {
         "file": "part1-chapter03c",
-        "line": 122,
+        "line": 131,
         "context": "| **PURE 연구** | 13만 5천 명, 18개국 → 지방 많이 먹을수록 사망률 낮음 |"
       },
       {
@@ -1169,7 +1214,7 @@
       },
       {
         "file": "part2-chapter02",
-        "line": 148,
+        "line": 151,
         "context": "흔히 제기되는 **\"비타민C 부족\"** 우려에 대해 깊이 짚고 넘어가야 한다. 이 질문은 카니보어 식단에 대한 가장 빈번한 반론이지만, 그 논리"
       },
       {
@@ -1201,12 +1246,12 @@
       },
       {
         "file": "part1-overview",
-        "line": 100,
+        "line": 138,
         "context": "진짜 위험 지표는 **TG/HDL 비율**이다."
       },
       {
         "file": "part2-chapter03",
-        "line": 147,
+        "line": 140,
         "context": "혈중 지표(TG/HDL 비율, 공복 인슐린, 염증 마커)가 계속 호전된다."
       },
       {
@@ -1273,22 +1318,22 @@
     "TNF": [
       {
         "file": "part1-overview",
-        "line": 53,
+        "line": 67,
         "context": "| **5단계** | 전신 염증(TNF-α, IL-6 증가) → 간, 근육, 뇌, 혈관 손상 | 집 전체에 불이 번진다 |"
       },
       {
         "file": "part1-overview",
-        "line": 107,
+        "line": 145,
         "context": "고인슐린혈증 → 염증성 사이토카인(TNF-α, IL-6) 증가"
       },
       {
         "file": "part1-overview",
-        "line": 289,
+        "line": 397,
         "context": "| **4단계** | 면역 시스템 과활성 → 전신 염증 | TNF-α 증가 |"
       },
       {
         "file": "part2-chapter02",
-        "line": 27,
+        "line": 30,
         "context": "| **1차 회복** | 지방 대사 복귀 (케톤체 생성) | 전신 염증 감소 (TNF-α↓ IL-6↓) | 호르몬 균형 회복 |"
       },
       {
@@ -1320,17 +1365,17 @@
       },
       {
         "file": "part1-overview",
-        "line": 109,
+        "line": 147,
         "context": "→ 만성 염증 → mTOR 과활성 → 노화 가속, 암 환경 조성"
       },
       {
         "file": "part1-overview",
-        "line": 112,
+        "line": 150,
         "context": "인슐린이 만성적으로 높으면 mTOR(세포 성장 신호)가 과활성화되어"
       },
       {
         "file": "part1-overview",
-        "line": 375,
+        "line": 488,
         "context": "- mTOR 정상화 → 세포 성장 속도 조절"
       },
       {
@@ -1392,27 +1437,32 @@
       },
       {
         "file": "part1-chapter03c",
-        "line": 99,
+        "line": 34,
+        "context": "① 혈중 LDL 입자(특히 작고 조밀한 sdLDL)가 손상된 혈관 내피 아래로 침투한다."
+      },
+      {
+        "file": "part1-chapter03c",
+        "line": 108,
         "context": "- **Pattern B (작고 조밀한 sdLDL)**: 동맥벽 침투 쉬움, 산화되면 플라크 형성"
       },
       {
         "file": "part1-overview",
-        "line": 91,
+        "line": 118,
         "context": "→ 간에서 소형 고밀도 LDL(sdLDL) 대량 생산"
       },
       {
         "file": "part1-overview",
-        "line": 92,
+        "line": 119,
         "context": "→ sdLDL이 혈관벽 침투 → 산화 → 동맥경화"
       },
       {
         "file": "part1-overview",
-        "line": 97,
+        "line": 135,
         "context": "그러나 진짜 위험한 것은 총 LDL이 아니라 **소형 고밀도 LDL(sdLDL)**이다."
       },
       {
         "file": "part1-overview",
-        "line": 98,
+        "line": 136,
         "context": "그리고 sdLDL을 만드는 것은 포화지방이 아니라 **탄수화물 과잉 + 인슐린 저항성**이다."
       },
       {
@@ -1469,22 +1519,22 @@
       },
       {
         "file": "part1-overview",
-        "line": 267,
+        "line": 353,
         "context": "| **글루텐/글리아딘** | 밀, 보리, 호밀 | zonulin 분비 유도 → 장벽 틈새를 벌림 |"
       },
       {
         "file": "part1-overview",
-        "line": 287,
+        "line": 395,
         "context": "| **2단계** | 타이트 정션(세포 간 밀착 연결) 파괴 | zonulin 분비 증가 |"
       },
       {
         "file": "part1-overview",
-        "line": 293,
+        "line": 406,
         "context": "Fasano(*Physiological Reviews*, 2011)가 규명한 zonulin 경로가"
       },
       {
         "file": "part1-overview",
-        "line": 295,
+        "line": 408,
         "context": "밀의 글리아딘이 장 상피세포에서 zonulin이라는 단백질의 분비를 촉진하면,"
       },
       {
@@ -1568,12 +1618,12 @@
     "고인슐린혈증": [
       {
         "file": "part1-overview",
-        "line": 51,
+        "line": 65,
         "context": "| **3단계** | 세포가 반응하지 않음 → 췌장이 더 많은 인슐린 분비 (**고인슐린혈증**) | 경보 볼륨을 계속 높인다 |"
       },
       {
         "file": "part1-overview",
-        "line": 107,
+        "line": 145,
         "context": "고인슐린혈증 → 염증성 사이토카인(TNF-α, IL-6) 증가"
       },
       {
@@ -1590,22 +1640,22 @@
     "과산화지질": [
       {
         "file": "part1-overview",
-        "line": 176,
+        "line": 231,
         "context": "그 결과 **과산화지질(lipid peroxide)**이 생성된다."
       },
       {
         "file": "part2-chapter03",
-        "line": 45,
+        "line": 38,
         "context": "그 결과 **과산화지질(lipid peroxide)**이 생성된다."
       },
       {
         "file": "part2-chapter03",
-        "line": 49,
+        "line": 42,
         "context": "과산화지질은 세포막을 공격하고, 미토콘드리아를 손상시키며,"
       },
       {
         "file": "part2-chapter03",
-        "line": 96,
+        "line": 89,
         "context": "산화된 지방(과산화지질, 알데하이드)은"
       },
       {
@@ -1627,17 +1677,22 @@
       },
       {
         "file": "part1-overview",
-        "line": 267,
+        "line": 353,
         "context": "| **글루텐/글리아딘** | 밀, 보리, 호밀 | zonulin 분비 유도 → 장벽 틈새를 벌림 |"
       },
       {
         "file": "part1-overview",
-        "line": 334,
+        "line": 403,
+        "context": "글루텐이 장벽뿐 아니라 **혈뇌장벽(BBB)**까지 손상시켜"
+      },
+      {
+        "file": "part1-overview",
+        "line": 447,
         "context": "- **빵** = 글루텐(항영양소) + 정제 탄수화물(인슐린)"
       },
       {
         "file": "part2-chapter02",
-        "line": 337,
+        "line": 340,
         "context": "면역 세포의 **약 70%가 장에 존재**한다(GALT: 장 관련 림프 조직). 식물독소(렉틴, 글루텐)에 의한 장벽 손상은 면역 세포의 과잉 "
       },
       {
@@ -1719,17 +1774,17 @@
     "글리아딘": [
       {
         "file": "part1-overview",
-        "line": 267,
+        "line": 353,
         "context": "| **글루텐/글리아딘** | 밀, 보리, 호밀 | zonulin 분비 유도 → 장벽 틈새를 벌림 |"
       },
       {
         "file": "part1-overview",
-        "line": 286,
+        "line": 394,
         "context": "| **1단계** | 장 점막 자극·손상 | 렉틴, 글리아딘, 사포닌 |"
       },
       {
         "file": "part1-overview",
-        "line": 295,
+        "line": 408,
         "context": "밀의 글리아딘이 장 상피세포에서 zonulin이라는 단백질의 분비를 촉진하면,"
       },
       {
@@ -1836,33 +1891,38 @@
       },
       {
         "file": "part1-chapter01",
-        "line": 214,
+        "line": 219,
         "context": "- **당뇨병 유병률 14.8%**, 환자 약 507만 명"
       },
       {
         "file": "part1-chapter01",
-        "line": 215,
+        "line": 220,
         "context": "당뇨 전단계까지 포함하면 **약 2,000만 명**이 혈당 조절에 문제가 있다."
       },
       {
         "file": "part1-chapter01",
-        "line": 216,
+        "line": 221,
         "context": "(대한당뇨병학회, Diabetes Fact Sheet 2024)"
       },
       {
         "file": "part1-chapter01",
-        "line": 260,
+        "line": 265,
         "context": "그들은 당뇨·비만·심혈관 질환 없이 노년을 맞이했다."
       },
       {
         "file": "part1-chapter01",
-        "line": 305,
+        "line": 310,
         "context": "- 대한당뇨병학회, *Diabetes Fact Sheet in Korea*, 2024"
       },
       {
         "file": "part1-chapter02",
-        "line": 30,
+        "line": 31,
         "context": "**불과 한 세대 만에** 비만, 당뇨, 충치가 폭발적으로 증가했다."
+      },
+      {
+        "file": "part1-chapter02",
+        "line": 249,
+        "context": "비만, 당뇨, 심혈관 질환, 자가면역질환 — 이것들은 진화의 실패가 아니라"
       },
       {
         "file": "part1-overview",
@@ -1876,12 +1936,12 @@
       },
       {
         "file": "part1-overview",
-        "line": 78,
+        "line": 105,
         "context": "→ 뇌 인슐린 저항 → 치매 (제3형 당뇨)"
       },
       {
         "file": "part1-overview",
-        "line": 330,
+        "line": 443,
         "context": "| **최종 결과** | 비만·당뇨·치매 | 피로·노화·피부질환 | 자가면역·알레르기·우울 |"
       },
       {
@@ -1891,47 +1951,42 @@
       },
       {
         "file": "part2-chapter02",
-        "line": 272,
+        "line": 275,
         "context": "자녀의 비만·당뇨·심혈관 유전자 발현에 영향을 미치는 것이 확인되었다"
       },
       {
         "file": "part2-chapter02",
-        "line": 277,
+        "line": 280,
         "context": "**네덜란드 대기근(1944~45) 후손 연구**: 제2차 세계대전 말, 나치의 봉쇄로 네덜란드 서부에 극심한 기근이 발생했다. 이 시기에 임신"
       },
       {
         "file": "part2-chapter02",
-        "line": 279,
+        "line": 282,
         "context": "**스웨덴 외베르칼릭스(Överkalix) 코호트 연구**: 스웨덴 북부의 작은 마을 외베르칼릭스에서 19세기 출생·사망 기록과 수확량 데이터를"
       },
       {
         "file": "part2-chapter02",
-        "line": 309,
+        "line": 312,
         "context": "제1형 당뇨, 크론병, 간질, 일부 암 환자에서의 적용 사례가 발표되어 있다."
       },
       {
         "file": "part2-chapter03",
-        "line": 197,
-        "context": "CKD 환자에서도 원인 질환(당뇨)을 관리하는 접근이 주목받고 있으나,"
-      },
-      {
-        "file": "part2-chapter03",
-        "line": 228,
-        "context": "이 집단들에서 현대 서구 사회의 만성질환 — 비만, 2형 당뇨, 심혈관 질환 — 은 서구 식단이 유입되기 전까지 드물었다"
-      },
-      {
-        "file": "part2-chapter03",
-        "line": 241,
+        "line": 230,
         "context": "당뇨 환자의 84%가 약물을 줄이거나 중단했고,"
       },
       {
         "file": "part2-chapter03",
-        "line": 292,
+        "line": 259,
+        "context": "그러나 현실은 어떤가? 저지방·고탄수화물 식단을 권고받은 당뇨 환자의 상당수는 시간이 지날수록 약이 늘고, 합병증이 진행된다. 지침을 따랐는데 "
+      },
+      {
+        "file": "part2-chapter03",
+        "line": 287,
         "context": "미국 당뇨병 학회(ADA)는 이미 2019년부터"
       },
       {
         "file": "part2-chapter03",
-        "line": 293,
+        "line": 288,
         "context": "저탄수화물 식단을 2형 당뇨 관리의 유효한 선택지로 인정하고 있다"
       },
       {
@@ -2153,7 +2208,7 @@
       },
       {
         "file": "part1-chapter01",
-        "line": 217,
+        "line": 222,
         "context": "- **대사증후군 유병률 약 28.1%** (국민건강영양조사, 2022)"
       },
       {
@@ -2180,22 +2235,32 @@
       },
       {
         "file": "part1-overview",
-        "line": 266,
+        "line": 352,
         "context": "| **렉틴** | 콩, 밀, 토마토 | 장 점막 세포에 결합 → 직접 손상 |"
       },
       {
         "file": "part1-overview",
-        "line": 286,
+        "line": 376,
+        "context": "콩에는 렉틴, 피틴산, 사포닌, 이소플라본이 **동시에** 존재한다."
+      },
+      {
+        "file": "part1-overview",
+        "line": 377,
+        "context": "렉틴이 장벽을 공격하고, 피틴산이 미네랄 흡수를 차단하며,"
+      },
+      {
+        "file": "part1-overview",
+        "line": 394,
         "context": "| **1단계** | 장 점막 자극·손상 | 렉틴, 글리아딘, 사포닌 |"
       },
       {
         "file": "part1-overview",
-        "line": 337,
+        "line": 450,
         "context": "- **콩나물/두부** = 렉틴 + 피틴산 + 이소플라본(항영양소)"
       },
       {
         "file": "part2-chapter02",
-        "line": 337,
+        "line": 340,
         "context": "면역 세포의 **약 70%가 장에 존재**한다(GALT: 장 관련 림프 조직). 식물독소(렉틴, 글루텐)에 의한 장벽 손상은 면역 세포의 과잉 "
       },
       {
@@ -2205,7 +2270,7 @@
       },
       {
         "file": "part2-chapter03",
-        "line": 160,
+        "line": 153,
         "context": "가공식품을 끊어도 \"자연 식물\"에는 렉틴, 옥살산, 피틴산, 사포닌 등"
       },
       {
@@ -2279,22 +2344,32 @@
       },
       {
         "file": "part1-chapter03c",
-        "line": 79,
+        "line": 40,
+        "context": "핵심은 **산화와 염증**이다. 포화지방 자체는 산화에 강하고 안정적인 구조이므로 이 과정을 촉발하지 않는다. 반면 오메가-6 다가불포화지방산("
+      },
+      {
+        "file": "part1-chapter03c",
+        "line": 88,
         "context": "실제로 동맥 플라크에서는 **산화된 리놀레산(오메가-6)**이 다량 검출된다:"
       },
       {
         "file": "part1-overview",
-        "line": 207,
+        "line": 273,
         "context": "홍화유를 먹으면 리놀레산이 늘어난다."
       },
       {
         "file": "part1-overview",
-        "line": 228,
-        "context": "과잉 오메가6(리놀레산)는 아라키돈산 → 프로스타글란딘 E2(PGE2) 경로를 과활성화하여"
+        "line": 307,
+        "context": "1. 식물성 기름에 풍부한 **리놀레산(오메가6)**이 체내에 축적된다."
+      },
+      {
+        "file": "part1-overview",
+        "line": 308,
+        "context": "2. 리놀레산은 효소(Δ6-desaturase, elongase)에 의해 **아라키돈산(AA)**으로 전환된다."
       },
       {
         "file": "part2-chapter02",
-        "line": 55,
+        "line": 58,
         "context": "**필수 지방산 2종**(리놀레산, 알파-리놀렌산)이 있다."
       },
       {
@@ -2376,33 +2451,33 @@
       },
       {
         "file": "part1-chapter01",
-        "line": 285,
+        "line": 290,
         "context": "| **현대 전통 부족** (이누이트, 마사이, 몽골 유목민) | 20세기 초~중반 | 현대 만성질환이 없었다 |"
       },
       {
         "file": "part1-chapter02",
-        "line": 21,
+        "line": 22,
         "context": "마사이족은 소의 피와 우유, 고기를 주식으로 삼았다."
       },
       {
         "file": "part1-chapter02",
-        "line": 46,
+        "line": 47,
         "context": "### 마사이족 — 콜레스테롤의 역설"
       },
       {
         "file": "part1-chapter02",
-        "line": 48,
+        "line": 49,
         "context": "마사이족의 건강 데이터는 흥미로운 질문을 던진다."
       },
       {
         "file": "part1-chapter02",
-        "line": 55,
-        "context": "마사이족의 사례와 맥을 같이한다."
+        "line": 57,
+        "context": "이는 마사이족의 사례와 맥을 같이한다."
       },
       {
         "file": "part2-chapter03",
-        "line": 226,
-        "context": "동아프리카의 마사이족은 소의 고기, 피, 우유를 주식으로 삼았다."
+        "line": 218,
+        "context": "1부에서 살펴본 것처럼, 이누이트, 마사이, 몽골 유목민 등 동물성 식단 중심의 전통 부족들에서 현대적 만성질환은 서구 식단 유입 전까지 극히 "
       },
       {
         "file": "part5-chapter02",
@@ -2457,32 +2532,37 @@
       },
       {
         "file": "part1-chapter03c",
-        "line": 74,
+        "line": 40,
+        "context": "핵심은 **산화와 염증**이다. 포화지방 자체는 산화에 강하고 안정적인 구조이므로 이 과정을 촉발하지 않는다. 반면 오메가-6 다가불포화지방산("
+      },
+      {
+        "file": "part1-chapter03c",
+        "line": 83,
         "context": "그런데 식물성 다가불포화지방산(오메가-6 등)은"
       },
       {
         "file": "part1-chapter03c",
-        "line": 86,
+        "line": 95,
         "context": "상온에서 액체인 불포화지방이 산화되어 플라크를 이루고 있었다."
       },
       {
         "file": "part1-overview",
-        "line": 216,
+        "line": 282,
         "context": "피부 세포막에 다불포화지방산(PUFA)이 많으면"
       },
       {
         "file": "part1-overview",
-        "line": 365,
+        "line": 478,
         "context": "- 산화에 취약한 다불포화지방산이 **적다**"
       },
       {
         "file": "part2-chapter03",
-        "line": 37,
+        "line": 30,
         "context": "\"포화지방은 나쁘고, 불포화지방은 좋다.\""
       },
       {
         "file": "part2-chapter03",
-        "line": 92,
+        "line": 85,
         "context": "이 과정에서 다가불포화지방산은 **열, 화학물질, 산소에 반복적으로 노출**된다."
       },
       {
@@ -2519,17 +2599,17 @@
     "브레인포그": [
       {
         "file": "part1-overview",
-        "line": 121,
+        "line": 159,
         "context": "→ 식곤증, 브레인포그, 집중력 저하"
       },
       {
         "file": "part1-overview",
-        "line": 131,
+        "line": 169,
         "context": "이것이 **식곤증**과 **브레인포그**의 정체다."
       },
       {
         "file": "part1-overview",
-        "line": 291,
+        "line": 399,
         "context": "| **6단계** | 장-뇌 축(gut-brain axis) 붕괴 | 우울, 불안, 브레인포그 |"
       },
       {
@@ -2653,43 +2733,48 @@
       },
       {
         "file": "part1-chapter01",
-        "line": 212,
+        "line": 217,
         "context": "- **성인 비만율 34.4%** (국민건강영양조사, 2024)"
       },
       {
         "file": "part1-chapter01",
-        "line": 213,
+        "line": 218,
         "context": "BMI 25 이상 기준. 세 명 중 한 명이 비만이다."
       },
       {
         "file": "part1-chapter01",
-        "line": 218,
+        "line": 223,
         "context": "고혈압, 고혈당, 이상지질혈증, 복부비만 중 3개 이상 해당."
       },
       {
         "file": "part1-chapter01",
-        "line": 260,
+        "line": 265,
         "context": "그들은 당뇨·비만·심혈관 질환 없이 노년을 맞이했다."
       },
       {
         "file": "part1-chapter01",
-        "line": 304,
+        "line": 309,
         "context": "- 질병관리청, 2024 지역사회건강조사 (성인 비만율·만성질환 현황)"
       },
       {
         "file": "part1-chapter01",
-        "line": 306,
+        "line": 311,
         "context": "- 대한비만학회, 2025 비만 팩트시트"
       },
       {
         "file": "part1-chapter02",
-        "line": 30,
+        "line": 31,
         "context": "**불과 한 세대 만에** 비만, 당뇨, 충치가 폭발적으로 증가했다."
       },
       {
         "file": "part1-chapter02",
-        "line": 218,
+        "line": 221,
         "context": "**첫째, 이 적응조차 전 인류에게 균일하게 일어나지 않았다.** AMY1 복제 수는 개인마다 2개에서 15개 이상까지 편차가 극히 크다. 같은"
+      },
+      {
+        "file": "part1-chapter02",
+        "line": 249,
+        "context": "비만, 당뇨, 심혈관 질환, 자가면역질환 — 이것들은 진화의 실패가 아니라"
       },
       {
         "file": "part1-chapter03a",
@@ -2698,7 +2783,7 @@
       },
       {
         "file": "part1-chapter03c",
-        "line": 132,
+        "line": 141,
         "context": "> **핵심 문장:** 앤셀 키스는 데이터를 선별하고, 설탕 산업은 자금을 댔으며, 정부는 지침을 만들었고, 식품 기업은 저지방 제품을 팔았다."
       },
       {
@@ -2713,27 +2798,27 @@
       },
       {
         "file": "part1-overview",
-        "line": 52,
+        "line": 66,
         "context": "| **4단계** | 과잉 인슐린 → 지방 저장 촉진 + 지방 분해 차단 → 비만 + 만성 피로 | 창고에 물건만 쌓이고 꺼낼 수 없다 |"
       },
       {
         "file": "part1-overview",
-        "line": 76,
+        "line": 103,
         "context": "→ 비만 → 내장지방 → 지방간"
       },
       {
         "file": "part1-overview",
-        "line": 77,
+        "line": 104,
         "context": "→ 복부비만 → 위 압박 → 역류성 식도염"
       },
       {
         "file": "part1-overview",
-        "line": 81,
+        "line": 108,
         "context": "비만은 칼로리 문제가 아니라 **호르몬 문제**다."
       },
       {
         "file": "part1-overview",
-        "line": 330,
+        "line": 443,
         "context": "| **최종 결과** | 비만·당뇨·치매 | 피로·노화·피부질환 | 자가면역·알레르기·우울 |"
       },
       {
@@ -2743,23 +2828,18 @@
       },
       {
         "file": "part2-chapter02",
-        "line": 272,
+        "line": 275,
         "context": "자녀의 비만·당뇨·심혈관 유전자 발현에 영향을 미치는 것이 확인되었다"
       },
       {
         "file": "part2-chapter02",
-        "line": 273,
+        "line": 276,
         "context": "(Waterland & Jirtle, *Molecular and Cellular Biology*, 2003). 이 실험에서 연구팀은 유전적으로 "
       },
       {
         "file": "part2-chapter02",
-        "line": 277,
+        "line": 280,
         "context": "**네덜란드 대기근(1944~45) 후손 연구**: 제2차 세계대전 말, 나치의 봉쇄로 네덜란드 서부에 극심한 기근이 발생했다. 이 시기에 임신"
-      },
-      {
-        "file": "part2-chapter03",
-        "line": 228,
-        "context": "이 집단들에서 현대 서구 사회의 만성질환 — 비만, 2형 당뇨, 심혈관 질환 — 은 서구 식단이 유입되기 전까지 드물었다"
       },
       {
         "file": "part3-chapter02a",
@@ -2840,112 +2920,117 @@
     "비타민C": [
       {
         "file": "part2-chapter02",
-        "line": 148,
+        "line": 151,
         "context": "흔히 제기되는 **\"비타민C 부족\"** 우려에 대해 깊이 짚고 넘어가야 한다. 이 질문은 카니보어 식단에 대한 가장 빈번한 반론이지만, 그 논리"
       },
       {
         "file": "part2-chapter02",
-        "line": 150,
+        "line": 153,
         "context": "**첫째, 비타민C 수요는 식단에 따라 달라진다.**"
       },
       {
         "file": "part2-chapter02",
-        "line": 151,
+        "line": 154,
         "context": "비타민C의 가장 중요한 기능 중 하나는 **항산화**다."
       },
       {
         "file": "part2-chapter02",
-        "line": 154,
+        "line": 157,
         "context": "이 과정에서 체내 비타민C가 대량 소모되므로,"
       },
       {
         "file": "part2-chapter02",
-        "line": 155,
+        "line": 158,
         "context": "탄수화물을 많이 먹을수록 비타민C가 더 많이 필요해진다."
       },
       {
         "file": "part2-chapter02",
-        "line": 156,
+        "line": 159,
         "context": "즉, **현대인의 비타민C 필요량 자체가"
       },
       {
         "file": "part2-chapter02",
-        "line": 164,
+        "line": 167,
         "context": "비타민C가 소방관처럼 출동할 일 자체가 줄어든다."
       },
       {
         "file": "part2-chapter02",
-        "line": 165,
+        "line": 168,
         "context": "따라서 **비타민C의 필요량이 현저하게 감소**한다."
       },
       {
         "file": "part2-chapter02",
-        "line": 167,
+        "line": 170,
         "context": "**셋째, 비타민C와 포도당은 같은 문으로 들어간다.**"
       },
       {
         "file": "part2-chapter02",
-        "line": 168,
+        "line": 171,
         "context": "비타민C와 포도당은 같은 수송체(GLUT1, SVCT)를 통해 세포에 흡수된다."
       },
       {
         "file": "part2-chapter02",
-        "line": 169,
+        "line": 172,
         "context": "탄수화물을 다량 섭취하면 혈중 포도당이 비타민C와 흡수를 놓고 경쟁하므로,"
       },
       {
         "file": "part2-chapter02",
-        "line": 170,
+        "line": 173,
         "context": "같은 양의 비타민C를 섭취해도 실제 세포 내 이용률이 떨어진다."
       },
       {
         "file": "part2-chapter02",
-        "line": 171,
+        "line": 174,
         "context": "반대로 탄수화물을 제거하면 소량의 비타민C로도 충분히 세포에 도달한다."
       },
       {
         "file": "part2-chapter02",
-        "line": 174,
+        "line": 177,
         "context": "(1) 염증이 줄어 비타민C 소모가 감소하고,"
       },
       {
         "file": "part2-chapter02",
-        "line": 177,
+        "line": 180,
         "context": "신선한 고기, 특히 간과 부신에는 비타민C가 존재하며,"
       },
       {
         "file": "part2-chapter02",
-        "line": 181,
+        "line": 184,
         "context": "현재 비타민C 권장량(RDA 90mg)은 탄수화물 중심 식단을 기준으로 설정된 값이다."
       },
       {
         "file": "part2-chapter02",
-        "line": 183,
+        "line": 186,
         "context": "비타민C 소모량이 클 수밖에 없다."
       },
       {
         "file": "part2-chapter02",
-        "line": 184,
+        "line": 187,
         "context": "괴혈병 예방에 필요한 최소 비타민C는 하루 약 10mg이다"
       },
       {
         "file": "part2-chapter02",
-        "line": 187,
+        "line": 190,
         "context": "신선한 소고기 100g에는 약 1.6mg의 비타민C가 포함되어 있다."
       },
       {
         "file": "part2-chapter02",
-        "line": 189,
+        "line": 192,
         "context": "충분한 비타민C를 확보할 수 있다 —"
       },
       {
         "file": "part2-chapter02",
-        "line": 192,
+        "line": 195,
         "context": "실제로 카니보어 식단 실천자에게서 괴혈병 증상이 보고된 사례는 극히 드물다. Clemens & Tóth(*Journal of Evolution "
       },
       {
         "file": "part2-chapter03",
-        "line": 324,
+        "line": 168,
+        "context": "여기서 예상되는 반문이 있다. \"채식에 케톤 전환이 없다고 문제 삼으면, 카니보어에는 비타민C가 부족하지 않은가?\" 합리적 질문이다. 그러나 비"
+      },
+      {
+        "file": "part2-chapter03",
+        "line": 318,
         "context": "- 비타민C 부족 우려는 탄수화물 식단이 만든 인위적 수요다"
       },
       {
@@ -3121,18 +3206,38 @@
         "context": "| **비타민D** | 연어 | 526 IU | 표고버섯 (건조) | 154 IU | 동물성 D3 > 식물성 D2 |"
       },
       {
+        "file": "part1-overview",
+        "line": 291,
+        "context": "그러나 썬크림은 UVB를 차단하고, UVB는 피부에서 **비타민D를 합성하는 유일한 경로**다."
+      },
+      {
+        "file": "part1-overview",
+        "line": 292,
+        "context": "결과적으로 PUFA 과잉 → UV 피부 손상 → 썬크림 사용 → 비타민D 합성 차단이라는"
+      },
+      {
+        "file": "part1-overview",
+        "line": 294,
+        "context": "태양 아래에서도 비타민D를 만들지 못하는 몸을 만드는 셈이다."
+      },
+      {
+        "file": "part1-overview",
+        "line": 295,
+        "context": "비타민D 결핍은 면역 저하, 우울, 골다공증, 암 위험 증가와 직결된다."
+      },
+      {
         "file": "part2-chapter01",
-        "line": 168,
+        "line": 180,
         "context": "현대인이 종합비타민, 오메가3 캡슐, 철분제, 비타민D 보충제를 찾는 것은"
       },
       {
         "file": "part2-chapter02",
-        "line": 136,
+        "line": 139,
         "context": "비타민A(레티놀)는 간, 버터, 달걀노른자에 풍부하다. 비타민D는 지방 많은 생선, 간유, 라드에 들어 있다. 비타민K2는 간, 치즈, 달걀에 "
       },
       {
         "file": "part2-chapter02",
-        "line": 344,
+        "line": 347,
         "context": "- **비타민D**: 항균 펩타이드(cathelicidin) 생성 촉진. 지방이 풍부한 생선, 달걀에 존재"
       },
       {
@@ -3204,7 +3309,7 @@
       },
       {
         "file": "part2-chapter02",
-        "line": 136,
+        "line": 139,
         "context": "비타민A(레티놀)는 간, 버터, 달걀노른자에 풍부하다. 비타민D는 지방 많은 생선, 간유, 라드에 들어 있다. 비타민K2는 간, 치즈, 달걀에 "
       },
       {
@@ -3226,17 +3331,17 @@
     "사이토카인": [
       {
         "file": "part1-overview",
-        "line": 107,
+        "line": 145,
         "context": "고인슐린혈증 → 염증성 사이토카인(TNF-α, IL-6) 증가"
       },
       {
         "file": "part2-chapter02",
-        "line": 220,
+        "line": 223,
         "context": "Youm et al.(*Nature Medicine*, 2015)은 쥐와 인간 단핵구를 대상으로 한 실험에서, BHB가 NLRP3 인플라마좀의 "
       },
       {
         "file": "part2-chapter02",
-        "line": 351,
+        "line": 354,
         "context": "탄수화물 제거 시 생성되는 **β-하이드록시뷰티레이트(BHB)**는 단순한 에너지원이 아니다. Youm et al.(*Nature Medicin"
       },
       {
@@ -3248,17 +3353,27 @@
     "사포닌": [
       {
         "file": "part1-overview",
-        "line": 270,
+        "line": 356,
         "context": "| **사포닌** | 콩, 퀴노아 | 세포막 파괴, 장벽 투과성 증가 |"
       },
       {
         "file": "part1-overview",
-        "line": 286,
+        "line": 376,
+        "context": "콩에는 렉틴, 피틴산, 사포닌, 이소플라본이 **동시에** 존재한다."
+      },
+      {
+        "file": "part1-overview",
+        "line": 378,
+        "context": "이소플라본이 에스트로겐을 교란하고, 사포닌이 세포막을 파괴한다."
+      },
+      {
+        "file": "part1-overview",
+        "line": 394,
         "context": "| **1단계** | 장 점막 자극·손상 | 렉틴, 글리아딘, 사포닌 |"
       },
       {
         "file": "part2-chapter03",
-        "line": 160,
+        "line": 153,
         "context": "가공식품을 끊어도 \"자연 식물\"에는 렉틴, 옥살산, 피틴산, 사포닌 등"
       },
       {
@@ -3280,27 +3395,27 @@
     "생체이용률": [
       {
         "file": "part1-overview",
-        "line": 313,
+        "line": 426,
         "context": "**식물성 식품의 영양소 함량과 생체이용률은 전혀 다른 문제다.**"
       },
       {
         "file": "part1-overview",
-        "line": 369,
+        "line": 482,
         "context": "완전한 단백질, 안정적인 포화지방, 생체이용률 100%의 미네랄과 비타민."
       },
       {
         "file": "part2-chapter02",
-        "line": 114,
+        "line": 117,
         "context": "**생체이용률(bioavailability)도 합성 비타민보다 높다.**"
       },
       {
         "file": "part2-chapter02",
-        "line": 342,
+        "line": 345,
         "context": "- **아연**: T세포 활성화의 핵심. 붉은 고기는 최고의 생체이용률 아연 공급원"
       },
       {
         "file": "part2-chapter02",
-        "line": 347,
+        "line": 350,
         "context": "이 영양소들의 **생체이용률**이 육식에서 압도적으로 높다는 점이 핵심이다. 보충제가 아닌 음식에서 직접 공급받을 때 흡수 효율이 가장 높다."
       },
       {
@@ -3312,7 +3427,7 @@
     "솔라닌": [
       {
         "file": "part1-overview",
-        "line": 271,
+        "line": 357,
         "context": "| **솔라닌** | 감자, 가지, 고추 | 신경전달 장애, 관절 염증 유발 |"
       },
       {
@@ -3339,48 +3454,58 @@
       },
       {
         "file": "part1-chapter03b",
-        "line": 200,
+        "line": 202,
         "context": "이 이론에 기반한 의약품(스타틴)을 판매하는 제약 회사들이 있다."
       },
       {
         "file": "part1-chapter03b",
-        "line": 202,
+        "line": 204,
         "context": "스타틴 시장은 연간 200억 달러가 넘는다."
       },
       {
         "file": "part1-chapter03b",
-        "line": 204,
+        "line": 205,
+        "context": "(한국의 스타틴 처방 실태와 그 문제점은 4부에서 자세히 다룬다.)"
+      },
+      {
+        "file": "part1-chapter03b",
+        "line": 207,
         "context": "### 7.2 스타틴 산업과 콜레스테롤 가설"
       },
       {
         "file": "part1-chapter03b",
-        "line": 206,
+        "line": 209,
         "context": "스타틴(LDL 콜레스테롤 저하제)은 콜레스테롤 가설이 없으면 존재할 수 없다."
       },
       {
         "file": "part1-chapter03b",
-        "line": 208,
+        "line": 211,
         "context": "심장병이 없는 사람에게도 스타틴 복용을 권고하는 근거가 됐다."
       },
       {
         "file": "part1-chapter03b",
-        "line": 212,
+        "line": 215,
         "context": "연구 스폰서는 스타틴 제조사 아스트라제네카였다."
       },
       {
         "file": "part1-chapter03b",
-        "line": 214,
+        "line": 217,
         "context": "이후 여러 독립 분석이 스타틴의 실제 효과가 과장됐을 가능성을 제기했다:"
       },
       {
         "file": "part1-chapter03c",
-        "line": 125,
+        "line": 134,
         "context": "| **제도적 유지** | 스타틴 산업(연 200억 달러), 저지방 식품 시장이 패러다임 유지 동기 |"
       },
       {
         "file": "part1-overview",
-        "line": 96,
+        "line": 134,
         "context": "대부분은 공포를 느끼고 스타틴을 처방받는다."
+      },
+      {
+        "file": "part2-chapter01",
+        "line": 32,
+        "context": "여기서 한 가지 생각해볼 점이 있다. 만약 포화지방이 정말로 만성질환의 원인이고 식물성 식단이 해답이었다면, 보충제도 스타틴도 없이 동물성 지방"
       },
       {
         "file": "part3-chapter01",
@@ -3566,17 +3691,17 @@
     "식곤증": [
       {
         "file": "part1-overview",
-        "line": 121,
+        "line": 159,
         "context": "→ 식곤증, 브레인포그, 집중력 저하"
       },
       {
         "file": "part1-overview",
-        "line": 131,
+        "line": 169,
         "context": "이것이 **식곤증**과 **브레인포그**의 정체다."
       },
       {
         "file": "part2-chapter01",
-        "line": 145,
+        "line": 157,
         "context": "이 원리는 현대인의 일상에서도 확인할 수 있다. 인체에서 가장 많은 에너지를 소비하는 활동은 무엇일까? 운동이 아니다 — **소화**다. 음식을"
       },
       {
@@ -3607,8 +3732,13 @@
     ],
     "식이지침": [
       {
+        "file": "part1-chapter03b",
+        "line": 254,
+        "context": "다만 변화의 조짐은 분명하다. 2025년 발표된 미국 식이지침자문위원회(DGAC)의 과학 보고서는 이전 버전들과 비교해 동물성 단백질과 육류의 "
+      },
+      {
         "file": "part2-chapter03",
-        "line": 290,
+        "line": 285,
         "context": "2025년, 미국 식이지침 자문위원회(DGAC)는 처음으로"
       },
       {
@@ -3635,12 +3765,12 @@
       },
       {
         "file": "part1-overview",
-        "line": 108,
+        "line": 146,
         "context": "→ 관절염, 아토피, 자가면역질환"
       },
       {
         "file": "part1-overview",
-        "line": 290,
+        "line": 398,
         "context": "| **5단계** | 면역 오작동 → 자기 몸을 공격 | 관절염, 아토피, 자가면역 |"
       },
       {
@@ -3688,26 +3818,26 @@
       {
         "file": "part1-chapter03a",
         "line": 15,
-        "context": "**앤셀 키스(Ancel Keys, 1904~2004)**였다."
+        "context": "**앤셀 키스(Ancel Keys, 1904~2004)**였다. 그는 100세까지 살았는데, 아이러니하게도 키스 본인은 자신이 대중에게 권장한 "
       },
       {
         "file": "part1-chapter03b",
-        "line": 234,
+        "line": 237,
         "context": "앤셀 키스 이후의 영양학은 지금도 정정 작업 중이다."
       },
       {
         "file": "part1-chapter03c",
-        "line": 113,
+        "line": 122,
         "context": "## 요약: 앤셀 키스 사건의 교훈"
       },
       {
         "file": "part1-chapter03c",
-        "line": 132,
+        "line": 141,
         "context": "> **핵심 문장:** 앤셀 키스는 데이터를 선별하고, 설탕 산업은 자금을 댔으며, 정부는 지침을 만들었고, 식품 기업은 저지방 제품을 팔았다."
       },
       {
         "file": "part2-chapter03",
-        "line": 38,
+        "line": 31,
         "context": "이 공식은 앤셀 키스 이후 70년간 반복되어 왔다."
       },
       {
@@ -3744,8 +3874,13 @@
       },
       {
         "file": "part1-overview",
-        "line": 272,
+        "line": 358,
         "context": "| **이소플라본** | 콩, 두부, 두유 | 에스트로겐 유사 작용 → 호르몬 교란 |"
+      },
+      {
+        "file": "part1-overview",
+        "line": 378,
+        "context": "이소플라본이 에스트로겐을 교란하고, 사포닌이 세포막을 파괴한다."
       },
       {
         "file": "part3-chapter01",
@@ -3771,12 +3906,12 @@
     "역류성 식도염": [
       {
         "file": "part1-overview",
-        "line": 77,
+        "line": 104,
         "context": "→ 복부비만 → 위 압박 → 역류성 식도염"
       },
       {
         "file": "part2-chapter01",
-        "line": 74,
+        "line": 86,
         "context": "## 5. 위산과 역류성 식도염 — 위산 과다가 아니라 부족이 문제다"
       },
       {
@@ -3808,22 +3943,22 @@
       },
       {
         "file": "part2-chapter01",
-        "line": 168,
+        "line": 180,
         "context": "현대인이 종합비타민, 오메가3 캡슐, 철분제, 비타민D 보충제를 찾는 것은"
       },
       {
         "file": "part2-chapter02",
-        "line": 96,
+        "line": 99,
         "context": "| 오메가3 (EPA/DHA) | 어류, 달걀 | 식물성 ALA 전환율 <5% |"
       },
       {
         "file": "part2-chapter02",
-        "line": 260,
+        "line": 263,
         "context": "| **오메가3(DHA)** | 뇌 유전자 발현 조절 | 연어, 고등어, 정어리 |"
       },
       {
         "file": "part2-chapter03",
-        "line": 125,
+        "line": 118,
         "context": "비타민B12, 오메가3, 철, 아연, 칼슘의 보충제가 필수\"라고 명시했다."
       },
       {
@@ -3880,27 +4015,32 @@
       },
       {
         "file": "part1-overview",
-        "line": 221,
+        "line": 298,
         "context": "## 오메가6 폭주 — 염증의 화학적 고착"
       },
       {
         "file": "part1-overview",
-        "line": 224,
+        "line": 301,
         "context": "인류 진화 과정에서의 오메가6:3 비율은 **1:1~4:1**이었다."
       },
       {
         "file": "part1-overview",
-        "line": 228,
-        "context": "과잉 오메가6(리놀레산)는 아라키돈산 → 프로스타글란딘 E2(PGE2) 경로를 과활성화하여"
+        "line": 307,
+        "context": "1. 식물성 기름에 풍부한 **리놀레산(오메가6)**이 체내에 축적된다."
+      },
+      {
+        "file": "part1-overview",
+        "line": 313,
+        "context": "오메가6가 과잉이면 세포막에 아라키돈산이 가득 차 있으므로,"
       },
       {
         "file": "part2-chapter03",
-        "line": 52,
+        "line": 45,
         "context": "**오메가6 과잉의 현실:**"
       },
       {
         "file": "part2-chapter03",
-        "line": 54,
+        "line": 47,
         "context": "인류 진화 과정에서의 오메가6:3 비율은 1:1~4:1이었지만,"
       },
       {
@@ -3972,12 +4112,12 @@
       },
       {
         "file": "part1-overview",
-        "line": 114,
+        "line": 152,
         "context": "동시에 오토파지(손상 세포 자가 청소 시스템)가 **차단**된다."
       },
       {
         "file": "part1-overview",
-        "line": 374,
+        "line": 487,
         "context": "- 오토파지 활성화 → 손상 세포 청소 → 항노화"
       },
       {
@@ -4019,7 +4159,7 @@
       },
       {
         "file": "part1-overview",
-        "line": 269,
+        "line": 355,
         "context": "| **옥살산** | 시금치, 고구마, 아몬드 | 칼슘과 결합 → 신장결석, 관절 침착 |"
       },
       {
@@ -4029,7 +4169,7 @@
       },
       {
         "file": "part2-chapter03",
-        "line": 160,
+        "line": 153,
         "context": "가공식품을 끊어도 \"자연 식물\"에는 렉틴, 옥살산, 피틴산, 사포닌 등"
       },
       {
@@ -4106,27 +4246,42 @@
       },
       {
         "file": "part1-overview",
-        "line": 122,
-        "context": "→ 세로토닌·도파민 불균형 → 우울, 불안"
+        "line": 160,
+        "context": "→ 세로토닌·도파민 불균형 → 우울, 불안, 선택적 함묵증"
       },
       {
         "file": "part1-overview",
-        "line": 147,
+        "line": 185,
         "context": "특히 우울증, 불안장애, 공황장애 등 정신과적 질환이 있는 경우"
       },
       {
         "file": "part1-overview",
-        "line": 156,
+        "line": 194,
         "context": "세로토닌과 도파민의 균형이 무너져 **우울과 불안**이 고착된다."
       },
       {
         "file": "part1-overview",
-        "line": 291,
+        "line": 208,
+        "context": "이 신경전달물질의 불안정은 우울과 불안뿐 아니라"
+      },
+      {
+        "file": "part1-overview",
+        "line": 295,
+        "context": "비타민D 결핍은 면역 저하, 우울, 골다공증, 암 위험 증가와 직결된다."
+      },
+      {
+        "file": "part1-overview",
+        "line": 399,
         "context": "| **6단계** | 장-뇌 축(gut-brain axis) 붕괴 | 우울, 불안, 브레인포그 |"
       },
       {
         "file": "part1-overview",
-        "line": 330,
+        "line": 404,
+        "context": "치매, 우울, 인지 저하를 유발할 수 있다는 것이 핵심 주장이다."
+      },
+      {
+        "file": "part1-overview",
+        "line": 443,
         "context": "| **최종 결과** | 비만·당뇨·치매 | 피로·노화·피부질환 | 자가면역·알레르기·우울 |"
       },
       {
@@ -4136,12 +4291,12 @@
       },
       {
         "file": "part2-chapter02",
-        "line": 29,
+        "line": 32,
         "context": "| **최종 결과** | 뇌 에너지 안정 (BHB 공급) → **집중력 향상, 수면 개선** | 장-뇌축 회복 (세로토닌 정상화) → **우울·"
       },
       {
         "file": "part2-chapter02",
-        "line": 223,
+        "line": 226,
         "context": "우울·불안을 완화한다. 이 경로는 직접적이 아니라 간접적이다 —"
       },
       {
@@ -4238,17 +4393,17 @@
       },
       {
         "file": "part1-chapter01",
-        "line": 286,
+        "line": 291,
         "context": "| **웨스턴 프라이스 조사** | 1930년대 | 전통 부족은 건강했고, 서구화 후 무너졌다 |"
       },
       {
         "file": "part1-chapter02",
-        "line": 35,
+        "line": 36,
         "context": "1장에서 소개한 웨스턴 프라이스 박사는 건강했던 전통 부족들의"
       },
       {
         "file": "part2-chapter02",
-        "line": 311,
+        "line": 314,
         "context": "**웨스턴 프라이스 전래식(Traditional Diet)**:"
       },
       {
@@ -4320,58 +4475,58 @@
       },
       {
         "file": "part1-chapter01",
-        "line": 285,
+        "line": 290,
         "context": "| **현대 전통 부족** (이누이트, 마사이, 몽골 유목민) | 20세기 초~중반 | 현대 만성질환이 없었다 |"
       },
       {
         "file": "part1-chapter02",
-        "line": 16,
+        "line": 17,
         "context": "이누이트는 북극권에서 고래, 물범, 순록, 생선을 먹었다."
       },
       {
         "file": "part1-chapter02",
-        "line": 62,
+        "line": 64,
         "context": "**\"이누이트도 심혈관 사망률이 높았다\"**는 주장이 있다"
       },
       {
         "file": "part1-chapter02",
-        "line": 64,
-        "context": "그러나 이 데이터는 1950~2000년대의 현대 이누이트 —"
+        "line": 66,
+        "context": "이 연구는 1950~2000년대의 이누이트 데이터를 분석한 것인데, 이 시기는 이미 서구 문명이 유입되어 설탕, 밀가루, 알코올, 담배가 전통 "
       },
       {
         "file": "part1-chapter02",
-        "line": 68,
+        "line": 69,
         "context": "**\"이누이트는 유전적으로 특별한 거 아니냐\"**는 반론도 있다. 이누이트에게 지방 대사 관련 유전적 변이(CPT1A P479L)가 존재하는 것"
       },
       {
         "file": "part1-chapter02",
-        "line": 70,
+        "line": 71,
         "context": "그렇다면 이 변이가 없는 다른 인종은 고지방 식단을 소화하지 못할까? 이에 대한 답을 준 것이 1928~1929년 뉴욕 벨뷰 병원에서 진행된 실"
       },
       {
         "file": "part1-chapter02",
-        "line": 74,
+        "line": 75,
         "context": "두 명의 1년 실험, 그리고 2,000명의 자가 보고 — 시대도 방법도 규모도 다르지만, 가리키는 방향은 같다. **지방 대사 능력은 이누이트만"
       },
       {
         "file": "part1-chapter03b",
-        "line": 182,
+        "line": 184,
         "context": "### 6.2 이누이트 역설"
       },
       {
         "file": "part1-chapter03b",
-        "line": 184,
+        "line": 186,
         "context": "이누이트는 칼로리의 70~80%를 지방에서 얻는다."
       },
       {
         "file": "part1-chapter03b",
-        "line": 187,
+        "line": 189,
         "context": "전통식을 유지하던 이누이트에게 심장병이 드물었다는 것은"
       },
       {
         "file": "part2-chapter03",
-        "line": 225,
-        "context": "이누이트족은 수천 년간 해양 포유류와 생선 중심의 거의 순수한 동물성 식단을 유지했다."
+        "line": 218,
+        "context": "1부에서 살펴본 것처럼, 이누이트, 마사이, 몽골 유목민 등 동물성 식단 중심의 전통 부족들에서 현대적 만성질환은 서구 식단 유입 전까지 극히 "
       },
       {
         "file": "part5-chapter02",
@@ -4422,12 +4577,22 @@
       },
       {
         "file": "part1-overview",
-        "line": 272,
+        "line": 358,
         "context": "| **이소플라본** | 콩, 두부, 두유 | 에스트로겐 유사 작용 → 호르몬 교란 |"
       },
       {
         "file": "part1-overview",
-        "line": 337,
+        "line": 376,
+        "context": "콩에는 렉틴, 피틴산, 사포닌, 이소플라본이 **동시에** 존재한다."
+      },
+      {
+        "file": "part1-overview",
+        "line": 378,
+        "context": "이소플라본이 에스트로겐을 교란하고, 사포닌이 세포막을 파괴한다."
+      },
+      {
+        "file": "part1-overview",
+        "line": 450,
         "context": "- **콩나물/두부** = 렉틴 + 피틴산 + 이소플라본(항영양소)"
       },
       {
@@ -4489,17 +4654,17 @@
       },
       {
         "file": "part1-chapter02",
-        "line": 129,
+        "line": 130,
         "context": "탄수화물 역시 식물에서 비롯된 비상 에너지원이었다. 인체는 위기 상황에서만 포도당을 급속히 사용하도록 설계되었으며, 안정적 상태에서는 지방을 주"
       },
       {
         "file": "part1-chapter02",
-        "line": 218,
+        "line": 221,
         "context": "**첫째, 이 적응조차 전 인류에게 균일하게 일어나지 않았다.** AMY1 복제 수는 개인마다 2개에서 15개 이상까지 편차가 극히 크다. 같은"
       },
       {
         "file": "part1-chapter02",
-        "line": 220,
+        "line": 223,
         "context": "**둘째, 침에서 전분을 분해하는 것과 대사 시스템 전체의 전환은 차원이 다르다.** AMY1은 소화의 첫 단계 — 입에서 전분을 맥아당으로 쪼"
       },
       {
@@ -4509,7 +4674,7 @@
       },
       {
         "file": "part1-chapter03c",
-        "line": 124,
+        "line": 133,
         "context": "| **진짜 범인** | 설탕·정제 탄수화물 → 소형 LDL, 인슐린 저항성, 염증 |"
       },
       {
@@ -4529,162 +4694,237 @@
       },
       {
         "file": "part1-overview",
-        "line": 38,
-        "context": "이것이 인슐린의 원래 설계 목적이다."
+        "line": 33,
+        "context": "**모든 탄수화물은 소화되면 포도당이 되고, 인슐린을 자극한다.**"
       },
       {
         "file": "part1-overview",
         "line": 43,
+        "context": "이것이 인슐린의 원래 설계 목적이다."
+      },
+      {
+        "file": "part1-overview",
+        "line": 48,
         "context": "이것이 인슐린 저항성이 발생하는 과정이다."
       },
       {
         "file": "part1-overview",
-        "line": 45,
+        "line": 51,
+        "context": "인슐린이 만성적으로 높으면 세포 표면의 포도당 수용체(GLUT4)가 제대로 작동하지 않는다."
+      },
+      {
+        "file": "part1-overview",
+        "line": 53,
+        "context": "동시에 인슐린은 지방 분해를 차단하고 있으므로,"
+      },
+      {
+        "file": "part1-overview",
+        "line": 57,
+        "context": "이것이 인슐린 저항성이 만드는 **만성피로의 핵심 메커니즘**이다."
+      },
+      {
+        "file": "part1-overview",
+        "line": 59,
         "context": "## 5단계로 무너지는 인슐린 체계"
       },
       {
         "file": "part1-overview",
-        "line": 49,
-        "context": "| **1단계** | 정제 탄수화물 → 혈당 급등 → 인슐린 대량 분비 | 화재 경보가 울린다 |"
+        "line": 63,
+        "context": "| **1단계** | 탄수화물 섭취 → 혈당 급등 → 인슐린 대량 분비 | 화재 경보가 울린다 |"
       },
       {
         "file": "part1-overview",
-        "line": 50,
+        "line": 64,
         "context": "| **2단계** | 만성적 고인슐린 → 세포 수용체 둔감화(downregulation) | 경보가 너무 자주 울려 무시하게 된다 |"
       },
       {
         "file": "part1-overview",
-        "line": 51,
+        "line": 65,
         "context": "| **3단계** | 세포가 반응하지 않음 → 췌장이 더 많은 인슐린 분비 (**고인슐린혈증**) | 경보 볼륨을 계속 높인다 |"
       },
       {
         "file": "part1-overview",
-        "line": 52,
+        "line": 66,
         "context": "| **4단계** | 과잉 인슐린 → 지방 저장 촉진 + 지방 분해 차단 → 비만 + 만성 피로 | 창고에 물건만 쌓이고 꺼낼 수 없다 |"
       },
       {
         "file": "part1-overview",
-        "line": 56,
+        "line": 70,
         "context": "세포는 에너지가 필요한데, 인슐린이 지방 창고의 문을 잠가버렸다."
       },
       {
         "file": "part1-overview",
-        "line": 61,
-        "context": "## 인슐린 — 마스터 호르몬이 지배하는 네 갈래 경로"
-      },
-      {
-        "file": "part1-overview",
-        "line": 65,
-        "context": "**\"인슐린 저항성이 대부분의 현대 만성질환의 숨겨진 공통 원인이다.\"**"
-      },
-      {
-        "file": "part1-overview",
-        "line": 67,
-        "context": "인슐린은 단순히 혈당을 조절하는 호르몬이 아니다."
+        "line": 74,
+        "context": "인슐린은 두 가지 방향으로 동시에 작용하는 호르몬이다."
       },
       {
         "file": "part1-overview",
         "line": 75,
-        "context": "인슐린 저항성 → 지방 저장 촉진 + 분해 차단"
+        "context": "**첫째, 지방 저장을 촉진한다.** 혈당이 오르면 인슐린이 분비되고,"
       },
       {
         "file": "part1-overview",
-        "line": 78,
-        "context": "→ 뇌 인슐린 저항 → 치매 (제3형 당뇨)"
+        "line": 76,
+        "context": "인슐린은 지방세포의 리포단백질 리파제(LPL)를 활성화하여"
+      },
+      {
+        "file": "part1-overview",
+        "line": 79,
+        "context": "**둘째, 지방 분해를 차단한다.** 인슐린은 지방세포의 호르몬 감수성 리파제(HSL)를 억제한다."
+      },
+      {
+        "file": "part1-overview",
+        "line": 81,
+        "context": "인슐린이 높은 동안에는 이 효소가 **꺼진 상태**로 유지된다."
       },
       {
         "file": "part1-overview",
         "line": 82,
+        "context": "즉, 인슐린이 높은 한 지방은 **들어가기만 하고 나올 수 없다.**"
+      },
+      {
+        "file": "part1-overview",
+        "line": 83,
+        "context": "하루 종일 탄수화물을 먹어 인슐린이 높게 유지되면,"
+      },
+      {
+        "file": "part1-overview",
+        "line": 88,
+        "context": "## 인슐린 — 마스터 호르몬이 지배하는 네 갈래 경로"
+      },
+      {
+        "file": "part1-overview",
+        "line": 92,
+        "context": "**\"인슐린 저항성이 대부분의 현대 만성질환의 숨겨진 공통 원인이다.\"**"
+      },
+      {
+        "file": "part1-overview",
+        "line": 94,
+        "context": "인슐린은 단순히 혈당을 조절하는 호르몬이 아니다."
+      },
+      {
+        "file": "part1-overview",
+        "line": 102,
+        "context": "인슐린 저항성 → 지방 저장 촉진 + 분해 차단"
+      },
+      {
+        "file": "part1-overview",
+        "line": 105,
+        "context": "→ 뇌 인슐린 저항 → 치매 (제3형 당뇨)"
+      },
+      {
+        "file": "part1-overview",
+        "line": 109,
         "context": "인슐린이 높은 한, 아무리 적게 먹어도 지방은 빠지지 않는다."
       },
       {
         "file": "part1-overview",
-        "line": 84,
+        "line": 111,
         "context": "\"덜 먹어라\"가 아니라 **\"인슐린을 낮춰라\"**가 답이다"
       },
       {
         "file": "part1-overview",
-        "line": 90,
+        "line": 117,
         "context": "인슐린 저항성 → 중성지방(TG) 상승 + HDL 저하"
       },
       {
         "file": "part1-overview",
-        "line": 98,
+        "line": 130,
+        "context": "이것이 인슐린 저항성과 결합하면 TG는 만성적으로 높은 상태가 된다."
+      },
+      {
+        "file": "part1-overview",
+        "line": 131,
+        "context": "이 과정이 바로 인슐린이 지질 대사까지 망가뜨리는 핵심 경로다."
+      },
+      {
+        "file": "part1-overview",
+        "line": 136,
         "context": "그리고 sdLDL을 만드는 것은 포화지방이 아니라 **탄수화물 과잉 + 인슐린 저항성**이다."
       },
       {
         "file": "part1-overview",
-        "line": 101,
+        "line": 139,
         "context": "2 미만이면 안전, 4 이상이면 위험 — 이것이 인슐린 저항성의 거울이다"
       },
       {
         "file": "part1-overview",
-        "line": 107,
+        "line": 145,
         "context": "고인슐린혈증 → 염증성 사이토카인(TNF-α, IL-6) 증가"
       },
       {
         "file": "part1-overview",
-        "line": 112,
+        "line": 150,
         "context": "인슐린이 만성적으로 높으면 mTOR(세포 성장 신호)가 과활성화되어"
       },
       {
         "file": "part1-overview",
-        "line": 120,
+        "line": 158,
         "context": "인슐린 저항성 → 혈당 롤러코스터"
       },
       {
         "file": "part1-overview",
-        "line": 163,
+        "line": 198,
+        "context": "트립토판이 뇌로 운반되려면 인슐린의 도움이 필요하다."
+      },
+      {
+        "file": "part1-overview",
+        "line": 199,
+        "context": "혈당이 급등하면 인슐린이 폭발적으로 분비되어 트립토판이 뇌로 대량 유입되고,"
+      },
+      {
+        "file": "part1-overview",
+        "line": 218,
         "context": "인슐린을 거의 자극하지 않는 지방과 단백질을 먹는 것이다"
       },
       {
         "file": "part1-overview",
-        "line": 327,
+        "line": 440,
         "context": "| **1차 손상** | 인슐린 저항성 | 세포막 산화 | 장벽 파괴 |"
       },
       {
         "file": "part1-overview",
-        "line": 334,
+        "line": 447,
         "context": "- **빵** = 글루텐(항영양소) + 정제 탄수화물(인슐린)"
       },
       {
         "file": "part1-overview",
-        "line": 336,
+        "line": 449,
         "context": "- **주스** = 과당(인슐린 + 지방간)"
       },
       {
         "file": "part1-overview",
-        "line": 343,
+        "line": 456,
         "context": "인슐린 저항성이 이 모든 것을 **되돌릴 수 없는 방향**으로 고착시킨다."
       },
       {
         "file": "part1-overview",
-        "line": 356,
-        "context": "| 정제 탄수화물 제거 | 인슐린 정상화 → 지방 분해 시작 → 케톤체 생산 → 뇌 안정 |"
+        "line": 469,
+        "context": "| 탄수화물 제거 | 인슐린 정상화 → 지방 분해 시작 → 케톤체 생산 → 뇌 안정 |"
       },
       {
         "file": "part1-overview",
-        "line": 364,
-        "context": "- 인슐린을 과도하게 자극하는 정제 탄수화물이 **없다**"
+        "line": 477,
+        "context": "- 인슐린을 자극하는 탄수화물이 **없다**"
       },
       {
         "file": "part1-overview",
-        "line": 371,
+        "line": 484,
         "context": "인슐린이 낮아지면:"
       },
       {
         "file": "part1-overview",
-        "line": 400,
+        "line": 513,
         "context": "> **기억할 한 문장:** 현대인의 만성질환은 수십 가지로 보이지만, 원인은 세 가지다 — 탄수화물이 인슐린을 망가뜨리고, 식물성 기름이 세포"
       },
       {
         "file": "part2-chapter01",
-        "line": 13,
+        "line": 21,
         "context": "지속적으로 사용하면 인슐린 폭주와 대사 피로를 초래한다."
       },
       {
         "file": "part2-chapter01",
-        "line": 79,
+        "line": 91,
         "context": "식도 하부 괄약근(LES)을 약화시킬 수 있다(3부 3장 8절의 인슐린 저항성 경로 참조)."
       },
       {
@@ -4699,32 +4939,32 @@
       },
       {
         "file": "part2-chapter02",
-        "line": 26,
+        "line": 29,
         "context": "| **출발** | 탄수화물 제거 → 혈당 안정화 → 인슐린 정상화 | ← 동일 | ← 동일 |"
       },
       {
         "file": "part2-chapter02",
-        "line": 152,
+        "line": 155,
         "context": "탄수화물 위주의 식단은 혈당 급등 → 인슐린 폭주 → 산화 스트레스 →"
       },
       {
         "file": "part2-chapter03",
-        "line": 147,
+        "line": 140,
         "context": "혈중 지표(TG/HDL 비율, 공복 인슐린, 염증 마커)가 계속 호전된다."
       },
       {
         "file": "part2-chapter03",
-        "line": 213,
+        "line": 206,
         "context": "통풍의 주범은 고기의 퓨린이 아니라 **과당, 알코올, 인슐린 저항성**이다."
       },
       {
         "file": "part2-chapter03",
-        "line": 217,
+        "line": 210,
         "context": "> **→ 과당의 대사 경로와 인슐린-요산 메커니즘은 6부 2장 \"오해 4: 통풍이 심해진다\"에서 자세히 다룬다.**"
       },
       {
         "file": "part2-chapter03",
-        "line": 288,
+        "line": 283,
         "context": "미국에서는 인슐린 저항성과 대사 건강 중심의 접근이 확산되고 있으며,"
       },
       {
@@ -5236,7 +5476,7 @@
       },
       {
         "file": "part1-chapter02",
-        "line": 218,
+        "line": 221,
         "context": "**첫째, 이 적응조차 전 인류에게 균일하게 일어나지 않았다.** AMY1 복제 수는 개인마다 2개에서 15개 이상까지 편차가 극히 크다. 같은"
       },
       {
@@ -5246,57 +5486,67 @@
       },
       {
         "file": "part1-chapter03c",
-        "line": 124,
+        "line": 133,
         "context": "| **진짜 범인** | 설탕·정제 탄수화물 → 소형 LDL, 인슐린 저항성, 염증 |"
       },
       {
         "file": "part1-overview",
-        "line": 43,
+        "line": 48,
         "context": "이것이 인슐린 저항성이 발생하는 과정이다."
       },
       {
         "file": "part1-overview",
-        "line": 65,
+        "line": 57,
+        "context": "이것이 인슐린 저항성이 만드는 **만성피로의 핵심 메커니즘**이다."
+      },
+      {
+        "file": "part1-overview",
+        "line": 92,
         "context": "**\"인슐린 저항성이 대부분의 현대 만성질환의 숨겨진 공통 원인이다.\"**"
       },
       {
         "file": "part1-overview",
-        "line": 75,
+        "line": 102,
         "context": "인슐린 저항성 → 지방 저장 촉진 + 분해 차단"
       },
       {
         "file": "part1-overview",
-        "line": 90,
+        "line": 117,
         "context": "인슐린 저항성 → 중성지방(TG) 상승 + HDL 저하"
       },
       {
         "file": "part1-overview",
-        "line": 98,
+        "line": 130,
+        "context": "이것이 인슐린 저항성과 결합하면 TG는 만성적으로 높은 상태가 된다."
+      },
+      {
+        "file": "part1-overview",
+        "line": 136,
         "context": "그리고 sdLDL을 만드는 것은 포화지방이 아니라 **탄수화물 과잉 + 인슐린 저항성**이다."
       },
       {
         "file": "part1-overview",
-        "line": 101,
+        "line": 139,
         "context": "2 미만이면 안전, 4 이상이면 위험 — 이것이 인슐린 저항성의 거울이다"
       },
       {
         "file": "part1-overview",
-        "line": 120,
+        "line": 158,
         "context": "인슐린 저항성 → 혈당 롤러코스터"
       },
       {
         "file": "part1-overview",
-        "line": 327,
+        "line": 440,
         "context": "| **1차 손상** | 인슐린 저항성 | 세포막 산화 | 장벽 파괴 |"
       },
       {
         "file": "part1-overview",
-        "line": 343,
+        "line": 456,
         "context": "인슐린 저항성이 이 모든 것을 **되돌릴 수 없는 방향**으로 고착시킨다."
       },
       {
         "file": "part2-chapter01",
-        "line": 79,
+        "line": 91,
         "context": "식도 하부 괄약근(LES)을 약화시킬 수 있다(3부 3장 8절의 인슐린 저항성 경로 참조)."
       },
       {
@@ -5306,12 +5556,12 @@
       },
       {
         "file": "part2-chapter03",
-        "line": 213,
+        "line": 206,
         "context": "통풍의 주범은 고기의 퓨린이 아니라 **과당, 알코올, 인슐린 저항성**이다."
       },
       {
         "file": "part2-chapter03",
-        "line": 288,
+        "line": 283,
         "context": "미국에서는 인슐린 저항성과 대사 건강 중심의 접근이 확산되고 있으며,"
       },
       {
@@ -5472,6 +5722,11 @@
         "context": "당뇨, 고혈압, 고지혈증, 비만, 자가면역질환, 우울증."
       },
       {
+        "file": "part1-chapter02",
+        "line": 249,
+        "context": "비만, 당뇨, 심혈관 질환, 자가면역질환 — 이것들은 진화의 실패가 아니라"
+      },
+      {
         "file": "part1-overview",
         "line": 3,
         "context": "> **이 장의 핵심:** 비만, 당뇨, 심혈관질환, 치매, 우울증, 자가면역질환 — 서로 무관해 보이는 이 질병들은 **세 가지 공격**이 동"
@@ -5483,22 +5738,22 @@
       },
       {
         "file": "part1-overview",
-        "line": 108,
+        "line": 146,
         "context": "→ 관절염, 아토피, 자가면역질환"
       },
       {
         "file": "part1-overview",
-        "line": 290,
+        "line": 398,
         "context": "| **5단계** | 면역 오작동 → 자기 몸을 공격 | 관절염, 아토피, 자가면역 |"
       },
       {
         "file": "part1-overview",
-        "line": 301,
+        "line": 414,
         "context": "이것이 자가면역질환의 시작이다"
       },
       {
         "file": "part1-overview",
-        "line": 330,
+        "line": 443,
         "context": "| **최종 결과** | 비만·당뇨·치매 | 피로·노화·피부질환 | 자가면역·알레르기·우울 |"
       },
       {
@@ -5508,22 +5763,22 @@
       },
       {
         "file": "part2-chapter02",
-        "line": 28,
+        "line": 31,
         "context": "| **2차 회복** | 에너지 안정, 체지방 감소, 지방간 해소 | 자가면역 완화, 피부 회복, 관절통 감소 | PCOS/갑상선 정상화, 생리"
       },
       {
         "file": "part2-chapter02",
-        "line": 220,
+        "line": 223,
         "context": "Youm et al.(*Nature Medicine*, 2015)은 쥐와 인간 단핵구를 대상으로 한 실험에서, BHB가 NLRP3 인플라마좀의 "
       },
       {
         "file": "part2-chapter02",
-        "line": 298,
+        "line": 301,
         "context": "장누수와 자가면역질환, 자폐 스펙트럼 증상의 개선을 목표로 한다."
       },
       {
         "file": "part2-chapter03",
-        "line": 163,
+        "line": 156,
         "context": "만성 장 염증과 자가면역 반응의 촉발 요인 자체가 사라진다."
       },
       {
@@ -5585,7 +5840,7 @@
     "장-뇌 축": [
       {
         "file": "part1-overview",
-        "line": 291,
+        "line": 399,
         "context": "| **6단계** | 장-뇌 축(gut-brain axis) 붕괴 | 우울, 불안, 브레인포그 |"
       }
     ],
@@ -5597,7 +5852,7 @@
       },
       {
         "file": "part2-chapter02",
-        "line": 298,
+        "line": 301,
         "context": "장누수와 자가면역질환, 자폐 스펙트럼 증상의 개선을 목표로 한다."
       },
       {
@@ -5639,67 +5894,77 @@
       },
       {
         "file": "part1-overview",
-        "line": 247,
+        "line": 333,
         "context": "# 제3축: 항영양소 — 장벽을 허무는 식물의 무기"
       },
       {
         "file": "part1-overview",
-        "line": 267,
+        "line": 353,
         "context": "| **글루텐/글리아딘** | 밀, 보리, 호밀 | zonulin 분비 유도 → 장벽 틈새를 벌림 |"
       },
       {
         "file": "part1-overview",
-        "line": 270,
+        "line": 356,
         "context": "| **사포닌** | 콩, 퀴노아 | 세포막 파괴, 장벽 투과성 증가 |"
       },
       {
         "file": "part1-overview",
-        "line": 278,
+        "line": 377,
+        "context": "렉틴이 장벽을 공격하고, 피틴산이 미네랄 흡수를 차단하며,"
+      },
+      {
+        "file": "part1-overview",
+        "line": 386,
         "context": "## 장벽 붕괴 — 6단계 연쇄 반응"
       },
       {
         "file": "part1-overview",
-        "line": 280,
+        "line": 388,
         "context": "항영양소의 가장 파괴적인 공격은 **장벽**을 향한다."
       },
       {
         "file": "part1-overview",
-        "line": 327,
+        "line": 403,
+        "context": "글루텐이 장벽뿐 아니라 **혈뇌장벽(BBB)**까지 손상시켜"
+      },
+      {
+        "file": "part1-overview",
+        "line": 440,
         "context": "| **1차 손상** | 인슐린 저항성 | 세포막 산화 | 장벽 파괴 |"
       },
       {
         "file": "part1-overview",
-        "line": 341,
+        "line": 454,
         "context": "장벽이 무너진 상태에서 독소가 유입되고,"
       },
       {
         "file": "part1-overview",
-        "line": 358,
+        "line": 471,
         "context": "| 항영양소 제거 | 장벽 재건 → 면역 정상화 → 염증 감소 |"
       },
       {
         "file": "part1-overview",
-        "line": 366,
+        "line": 479,
         "context": "- 장벽을 공격하는 항영양소가 **없다**"
       },
       {
         "file": "part1-overview",
-        "line": 400,
+        "line": 513,
         "context": "> **기억할 한 문장:** 현대인의 만성질환은 수십 가지로 보이지만, 원인은 세 가지다 — 탄수화물이 인슐린을 망가뜨리고, 식물성 기름이 세포"
       },
       {
         "file": "part2-chapter01",
-        "line": 64,
+        "line": 76,
         "context": "복부 팽만, 복통, 장벽 손상을 유발한다."
       },
       {
         "file": "part2-chapter02",
-        "line": 307,
+        "line": 310,
         "context": "PKD 식단이 장벽 기능을 정상화시킴을 보고했다"
       },
       {
         "file": "part2-chapter02",
-        "line": 337,
+        "line": 340,
         "context": "면역 세포의 **약 70%가 장에 존재**한다(GALT: 장 관련 림프 조직). 식물독소(렉틴, 글루텐)에 의한 장벽 손상은 면역 세포의 과잉 "
       },
       {
@@ -5806,8 +6071,8 @@
       },
       {
         "file": "part1-chapter01",
-        "line": 208,
-        "context": "샐러드 전문점이 늘고, \"저탄고지\"가 유행하고,"
+        "line": 213,
+        "context": "저탄고지(저탄수화물·고지방) 식단처럼 올바른 방향을 찾는 움직임도 있지만,"
       },
       {
         "file": "part3-chapter01",
@@ -5868,18 +6133,33 @@
       },
       {
         "file": "part1-chapter03c",
-        "line": 42,
+        "line": 51,
         "context": "- 중성지방(트리글리세리드) 수치 감소"
       },
       {
         "file": "part1-chapter03c",
-        "line": 103,
+        "line": 112,
         "context": "중성지방을 높이며 HDL을 낮춘다."
       },
       {
         "file": "part1-overview",
-        "line": 90,
+        "line": 117,
         "context": "인슐린 저항성 → 중성지방(TG) 상승 + HDL 저하"
+      },
+      {
+        "file": "part1-overview",
+        "line": 122,
+        "context": "그런데 중성지방(TG)은 왜 올라가는 걸까?"
+      },
+      {
+        "file": "part1-overview",
+        "line": 126,
+        "context": "이 지방산은 글리세롤과 결합하여 중성지방(TG)이 되고,"
+      },
+      {
+        "file": "part1-overview",
+        "line": 128,
+        "context": "즉, **혈중 중성지방의 주된 원료는 지방이 아니라 탄수화물**이다."
       },
       {
         "file": "part3-chapter01",
@@ -5915,17 +6195,17 @@
     "지방간": [
       {
         "file": "part1-chapter01",
-        "line": 219,
+        "line": 224,
         "context": "- **간질환**: 비알코올성 지방간(NAFLD) 유병률 약 30%"
       },
       {
         "file": "part1-overview",
-        "line": 76,
+        "line": 103,
         "context": "→ 비만 → 내장지방 → 지방간"
       },
       {
         "file": "part1-overview",
-        "line": 336,
+        "line": 449,
         "context": "- **주스** = 과당(인슐린 + 지방간)"
       },
       {
@@ -5935,7 +6215,7 @@
       },
       {
         "file": "part2-chapter02",
-        "line": 28,
+        "line": 31,
         "context": "| **2차 회복** | 에너지 안정, 체지방 감소, 지방간 해소 | 자가면역 완화, 피부 회복, 관절통 감소 | PCOS/갑상선 정상화, 생리"
       },
       {
@@ -5977,17 +6257,22 @@
       },
       {
         "file": "part1-overview",
-        "line": 78,
+        "line": 105,
         "context": "→ 뇌 인슐린 저항 → 치매 (제3형 당뇨)"
       },
       {
         "file": "part1-overview",
-        "line": 330,
+        "line": 404,
+        "context": "치매, 우울, 인지 저하를 유발할 수 있다는 것이 핵심 주장이다."
+      },
+      {
+        "file": "part1-overview",
+        "line": 443,
         "context": "| **최종 결과** | 비만·당뇨·치매 | 피로·노화·피부질환 | 자가면역·알레르기·우울 |"
       },
       {
         "file": "part2-chapter02",
-        "line": 220,
+        "line": 223,
         "context": "Youm et al.(*Nature Medicine*, 2015)은 쥐와 인간 단핵구를 대상으로 한 실험에서, BHB가 NLRP3 인플라마좀의 "
       },
       {
@@ -6109,17 +6394,17 @@
       },
       {
         "file": "part1-chapter02",
-        "line": 72,
+        "line": 73,
         "context": "그로부터 약 90년 뒤, 하버드 연구팀은 훨씬 큰 규모의 조사를 수행했다. Lennerz et al.(*Current Developments i"
       },
       {
         "file": "part1-overview",
-        "line": 378,
+        "line": 491,
         "context": "이것이 카니보어 식단의 과학적 논리다."
       },
       {
         "file": "part2-chapter01",
-        "line": 147,
+        "line": 159,
         "context": "반면 영양 밀도가 높은 육식을 하면 이야기가 달라진다. 소화에 에너지가 쓰이는 것은 마찬가지지만, 고밀도 영양소가 빠르게 흡수되어 소모된 에너지"
       },
       {
@@ -6139,37 +6424,37 @@
       },
       {
         "file": "part2-chapter02",
-        "line": 22,
+        "line": 25,
         "context": "### 카니보어 식단의 회복 경로"
       },
       {
         "file": "part2-chapter02",
-        "line": 148,
+        "line": 151,
         "context": "흔히 제기되는 **\"비타민C 부족\"** 우려에 대해 깊이 짚고 넘어가야 한다. 이 질문은 카니보어 식단에 대한 가장 빈번한 반론이지만, 그 논리"
       },
       {
         "file": "part2-chapter02",
-        "line": 192,
+        "line": 195,
         "context": "실제로 카니보어 식단 실천자에게서 괴혈병 증상이 보고된 사례는 극히 드물다. Clemens & Tóth(*Journal of Evolution "
       },
       {
         "file": "part2-chapter02",
-        "line": 194,
+        "line": 197,
         "context": "하버드 연구팀이 2,029명의 카니보어 식단 실천자를 설문 조사한 결과,"
       },
       {
         "file": "part2-chapter02",
-        "line": 291,
+        "line": 294,
         "context": "카니보어 식단이 유일한 답이라는 뜻은 아니다."
       },
       {
         "file": "part2-chapter02",
-        "line": 327,
+        "line": 330,
         "context": "카니보어 실천자들 사이에서 가장 빈번하게 보고되는 변화 중 하나가 **\"감기에 안 걸리게 되었다\"**는 것이다. 이것은 주관적 느낌이 아니라, "
       },
       {
         "file": "part2-chapter02",
-        "line": 366,
+        "line": 369,
         "context": "카니보어 식단은 새로운 발명이 아니다."
       },
       {
@@ -6179,72 +6464,77 @@
       },
       {
         "file": "part2-chapter03",
-        "line": 138,
+        "line": 131,
         "context": "카니보어 식단 역시 가공식품, 설탕, 인스턴트를 완전히 끊는다."
       },
       {
         "file": "part2-chapter03",
-        "line": 146,
+        "line": 139,
         "context": "반면 카니보어 식단은 6개월, 1년, 그 이후에도 개선이 지속되며"
       },
       {
         "file": "part2-chapter03",
-        "line": 162,
+        "line": 155,
         "context": "카니보어 식단은 이 모든 식물 독소를 동시에 제거하므로,"
       },
       {
         "file": "part2-chapter03",
-        "line": 167,
+        "line": 160,
         "context": "| 효과 요인 | 채식 | 카니보어 |"
       },
       {
         "file": "part2-chapter03",
-        "line": 176,
+        "line": 168,
+        "context": "여기서 예상되는 반문이 있다. \"채식에 케톤 전환이 없다고 문제 삼으면, 카니보어에는 비타민C가 부족하지 않은가?\" 합리적 질문이다. 그러나 비"
+      },
+      {
+        "file": "part2-chapter03",
+        "line": 171,
         "context": "채식과 카니보어는 같은 곳에서 출발하지만,"
       },
       {
         "file": "part2-chapter03",
-        "line": 185,
+        "line": 180,
         "context": "## 4. 정직하게 마주하기 — 카니보어에 대한 반론과 답변"
       },
       {
         "file": "part2-chapter03",
-        "line": 188,
-        "context": "카니보어 식단에 대해 가장 흔히 제기되는 반론들을"
+        "line": 182,
+        "context": "카니보어 식단에 대해 가장 흔히 제기되는 의문들이 있다."
       },
       {
         "file": "part2-chapter03",
-        "line": 214,
+        "line": 207,
         "context": "카니보어 식단으로 이 세 가지가 제거되면"
       },
       {
         "file": "part2-chapter03",
-        "line": 221,
+        "line": 214,
         "context": "정직하게 말하겠다. **카니보어 식단만을 대상으로 한 수십 년짜리 무작위 대조시험(RCT)은 존재하지 않는다.**"
       },
       {
         "file": "part2-chapter03",
-        "line": 239,
+        "line": 228,
         "context": "**2,029명의 카니보어 식단 실천자**를 대상으로 대규모 설문 연구를 수행했다."
       },
       {
         "file": "part2-chapter03",
-        "line": 247,
+        "line": 236,
         "context": "이것은 카니보어만의 문제가 아니다 — 비건 식단의 장기 RCT도 존재하지 않는다."
       },
       {
         "file": "part2-chapter03",
-        "line": 301,
-        "context": "> 카니보어 식단은 만병통치약이 아니다."
+        "line": 295,
+        "context": "> **카니보어 식단은 만병통치약이 아니다."
       },
       {
         "file": "part2-chapter03",
-        "line": 325,
+        "line": 319,
         "context": "- 카니보어에 대한 주요 반론(신장, WHO 분류, 통풍)은 맥락과 근거로 답할 수 있다"
       },
       {
         "file": "part2-chapter03",
-        "line": 332,
+        "line": 326,
         "context": "3부에서 우리는 인체가 왜 육식에 최적화되어 있는지, 카니보어 식단이 어떤 과학적 근거 위에 서 있는지, 그리고 식물식에 대한 주요 오해들을 살"
       },
       {
@@ -6736,12 +7026,12 @@
       },
       {
         "file": "part1-overview",
-        "line": 356,
-        "context": "| 정제 탄수화물 제거 | 인슐린 정상화 → 지방 분해 시작 → 케톤체 생산 → 뇌 안정 |"
+        "line": 469,
+        "context": "| 탄수화물 제거 | 인슐린 정상화 → 지방 분해 시작 → 케톤체 생산 → 뇌 안정 |"
       },
       {
         "file": "part1-overview",
-        "line": 373,
+        "line": 486,
         "context": "- 케톤체(BHB) 생산 → 뇌에 안정적 에너지 공급"
       },
       {
@@ -6751,12 +7041,22 @@
       },
       {
         "file": "part2-chapter01",
-        "line": 30,
-        "context": "- **간의 케톤 생성**: 간은 지방산을 케톤체로 전환해 뇌와 근육의 주요 연료로 사용한다. 이는 전형적인 육식형 대사 시스템이다."
+        "line": 15,
+        "context": "첫째, 인체는 탄수화물 섭취가 0이어도 당신생합성과 케톤 생성을 통해 정상 작동할 수 있지만(IOM, 2005), 지방과 단백질이 0이면 생존할"
       },
       {
         "file": "part2-chapter01",
-        "line": 159,
+        "line": 17,
+        "context": "셋째, 신생아의 첫 번째 식사인 모유의 칼로리 중 약 50%가 지방이며, 뇌 발달기에 케톤체가 주요 에너지원으로 사용된다."
+      },
+      {
+        "file": "part2-chapter01",
+        "line": 40,
+        "context": "- **간의 케톤 생성**: 간은 지방산을 케톤체로 전환해 뇌와 근육의 연료로 사용한다."
+      },
+      {
+        "file": "part2-chapter01",
+        "line": 171,
         "context": "짧은 장, 강한 위산, 완전 소화, 케톤 대사, 사냥에 최적화된 신체 구조."
       },
       {
@@ -6766,107 +7066,122 @@
       },
       {
         "file": "part2-chapter02",
-        "line": 27,
+        "line": 21,
+        "context": "여기서 앞으로 자주 등장할 **케톤체**에 대해 간단히 짚고 가자."
+      },
+      {
+        "file": "part2-chapter02",
+        "line": 22,
+        "context": "케톤체란, 탄수화물 섭취가 줄어 혈당이 낮아지면 간이 저장된 지방을 분해하여 만들어내는 대체 연료 물질이다. 지방산이 간에서 β-산화를 거쳐 아"
+      },
+      {
+        "file": "part2-chapter02",
+        "line": 30,
         "context": "| **1차 회복** | 지방 대사 복귀 (케톤체 생성) | 전신 염증 감소 (TNF-α↓ IL-6↓) | 호르몬 균형 회복 |"
       },
       {
         "file": "part2-chapter02",
-        "line": 33,
+        "line": 36,
         "context": "## 2. 케톤체 — 뇌와 세포의 진짜 연료"
       },
       {
         "file": "part2-chapter02",
-        "line": 35,
+        "line": 38,
         "context": "케톤체(β-hydroxybutyrate, BHB)는"
       },
       {
         "file": "part2-chapter02",
-        "line": 39,
+        "line": 42,
         "context": "Shimazu et al.(*Science*, 2013)은 쥐의 신장 세포와 생체 실험에서 BHB가 히스톤 탈아세틸화효소(HDAC)의 Class"
       },
       {
         "file": "part2-chapter02",
-        "line": 41,
+        "line": 44,
         "context": "케톤 대사 상태에서는"
       },
       {
         "file": "part2-chapter02",
-        "line": 46,
+        "line": 49,
         "context": "> **케톤체는 단순한 연료가 아니라,"
       },
       {
         "file": "part2-chapter02",
-        "line": 77,
+        "line": 80,
         "context": "장기 금식 시에는 뇌조차 케톤체를 주 연료로 전환한다."
       },
       {
         "file": "part2-chapter02",
-        "line": 82,
+        "line": 85,
         "context": "케톤 적응 상태에서는 뇌 에너지의 60~75%를 케톤체로 충당하므로"
       },
       {
         "file": "part2-chapter02",
-        "line": 161,
+        "line": 164,
         "context": "케톤 대사로 전환되면서 BHB 자체가 강력한 항염·항산화 작용을 한다"
       },
       {
         "file": "part2-chapter02",
-        "line": 175,
+        "line": 178,
         "context": "(2) 케톤 대사 자체가 강한 항산화 작용을 하며,"
       },
       {
         "file": "part2-chapter02",
-        "line": 216,
+        "line": 219,
         "context": "## 5. 케톤 대사의 항염·항노화 효과"
       },
       {
         "file": "part2-chapter02",
-        "line": 218,
+        "line": 221,
         "context": "케톤체는 염증 유전자의 발현을 억제하고"
       },
       {
         "file": "part2-chapter02",
-        "line": 220,
+        "line": 223,
         "context": "Youm et al.(*Nature Medicine*, 2015)은 쥐와 인간 단핵구를 대상으로 한 실험에서, BHB가 NLRP3 인플라마좀의 "
       },
       {
         "file": "part2-chapter02",
-        "line": 222,
+        "line": 225,
         "context": "또한 케톤 대사 상태는 BDNF(뇌유래신경영양인자)의 생성을 촉진해"
       },
       {
         "file": "part2-chapter02",
-        "line": 226,
+        "line": 229,
         "context": "(Sleiman et al., *eLife*, 2016). 이 연구는 쥐에게 운동을 시킨 뒤 해마(hippocampus)에서 BHB 농도와 BD"
       },
       {
         "file": "part2-chapter02",
-        "line": 228,
+        "line": 231,
         "context": "> **케톤 대사는 단순한 연료 전환이 아니라,"
       },
       {
         "file": "part2-chapter02",
-        "line": 248,
+        "line": 251,
         "context": "BHB(케톤체)가 HDAC를 억제하여 항산화 유전자를 활성화하는 것이"
       },
       {
         "file": "part2-chapter02",
-        "line": 349,
+        "line": 352,
         "context": "### 케톤체의 항염증 효과"
       },
       {
         "file": "part2-chapter03",
-        "line": 153,
+        "line": 146,
         "context": "탄수화물을 극도로 제한하면 간에서 케톤체(BHB)가 생성되고,"
       },
       {
         "file": "part2-chapter03",
-        "line": 170,
+        "line": 163,
         "context": "| 케톤 대사 전환 | X | O |"
       },
       {
         "file": "part2-chapter03",
-        "line": 323,
+        "line": 168,
+        "context": "여기서 예상되는 반문이 있다. \"채식에 케톤 전환이 없다고 문제 삼으면, 카니보어에는 비타민C가 부족하지 않은가?\" 합리적 질문이다. 그러나 비"
+      },
+      {
+        "file": "part2-chapter03",
+        "line": 317,
         "context": "- 케톤 대사는 뇌와 세포를 회복시키는 신호 체계다"
       },
       {
@@ -6953,18 +7268,23 @@
       },
       {
         "file": "part1-overview",
-        "line": 356,
-        "context": "| 정제 탄수화물 제거 | 인슐린 정상화 → 지방 분해 시작 → 케톤체 생산 → 뇌 안정 |"
+        "line": 469,
+        "context": "| 탄수화물 제거 | 인슐린 정상화 → 지방 분해 시작 → 케톤체 생산 → 뇌 안정 |"
       },
       {
         "file": "part1-overview",
-        "line": 373,
+        "line": 486,
         "context": "- 케톤체(BHB) 생산 → 뇌에 안정적 에너지 공급"
       },
       {
         "file": "part2-chapter01",
-        "line": 30,
-        "context": "- **간의 케톤 생성**: 간은 지방산을 케톤체로 전환해 뇌와 근육의 주요 연료로 사용한다. 이는 전형적인 육식형 대사 시스템이다."
+        "line": 17,
+        "context": "셋째, 신생아의 첫 번째 식사인 모유의 칼로리 중 약 50%가 지방이며, 뇌 발달기에 케톤체가 주요 에너지원으로 사용된다."
+      },
+      {
+        "file": "part2-chapter01",
+        "line": 40,
+        "context": "- **간의 케톤 생성**: 간은 지방산을 케톤체로 전환해 뇌와 근육의 연료로 사용한다."
       },
       {
         "file": "part2-chapter02",
@@ -6973,57 +7293,67 @@
       },
       {
         "file": "part2-chapter02",
-        "line": 27,
+        "line": 21,
+        "context": "여기서 앞으로 자주 등장할 **케톤체**에 대해 간단히 짚고 가자."
+      },
+      {
+        "file": "part2-chapter02",
+        "line": 22,
+        "context": "케톤체란, 탄수화물 섭취가 줄어 혈당이 낮아지면 간이 저장된 지방을 분해하여 만들어내는 대체 연료 물질이다. 지방산이 간에서 β-산화를 거쳐 아"
+      },
+      {
+        "file": "part2-chapter02",
+        "line": 30,
         "context": "| **1차 회복** | 지방 대사 복귀 (케톤체 생성) | 전신 염증 감소 (TNF-α↓ IL-6↓) | 호르몬 균형 회복 |"
       },
       {
         "file": "part2-chapter02",
-        "line": 33,
+        "line": 36,
         "context": "## 2. 케톤체 — 뇌와 세포의 진짜 연료"
       },
       {
         "file": "part2-chapter02",
-        "line": 35,
+        "line": 38,
         "context": "케톤체(β-hydroxybutyrate, BHB)는"
       },
       {
         "file": "part2-chapter02",
-        "line": 39,
+        "line": 42,
         "context": "Shimazu et al.(*Science*, 2013)은 쥐의 신장 세포와 생체 실험에서 BHB가 히스톤 탈아세틸화효소(HDAC)의 Class"
       },
       {
         "file": "part2-chapter02",
-        "line": 46,
+        "line": 49,
         "context": "> **케톤체는 단순한 연료가 아니라,"
       },
       {
         "file": "part2-chapter02",
-        "line": 77,
+        "line": 80,
         "context": "장기 금식 시에는 뇌조차 케톤체를 주 연료로 전환한다."
       },
       {
         "file": "part2-chapter02",
-        "line": 82,
+        "line": 85,
         "context": "케톤 적응 상태에서는 뇌 에너지의 60~75%를 케톤체로 충당하므로"
       },
       {
         "file": "part2-chapter02",
-        "line": 218,
+        "line": 221,
         "context": "케톤체는 염증 유전자의 발현을 억제하고"
       },
       {
         "file": "part2-chapter02",
-        "line": 248,
+        "line": 251,
         "context": "BHB(케톤체)가 HDAC를 억제하여 항산화 유전자를 활성화하는 것이"
       },
       {
         "file": "part2-chapter02",
-        "line": 349,
+        "line": 352,
         "context": "### 케톤체의 항염증 효과"
       },
       {
         "file": "part2-chapter03",
-        "line": 153,
+        "line": 146,
         "context": "탄수화물을 극도로 제한하면 간에서 케톤체(BHB)가 생성되고,"
       },
       {
@@ -7045,7 +7375,7 @@
     "코르티솔": [
       {
         "file": "part1-overview",
-        "line": 149,
+        "line": 187,
         "context": "혈당이 급락하면 코르티솔(스트레스 호르몬)이 분비되어"
       },
       {
@@ -7087,22 +7417,22 @@
       },
       {
         "file": "part1-chapter02",
-        "line": 46,
+        "line": 47,
         "context": "### 마사이족 — 콜레스테롤의 역설"
       },
       {
         "file": "part1-chapter02",
-        "line": 49,
+        "line": 50,
         "context": "고지방 식단을 하는데 콜레스테롤이 낮고 심장병이 없다 —"
       },
       {
         "file": "part1-chapter02",
-        "line": 56,
+        "line": 58,
         "context": "(콜레스테롤에 대해서는 2부 2장에서 집중적으로 다룬다.)"
       },
       {
         "file": "part1-chapter02",
-        "line": 192,
+        "line": 194,
         "context": "지방산과 콜레스테롤은"
       },
       {
@@ -7137,42 +7467,47 @@
       },
       {
         "file": "part1-chapter03b",
-        "line": 204,
+        "line": 207,
         "context": "### 7.2 스타틴 산업과 콜레스테롤 가설"
       },
       {
         "file": "part1-chapter03b",
-        "line": 206,
+        "line": 209,
         "context": "스타틴(LDL 콜레스테롤 저하제)은 콜레스테롤 가설이 없으면 존재할 수 없다."
       },
       {
         "file": "part1-chapter03b",
-        "line": 245,
+        "line": 248,
         "context": "**\"식이 콜레스테롤 제한은 더 이상 근거가 없다\"**고 발표했다."
       },
       {
         "file": "part1-chapter03c",
-        "line": 90,
+        "line": 99,
         "context": "### Q3. \"그럼 포화지방이 콜레스테롤을 올린다는 것도 거짓말인가요?\""
       },
       {
         "file": "part1-chapter03c",
-        "line": 94,
+        "line": 103,
         "context": "포화지방은 LDL 콜레스테롤을 올릴 수 있다. 이것은 사실이다."
       },
       {
         "file": "part1-overview",
-        "line": 95,
+        "line": 133,
         "context": "건강검진에서 \"콜레스테롤이 높다\"는 말을 들었을 때,"
       },
       {
         "file": "part1-overview",
-        "line": 391,
+        "line": 504,
         "context": "- **3부**에서는 콜레스테롤의 진실, 장 건강, 탄수화물과 식물성 기름의 함정을 파헤친다"
       },
       {
         "file": "part2-chapter01",
-        "line": 136,
+        "line": 32,
+        "context": "여기서 한 가지 생각해볼 점이 있다. 만약 포화지방이 정말로 만성질환의 원인이고 식물성 식단이 해답이었다면, 보충제도 스타틴도 없이 동물성 지방"
+      },
+      {
+        "file": "part2-chapter01",
+        "line": 148,
         "context": "적은 양으로도 뇌가 필요로 하는 DHA, 아라키돈산, 콜레스테롤을"
       },
       {
@@ -7571,12 +7906,12 @@
       },
       {
         "file": "part1-overview",
-        "line": 287,
+        "line": 395,
         "context": "| **2단계** | 타이트 정션(세포 간 밀착 연결) 파괴 | zonulin 분비 증가 |"
       },
       {
         "file": "part1-overview",
-        "line": 296,
+        "line": 409,
         "context": "세포 사이의 타이트 정션이 느슨해진다."
       },
       {
@@ -7598,27 +7933,27 @@
     "트랜스 지방": [
       {
         "file": "part1-overview",
-        "line": 236,
+        "line": 322,
         "context": "## 트랜스 지방 — 역사적 아이러니"
       },
       {
         "file": "part1-overview",
-        "line": 239,
+        "line": 325,
         "context": "이 과정에서 생성되는 트랜스 지방은"
       },
       {
         "file": "part2-chapter03",
-        "line": 59,
+        "line": 52,
         "context": "**트랜스 지방의 역사:**"
       },
       {
         "file": "part2-chapter03",
-        "line": 61,
+        "line": 54,
         "context": "이 과정에서 생성되는 트랜스 지방은"
       },
       {
         "file": "part2-chapter03",
-        "line": 107,
+        "line": 100,
         "context": "트랜스 지방과 알데하이드 생성이 증가한다는 연구가 있다"
       },
       {
@@ -7640,7 +7975,7 @@
       },
       {
         "file": "part1-chapter01",
-        "line": 197,
+        "line": 201,
         "context": "1980년대 미국에서 시작된 저지방 신화 — \"포화지방이 심장병을 일으킨다\"는 주장 — 이"
       },
       {
@@ -7652,6 +7987,11 @@
         "file": "part1-chapter03a",
         "line": 3,
         "context": "> **이 장의 핵심:** 앞선 두 장에서 우리는 인류가 수십만 년간 동물성 지방을 주식으로 삼아 건강하게 살았음을 확인했다. 그런데 \"포화지방"
+      },
+      {
+        "file": "part1-chapter03a",
+        "line": 15,
+        "context": "**앤셀 키스(Ancel Keys, 1904~2004)**였다. 그는 100세까지 살았는데, 아이러니하게도 키스 본인은 자신이 대중에게 권장한 "
       },
       {
         "file": "part1-chapter03a",
@@ -7786,7 +8126,7 @@
       {
         "file": "part1-chapter03b",
         "line": 179,
-        "context": "그들은 포화지방이 아니라 **지중해식 식단의 다른 요소들**을 원인으로 제시했지만,"
+        "context": "그들은 포화지방이 아니라 **지중해식 식단의 다른 요소들**(올리브유, 와인 등)을 원인으로 제시했지만,"
       },
       {
         "file": "part1-chapter03b",
@@ -7795,102 +8135,112 @@
       },
       {
         "file": "part1-chapter03b",
-        "line": 185,
+        "line": 187,
         "context": "그 지방의 상당 부분은 포화지방과 동물성 지방이다."
       },
       {
         "file": "part1-chapter03b",
-        "line": 228,
+        "line": 231,
         "context": "\"포화지방 = 나쁜 것\"이라는 공식이 70년간 유지됐다."
       },
       {
         "file": "part1-chapter03b",
-        "line": 248,
-        "context": "그러나 포화지방에 대한 제한은 여전히 유지되고 있다."
+        "line": 251,
+        "context": "그러나 포화지방에 대한 제한은 공식적으로 여전히 유지되고 있다."
       },
       {
         "file": "part1-chapter03c",
-        "line": 74,
+        "line": 40,
+        "context": "핵심은 **산화와 염증**이다. 포화지방 자체는 산화에 강하고 안정적인 구조이므로 이 과정을 촉발하지 않는다. 반면 오메가-6 다가불포화지방산("
+      },
+      {
+        "file": "part1-chapter03c",
+        "line": 83,
         "context": "그런데 식물성 다가불포화지방산(오메가-6 등)은"
       },
       {
         "file": "part1-chapter03c",
-        "line": 85,
+        "line": 94,
         "context": "상온에서 굳는 포화지방이 아니라,"
       },
       {
         "file": "part1-chapter03c",
-        "line": 86,
+        "line": 95,
         "context": "상온에서 액체인 불포화지방이 산화되어 플라크를 이루고 있었다."
       },
       {
         "file": "part1-chapter03c",
-        "line": 90,
+        "line": 99,
         "context": "### Q3. \"그럼 포화지방이 콜레스테롤을 올린다는 것도 거짓말인가요?\""
       },
       {
         "file": "part1-chapter03c",
-        "line": 94,
+        "line": 103,
         "context": "포화지방은 LDL 콜레스테롤을 올릴 수 있다. 이것은 사실이다."
       },
       {
         "file": "part1-chapter03c",
-        "line": 101,
+        "line": 110,
         "context": "포화지방은 **Pattern A(무해한 유형)**를 주로 증가시킨다."
       },
       {
         "file": "part1-chapter03c",
-        "line": 109,
+        "line": 118,
         "context": "포화지방이 LDL 수치를 올려도, 그것이 심장병 위험을 높이지 않는 이유가 여기에 있다."
       },
       {
         "file": "part1-chapter03c",
-        "line": 119,
+        "line": 128,
         "context": "| **숨겨진 데이터** | 미네소타 관상동맥 실험 — 포화지방 그룹이 더 건강했지만 40년간 미발표 |"
       },
       {
         "file": "part1-chapter03c",
-        "line": 121,
+        "line": 130,
         "context": "| **반박 메타분석** | 34만 명(2010), 60만 명(2014) 분석 → 포화지방-심장병 무관 |"
       },
       {
         "file": "part1-chapter03c",
-        "line": 123,
+        "line": 132,
         "context": "| **코크란 리뷰** | 56,675명 RCT → 포화지방 감소가 전체 사망률 줄이지 않음 |"
       },
       {
         "file": "part1-overview",
-        "line": 98,
+        "line": 136,
         "context": "그리고 sdLDL을 만드는 것은 포화지방이 아니라 **탄수화물 과잉 + 인슐린 저항성**이다."
       },
       {
         "file": "part1-overview",
-        "line": 216,
+        "line": 282,
         "context": "피부 세포막에 다불포화지방산(PUFA)이 많으면"
       },
       {
         "file": "part1-overview",
-        "line": 365,
+        "line": 478,
         "context": "- 산화에 취약한 다불포화지방산이 **적다**"
       },
       {
         "file": "part1-overview",
-        "line": 369,
+        "line": 482,
         "context": "완전한 단백질, 안정적인 포화지방, 생체이용률 100%의 미네랄과 비타민."
       },
       {
+        "file": "part2-chapter01",
+        "line": 32,
+        "context": "여기서 한 가지 생각해볼 점이 있다. 만약 포화지방이 정말로 만성질환의 원인이고 식물성 식단이 해답이었다면, 보충제도 스타틴도 없이 동물성 지방"
+      },
+      {
         "file": "part2-chapter03",
-        "line": 37,
+        "line": 30,
         "context": "\"포화지방은 나쁘고, 불포화지방은 좋다.\""
       },
       {
         "file": "part2-chapter03",
-        "line": 92,
+        "line": 85,
         "context": "이 과정에서 다가불포화지방산은 **열, 화학물질, 산소에 반복적으로 노출**된다."
       },
       {
         "file": "part2-chapter03",
-        "line": 110,
+        "line": 103,
         "context": "반면 포화지방(우지, 라드, 코코넛 오일)은 구조적으로 안정적이어서"
       },
       {
@@ -8002,32 +8352,42 @@
       },
       {
         "file": "part1-overview",
-        "line": 268,
+        "line": 354,
         "context": "| **피틴산** | 현미, 견과, 콩 | 철·아연·칼슘·마그네슘에 결합 → 흡수 차단 |"
       },
       {
         "file": "part1-overview",
-        "line": 308,
+        "line": 376,
+        "context": "콩에는 렉틴, 피틴산, 사포닌, 이소플라본이 **동시에** 존재한다."
+      },
+      {
+        "file": "part1-overview",
+        "line": 377,
+        "context": "렉틴이 장벽을 공격하고, 피틴산이 미네랄 흡수를 차단하며,"
+      },
+      {
+        "file": "part1-overview",
+        "line": 421,
         "context": "피틴산은 철, 아연, 칼슘, 마그네슘과 결합하여"
       },
       {
         "file": "part1-overview",
-        "line": 311,
+        "line": 424,
         "context": "정작 그 미네랄의 상당 부분은 피틴산에 묶여 그대로 배출된다."
       },
       {
         "file": "part1-overview",
-        "line": 337,
+        "line": 450,
         "context": "- **콩나물/두부** = 렉틴 + 피틴산 + 이소플라본(항영양소)"
       },
       {
         "file": "part2-chapter01",
-        "line": 40,
+        "line": 52,
         "context": "반면 식물 위주의 식단은 셀룰로오스·피틴산·섬유질이 많아"
       },
       {
         "file": "part2-chapter03",
-        "line": 160,
+        "line": 153,
         "context": "가공식품을 끊어도 \"자연 식물\"에는 렉틴, 옥살산, 피틴산, 사포닌 등"
       },
       {
@@ -8084,57 +8444,62 @@
       },
       {
         "file": "part1-overview",
-        "line": 247,
+        "line": 333,
         "context": "# 제3축: 항영양소 — 장벽을 허무는 식물의 무기"
       },
       {
         "file": "part1-overview",
-        "line": 255,
+        "line": 341,
         "context": "대신 **독소(toxins)와 항영양소(antinutrients)**라는 화학적 무기로 자신을 보호한다."
       },
       {
         "file": "part1-overview",
-        "line": 262,
+        "line": 348,
         "context": "## 주요 항영양소와 그 공격 방식"
       },
       {
         "file": "part1-overview",
-        "line": 280,
+        "line": 383,
+        "context": "네 가지 항영양소를 동시에 섭취해야 한다는 사실은 언급하지 않는다."
+      },
+      {
+        "file": "part1-overview",
+        "line": 388,
         "context": "항영양소의 가장 파괴적인 공격은 **장벽**을 향한다."
       },
       {
         "file": "part1-overview",
-        "line": 306,
+        "line": 419,
         "context": "항영양소의 두 번째 공격은 **미네랄 흡수 차단**이다."
       },
       {
         "file": "part1-overview",
-        "line": 325,
+        "line": 438,
         "context": "| 공격축 | 탄수화물 | 식물성 기름 | 항영양소 |"
       },
       {
         "file": "part1-overview",
-        "line": 334,
+        "line": 447,
         "context": "- **빵** = 글루텐(항영양소) + 정제 탄수화물(인슐린)"
       },
       {
         "file": "part1-overview",
-        "line": 337,
+        "line": 450,
         "context": "- **콩나물/두부** = 렉틴 + 피틴산 + 이소플라본(항영양소)"
       },
       {
         "file": "part1-overview",
-        "line": 358,
+        "line": 471,
         "context": "| 항영양소 제거 | 장벽 재건 → 면역 정상화 → 염증 감소 |"
       },
       {
         "file": "part1-overview",
-        "line": 366,
+        "line": 479,
         "context": "- 장벽을 공격하는 항영양소가 **없다**"
       },
       {
         "file": "part1-overview",
-        "line": 400,
+        "line": 513,
         "context": "> **기억할 한 문장:** 현대인의 만성질환은 수십 가지로 보이지만, 원인은 세 가지다 — 탄수화물이 인슐린을 망가뜨리고, 식물성 기름이 세포"
       },
       {
@@ -8144,13 +8509,8 @@
       },
       {
         "file": "part2-chapter03",
-        "line": 26,
-        "context": "→ 독소·항영양소도 다양하게 누적됨"
-      },
-      {
-        "file": "part2-chapter03",
-        "line": 29,
-        "context": "반면 동물성 식품은 어떤가? 2부의 스테이크 200g 비교표를 다시 보자. 소고기 한 접시로 철분, 아연, B12, 완전 단백질, DHA가 한꺼"
+        "line": 22,
+        "context": "반면 동물성 식품은 어떤가? 앞서 2부에서 살펴본 스테이크 200g 비교표를 떠올려보자. 소고기 한 접시로 철분, 아연, B12, 완전 단백질,"
       },
       {
         "file": "part3-chapter02a",
