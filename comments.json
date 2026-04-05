@@ -1,8 +1,8 @@
 {
   "project": "카니보어 탈고",
-  "updatedAt": "2026-04-05T07:46:07.676Z",
-  "totalComments": 7,
-  "pending": 7,
+  "updatedAt": "2026-04-05T07:47:51.130Z",
+  "totalComments": 8,
+  "pending": 8,
   "fixed": 0,
   "comments": [
     {
@@ -87,6 +87,18 @@
       "text": "자료를 찾고 문장을 다듬고 논리를 정리하는 거의 모든 과정에서 AI의 도움을 받았음을 솔직히 고백한다. 나의 배움은 나혼자만 간직하고 세상의 편견과 맞서 싸울 수 있을 만큼이지 남을 설득하고 바꾸어나갈 만큼의 실력은 쌓지 못했기에 AI가 결정적인 역할을 해주었다",
       "status": "pending",
       "createdAt": "2026-04-05T07:46:07.676Z",
+      "fixedAt": null
+    },
+    {
+      "id": "mnlglihm",
+      "targetId": "part1-overview-20",
+      "file": "part1-overview",
+      "line": 20,
+      "excerpt": "\n4단계\n과잉 인슐린 → 지방 저장 촉진 + 지방 분해 차단 → 비만 + 만성 피로\n창고에 물건만 쌓이고 꺼낼 수 없다\n",
+      "selectedWord": "",
+      "text": "만성피로가 왜생기지???",
+      "status": "pending",
+      "createdAt": "2026-04-05T07:47:51.130Z",
       "fixedAt": null
     }
   ]
