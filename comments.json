@@ -1,8 +1,8 @@
 {
   "project": "카니보어 탈고",
-  "updatedAt": "2026-04-05T11:08:14.630Z",
-  "totalComments": 51,
-  "pending": 51,
+  "updatedAt": "2026-04-05T11:08:40.716Z",
+  "totalComments": 52,
+  "pending": 52,
   "fixed": 0,
   "comments": [
     {
@@ -615,6 +615,18 @@
       "text": "가장 문제있는 의문인데, 과거 천동설이 대세일때 지동설은 설 자리를 잃었다. 그렇다고해서 지동설이 진실이 아니진 않았다. 과학적인 증거는 그 뒤에 뒤집히는 사례가 늘 존재했다. 실험적 증거가 없다고 그게 거짓은 아니다. 이런 논조가 더 적절할거 같아",
       "status": "pending",
       "createdAt": "2026-04-05T11:08:14.630Z",
+      "fixedAt": null
+    },
+    {
+      "id": "mnlnrs0c",
+      "targetId": "part2-chapter03-76",
+      "file": "part2-chapter03",
+      "line": 76,
+      "excerpt": "둘째, 과학적 관찰도 쌓이고 있다.\n1928~29년, 북극 탐험가 빌히알무르 스테판슨(Vilhjalmur Stefansson)과 동료 카스텐 앤더슨(Karsten Andersen)",
+      "selectedWord": "",
+      "text": "이거 건강하게 살았던 사람들에서 이미 언급된 내용들이 중언 부언되고 있어, 이쪽이 전반적으로 그런거 같아",
+      "status": "pending",
+      "createdAt": "2026-04-05T11:08:40.716Z",
       "fixedAt": null
     }
   ]
