@@ -1,0 +1,852 @@
+#!/usr/bin/env python3
+"""
+카니보어 원고 탈고 리더 생성기
+마크다운 원고 → HTML 이북 리더 (코멘트 + 수정 상태 추적)
+GitHub Pages 배포용 docs/index.html 출력
+"""
+
+import re
+import os
+import html
+import markdown
+
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+CHAPTERS_DIR = os.path.join(BASE_DIR, "chapters")
+DOCS_DIR = os.path.join(BASE_DIR, "docs")
+OUTPUT_HTML = os.path.join(DOCS_DIR, "index.html")
+
+# 빌드 순서 (generate_book_latex.py와 동일)
+CHAPTERS = [
+    ("chapters/preface.md", None),
+    (None, ("제1부", "우리는 왜 아플까?")),
+    ("chapters/part1-overview.md", None),
+    ("chapters/part1-chapter01.md", None),
+    ("chapters/part1-chapter02.md", None),
+    ("chapters/part1-chapter03a.md", None),
+    ("chapters/part1-chapter03b.md", None),
+    ("chapters/part1-chapter03c.md", None),
+    (None, ("제2부", "회복의 시작 — 본래의 식단으로 돌아가다")),
+    ("chapters/part2-intro.md", None),
+    ("chapters/part2-chapter01.md", None),
+    ("chapters/part2-chapter02.md", None),
+    ("chapters/part2-chapter03.md", None),
+    (None, ("제3부", "잃어버린 균형 — 식물 문명이 만든 병든 인류")),
+    ("chapters/part3-intro.md", None),
+    ("chapters/part3-chapter01.md", None),
+    ("chapters/part3-chapter02a.md", None),
+    ("chapters/part3-chapter02b.md", None),
+    ("chapters/part3-chapter02c.md", None),
+    (None, ("제4부", "잘못된 믿음과 진실의 회복")),
+    ("chapters/part4-intro.md", None),
+    ("chapters/part4-chapter01.md", None),
+    ("chapters/part4-chapter02.md", None),
+    ("chapters/part4-chapter03.md", None),
+    (None, ("제5부", "실천 가이드 — 카니보어 시작하기")),
+    ("chapters/part5-intro.md", None),
+    ("chapters/part5-chapter01.md", None),
+    ("chapters/part5-chapter02.md", None),
+    ("chapters/part5-chapter03.md", None),
+    ("chapters/part5-chapter04.md", None),
+    ("chapters/part5-chapter05.md", None),
+    (None, ("제6부", "자주 묻는 질문과 사례")),
+    ("chapters/part6-intro.md", None),
+    ("chapters/part6-chapter01.md", None),
+    ("chapters/part6-chapter02a.md", None),
+    ("chapters/part6-chapter02b.md", None),
+    ("chapters/part6-chapter03.md", None),
+    ("chapters/epilogue.md", None),
+    ("chapters/appendix-a.md", None),
+    ("chapters/appendix-b.md", None),
+    ("chapters/appendix-c.md", None),
+]
+
+
+def add_paragraph_ids(html_content, file_id):
+    """HTML 블록 요소에 고유 ID 부여"""
+    counter = [0]
+    tags = r'(<(?:p|h[1-6]|li|blockquote|tr|pre))([ >])'
+
+    def replacer(m):
+        counter[0] += 1
+        pid = f"{file_id}-{counter[0]}"
+        return f'{m.group(1)} id="{pid}" data-file="{file_id}" data-line="{counter[0]}"{m.group(2)}'
+
+    return re.sub(tags, replacer, html_content)
+
+
+def build_content():
+    """모든 챕터를 HTML로 변환"""
+    sections = []
+    md_ext = markdown.Markdown(extensions=['tables', 'fenced_code'])
+
+    for entry in CHAPTERS:
+        filepath, part_info = entry
+
+        if filepath is None and part_info:
+            part_num, part_title = part_info
+            sections.append(
+                f'<div class="part-divider" id="part-{part_num}">'
+                f'<h1>{part_num}</h1><p>{part_title}</p></div>'
+            )
+            continue
+
+        full_path = os.path.join(BASE_DIR, filepath)
+        if not os.path.exists(full_path):
+            continue
+
+        file_id = os.path.basename(filepath).replace('.md', '')
+        with open(full_path, 'r', encoding='utf-8') as f:
+            text = f.read()
+
+        md_ext.reset()
+        html_content = md_ext.convert(text)
+        html_content = add_paragraph_ids(html_content, file_id)
+
+        sections.append(
+            f'<section class="chapter" data-file="{file_id}">'
+            f'<div class="chapter-label">{filepath}</div>'
+            f'{html_content}'
+            f'</section>'
+        )
+
+    return '\n'.join(sections)
+
+
+HTML_TEMPLATE = """<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<title>카니보어 탈고 리더</title>
+<style>
+:root {
+  --bg: #fafaf8;
+  --text: #1a1a1a;
+  --sidebar-bg: #f0f0ed;
+  --accent: #c85a2a;
+  --comment-bg: #fff8e1;
+  --fixed-bg: #e8f5e9;
+  --pending-bg: #fff3e0;
+  --border: #ddd;
+  --highlight: rgba(200, 90, 42, 0.08);
+  --highlight-fixed: rgba(76, 175, 80, 0.08);
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  font-family: 'Noto Serif KR', 'Batang', Georgia, serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.85;
+  font-size: 17px;
+}
+
+/* 레이아웃 */
+.layout {
+  display: flex;
+  min-height: 100vh;
+}
+.toc-panel {
+  width: 260px;
+  background: var(--sidebar-bg);
+  border-right: 1px solid var(--border);
+  padding: 20px 16px;
+  position: fixed;
+  top: 0; left: 0; bottom: 0;
+  overflow-y: auto;
+  z-index: 100;
+  transition: transform 0.3s;
+}
+.toc-panel h2 { font-size: 15px; margin-bottom: 12px; color: var(--accent); }
+.toc-panel ul { list-style: none; }
+.toc-panel li { margin: 4px 0; }
+.toc-panel a {
+  text-decoration: none; color: var(--text); font-size: 13px;
+  display: block; padding: 3px 8px; border-radius: 4px;
+}
+.toc-panel a:hover { background: rgba(0,0,0,0.05); }
+.toc-panel a.part { font-weight: bold; color: var(--accent); margin-top: 12px; }
+
+.content-area {
+  flex: 1;
+  margin-left: 260px;
+  margin-right: 0;
+  padding: 40px 60px;
+  max-width: 800px;
+  transition: margin 0.3s;
+}
+.comment-panel {
+  width: 360px;
+  background: var(--sidebar-bg);
+  border-left: 1px solid var(--border);
+  position: fixed;
+  top: 0; right: 0; bottom: 0;
+  overflow-y: auto;
+  padding: 20px 16px;
+  z-index: 100;
+  transition: transform 0.3s;
+}
+.comment-panel.open ~ .content-area { margin-right: 360px; }
+
+/* 콘텐츠 스타일 */
+.chapter { margin-bottom: 60px; }
+.chapter-label {
+  font-size: 11px; color: #999; background: #eee;
+  display: inline-block; padding: 2px 8px; border-radius: 3px;
+  margin-bottom: 16px;
+}
+.content-area h1 { font-size: 26px; margin: 40px 0 20px; border-bottom: 2px solid var(--accent); padding-bottom: 8px; }
+.content-area h2 { font-size: 21px; margin: 32px 0 16px; }
+.content-area h3 { font-size: 18px; margin: 24px 0 12px; }
+.content-area p { margin: 12px 0; text-align: justify; }
+.content-area table { border-collapse: collapse; width: 100%; margin: 16px 0; font-size: 15px; }
+.content-area th, .content-area td { border: 1px solid var(--border); padding: 8px 12px; }
+.content-area th { background: var(--sidebar-bg); font-weight: bold; }
+.content-area blockquote {
+  border-left: 4px solid var(--accent); padding: 12px 20px;
+  margin: 16px 0; background: rgba(200,90,42,0.04);
+}
+.content-area pre {
+  background: #2d2d2d; color: #f8f8f2; padding: 16px;
+  border-radius: 6px; overflow-x: auto; font-size: 14px;
+  margin: 16px 0;
+}
+.content-area code { font-family: 'Consolas', monospace; }
+.content-area ul, .content-area ol { margin: 12px 0; padding-left: 28px; }
+
+/* 문단 호버/클릭 */
+.content-area [id] {
+  cursor: pointer;
+  border-left: 3px solid transparent;
+  padding-left: 8px;
+  transition: all 0.15s;
+  position: relative;
+}
+.content-area [id]:hover {
+  background: rgba(0,0,0,0.02);
+  border-left-color: #ccc;
+}
+.content-area [id].has-comment {
+  background: var(--highlight);
+  border-left-color: var(--accent);
+}
+.content-area [id].is-fixed {
+  background: var(--highlight-fixed);
+  border-left-color: #4caf50;
+}
+.content-area [id].has-comment::after,
+.content-area [id].is-fixed::after {
+  content: attr(data-comment-count);
+  position: absolute;
+  right: -8px; top: 2px;
+  background: var(--accent);
+  color: white;
+  font-size: 11px;
+  width: 20px; height: 20px;
+  border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+}
+.content-area [id].is-fixed::after { background: #4caf50; }
+
+/* 파트 구분 */
+.part-divider {
+  text-align: center;
+  padding: 60px 20px;
+  margin: 40px 0;
+  border-top: 2px solid var(--accent);
+  border-bottom: 2px solid var(--accent);
+}
+.part-divider h1 { font-size: 28px; color: var(--accent); border: none; }
+.part-divider p { font-size: 18px; margin-top: 8px; color: #666; }
+
+/* 코멘트 패널 */
+.comment-panel h2 { font-size: 15px; margin-bottom: 12px; color: var(--accent); }
+.comment-card {
+  background: var(--comment-bg);
+  border: 1px solid #e0d8b0;
+  border-radius: 8px;
+  padding: 12px;
+  margin-bottom: 12px;
+  font-size: 14px;
+}
+.comment-card.fixed { background: var(--fixed-bg); border-color: #a5d6a7; }
+.comment-card .meta {
+  font-size: 11px; color: #888; margin-bottom: 6px;
+  display: flex; justify-content: space-between; align-items: center;
+}
+.comment-card .meta a { color: var(--accent); cursor: pointer; text-decoration: underline; }
+.comment-card .excerpt {
+  font-size: 12px; color: #666; margin-bottom: 8px;
+  border-left: 2px solid #ccc; padding-left: 8px;
+  max-height: 40px; overflow: hidden;
+}
+.comment-card .text { margin-bottom: 8px; white-space: pre-wrap; }
+.comment-card .actions { display: flex; gap: 8px; }
+.comment-card .actions button {
+  font-size: 12px; padding: 4px 10px; border-radius: 4px;
+  border: 1px solid var(--border); background: white; cursor: pointer;
+}
+.comment-card .actions button.fix-btn { background: #4caf50; color: white; border: none; }
+.comment-card .actions button.del-btn { color: #e53935; }
+
+/* 코멘트 입력 */
+.comment-input-area {
+  position: fixed;
+  bottom: 0; right: 0;
+  width: 360px;
+  background: white;
+  border-top: 2px solid var(--accent);
+  padding: 16px;
+  z-index: 200;
+  display: none;
+}
+.comment-input-area.active { display: block; }
+.comment-input-area .target-info { font-size: 12px; color: #888; margin-bottom: 8px; }
+.comment-input-area textarea {
+  width: 100%; height: 80px; border: 1px solid var(--border);
+  border-radius: 6px; padding: 10px; font-size: 14px;
+  font-family: inherit; resize: vertical;
+}
+.comment-input-area .input-actions { margin-top: 8px; display: flex; gap: 8px; justify-content: flex-end; }
+.comment-input-area .input-actions button {
+  padding: 8px 20px; border-radius: 6px; border: none; cursor: pointer; font-size: 14px;
+}
+.comment-input-area .save-btn { background: var(--accent); color: white; }
+.comment-input-area .cancel-btn { background: #eee; }
+
+/* 툴바 */
+.toolbar {
+  position: fixed;
+  top: 0; left: 260px; right: 0;
+  background: white;
+  border-bottom: 1px solid var(--border);
+  padding: 8px 20px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  z-index: 150;
+  font-size: 13px;
+}
+.toolbar button {
+  padding: 6px 14px; border-radius: 6px; border: 1px solid var(--border);
+  background: white; cursor: pointer; font-size: 13px;
+}
+.toolbar button:hover { background: #f5f5f5; }
+.toolbar button.active { background: var(--accent); color: white; border-color: var(--accent); }
+.toolbar .stats { margin-left: auto; color: #888; }
+.toolbar .stats span { font-weight: bold; color: var(--accent); }
+
+.content-area { padding-top: 70px; }
+
+/* 모바일 */
+@media (max-width: 900px) {
+  .toc-panel { transform: translateX(-100%); }
+  .toc-panel.open { transform: translateX(0); }
+  .content-area { margin-left: 0; padding: 70px 20px 20px; max-width: 100%; }
+  .comment-panel { width: 100%; transform: translateX(100%); }
+  .comment-panel.open { transform: translateX(0); }
+  .comment-input-area { width: 100%; }
+  .toolbar { left: 0; }
+  .toolbar .menu-btn { display: inline-block !important; }
+}
+@media (min-width: 901px) {
+  .toolbar .menu-btn { display: none; }
+}
+
+/* 스크롤바 */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-thumb { background: #ccc; border-radius: 3px; }
+
+/* 검색 하이라이트 */
+mark { background: #ffeb3b; padding: 0 2px; border-radius: 2px; }
+
+/* 필터 */
+.filter-bar { margin-bottom: 12px; display: flex; gap: 6px; }
+.filter-bar button {
+  font-size: 11px; padding: 4px 8px; border-radius: 4px;
+  border: 1px solid var(--border); background: white; cursor: pointer;
+}
+.filter-bar button.active { background: var(--accent); color: white; border-color: var(--accent); }
+</style>
+</head>
+<body>
+
+<!-- 목차 패널 -->
+<nav class="toc-panel" id="tocPanel">
+  <h2>📖 목차</h2>
+  <ul id="tocList"></ul>
+</nav>
+
+<!-- 툴바 -->
+<div class="toolbar">
+  <button class="menu-btn" onclick="toggleToc()">☰</button>
+  <button onclick="toggleComments()" id="commentToggle">💬 코멘트</button>
+  <button onclick="exportComments()">📤 내보내기</button>
+  <button onclick="importComments()">📥 가져오기</button>
+  <input type="file" id="importFile" accept=".json" style="display:none" onchange="handleImport(event)">
+  <button onclick="setupToken()">🔑 GitHub</button>
+  <span id="syncIndicator" title="동기화 상태">☁️</span>
+  <div class="stats">
+    코멘트 <span id="statTotal">0</span>개 |
+    미수정 <span id="statPending">0</span> |
+    완료 <span id="statFixed">0</span>
+  </div>
+</div>
+
+<!-- 콘텐츠 영역 -->
+<main class="content-area" id="contentArea">
+{{CONTENT}}
+</main>
+
+<!-- 코멘트 패널 -->
+<aside class="comment-panel" id="commentPanel">
+  <h2>💬 코멘트 목록</h2>
+  <div class="filter-bar">
+    <button class="active" onclick="filterComments('all', this)">전체</button>
+    <button onclick="filterComments('pending', this)">미수정</button>
+    <button onclick="filterComments('fixed', this)">완료</button>
+  </div>
+  <div id="commentList"></div>
+</aside>
+
+<!-- 코멘트 입력 -->
+<div class="comment-input-area" id="commentInput">
+  <div class="target-info" id="targetInfo"></div>
+  <textarea id="commentText" placeholder="수정 지시 사항을 입력하세요..."></textarea>
+  <div class="input-actions">
+    <button class="cancel-btn" onclick="cancelComment()">취소</button>
+    <button class="save-btn" onclick="saveComment()">저장</button>
+  </div>
+</div>
+
+<script>
+// ── GitHub 설정 ──
+const GITHUB_OWNER = 'ReachToWisdom';
+const GITHUB_REPO = 'carnivore';
+const COMMENTS_PATH = 'comments.json';
+const BRANCH = 'main';
+
+// ── 상태 ──
+let comments = [];
+let selectedEl = null;
+let currentFilter = 'all';
+let commentPanelOpen = window.innerWidth > 900;
+let ghToken = localStorage.getItem('gh-token') || '';
+let fileSha = null; // GitHub 파일 SHA (업데이트 시 필요)
+let syncStatus = 'idle'; // idle | syncing | error
+
+// ── GitHub API ──
+async function ghLoadComments() {
+  if (!ghToken) return loadLocal();
+  setSyncStatus('syncing');
+  try {
+    const res = await fetch(
+      `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/${COMMENTS_PATH}?ref=${BRANCH}`,
+      { headers: { 'Authorization': `token ${ghToken}`, 'Accept': 'application/vnd.github.v3+json' } }
+    );
+    if (res.status === 404) {
+      // 파일 없음 — 로컬에서 시작
+      fileSha = null;
+      setSyncStatus('idle');
+      return loadLocal();
+    }
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const data = await res.json();
+    fileSha = data.sha;
+    const content = JSON.parse(atob(data.content));
+    comments = content.comments || content || [];
+    localStorage.setItem('carnivore-comments', JSON.stringify(comments));
+    setSyncStatus('idle');
+  } catch (err) {
+    console.error('GitHub load failed:', err);
+    setSyncStatus('error');
+    loadLocal();
+  }
+}
+
+async function ghSaveComments() {
+  if (!ghToken) { persistLocal(); return; }
+  setSyncStatus('syncing');
+  const payload = {
+    project: '카니보어 탈고',
+    updatedAt: new Date().toISOString(),
+    totalComments: comments.length,
+    pending: comments.filter(c => c.status === 'pending').length,
+    fixed: comments.filter(c => c.status === 'fixed').length,
+    comments: comments
+  };
+  const body = {
+    message: `탈고: 코멘트 ${comments.length}개 (미수정 ${payload.pending})`,
+    content: btoa(unescape(encodeURIComponent(JSON.stringify(payload, null, 2)))),
+    branch: BRANCH
+  };
+  if (fileSha) body.sha = fileSha;
+  try {
+    const res = await fetch(
+      `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/${COMMENTS_PATH}`,
+      {
+        method: 'PUT',
+        headers: { 'Authorization': `token ${ghToken}`, 'Content-Type': 'application/json' },
+        body: JSON.stringify(body)
+      }
+    );
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const data = await res.json();
+    fileSha = data.content.sha;
+    setSyncStatus('idle');
+  } catch (err) {
+    console.error('GitHub save failed:', err);
+    setSyncStatus('error');
+  }
+  persistLocal(); // 항상 로컬에도 백업
+}
+
+function loadLocal() {
+  comments = JSON.parse(localStorage.getItem('carnivore-comments') || '[]');
+}
+function persistLocal() {
+  localStorage.setItem('carnivore-comments', JSON.stringify(comments));
+}
+
+function setSyncStatus(s) {
+  syncStatus = s;
+  const el = document.getElementById('syncIndicator');
+  if (!el) return;
+  el.textContent = s === 'syncing' ? '🔄' : s === 'error' ? '⚠️ 오프라인' : '☁️';
+  el.title = s === 'syncing' ? '동기화 중...' : s === 'error' ? 'GitHub 연결 실패 (로컬 저장 중)' : 'GitHub 동기화 완료';
+}
+
+function setupToken() {
+  const token = prompt(
+    'GitHub Personal Access Token을 입력하세요.\\n'
+    + '(repo 권한 필요, Settings > Developer settings > Fine-grained tokens)\\n'
+    + '비워두면 로컬 전용 모드로 전환됩니다.',
+    ghToken
+  );
+  if (token === null) return;
+  ghToken = token.trim();
+  if (ghToken) {
+    localStorage.setItem('gh-token', ghToken);
+  } else {
+    localStorage.removeItem('gh-token');
+  }
+  ghLoadComments().then(() => {
+    renderComments();
+    updateStats();
+    applyCommentMarkers();
+  });
+}
+
+// ── 초기화 ──
+document.addEventListener('DOMContentLoaded', async () => {
+  buildToc();
+  await ghLoadComments();
+  renderComments();
+  updateStats();
+  applyCommentMarkers();
+  if (commentPanelOpen) document.getElementById('commentPanel').classList.add('open');
+
+  // 문단 클릭 이벤트
+  document.getElementById('contentArea').addEventListener('click', (e) => {
+    const el = e.target.closest('[id]');
+    if (!el || !el.dataset.file) return;
+    selectedEl = el;
+    const info = document.getElementById('targetInfo');
+    const excerpt = el.textContent.substring(0, 80) + (el.textContent.length > 80 ? '...' : '');
+    info.textContent = `📍 ${el.dataset.file} #${el.dataset.line}: ${excerpt}`;
+    document.getElementById('commentInput').classList.add('active');
+    document.getElementById('commentText').focus();
+    if (!commentPanelOpen) toggleComments();
+  });
+
+  // Ctrl+Enter로 저장
+  document.getElementById('commentText').addEventListener('keydown', (e) => {
+    if (e.key === 'Enter' && (e.ctrlKey || e.metaKey)) {
+      e.preventDefault();
+      saveComment();
+    }
+  });
+});
+
+// ── 목차 빌드 ──
+function buildToc() {
+  const list = document.getElementById('tocList');
+  const parts = document.querySelectorAll('.part-divider');
+  const chapters = document.querySelectorAll('.chapter');
+
+  parts.forEach(p => {
+    const h = p.querySelector('h1');
+    const sub = p.querySelector('p');
+    const li = document.createElement('li');
+    const a = document.createElement('a');
+    a.className = 'part';
+    a.href = '#' + p.id;
+    a.textContent = h.textContent + ' ' + (sub ? sub.textContent : '');
+    li.appendChild(a);
+    list.appendChild(li);
+  });
+
+  chapters.forEach(c => {
+    const h = c.querySelector('h1');
+    if (!h) return;
+    const li = document.createElement('li');
+    const a = document.createElement('a');
+    a.href = '#' + h.id;
+    a.textContent = h.textContent.substring(0, 30);
+    li.appendChild(a);
+    list.appendChild(li);
+  });
+}
+
+// ── 코멘트 CRUD ──
+function saveComment() {
+  const text = document.getElementById('commentText').value.trim();
+  if (!text || !selectedEl) return;
+
+  const comment = {
+    id: Date.now().toString(36),
+    targetId: selectedEl.id,
+    file: selectedEl.dataset.file,
+    line: parseInt(selectedEl.dataset.line),
+    excerpt: selectedEl.textContent.substring(0, 100),
+    text: text,
+    status: 'pending', // pending | fixed
+    createdAt: new Date().toISOString(),
+    fixedAt: null
+  };
+
+  comments.push(comment);
+  ghSaveComments();
+  renderComments();
+  updateStats();
+  applyCommentMarkers();
+  cancelComment();
+}
+
+function cancelComment() {
+  document.getElementById('commentInput').classList.remove('active');
+  document.getElementById('commentText').value = '';
+  selectedEl = null;
+}
+
+function toggleFixed(id) {
+  const c = comments.find(x => x.id === id);
+  if (!c) return;
+  if (c.status === 'pending') {
+    c.status = 'fixed';
+    c.fixedAt = new Date().toISOString();
+  } else {
+    c.status = 'pending';
+    c.fixedAt = null;
+  }
+  ghSaveComments();
+  renderComments();
+  updateStats();
+  applyCommentMarkers();
+}
+
+function deleteComment(id) {
+  if (!confirm('이 코멘트를 삭제할까요?')) return;
+  comments = comments.filter(x => x.id !== id);
+  ghSaveComments();
+  renderComments();
+  updateStats();
+  applyCommentMarkers();
+}
+
+function editComment(id) {
+  const c = comments.find(x => x.id === id);
+  if (!c) return;
+  const newText = prompt('수정:', c.text);
+  if (newText !== null && newText.trim()) {
+    c.text = newText.trim();
+    ghSaveComments();
+    renderComments();
+  }
+}
+
+// ── 렌더링 ──
+function renderComments() {
+  const list = document.getElementById('commentList');
+  const filtered = currentFilter === 'all' ? comments
+    : comments.filter(c => c.status === currentFilter);
+
+  if (filtered.length === 0) {
+    list.innerHTML = '<p style="color:#999;font-size:13px;padding:20px 0;text-align:center;">'
+      + (comments.length === 0 ? '문단을 클릭하여 코멘트를 추가하세요' : '해당 필터에 코멘트가 없습니다')
+      + '</p>';
+    return;
+  }
+
+  list.innerHTML = filtered.map(c => `
+    <div class="comment-card ${c.status === 'fixed' ? 'fixed' : ''}" data-id="${c.id}">
+      <div class="meta">
+        <span>${c.file}:${c.line}</span>
+        <a onclick="scrollToTarget('${c.targetId}')">이동</a>
+      </div>
+      <div class="excerpt">${escHtml(c.excerpt)}</div>
+      <div class="text">${escHtml(c.text)}</div>
+      <div class="meta">${formatDate(c.createdAt)}${c.fixedAt ? ' → ✅ ' + formatDate(c.fixedAt) : ''}</div>
+      <div class="actions">
+        <button class="fix-btn" onclick="toggleFixed('${c.id}')">${c.status === 'fixed' ? '↩ 미수정으로' : '✅ 수정완료'}</button>
+        <button onclick="editComment('${c.id}')">✏️</button>
+        <button class="del-btn" onclick="deleteComment('${c.id}')">🗑</button>
+      </div>
+    </div>
+  `).join('');
+}
+
+function applyCommentMarkers() {
+  // 모든 마커 초기화
+  document.querySelectorAll('.has-comment, .is-fixed').forEach(el => {
+    el.classList.remove('has-comment', 'is-fixed');
+    el.removeAttribute('data-comment-count');
+  });
+
+  // 문단별 코멘트 수 집계
+  const countMap = {};
+  const statusMap = {};
+  comments.forEach(c => {
+    countMap[c.targetId] = (countMap[c.targetId] || 0) + 1;
+    if (!statusMap[c.targetId]) statusMap[c.targetId] = c.status;
+    if (c.status === 'pending') statusMap[c.targetId] = 'pending';
+  });
+
+  Object.keys(countMap).forEach(tid => {
+    const el = document.getElementById(tid);
+    if (!el) return;
+    el.setAttribute('data-comment-count', countMap[tid]);
+    if (statusMap[tid] === 'fixed') {
+      el.classList.add('is-fixed');
+    } else {
+      el.classList.add('has-comment');
+    }
+  });
+}
+
+function updateStats() {
+  const total = comments.length;
+  const fixed = comments.filter(c => c.status === 'fixed').length;
+  document.getElementById('statTotal').textContent = total;
+  document.getElementById('statPending').textContent = total - fixed;
+  document.getElementById('statFixed').textContent = fixed;
+}
+
+// ── 필터 ──
+function filterComments(filter, btn) {
+  currentFilter = filter;
+  document.querySelectorAll('.filter-bar button').forEach(b => b.classList.remove('active'));
+  if (btn) btn.classList.add('active');
+  renderComments();
+}
+
+// ── 내보내기/가져오기 ──
+function exportComments() {
+  const data = {
+    project: '카니보어 탈고',
+    exportedAt: new Date().toISOString(),
+    totalComments: comments.length,
+    pending: comments.filter(c => c.status === 'pending').length,
+    fixed: comments.filter(c => c.status === 'fixed').length,
+    comments: comments
+  };
+  const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = `carnivore-comments-${new Date().toISOString().slice(0,10)}.json`;
+  a.click();
+  URL.revokeObjectURL(url);
+}
+
+function importComments() {
+  document.getElementById('importFile').click();
+}
+
+function handleImport(event) {
+  const file = event.target.files[0];
+  if (!file) return;
+  const reader = new FileReader();
+  reader.onload = (e) => {
+    try {
+      const data = JSON.parse(e.target.result);
+      const imported = data.comments || data;
+      if (!Array.isArray(imported)) throw new Error('invalid');
+
+      // 중복 제거: 같은 ID는 건너뜀
+      const existingIds = new Set(comments.map(c => c.id));
+      let added = 0;
+      imported.forEach(c => {
+        if (!existingIds.has(c.id)) {
+          comments.push(c);
+          added++;
+        }
+      });
+
+      ghSaveComments();
+      renderComments();
+      updateStats();
+      applyCommentMarkers();
+      alert(`${added}개 코멘트를 가져왔습니다 (중복 ${imported.length - added}개 건너뜀)`);
+    } catch (err) {
+      alert('잘못된 파일 형식입니다');
+    }
+  };
+  reader.readAsText(file);
+  event.target.value = '';
+}
+
+// ── UI 토글 ──
+function toggleComments() {
+  const panel = document.getElementById('commentPanel');
+  commentPanelOpen = !commentPanelOpen;
+  panel.classList.toggle('open');
+  const btn = document.getElementById('commentToggle');
+  btn.classList.toggle('active', commentPanelOpen);
+}
+
+function toggleToc() {
+  document.getElementById('tocPanel').classList.toggle('open');
+}
+
+function scrollToTarget(targetId) {
+  const el = document.getElementById(targetId);
+  if (el) {
+    el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    el.style.outline = '2px solid var(--accent)';
+    setTimeout(() => el.style.outline = '', 2000);
+  }
+}
+
+// ── 유틸 ──
+function escHtml(s) {
+  const d = document.createElement('div');
+  d.textContent = s;
+  return d.innerHTML;
+}
+
+function formatDate(iso) {
+  if (!iso) return '';
+  const d = new Date(iso);
+  return `${d.getMonth()+1}/${d.getDate()} ${d.getHours()}:${String(d.getMinutes()).padStart(2,'0')}`;
+}
+</script>
+
+</body>
+</html>
+"""
+
+
+def main():
+    os.makedirs(DOCS_DIR, exist_ok=True)
+    print("  원고 변환 중...")
+    content = build_content()
+    html_out = HTML_TEMPLATE.replace('{{CONTENT}}', content)
+    with open(OUTPUT_HTML, 'w', encoding='utf-8') as f:
+        f.write(html_out)
+    size_kb = os.path.getsize(OUTPUT_HTML) // 1024
+    print(f"  완료: {OUTPUT_HTML} ({size_kb}KB)")
+    print(f"  GitHub Pages: docs/index.html 배포 준비 완료")
+
+
+if __name__ == '__main__':
+    main()
