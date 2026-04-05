@@ -1,8 +1,8 @@
 {
   "project": "카니보어 탈고",
-  "updatedAt": "2026-04-05T08:30:46.882Z",
-  "totalComments": 21,
-  "pending": 21,
+  "updatedAt": "2026-04-05T08:31:08.068Z",
+  "totalComments": 22,
+  "pending": 22,
   "fixed": 0,
   "comments": [
     {
@@ -255,6 +255,18 @@
       "text": "뢰첸탈 계곡인가 연구에서는 사랑니까지 정상적으로 자라서 치아의 역할을 제대로 하는부분 언급, 현대인들 영양 부족으로 턱발달 못하고 그로 인해서 사랑니의 문제, 요즘 아이들은 치아 불균형이 더욱 심함(관련 논문 등 있으면 찾아서)을 추가 언급 할 필요 성",
       "status": "pending",
       "createdAt": "2026-04-05T08:30:28.676Z",
+      "fixedAt": null
+    },
+    {
+      "id": "mnli56as",
+      "targetId": "part1-chapter01-40",
+      "file": "part1-chapter01",
+      "line": 40,
+      "excerpt": "그는 이 모든 기록을 1939년 저서\nNutrition and Physical Degeneration에 사진과 함께 남겼다.\n이 책은 80년이 지난 지금도\n전통 사회 건강 연구의 ",
+      "selectedWord": "",
+      "text": "프리미티브의 전래식단 이야기 카페와 유튜브에 자세한 내용이 소개되었음을 언급 할 필요",
+      "status": "pending",
+      "createdAt": "2026-04-05T08:31:08.068Z",
       "fixedAt": null
     }
   ]
