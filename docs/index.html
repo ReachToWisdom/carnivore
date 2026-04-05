@@ -154,24 +154,50 @@ body {
   margin-bottom: 12px;
   font-size: 14px;
 }
-.comment-card.fixed { background: var(--fixed-bg); border-color: #a5d6a7; }
+.comment-card.review { background: #e3f2fd; border-color: #90caf9; }
+.comment-card.approved { background: var(--fixed-bg); border-color: #a5d6a7; }
+.comment-card.rejected { background: #fce4ec; border-color: #ef9a9a; opacity: 0.7; }
+.comment-card.suggested { background: #fff3e0; border-color: #ffcc80; }
 .comment-card .meta {
   font-size: 11px; color: #888; margin-bottom: 6px;
   display: flex; justify-content: space-between; align-items: center;
 }
 .comment-card .meta a { color: var(--accent); cursor: pointer; text-decoration: underline; }
+.comment-card .status-badge {
+  font-size: 11px; padding: 2px 8px; border-radius: 10px; font-weight: bold;
+}
+.comment-card .status-badge.pending { background: #fff8e1; color: #f57f17; }
+.comment-card .status-badge.review { background: #e3f2fd; color: #1565c0; }
+.comment-card .status-badge.approved { background: #e8f5e9; color: #2e7d32; }
+.comment-card .status-badge.rejected { background: #fce4ec; color: #c62828; }
+.comment-card .status-badge.suggested { background: #fff3e0; color: #e65100; }
 .comment-card .excerpt {
   font-size: 12px; color: #666; margin-bottom: 8px;
   border-left: 2px solid #ccc; padding-left: 8px;
   max-height: 40px; overflow: hidden;
 }
 .comment-card .text { margin-bottom: 8px; white-space: pre-wrap; }
-.comment-card .actions { display: flex; gap: 8px; }
+.comment-card .diff-box {
+  margin: 8px 0; border-radius: 6px; overflow: hidden; font-size: 13px;
+}
+.comment-card .diff-original {
+  background: #ffebee; padding: 8px 10px; border-left: 3px solid #e53935;
+  text-decoration: line-through; color: #888;
+}
+.comment-card .diff-proposed {
+  background: #e8f5e9; padding: 8px 10px; border-left: 3px solid #4caf50;
+}
+.comment-card .diff-suggestion {
+  background: #fff3e0; padding: 8px 10px; border-left: 3px solid #ff9800;
+}
+.comment-card .actions { display: flex; gap: 6px; flex-wrap: wrap; }
 .comment-card .actions button {
   font-size: 12px; padding: 4px 10px; border-radius: 4px;
   border: 1px solid var(--border); background: white; cursor: pointer;
 }
-.comment-card .actions button.fix-btn { background: #4caf50; color: white; border: none; }
+.comment-card .actions button.approve-btn { background: #4caf50; color: white; border: none; }
+.comment-card .actions button.reject-btn { background: #e53935; color: white; border: none; }
+.comment-card .actions button.suggest-btn { background: #ff9800; color: white; border: none; }
 .comment-card .actions button.del-btn { color: #e53935; }
 
 /* 코멘트 입력 */
@@ -8501,8 +8527,11 @@ Hallberg et al.(<em>Diabetes Therapy</em>, 2018)은 제2형 당뇨 환자 262명
   <h2>💬 코멘트 목록</h2>
   <div class="filter-bar">
     <button class="active" onclick="filterComments('all', this)">전체</button>
-    <button onclick="filterComments('pending', this)">미수정</button>
-    <button onclick="filterComments('fixed', this)">완료</button>
+    <button onclick="filterComments('pending', this)">대기</button>
+    <button onclick="filterComments('review', this)">검토</button>
+    <button onclick="filterComments('approved', this)">승인</button>
+    <button onclick="filterComments('rejected', this)">취소</button>
+    <button onclick="filterComments('suggested', this)">제안</button>
   </div>
   <div id="commentList"></div>
 </aside>
@@ -8798,16 +8827,49 @@ function cancelComment() {
   selectedEl = null;
 }
 
-function toggleFixed(id) {
+// ── 리뷰 액션 ──
+function approveComment(id) {
   const c = comments.find(x => x.id === id);
   if (!c) return;
-  if (c.status === 'pending') {
-    c.status = 'fixed';
-    c.fixedAt = new Date().toISOString();
-  } else {
-    c.status = 'pending';
-    c.fixedAt = null;
-  }
+  c.status = 'approved';
+  c.reviewedAt = new Date().toISOString();
+  ghSaveComments();
+  renderComments();
+  updateStats();
+  applyCommentMarkers();
+}
+
+function rejectComment(id) {
+  const c = comments.find(x => x.id === id);
+  if (!c) return;
+  c.status = 'rejected';
+  c.reviewedAt = new Date().toISOString();
+  ghSaveComments();
+  renderComments();
+  updateStats();
+  applyCommentMarkers();
+}
+
+function suggestComment(id) {
+  const c = comments.find(x => x.id === id);
+  if (!c) return;
+  const suggestion = prompt('수정 제안을 입력하세요:', c.proposed || '');
+  if (suggestion === null) return;
+  c.status = 'suggested';
+  c.suggestion = suggestion.trim();
+  c.reviewedAt = new Date().toISOString();
+  ghSaveComments();
+  renderComments();
+  updateStats();
+  applyCommentMarkers();
+}
+
+function resetToReview(id) {
+  const c = comments.find(x => x.id === id);
+  if (!c) return;
+  c.status = 'review';
+  c.reviewedAt = null;
+  c.suggestion = null;
   ghSaveComments();
   renderComments();
   updateStats();
@@ -8847,22 +8909,54 @@ function renderComments() {
     return;
   }
 
-  list.innerHTML = filtered.map(c => `
-    <div class="comment-card ${c.status === 'fixed' ? 'fixed' : ''}" data-id="${c.id}">
+  list.innerHTML = filtered.map(c => {
+    const statusLabels = {
+      pending: '⏳ 대기', review: '🔍 검토', approved: '✅ 승인',
+      rejected: '❌ 취소', suggested: '💡 제안'
+    };
+    const statusLabel = statusLabels[c.status] || c.status;
+
+    // 변경 비교 영역 (review 상태일 때)
+    let diffHtml = '';
+    if (c.original && c.proposed && ['review','approved','rejected','suggested'].includes(c.status)) {
+      diffHtml = `<div class="diff-box">
+        <div class="diff-original">원본: ${escHtml(c.original)}</div>
+        <div class="diff-proposed">수정안: ${escHtml(c.proposed)}</div>
+        ${c.suggestion ? '<div class="diff-suggestion">내 제안: ' + escHtml(c.suggestion) + '</div>' : ''}
+      </div>`;
+    }
+
+    // 액션 버튼 (상태에 따라)
+    let actionsHtml = '';
+    if (c.status === 'pending') {
+      actionsHtml = `
+        <button onclick="editComment('${c.id}')">✏️ 수정</button>
+        <button class="del-btn" onclick="deleteComment('${c.id}')">🗑</button>`;
+    } else if (c.status === 'review') {
+      actionsHtml = `
+        <button class="approve-btn" onclick="approveComment('${c.id}')">✅ 승인</button>
+        <button class="reject-btn" onclick="rejectComment('${c.id}')">❌ 취소</button>
+        <button class="suggest-btn" onclick="suggestComment('${c.id}')">💡 제안</button>`;
+    } else if (['approved','rejected','suggested'].includes(c.status)) {
+      actionsHtml = `
+        <button onclick="resetToReview('${c.id}')">↩ 다시 검토</button>
+        <button class="del-btn" onclick="deleteComment('${c.id}')">🗑</button>`;
+    }
+
+    return `
+    <div class="comment-card ${c.status}" data-id="${c.id}">
       <div class="meta">
         <span>${c.file}:${c.line}</span>
+        <span class="status-badge ${c.status}">${statusLabel}</span>
         <a onclick="scrollToTarget('${c.targetId}')">이동</a>
       </div>
       <div class="excerpt">${c.selectedWord ? '📌 "' + escHtml(c.selectedWord) + '" — ' : ''}${escHtml(c.excerpt)}</div>
-      <div class="text">${escHtml(c.text)}</div>
-      <div class="meta">${formatDate(c.createdAt)}${c.fixedAt ? ' → ✅ ' + formatDate(c.fixedAt) : ''}</div>
-      <div class="actions">
-        <button class="fix-btn" onclick="toggleFixed('${c.id}')">${c.status === 'fixed' ? '↩ 미수정으로' : '✅ 수정완료'}</button>
-        <button onclick="editComment('${c.id}')">✏️</button>
-        <button class="del-btn" onclick="deleteComment('${c.id}')">🗑</button>
-      </div>
-    </div>
-  `).join('');
+      <div class="text">💬 ${escHtml(c.text)}</div>
+      ${diffHtml}
+      <div class="meta">${formatDate(c.createdAt)}${c.reviewedAt ? ' → ' + formatDate(c.reviewedAt) : ''}</div>
+      <div class="actions">${actionsHtml}</div>
+    </div>`;
+  }).join('');
 }
 
 function applyCommentMarkers() {
@@ -8878,15 +8972,23 @@ function applyCommentMarkers() {
   comments.forEach(c => {
     countMap[c.targetId] = (countMap[c.targetId] || 0) + 1;
     if (!statusMap[c.targetId]) statusMap[c.targetId] = c.status;
-    if (c.status === 'pending') statusMap[c.targetId] = 'pending';
+    // 우선순위: review > pending > suggested > approved > rejected
+    const priority = { review: 5, pending: 4, suggested: 3, approved: 2, rejected: 1 };
+    const cur = priority[c.status] || 0;
+    const prev = priority[statusMap[c.targetId]] || 0;
+    if (cur > prev) statusMap[c.targetId] = c.status;
   });
 
   Object.keys(countMap).forEach(tid => {
     const el = document.getElementById(tid);
     if (!el) return;
     el.setAttribute('data-comment-count', countMap[tid]);
-    if (statusMap[tid] === 'fixed') {
+    const s = statusMap[tid];
+    if (s === 'approved') {
       el.classList.add('is-fixed');
+    } else if (s === 'review') {
+      el.classList.add('has-comment');
+      el.style.borderLeftColor = '#1565c0';
     } else {
       el.classList.add('has-comment');
     }
@@ -8895,10 +8997,12 @@ function applyCommentMarkers() {
 
 function updateStats() {
   const total = comments.length;
-  const fixed = comments.filter(c => c.status === 'fixed').length;
+  const pending = comments.filter(c => c.status === 'pending').length;
+  const review = comments.filter(c => c.status === 'review').length;
+  const approved = comments.filter(c => c.status === 'approved').length;
   document.getElementById('statTotal').textContent = total;
-  document.getElementById('statPending').textContent = total - fixed;
-  document.getElementById('statFixed').textContent = fixed;
+  document.getElementById('statPending').textContent = pending;
+  document.getElementById('statFixed').textContent = review + '검토 ' + approved + '승인';
 }
 
 // ── 필터 ──
