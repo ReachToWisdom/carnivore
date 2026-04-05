@@ -1,8 +1,8 @@
 {
   "project": "카니보어 탈고",
-  "updatedAt": "2026-04-05T11:08:40.716Z",
-  "totalComments": 52,
-  "pending": 52,
+  "updatedAt": "2026-04-05T11:10:05.533Z",
+  "totalComments": 53,
+  "pending": 53,
   "fixed": 0,
   "comments": [
     {
@@ -627,6 +627,18 @@
       "text": "이거 건강하게 살았던 사람들에서 이미 언급된 내용들이 중언 부언되고 있어, 이쪽이 전반적으로 그런거 같아",
       "status": "pending",
       "createdAt": "2026-04-05T11:08:40.716Z",
+      "fixedAt": null
+    },
+    {
+      "id": "mnlntlgd",
+      "targetId": "part2-chapter03-82",
+      "file": "part2-chapter03",
+      "line": 82,
+      "excerpt": "많은 사람이 의사의 반대를 절대적 근거로 받아들인다.\n하지만 한 가지 사실을 먼저 확인할 필요가 있다:\n대부분의 의사는 영양학을 거의 배우지 않았다.",
+      "selectedWord": "",
+      "text": "의사가 옳다면 병이 치유되어야한다.\n아니 한발 물러서서 최소한 악화는 되지 않아야 한다.\n그러나 악화되는 것을 막지 못하고 있다.\n그들이 틀렸다는 반증이다.\n그리고 의사는 영양학을 배우지 않았다 라는 것을 지적하면 될것 같아",
+      "status": "pending",
+      "createdAt": "2026-04-05T11:10:05.533Z",
       "fixedAt": null
     }
   ]
