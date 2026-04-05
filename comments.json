@@ -1,8 +1,8 @@
 {
   "project": "카니보어 탈고",
-  "updatedAt": "2026-04-05T08:00:01.612Z",
-  "totalComments": 13,
-  "pending": 13,
+  "updatedAt": "2026-04-05T08:00:50.672Z",
+  "totalComments": 14,
+  "pending": 14,
   "fixed": 0,
   "comments": [
     {
@@ -159,6 +159,18 @@
       "text": "이게 uv에 의한 점이 생기거나 피부가 손상되거나 그런 문제 아니야? 그래서 현대인들이 썬크림을 바르게되고 그로 인해 비타민디 자연 합성이 차단되고 그로 인해서 뼈가 약화된다거나 이런 악순환의 고리로 작용",
       "status": "pending",
       "createdAt": "2026-04-05T08:00:01.612Z",
+      "fixedAt": null
+    },
+    {
+      "id": "mnlh27zk",
+      "targetId": "part1-overview-67",
+      "file": "part1-overview",
+      "line": 67,
+      "excerpt": "이 극단적 불균형이 의미하는 것은 이렇다.\n과잉 오메가6(리놀레산)는 아라키돈산 → 프로스타글란딘 E2(PGE2) 경로를 과활성화하여\n염증을 화학적으로 유지시킨다.",
+      "selectedWord": "",
+      "text": "염증을 화학적으로 유지시킨다고 했는데, 일반인은 과활성화가 염증을 화학적으로 유지시키는 최종단계까지 설명이 이어지지가 않아",
+      "status": "pending",
+      "createdAt": "2026-04-05T08:00:50.672Z",
       "fixedAt": null
     }
   ]
