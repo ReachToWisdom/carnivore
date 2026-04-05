@@ -1,8 +1,8 @@
 {
   "project": "카니보어 탈고",
-  "updatedAt": "2026-04-05T08:26:45.460Z",
-  "totalComments": 19,
-  "pending": 19,
+  "updatedAt": "2026-04-05T08:27:06.327Z",
+  "totalComments": 20,
+  "pending": 20,
   "fixed": 0,
   "comments": [
     {
@@ -231,6 +231,18 @@
       "text": "현대에서 정제탄수화물이 적으로 간주되는데, 정제탄수화물이 아닌 일반 탄수화물도 적 아니야?  정제탄수화물로 한정지으면, 과일이나 곡식 등 모든 현대병의 원인 물질들이 허용되는 거잖아, 특히 항영양소의 극대화상태인 통곡물로 옮겨가는 상태가 되잖아",
       "status": "pending",
       "createdAt": "2026-04-05T08:26:45.460Z",
+      "fixedAt": null
+    },
+    {
+      "id": "mnlhzzrr",
+      "targetId": "part1-overview-123",
+      "file": "part1-overview",
+      "line": 123,
+      "excerpt": "고기, 생선, 계란, 버터에는:\n- 인슐린을 과도하게 자극하는 정제 탄수화물이 없다\n- 산화에 취약한 다불포화지방산이 적다\n- 장벽을 공격하는 항영양소가 없다",
+      "selectedWord": "",
+      "text": "정제 탄수화물이 아니라 탄수화물이 없는 것이지",
+      "status": "pending",
+      "createdAt": "2026-04-05T08:27:06.327Z",
       "fixedAt": null
     }
   ]
