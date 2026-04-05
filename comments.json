@@ -1,8 +1,8 @@
 {
   "project": "카니보어 탈고",
-  "updatedAt": "2026-04-05T08:32:58.175Z",
-  "totalComments": 24,
-  "pending": 24,
+  "updatedAt": "2026-04-05T08:34:14.170Z",
+  "totalComments": 25,
+  "pending": 25,
   "fixed": 0,
   "comments": [
     {
@@ -291,6 +291,18 @@
       "text": "저탄고지는 건강에 부합하는건데 여기는 잘못 언급되었네",
       "status": "pending",
       "createdAt": "2026-04-05T08:32:58.175Z",
+      "fixedAt": null
+    },
+    {
+      "id": "mnli95wa",
+      "targetId": "part1-chapter01-60",
+      "file": "part1-chapter01",
+      "line": 60,
+      "excerpt": "1970년대에는 이런 질환이 드물었다.\n고기를 더 먹게 되어서가 아니다.\n설탕, 식물성 기름, 정제 탄수화물이 폭증했기 때문이다.",
+      "selectedWord": "",
+      "text": "우리는 식물성 기름을 먹을수 없었다.. 식물성 기름은 산업의 발달과 화학의 발달로 인해서 고온 고압이 가능했기에 생산가능하지, 조선시대에 식물성 기름을 채취할 방법이 있었을까? 이부분에 대한 조사 및 언급 필요해, 이 부분은 전세계 공통, 우리는 여지껏 먹어본적 없는 기름을 먹고 있다.. 늘 포화지방만 먹었다. 그 시대에는 심혈관질환이 없었다가 들어가야지",
+      "status": "pending",
+      "createdAt": "2026-04-05T08:34:14.170Z",
       "fixedAt": null
     }
   ]
