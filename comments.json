@@ -1,8 +1,8 @@
 {
   "project": "카니보어 탈고",
-  "updatedAt": "2026-04-05T08:55:35.999Z",
-  "totalComments": 39,
-  "pending": 39,
+  "updatedAt": "2026-04-05T08:57:11.991Z",
+  "totalComments": 40,
+  "pending": 40,
   "fixed": 0,
   "comments": [
     {
@@ -471,6 +471,18 @@
       "text": "이부분에 대한 논란을 본거 같아 좀 더 깊이 분석해주면 좋ㄱㅆ어",
       "status": "pending",
       "createdAt": "2026-04-05T08:55:35.999Z",
+      "fixedAt": null
+    },
+    {
+      "id": "mnlj2p13",
+      "targetId": "part2-chapter01-31",
+      "file": "part2-chapter01",
+      "line": 31,
+      "excerpt": "위장 관련 약물을 복용 중이라면, 식단 변경 전 반드시 담당 의사와 상의해야 한다.\n특히 PPI를 장기 복용해 온 경우, 갑작스러운 중단은\n반동 과분비(rebound hyperse",
+      "selectedWord": "",
+      "text": "이렇게 자세한 설명 필요 없어, 내가 의학적 조언을 하는 사람이 아니잖아.. 필요한 경우 가볍게 서문에도 나왔듯이 의사와 상담하라로 정리하는게 맞아",
+      "status": "pending",
+      "createdAt": "2026-04-05T08:57:11.991Z",
       "fixedAt": null
     }
   ]
