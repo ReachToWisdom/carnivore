@@ -1,8 +1,8 @@
 {
   "project": "카니보어 탈고",
-  "updatedAt": "2026-04-05T08:22:16.342Z",
-  "totalComments": 16,
-  "pending": 16,
+  "updatedAt": "2026-04-05T08:22:52.764Z",
+  "totalComments": 17,
+  "pending": 17,
   "fixed": 0,
   "comments": [
     {
@@ -195,6 +195,18 @@
       "text": "요즘 기름의 산폐에 대해서 민감한데, 실제 판매되는 기름의 산폐에 대해서는 분석이나 품질 관리가 없다. 탈취과정과 생산 과정중 고온에 노출되는 기름은 어김없이 모두 산폐된 기름이 아닐까 추측된다.   -이 부분은 소송 등 위험성 고려해서 가장 방어적이고 안정적이게 기술할 필요-",
       "status": "pending",
       "createdAt": "2026-04-05T08:22:16.342Z",
+      "fixedAt": null
+    },
+    {
+      "id": "mnlhuk4c",
+      "targetId": "part1-overview-76",
+      "file": "part1-overview",
+      "line": 76,
+      "excerpt": "이것은 음모론이 아니라 진화생물학의 기본이다.\n식물이 수억 년에 걸쳐 진화시킨 생존 전략으로,\n포식자(곤충, 동물, 인간)가 자신을 먹으면 불쾌한 경험을 하게 만들어\n다시 먹지 못",
+      "selectedWord": "",
+      "text": "가장 대표적인 저서로 그래인브레인에 대한 언급도 있으면 좋지 않을까?",
+      "status": "pending",
+      "createdAt": "2026-04-05T08:22:52.764Z",
       "fixedAt": null
     }
   ]
