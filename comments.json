@@ -1,8 +1,8 @@
 {
   "project": "카니보어 탈고",
-  "updatedAt": "2026-04-05T07:43:30.337Z",
-  "totalComments": 5,
-  "pending": 5,
+  "updatedAt": "2026-04-05T07:44:40.639Z",
+  "totalComments": 6,
+  "pending": 6,
   "fixed": 0,
   "comments": [
     {
@@ -63,6 +63,18 @@
       "text": "이전 수정 내용과 적절히 융합",
       "status": "pending",
       "createdAt": "2026-04-05T07:43:30.337Z",
+      "fixedAt": null
+    },
+    {
+      "id": "mnlghfi7",
+      "targetId": "preface-28",
+      "file": "preface",
+      "line": 28,
+      "excerpt": "이 책이 세상에 나오기까지는 여러 도움과 인연이 있었다. 무엇보다 내 지식의 뼈대를 세워준 것은 '닥터쓰리' 유튜브와 '프리미티브의 전래식단 이야기'였다. 이 두 분께 깊은 감사를",
+      "selectedWord": "",
+      "text": "낯설지 않고 이미 배우고 있는 내용들로 꾸며져 있을 것이다. 하지만 그럼에도 불구하고 이글은 어디까지나.....로 뒷문장 연결",
+      "status": "pending",
+      "createdAt": "2026-04-05T07:44:40.639Z",
       "fixedAt": null
     }
   ]
