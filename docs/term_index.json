@@ -1,6 +1,6 @@
 {
   "description": "카니보어 원고 용어 색인 — 용어별 등장 위치",
-  "generatedAt": "2026-04-05T20:42:57.448462",
+  "generatedAt": "2026-04-05T21:07:59.967651",
   "totalTerms": 80,
   "index": {
     "BHB": [
@@ -21,7 +21,7 @@
       },
       {
         "file": "part1-overview",
-        "line": 486,
+        "line": 517,
         "context": "- 케톤체(BHB) 생산 → 뇌에 안정적 에너지 공급"
       },
       {
@@ -98,7 +98,7 @@
       },
       {
         "file": "part1-overview",
-        "line": 90,
+        "line": 121,
         "context": "BYU의 생리학 교수 Benjamin Bikman은"
       },
       {
@@ -145,7 +145,7 @@
       },
       {
         "file": "part1-overview",
-        "line": 272,
+        "line": 303,
         "context": "연어유를 먹으면 세포막에 DHA가 늘고,"
       },
       {
@@ -456,7 +456,7 @@
       },
       {
         "file": "part1-overview",
-        "line": 406,
+        "line": 437,
         "context": "Fasano(*Physiological Reviews*, 2011)가 규명한 zonulin 경로가"
       },
       {
@@ -513,17 +513,17 @@
       },
       {
         "file": "part1-overview",
-        "line": 117,
+        "line": 148,
         "context": "인슐린 저항성 → 중성지방(TG) 상승 + HDL 저하"
       },
       {
         "file": "part1-overview",
-        "line": 138,
+        "line": 169,
         "context": "진짜 위험 지표는 **TG/HDL 비율**이다."
       },
       {
         "file": "part1-overview",
-        "line": 326,
+        "line": 357,
         "context": "LDL을 올리고 HDL을 내리는, 지질 프로필에 가장 해로운 지방이다."
       },
       {
@@ -640,12 +640,12 @@
     "IL-6": [
       {
         "file": "part1-overview",
-        "line": 67,
+        "line": 81,
         "context": "| **5단계** | 전신 염증(TNF-α, IL-6 증가) → 간, 근육, 뇌, 혈관 손상 | 집 전체에 불이 번진다 |"
       },
       {
         "file": "part1-overview",
-        "line": 145,
+        "line": 176,
         "context": "고인슐린혈증 → 염증성 사이토카인(TNF-α, IL-6) 증가"
       },
       {
@@ -672,7 +672,7 @@
       },
       {
         "file": "part1-overview",
-        "line": 110,
+        "line": 141,
         "context": "Jason Fung 박사가 *The Obesity Code*(2016)에서 정리한 핵심이 이것이다."
       },
       {
@@ -844,32 +844,32 @@
       },
       {
         "file": "part1-overview",
-        "line": 118,
+        "line": 149,
         "context": "→ 간에서 소형 고밀도 LDL(sdLDL) 대량 생산"
       },
       {
         "file": "part1-overview",
-        "line": 119,
+        "line": 150,
         "context": "→ sdLDL이 혈관벽 침투 → 산화 → 동맥경화"
       },
       {
         "file": "part1-overview",
-        "line": 127,
+        "line": 158,
         "context": "VLDL 입자에 실려 혈류로 방출된다."
       },
       {
         "file": "part1-overview",
-        "line": 135,
+        "line": 166,
         "context": "그러나 진짜 위험한 것은 총 LDL이 아니라 **소형 고밀도 LDL(sdLDL)**이다."
       },
       {
         "file": "part1-overview",
-        "line": 136,
+        "line": 167,
         "context": "그리고 sdLDL을 만드는 것은 포화지방이 아니라 **탄수화물 과잉 + 인슐린 저항성**이다."
       },
       {
         "file": "part1-overview",
-        "line": 326,
+        "line": 357,
         "context": "LDL을 올리고 HDL을 내리는, 지질 프로필에 가장 해로운 지방이다."
       },
       {
@@ -1071,7 +1071,7 @@
     "LPS": [
       {
         "file": "part1-overview",
-        "line": 396,
+        "line": 427,
         "context": "| **3단계** | 소화되지 않은 독소·세균이 혈류로 유입 | LPS(내독소) 등 |"
       },
       {
@@ -1093,7 +1093,7 @@
     "PCOS": [
       {
         "file": "part1-overview",
-        "line": 161,
+        "line": 192,
         "context": "→ 내분비 교란 → PCOS, 불임, 성장 저해"
       },
       {
@@ -1110,27 +1110,27 @@
     "PUFA": [
       {
         "file": "part1-overview",
-        "line": 243,
+        "line": 274,
         "context": "| 6. 탈취 | **200~270°C 고온**에서 냄새 제거 | PUFA 산화 가속 |"
       },
       {
         "file": "part1-overview",
-        "line": 251,
+        "line": 282,
         "context": "PUFA는 제조 공정 중 고온(200~270°C)에 노출되는 단계에서 이미 산화가 시작된다."
       },
       {
         "file": "part1-overview",
-        "line": 282,
+        "line": 313,
         "context": "피부 세포막에 다불포화지방산(PUFA)이 많으면"
       },
       {
         "file": "part1-overview",
-        "line": 288,
+        "line": 319,
         "context": "PUFA가 풍부한 세포막은 자외선에 극도로 취약해지고,"
       },
       {
         "file": "part1-overview",
-        "line": 292,
+        "line": 323,
         "context": "결과적으로 PUFA 과잉 → UV 피부 손상 → 썬크림 사용 → 비타민D 합성 차단이라는"
       },
       {
@@ -1246,7 +1246,7 @@
       },
       {
         "file": "part1-overview",
-        "line": 138,
+        "line": 169,
         "context": "진짜 위험 지표는 **TG/HDL 비율**이다."
       },
       {
@@ -1318,17 +1318,17 @@
     "TNF": [
       {
         "file": "part1-overview",
-        "line": 67,
+        "line": 81,
         "context": "| **5단계** | 전신 염증(TNF-α, IL-6 증가) → 간, 근육, 뇌, 혈관 손상 | 집 전체에 불이 번진다 |"
       },
       {
         "file": "part1-overview",
-        "line": 145,
+        "line": 176,
         "context": "고인슐린혈증 → 염증성 사이토카인(TNF-α, IL-6) 증가"
       },
       {
         "file": "part1-overview",
-        "line": 397,
+        "line": 428,
         "context": "| **4단계** | 면역 시스템 과활성 → 전신 염증 | TNF-α 증가 |"
       },
       {
@@ -1365,17 +1365,17 @@
       },
       {
         "file": "part1-overview",
-        "line": 147,
+        "line": 178,
         "context": "→ 만성 염증 → mTOR 과활성 → 노화 가속, 암 환경 조성"
       },
       {
         "file": "part1-overview",
-        "line": 150,
+        "line": 181,
         "context": "인슐린이 만성적으로 높으면 mTOR(세포 성장 신호)가 과활성화되어"
       },
       {
         "file": "part1-overview",
-        "line": 488,
+        "line": 519,
         "context": "- mTOR 정상화 → 세포 성장 속도 조절"
       },
       {
@@ -1447,22 +1447,22 @@
       },
       {
         "file": "part1-overview",
-        "line": 118,
+        "line": 149,
         "context": "→ 간에서 소형 고밀도 LDL(sdLDL) 대량 생산"
       },
       {
         "file": "part1-overview",
-        "line": 119,
+        "line": 150,
         "context": "→ sdLDL이 혈관벽 침투 → 산화 → 동맥경화"
       },
       {
         "file": "part1-overview",
-        "line": 135,
+        "line": 166,
         "context": "그러나 진짜 위험한 것은 총 LDL이 아니라 **소형 고밀도 LDL(sdLDL)**이다."
       },
       {
         "file": "part1-overview",
-        "line": 136,
+        "line": 167,
         "context": "그리고 sdLDL을 만드는 것은 포화지방이 아니라 **탄수화물 과잉 + 인슐린 저항성**이다."
       },
       {
@@ -1519,22 +1519,22 @@
       },
       {
         "file": "part1-overview",
-        "line": 353,
+        "line": 384,
         "context": "| **글루텐/글리아딘** | 밀, 보리, 호밀 | zonulin 분비 유도 → 장벽 틈새를 벌림 |"
       },
       {
         "file": "part1-overview",
-        "line": 395,
+        "line": 426,
         "context": "| **2단계** | 타이트 정션(세포 간 밀착 연결) 파괴 | zonulin 분비 증가 |"
       },
       {
         "file": "part1-overview",
-        "line": 406,
+        "line": 437,
         "context": "Fasano(*Physiological Reviews*, 2011)가 규명한 zonulin 경로가"
       },
       {
         "file": "part1-overview",
-        "line": 408,
+        "line": 439,
         "context": "밀의 글리아딘이 장 상피세포에서 zonulin이라는 단백질의 분비를 촉진하면,"
       },
       {
@@ -1618,12 +1618,22 @@
     "고인슐린혈증": [
       {
         "file": "part1-overview",
-        "line": 65,
+        "line": 79,
         "context": "| **3단계** | 세포가 반응하지 않음 → 췌장이 더 많은 인슐린 분비 (**고인슐린혈증**) | 경보 볼륨을 계속 높인다 |"
       },
       {
         "file": "part1-overview",
-        "line": 145,
+        "line": 97,
+        "context": "이것이 3단계 **고인슐린혈증**이다."
+      },
+      {
+        "file": "part1-overview",
+        "line": 98,
+        "context": "인슐린 저항성과 고인슐린혈증은 서로를 악화시키는 악순환 관계다."
+      },
+      {
+        "file": "part1-overview",
+        "line": 176,
         "context": "고인슐린혈증 → 염증성 사이토카인(TNF-α, IL-6) 증가"
       },
       {
@@ -1640,7 +1650,7 @@
     "과산화지질": [
       {
         "file": "part1-overview",
-        "line": 231,
+        "line": 262,
         "context": "그 결과 **과산화지질(lipid peroxide)**이 생성된다."
       },
       {
@@ -1677,17 +1687,17 @@
       },
       {
         "file": "part1-overview",
-        "line": 353,
+        "line": 384,
         "context": "| **글루텐/글리아딘** | 밀, 보리, 호밀 | zonulin 분비 유도 → 장벽 틈새를 벌림 |"
       },
       {
         "file": "part1-overview",
-        "line": 403,
+        "line": 434,
         "context": "글루텐이 장벽뿐 아니라 **혈뇌장벽(BBB)**까지 손상시켜"
       },
       {
         "file": "part1-overview",
-        "line": 447,
+        "line": 478,
         "context": "- **빵** = 글루텐(항영양소) + 정제 탄수화물(인슐린)"
       },
       {
@@ -1774,17 +1784,17 @@
     "글리아딘": [
       {
         "file": "part1-overview",
-        "line": 353,
+        "line": 384,
         "context": "| **글루텐/글리아딘** | 밀, 보리, 호밀 | zonulin 분비 유도 → 장벽 틈새를 벌림 |"
       },
       {
         "file": "part1-overview",
-        "line": 394,
+        "line": 425,
         "context": "| **1단계** | 장 점막 자극·손상 | 렉틴, 글리아딘, 사포닌 |"
       },
       {
         "file": "part1-overview",
-        "line": 408,
+        "line": 439,
         "context": "밀의 글리아딘이 장 상피세포에서 zonulin이라는 단백질의 분비를 촉진하면,"
       },
       {
@@ -1936,12 +1946,12 @@
       },
       {
         "file": "part1-overview",
-        "line": 105,
+        "line": 136,
         "context": "→ 뇌 인슐린 저항 → 치매 (제3형 당뇨)"
       },
       {
         "file": "part1-overview",
-        "line": 443,
+        "line": 474,
         "context": "| **최종 결과** | 비만·당뇨·치매 | 피로·노화·피부질환 | 자가면역·알레르기·우울 |"
       },
       {
@@ -2235,27 +2245,27 @@
       },
       {
         "file": "part1-overview",
-        "line": 352,
+        "line": 383,
         "context": "| **렉틴** | 콩, 밀, 토마토 | 장 점막 세포에 결합 → 직접 손상 |"
       },
       {
         "file": "part1-overview",
-        "line": 376,
+        "line": 407,
         "context": "콩에는 렉틴, 피틴산, 사포닌, 이소플라본이 **동시에** 존재한다."
       },
       {
         "file": "part1-overview",
-        "line": 377,
+        "line": 408,
         "context": "렉틴이 장벽을 공격하고, 피틴산이 미네랄 흡수를 차단하며,"
       },
       {
         "file": "part1-overview",
-        "line": 394,
+        "line": 425,
         "context": "| **1단계** | 장 점막 자극·손상 | 렉틴, 글리아딘, 사포닌 |"
       },
       {
         "file": "part1-overview",
-        "line": 450,
+        "line": 481,
         "context": "- **콩나물/두부** = 렉틴 + 피틴산 + 이소플라본(항영양소)"
       },
       {
@@ -2354,17 +2364,17 @@
       },
       {
         "file": "part1-overview",
-        "line": 273,
+        "line": 304,
         "context": "홍화유를 먹으면 리놀레산이 늘어난다."
       },
       {
         "file": "part1-overview",
-        "line": 307,
+        "line": 338,
         "context": "1. 식물성 기름에 풍부한 **리놀레산(오메가6)**이 체내에 축적된다."
       },
       {
         "file": "part1-overview",
-        "line": 308,
+        "line": 339,
         "context": "2. 리놀레산은 효소(Δ6-desaturase, elongase)에 의해 **아라키돈산(AA)**으로 전환된다."
       },
       {
@@ -2547,12 +2557,12 @@
       },
       {
         "file": "part1-overview",
-        "line": 282,
+        "line": 313,
         "context": "피부 세포막에 다불포화지방산(PUFA)이 많으면"
       },
       {
         "file": "part1-overview",
-        "line": 478,
+        "line": 509,
         "context": "- 산화에 취약한 다불포화지방산이 **적다**"
       },
       {
@@ -2599,17 +2609,17 @@
     "브레인포그": [
       {
         "file": "part1-overview",
-        "line": 159,
+        "line": 190,
         "context": "→ 식곤증, 브레인포그, 집중력 저하"
       },
       {
         "file": "part1-overview",
-        "line": 169,
+        "line": 200,
         "context": "이것이 **식곤증**과 **브레인포그**의 정체다."
       },
       {
         "file": "part1-overview",
-        "line": 399,
+        "line": 430,
         "context": "| **6단계** | 장-뇌 축(gut-brain axis) 붕괴 | 우울, 불안, 브레인포그 |"
       },
       {
@@ -2798,27 +2808,27 @@
       },
       {
         "file": "part1-overview",
-        "line": 66,
+        "line": 80,
         "context": "| **4단계** | 과잉 인슐린 → 지방 저장 촉진 + 지방 분해 차단 → 비만 + 만성 피로 | 창고에 물건만 쌓이고 꺼낼 수 없다 |"
       },
       {
         "file": "part1-overview",
-        "line": 103,
+        "line": 134,
         "context": "→ 비만 → 내장지방 → 지방간"
       },
       {
         "file": "part1-overview",
-        "line": 104,
+        "line": 135,
         "context": "→ 복부비만 → 위 압박 → 역류성 식도염"
       },
       {
         "file": "part1-overview",
-        "line": 108,
+        "line": 139,
         "context": "비만은 칼로리 문제가 아니라 **호르몬 문제**다."
       },
       {
         "file": "part1-overview",
-        "line": 443,
+        "line": 474,
         "context": "| **최종 결과** | 비만·당뇨·치매 | 피로·노화·피부질환 | 자가면역·알레르기·우울 |"
       },
       {
@@ -3207,22 +3217,22 @@
       },
       {
         "file": "part1-overview",
-        "line": 291,
+        "line": 322,
         "context": "그러나 썬크림은 UVB를 차단하고, UVB는 피부에서 **비타민D를 합성하는 유일한 경로**다."
       },
       {
         "file": "part1-overview",
-        "line": 292,
+        "line": 323,
         "context": "결과적으로 PUFA 과잉 → UV 피부 손상 → 썬크림 사용 → 비타민D 합성 차단이라는"
       },
       {
         "file": "part1-overview",
-        "line": 294,
+        "line": 325,
         "context": "태양 아래에서도 비타민D를 만들지 못하는 몸을 만드는 셈이다."
       },
       {
         "file": "part1-overview",
-        "line": 295,
+        "line": 326,
         "context": "비타민D 결핍은 면역 저하, 우울, 골다공증, 암 위험 증가와 직결된다."
       },
       {
@@ -3331,7 +3341,7 @@
     "사이토카인": [
       {
         "file": "part1-overview",
-        "line": 145,
+        "line": 176,
         "context": "고인슐린혈증 → 염증성 사이토카인(TNF-α, IL-6) 증가"
       },
       {
@@ -3353,22 +3363,22 @@
     "사포닌": [
       {
         "file": "part1-overview",
-        "line": 356,
+        "line": 387,
         "context": "| **사포닌** | 콩, 퀴노아 | 세포막 파괴, 장벽 투과성 증가 |"
       },
       {
         "file": "part1-overview",
-        "line": 376,
+        "line": 407,
         "context": "콩에는 렉틴, 피틴산, 사포닌, 이소플라본이 **동시에** 존재한다."
       },
       {
         "file": "part1-overview",
-        "line": 378,
+        "line": 409,
         "context": "이소플라본이 에스트로겐을 교란하고, 사포닌이 세포막을 파괴한다."
       },
       {
         "file": "part1-overview",
-        "line": 394,
+        "line": 425,
         "context": "| **1단계** | 장 점막 자극·손상 | 렉틴, 글리아딘, 사포닌 |"
       },
       {
@@ -3395,12 +3405,12 @@
     "생체이용률": [
       {
         "file": "part1-overview",
-        "line": 426,
+        "line": 457,
         "context": "**식물성 식품의 영양소 함량과 생체이용률은 전혀 다른 문제다.**"
       },
       {
         "file": "part1-overview",
-        "line": 482,
+        "line": 513,
         "context": "완전한 단백질, 안정적인 포화지방, 생체이용률 100%의 미네랄과 비타민."
       },
       {
@@ -3427,7 +3437,7 @@
     "솔라닌": [
       {
         "file": "part1-overview",
-        "line": 357,
+        "line": 388,
         "context": "| **솔라닌** | 감자, 가지, 고추 | 신경전달 장애, 관절 염증 유발 |"
       },
       {
@@ -3499,7 +3509,7 @@
       },
       {
         "file": "part1-overview",
-        "line": 134,
+        "line": 165,
         "context": "대부분은 공포를 느끼고 스타틴을 처방받는다."
       },
       {
@@ -3691,12 +3701,12 @@
     "식곤증": [
       {
         "file": "part1-overview",
-        "line": 159,
+        "line": 190,
         "context": "→ 식곤증, 브레인포그, 집중력 저하"
       },
       {
         "file": "part1-overview",
-        "line": 169,
+        "line": 200,
         "context": "이것이 **식곤증**과 **브레인포그**의 정체다."
       },
       {
@@ -3765,12 +3775,12 @@
       },
       {
         "file": "part1-overview",
-        "line": 146,
+        "line": 177,
         "context": "→ 관절염, 아토피, 자가면역질환"
       },
       {
         "file": "part1-overview",
-        "line": 398,
+        "line": 429,
         "context": "| **5단계** | 면역 오작동 → 자기 몸을 공격 | 관절염, 아토피, 자가면역 |"
       },
       {
@@ -3874,12 +3884,12 @@
       },
       {
         "file": "part1-overview",
-        "line": 358,
+        "line": 389,
         "context": "| **이소플라본** | 콩, 두부, 두유 | 에스트로겐 유사 작용 → 호르몬 교란 |"
       },
       {
         "file": "part1-overview",
-        "line": 378,
+        "line": 409,
         "context": "이소플라본이 에스트로겐을 교란하고, 사포닌이 세포막을 파괴한다."
       },
       {
@@ -3906,7 +3916,7 @@
     "역류성 식도염": [
       {
         "file": "part1-overview",
-        "line": 104,
+        "line": 135,
         "context": "→ 복부비만 → 위 압박 → 역류성 식도염"
       },
       {
@@ -4015,22 +4025,22 @@
       },
       {
         "file": "part1-overview",
-        "line": 298,
+        "line": 329,
         "context": "## 오메가6 폭주 — 염증의 화학적 고착"
       },
       {
         "file": "part1-overview",
-        "line": 301,
+        "line": 332,
         "context": "인류 진화 과정에서의 오메가6:3 비율은 **1:1~4:1**이었다."
       },
       {
         "file": "part1-overview",
-        "line": 307,
+        "line": 338,
         "context": "1. 식물성 기름에 풍부한 **리놀레산(오메가6)**이 체내에 축적된다."
       },
       {
         "file": "part1-overview",
-        "line": 313,
+        "line": 344,
         "context": "오메가6가 과잉이면 세포막에 아라키돈산이 가득 차 있으므로,"
       },
       {
@@ -4112,12 +4122,12 @@
       },
       {
         "file": "part1-overview",
-        "line": 152,
+        "line": 183,
         "context": "동시에 오토파지(손상 세포 자가 청소 시스템)가 **차단**된다."
       },
       {
         "file": "part1-overview",
-        "line": 487,
+        "line": 518,
         "context": "- 오토파지 활성화 → 손상 세포 청소 → 항노화"
       },
       {
@@ -4159,7 +4169,7 @@
       },
       {
         "file": "part1-overview",
-        "line": 355,
+        "line": 386,
         "context": "| **옥살산** | 시금치, 고구마, 아몬드 | 칼슘과 결합 → 신장결석, 관절 침착 |"
       },
       {
@@ -4246,42 +4256,42 @@
       },
       {
         "file": "part1-overview",
-        "line": 160,
+        "line": 191,
         "context": "→ 세로토닌·도파민 불균형 → 우울, 불안, 선택적 함묵증"
       },
       {
         "file": "part1-overview",
-        "line": 185,
+        "line": 216,
         "context": "특히 우울증, 불안장애, 공황장애 등 정신과적 질환이 있는 경우"
       },
       {
         "file": "part1-overview",
-        "line": 194,
+        "line": 225,
         "context": "세로토닌과 도파민의 균형이 무너져 **우울과 불안**이 고착된다."
       },
       {
         "file": "part1-overview",
-        "line": 208,
+        "line": 239,
         "context": "이 신경전달물질의 불안정은 우울과 불안뿐 아니라"
       },
       {
         "file": "part1-overview",
-        "line": 295,
+        "line": 326,
         "context": "비타민D 결핍은 면역 저하, 우울, 골다공증, 암 위험 증가와 직결된다."
       },
       {
         "file": "part1-overview",
-        "line": 399,
+        "line": 430,
         "context": "| **6단계** | 장-뇌 축(gut-brain axis) 붕괴 | 우울, 불안, 브레인포그 |"
       },
       {
         "file": "part1-overview",
-        "line": 404,
+        "line": 435,
         "context": "치매, 우울, 인지 저하를 유발할 수 있다는 것이 핵심 주장이다."
       },
       {
         "file": "part1-overview",
-        "line": 443,
+        "line": 474,
         "context": "| **최종 결과** | 비만·당뇨·치매 | 피로·노화·피부질환 | 자가면역·알레르기·우울 |"
       },
       {
@@ -4577,22 +4587,22 @@
       },
       {
         "file": "part1-overview",
-        "line": 358,
+        "line": 389,
         "context": "| **이소플라본** | 콩, 두부, 두유 | 에스트로겐 유사 작용 → 호르몬 교란 |"
       },
       {
         "file": "part1-overview",
-        "line": 376,
+        "line": 407,
         "context": "콩에는 렉틴, 피틴산, 사포닌, 이소플라본이 **동시에** 존재한다."
       },
       {
         "file": "part1-overview",
-        "line": 378,
+        "line": 409,
         "context": "이소플라본이 에스트로겐을 교란하고, 사포닌이 세포막을 파괴한다."
       },
       {
         "file": "part1-overview",
-        "line": 450,
+        "line": 481,
         "context": "- **콩나물/두부** = 렉틴 + 피틴산 + 이소플라본(항영양소)"
       },
       {
@@ -4729,192 +4739,262 @@
       },
       {
         "file": "part1-overview",
+        "line": 61,
+        "context": "먼저 인슐린이 정상적으로 하는 일부터 알아야 한다."
+      },
+      {
+        "file": "part1-overview",
         "line": 63,
-        "context": "| **1단계** | 탄수화물 섭취 → 혈당 급등 → 인슐린 대량 분비 | 화재 경보가 울린다 |"
+        "context": "그러면 췌장의 β세포가 **인슐린**을 분비한다."
       },
       {
         "file": "part1-overview",
         "line": 64,
+        "context": "인슐린의 역할은 명확하다:"
+      },
+      {
+        "file": "part1-overview",
+        "line": 71,
+        "context": "정상이라면 혈당이 떨어지면 인슐린도 떨어지고,"
+      },
+      {
+        "file": "part1-overview",
+        "line": 77,
+        "context": "| **1단계** | 탄수화물 섭취 → 혈당 급등 → 인슐린 대량 분비 | 화재 경보가 울린다 |"
+      },
+      {
+        "file": "part1-overview",
+        "line": 78,
         "context": "| **2단계** | 만성적 고인슐린 → 세포 수용체 둔감화(downregulation) | 경보가 너무 자주 울려 무시하게 된다 |"
       },
       {
         "file": "part1-overview",
-        "line": 65,
+        "line": 79,
         "context": "| **3단계** | 세포가 반응하지 않음 → 췌장이 더 많은 인슐린 분비 (**고인슐린혈증**) | 경보 볼륨을 계속 높인다 |"
       },
       {
         "file": "part1-overview",
-        "line": 66,
+        "line": 80,
         "context": "| **4단계** | 과잉 인슐린 → 지방 저장 촉진 + 지방 분해 차단 → 비만 + 만성 피로 | 창고에 물건만 쌓이고 꺼낼 수 없다 |"
       },
       {
         "file": "part1-overview",
-        "line": 70,
-        "context": "세포는 에너지가 필요한데, 인슐린이 지방 창고의 문을 잠가버렸다."
+        "line": 85,
+        "context": "**인슐린 저항성이란 정확히 무엇인가?**"
       },
       {
         "file": "part1-overview",
-        "line": 74,
-        "context": "인슐린은 두 가지 방향으로 동시에 작용하는 호르몬이다."
-      },
-      {
-        "file": "part1-overview",
-        "line": 75,
-        "context": "**첫째, 지방 저장을 촉진한다.** 혈당이 오르면 인슐린이 분비되고,"
-      },
-      {
-        "file": "part1-overview",
-        "line": 76,
-        "context": "인슐린은 지방세포의 리포단백질 리파제(LPL)를 활성화하여"
-      },
-      {
-        "file": "part1-overview",
-        "line": 79,
-        "context": "**둘째, 지방 분해를 차단한다.** 인슐린은 지방세포의 호르몬 감수성 리파제(HSL)를 억제한다."
-      },
-      {
-        "file": "part1-overview",
-        "line": 81,
-        "context": "인슐린이 높은 동안에는 이 효소가 **꺼진 상태**로 유지된다."
-      },
-      {
-        "file": "part1-overview",
-        "line": 82,
-        "context": "즉, 인슐린이 높은 한 지방은 **들어가기만 하고 나올 수 없다.**"
-      },
-      {
-        "file": "part1-overview",
-        "line": 83,
-        "context": "하루 종일 탄수화물을 먹어 인슐린이 높게 유지되면,"
+        "line": 87,
+        "context": "세포 표면에는 인슐린이 결합하는 수용체가 있다."
       },
       {
         "file": "part1-overview",
         "line": 88,
-        "context": "## 인슐린 — 마스터 호르몬이 지배하는 네 갈래 경로"
+        "context": "인슐린이 수용체에 결합하면 세포 내부로 신호가 전달되어 GLUT4가 세포 표면으로 이동하고,"
       },
       {
         "file": "part1-overview",
-        "line": 92,
-        "context": "**\"인슐린 저항성이 대부분의 현대 만성질환의 숨겨진 공통 원인이다.\"**"
+        "line": 89,
+        "context": "포도당이 세포 안으로 들어간다. 이것이 정상적인 인슐린 신호 전달이다."
+      },
+      {
+        "file": "part1-overview",
+        "line": 91,
+        "context": "그런데 인슐린이 **하루 종일, 매일, 수년간** 높은 수준으로 유지되면"
+      },
+      {
+        "file": "part1-overview",
+        "line": 93,
+        "context": "수용체가 줄어드니 같은 양의 인슐린으로는 이전만큼 포도당을 밀어넣을 수 없다."
       },
       {
         "file": "part1-overview",
         "line": 94,
-        "context": "인슐린은 단순히 혈당을 조절하는 호르몬이 아니다."
+        "context": "이것이 **인슐린 저항성**이다 — 인슐린은 있는데 세포가 반응하지 않는 상태."
       },
       {
         "file": "part1-overview",
-        "line": 102,
-        "context": "인슐린 저항성 → 지방 저장 촉진 + 분해 차단"
+        "line": 96,
+        "context": "췌장은 이 상황을 \"인슐린이 부족하다\"고 해석하여 **더 많은 인슐린을 분비**한다."
+      },
+      {
+        "file": "part1-overview",
+        "line": 97,
+        "context": "이것이 3단계 **고인슐린혈증**이다."
+      },
+      {
+        "file": "part1-overview",
+        "line": 98,
+        "context": "인슐린 저항성과 고인슐린혈증은 서로를 악화시키는 악순환 관계다."
+      },
+      {
+        "file": "part1-overview",
+        "line": 101,
+        "context": "세포는 에너지가 필요한데, 인슐린이 지방 창고의 문을 잠가버렸다."
       },
       {
         "file": "part1-overview",
         "line": 105,
-        "context": "→ 뇌 인슐린 저항 → 치매 (제3형 당뇨)"
+        "context": "인슐린은 두 가지 방향으로 동시에 작용하는 호르몬이다."
       },
       {
         "file": "part1-overview",
-        "line": 109,
-        "context": "인슐린이 높은 한, 아무리 적게 먹어도 지방은 빠지지 않는다."
+        "line": 106,
+        "context": "**첫째, 지방 저장을 촉진한다.** 혈당이 오르면 인슐린이 분비되고,"
       },
       {
         "file": "part1-overview",
-        "line": 111,
-        "context": "\"덜 먹어라\"가 아니라 **\"인슐린을 낮춰라\"**가 답이다"
+        "line": 107,
+        "context": "인슐린은 지방세포의 리포단백질 리파제(LPL)를 활성화하여"
       },
       {
         "file": "part1-overview",
-        "line": 117,
-        "context": "인슐린 저항성 → 중성지방(TG) 상승 + HDL 저하"
+        "line": 110,
+        "context": "**둘째, 지방 분해를 차단한다.** 인슐린은 지방세포의 호르몬 감수성 리파제(HSL)를 억제한다."
       },
       {
         "file": "part1-overview",
-        "line": 130,
-        "context": "이것이 인슐린 저항성과 결합하면 TG는 만성적으로 높은 상태가 된다."
+        "line": 112,
+        "context": "인슐린이 높은 동안에는 이 효소가 **꺼진 상태**로 유지된다."
       },
       {
         "file": "part1-overview",
-        "line": 131,
-        "context": "이 과정이 바로 인슐린이 지질 대사까지 망가뜨리는 핵심 경로다."
+        "line": 113,
+        "context": "즉, 인슐린이 높은 한 지방은 **들어가기만 하고 나올 수 없다.**"
+      },
+      {
+        "file": "part1-overview",
+        "line": 114,
+        "context": "하루 종일 탄수화물을 먹어 인슐린이 높게 유지되면,"
+      },
+      {
+        "file": "part1-overview",
+        "line": 119,
+        "context": "## 인슐린 — 마스터 호르몬이 지배하는 네 갈래 경로"
+      },
+      {
+        "file": "part1-overview",
+        "line": 123,
+        "context": "**\"인슐린 저항성이 대부분의 현대 만성질환의 숨겨진 공통 원인이다.\"**"
+      },
+      {
+        "file": "part1-overview",
+        "line": 125,
+        "context": "인슐린은 단순히 혈당을 조절하는 호르몬이 아니다."
+      },
+      {
+        "file": "part1-overview",
+        "line": 133,
+        "context": "인슐린 저항성 → 지방 저장 촉진 + 분해 차단"
       },
       {
         "file": "part1-overview",
         "line": 136,
+        "context": "→ 뇌 인슐린 저항 → 치매 (제3형 당뇨)"
+      },
+      {
+        "file": "part1-overview",
+        "line": 140,
+        "context": "인슐린이 높은 한, 아무리 적게 먹어도 지방은 빠지지 않는다."
+      },
+      {
+        "file": "part1-overview",
+        "line": 142,
+        "context": "\"덜 먹어라\"가 아니라 **\"인슐린을 낮춰라\"**가 답이다"
+      },
+      {
+        "file": "part1-overview",
+        "line": 148,
+        "context": "인슐린 저항성 → 중성지방(TG) 상승 + HDL 저하"
+      },
+      {
+        "file": "part1-overview",
+        "line": 161,
+        "context": "이것이 인슐린 저항성과 결합하면 TG는 만성적으로 높은 상태가 된다."
+      },
+      {
+        "file": "part1-overview",
+        "line": 162,
+        "context": "이 과정이 바로 인슐린이 지질 대사까지 망가뜨리는 핵심 경로다."
+      },
+      {
+        "file": "part1-overview",
+        "line": 167,
         "context": "그리고 sdLDL을 만드는 것은 포화지방이 아니라 **탄수화물 과잉 + 인슐린 저항성**이다."
       },
       {
         "file": "part1-overview",
-        "line": 139,
+        "line": 170,
         "context": "2 미만이면 안전, 4 이상이면 위험 — 이것이 인슐린 저항성의 거울이다"
       },
       {
         "file": "part1-overview",
-        "line": 145,
+        "line": 176,
         "context": "고인슐린혈증 → 염증성 사이토카인(TNF-α, IL-6) 증가"
       },
       {
         "file": "part1-overview",
-        "line": 150,
+        "line": 181,
         "context": "인슐린이 만성적으로 높으면 mTOR(세포 성장 신호)가 과활성화되어"
       },
       {
         "file": "part1-overview",
-        "line": 158,
+        "line": 189,
         "context": "인슐린 저항성 → 혈당 롤러코스터"
       },
       {
         "file": "part1-overview",
-        "line": 198,
+        "line": 229,
         "context": "트립토판이 뇌로 운반되려면 인슐린의 도움이 필요하다."
       },
       {
         "file": "part1-overview",
-        "line": 199,
+        "line": 230,
         "context": "혈당이 급등하면 인슐린이 폭발적으로 분비되어 트립토판이 뇌로 대량 유입되고,"
       },
       {
         "file": "part1-overview",
-        "line": 218,
+        "line": 249,
         "context": "인슐린을 거의 자극하지 않는 지방과 단백질을 먹는 것이다"
       },
       {
         "file": "part1-overview",
-        "line": 440,
+        "line": 471,
         "context": "| **1차 손상** | 인슐린 저항성 | 세포막 산화 | 장벽 파괴 |"
       },
       {
         "file": "part1-overview",
-        "line": 447,
+        "line": 478,
         "context": "- **빵** = 글루텐(항영양소) + 정제 탄수화물(인슐린)"
       },
       {
         "file": "part1-overview",
-        "line": 449,
+        "line": 480,
         "context": "- **주스** = 과당(인슐린 + 지방간)"
       },
       {
         "file": "part1-overview",
-        "line": 456,
+        "line": 487,
         "context": "인슐린 저항성이 이 모든 것을 **되돌릴 수 없는 방향**으로 고착시킨다."
       },
       {
         "file": "part1-overview",
-        "line": 469,
+        "line": 500,
         "context": "| 탄수화물 제거 | 인슐린 정상화 → 지방 분해 시작 → 케톤체 생산 → 뇌 안정 |"
       },
       {
         "file": "part1-overview",
-        "line": 477,
+        "line": 508,
         "context": "- 인슐린을 자극하는 탄수화물이 **없다**"
       },
       {
         "file": "part1-overview",
-        "line": 484,
+        "line": 515,
         "context": "인슐린이 낮아지면:"
       },
       {
         "file": "part1-overview",
-        "line": 513,
+        "line": 544,
         "context": "> **기억할 한 문장:** 현대인의 만성질환은 수십 가지로 보이지만, 원인은 세 가지다 — 탄수화물이 인슐린을 망가뜨리고, 식물성 기름이 세포"
       },
       {
@@ -5501,47 +5581,62 @@
       },
       {
         "file": "part1-overview",
-        "line": 92,
+        "line": 85,
+        "context": "**인슐린 저항성이란 정확히 무엇인가?**"
+      },
+      {
+        "file": "part1-overview",
+        "line": 94,
+        "context": "이것이 **인슐린 저항성**이다 — 인슐린은 있는데 세포가 반응하지 않는 상태."
+      },
+      {
+        "file": "part1-overview",
+        "line": 98,
+        "context": "인슐린 저항성과 고인슐린혈증은 서로를 악화시키는 악순환 관계다."
+      },
+      {
+        "file": "part1-overview",
+        "line": 123,
         "context": "**\"인슐린 저항성이 대부분의 현대 만성질환의 숨겨진 공통 원인이다.\"**"
       },
       {
         "file": "part1-overview",
-        "line": 102,
+        "line": 133,
         "context": "인슐린 저항성 → 지방 저장 촉진 + 분해 차단"
       },
       {
         "file": "part1-overview",
-        "line": 117,
+        "line": 148,
         "context": "인슐린 저항성 → 중성지방(TG) 상승 + HDL 저하"
       },
       {
         "file": "part1-overview",
-        "line": 130,
+        "line": 161,
         "context": "이것이 인슐린 저항성과 결합하면 TG는 만성적으로 높은 상태가 된다."
       },
       {
         "file": "part1-overview",
-        "line": 136,
+        "line": 167,
         "context": "그리고 sdLDL을 만드는 것은 포화지방이 아니라 **탄수화물 과잉 + 인슐린 저항성**이다."
       },
       {
         "file": "part1-overview",
-        "line": 139,
+        "line": 170,
         "context": "2 미만이면 안전, 4 이상이면 위험 — 이것이 인슐린 저항성의 거울이다"
       },
       {
         "file": "part1-overview",
-        "line": 158,
+        "line": 189,
         "context": "인슐린 저항성 → 혈당 롤러코스터"
       },
       {
         "file": "part1-overview",
-        "line": 440,
+        "line": 471,
         "context": "| **1차 손상** | 인슐린 저항성 | 세포막 산화 | 장벽 파괴 |"
       },
       {
         "file": "part1-overview",
-        "line": 456,
+        "line": 487,
         "context": "인슐린 저항성이 이 모든 것을 **되돌릴 수 없는 방향**으로 고착시킨다."
       },
       {
@@ -5738,22 +5833,22 @@
       },
       {
         "file": "part1-overview",
-        "line": 146,
+        "line": 177,
         "context": "→ 관절염, 아토피, 자가면역질환"
       },
       {
         "file": "part1-overview",
-        "line": 398,
+        "line": 429,
         "context": "| **5단계** | 면역 오작동 → 자기 몸을 공격 | 관절염, 아토피, 자가면역 |"
       },
       {
         "file": "part1-overview",
-        "line": 414,
+        "line": 445,
         "context": "이것이 자가면역질환의 시작이다"
       },
       {
         "file": "part1-overview",
-        "line": 443,
+        "line": 474,
         "context": "| **최종 결과** | 비만·당뇨·치매 | 피로·노화·피부질환 | 자가면역·알레르기·우울 |"
       },
       {
@@ -5840,7 +5935,7 @@
     "장-뇌 축": [
       {
         "file": "part1-overview",
-        "line": 399,
+        "line": 430,
         "context": "| **6단계** | 장-뇌 축(gut-brain axis) 붕괴 | 우울, 불안, 브레인포그 |"
       }
     ],
@@ -5894,62 +5989,62 @@
       },
       {
         "file": "part1-overview",
-        "line": 333,
+        "line": 364,
         "context": "# 제3축: 항영양소 — 장벽을 허무는 식물의 무기"
       },
       {
         "file": "part1-overview",
-        "line": 353,
+        "line": 384,
         "context": "| **글루텐/글리아딘** | 밀, 보리, 호밀 | zonulin 분비 유도 → 장벽 틈새를 벌림 |"
       },
       {
         "file": "part1-overview",
-        "line": 356,
+        "line": 387,
         "context": "| **사포닌** | 콩, 퀴노아 | 세포막 파괴, 장벽 투과성 증가 |"
       },
       {
         "file": "part1-overview",
-        "line": 377,
+        "line": 408,
         "context": "렉틴이 장벽을 공격하고, 피틴산이 미네랄 흡수를 차단하며,"
       },
       {
         "file": "part1-overview",
-        "line": 386,
+        "line": 417,
         "context": "## 장벽 붕괴 — 6단계 연쇄 반응"
       },
       {
         "file": "part1-overview",
-        "line": 388,
+        "line": 419,
         "context": "항영양소의 가장 파괴적인 공격은 **장벽**을 향한다."
       },
       {
         "file": "part1-overview",
-        "line": 403,
+        "line": 434,
         "context": "글루텐이 장벽뿐 아니라 **혈뇌장벽(BBB)**까지 손상시켜"
       },
       {
         "file": "part1-overview",
-        "line": 440,
+        "line": 471,
         "context": "| **1차 손상** | 인슐린 저항성 | 세포막 산화 | 장벽 파괴 |"
       },
       {
         "file": "part1-overview",
-        "line": 454,
+        "line": 485,
         "context": "장벽이 무너진 상태에서 독소가 유입되고,"
       },
       {
         "file": "part1-overview",
-        "line": 471,
+        "line": 502,
         "context": "| 항영양소 제거 | 장벽 재건 → 면역 정상화 → 염증 감소 |"
       },
       {
         "file": "part1-overview",
-        "line": 479,
+        "line": 510,
         "context": "- 장벽을 공격하는 항영양소가 **없다**"
       },
       {
         "file": "part1-overview",
-        "line": 513,
+        "line": 544,
         "context": "> **기억할 한 문장:** 현대인의 만성질환은 수십 가지로 보이지만, 원인은 세 가지다 — 탄수화물이 인슐린을 망가뜨리고, 식물성 기름이 세포"
       },
       {
@@ -6143,22 +6238,22 @@
       },
       {
         "file": "part1-overview",
-        "line": 117,
+        "line": 148,
         "context": "인슐린 저항성 → 중성지방(TG) 상승 + HDL 저하"
       },
       {
         "file": "part1-overview",
-        "line": 122,
+        "line": 153,
         "context": "그런데 중성지방(TG)은 왜 올라가는 걸까?"
       },
       {
         "file": "part1-overview",
-        "line": 126,
+        "line": 157,
         "context": "이 지방산은 글리세롤과 결합하여 중성지방(TG)이 되고,"
       },
       {
         "file": "part1-overview",
-        "line": 128,
+        "line": 159,
         "context": "즉, **혈중 중성지방의 주된 원료는 지방이 아니라 탄수화물**이다."
       },
       {
@@ -6200,12 +6295,12 @@
       },
       {
         "file": "part1-overview",
-        "line": 103,
+        "line": 134,
         "context": "→ 비만 → 내장지방 → 지방간"
       },
       {
         "file": "part1-overview",
-        "line": 449,
+        "line": 480,
         "context": "- **주스** = 과당(인슐린 + 지방간)"
       },
       {
@@ -6257,17 +6352,17 @@
       },
       {
         "file": "part1-overview",
-        "line": 105,
+        "line": 136,
         "context": "→ 뇌 인슐린 저항 → 치매 (제3형 당뇨)"
       },
       {
         "file": "part1-overview",
-        "line": 404,
+        "line": 435,
         "context": "치매, 우울, 인지 저하를 유발할 수 있다는 것이 핵심 주장이다."
       },
       {
         "file": "part1-overview",
-        "line": 443,
+        "line": 474,
         "context": "| **최종 결과** | 비만·당뇨·치매 | 피로·노화·피부질환 | 자가면역·알레르기·우울 |"
       },
       {
@@ -6399,7 +6494,7 @@
       },
       {
         "file": "part1-overview",
-        "line": 491,
+        "line": 522,
         "context": "이것이 카니보어 식단의 과학적 논리다."
       },
       {
@@ -7026,12 +7121,12 @@
       },
       {
         "file": "part1-overview",
-        "line": 469,
+        "line": 500,
         "context": "| 탄수화물 제거 | 인슐린 정상화 → 지방 분해 시작 → 케톤체 생산 → 뇌 안정 |"
       },
       {
         "file": "part1-overview",
-        "line": 486,
+        "line": 517,
         "context": "- 케톤체(BHB) 생산 → 뇌에 안정적 에너지 공급"
       },
       {
@@ -7268,12 +7363,12 @@
       },
       {
         "file": "part1-overview",
-        "line": 469,
+        "line": 500,
         "context": "| 탄수화물 제거 | 인슐린 정상화 → 지방 분해 시작 → 케톤체 생산 → 뇌 안정 |"
       },
       {
         "file": "part1-overview",
-        "line": 486,
+        "line": 517,
         "context": "- 케톤체(BHB) 생산 → 뇌에 안정적 에너지 공급"
       },
       {
@@ -7375,7 +7470,7 @@
     "코르티솔": [
       {
         "file": "part1-overview",
-        "line": 187,
+        "line": 218,
         "context": "혈당이 급락하면 코르티솔(스트레스 호르몬)이 분비되어"
       },
       {
@@ -7492,12 +7587,12 @@
       },
       {
         "file": "part1-overview",
-        "line": 133,
+        "line": 164,
         "context": "건강검진에서 \"콜레스테롤이 높다\"는 말을 들었을 때,"
       },
       {
         "file": "part1-overview",
-        "line": 504,
+        "line": 535,
         "context": "- **3부**에서는 콜레스테롤의 진실, 장 건강, 탄수화물과 식물성 기름의 함정을 파헤친다"
       },
       {
@@ -7906,12 +8001,12 @@
       },
       {
         "file": "part1-overview",
-        "line": 395,
+        "line": 426,
         "context": "| **2단계** | 타이트 정션(세포 간 밀착 연결) 파괴 | zonulin 분비 증가 |"
       },
       {
         "file": "part1-overview",
-        "line": 409,
+        "line": 440,
         "context": "세포 사이의 타이트 정션이 느슨해진다."
       },
       {
@@ -7933,12 +8028,12 @@
     "트랜스 지방": [
       {
         "file": "part1-overview",
-        "line": 322,
+        "line": 353,
         "context": "## 트랜스 지방 — 역사적 아이러니"
       },
       {
         "file": "part1-overview",
-        "line": 325,
+        "line": 356,
         "context": "이 과정에서 생성되는 트랜스 지방은"
       },
       {
@@ -8205,22 +8300,22 @@
       },
       {
         "file": "part1-overview",
-        "line": 136,
+        "line": 167,
         "context": "그리고 sdLDL을 만드는 것은 포화지방이 아니라 **탄수화물 과잉 + 인슐린 저항성**이다."
       },
       {
         "file": "part1-overview",
-        "line": 282,
+        "line": 313,
         "context": "피부 세포막에 다불포화지방산(PUFA)이 많으면"
       },
       {
         "file": "part1-overview",
-        "line": 478,
+        "line": 509,
         "context": "- 산화에 취약한 다불포화지방산이 **적다**"
       },
       {
         "file": "part1-overview",
-        "line": 482,
+        "line": 513,
         "context": "완전한 단백질, 안정적인 포화지방, 생체이용률 100%의 미네랄과 비타민."
       },
       {
@@ -8352,32 +8447,32 @@
       },
       {
         "file": "part1-overview",
-        "line": 354,
+        "line": 385,
         "context": "| **피틴산** | 현미, 견과, 콩 | 철·아연·칼슘·마그네슘에 결합 → 흡수 차단 |"
       },
       {
         "file": "part1-overview",
-        "line": 376,
+        "line": 407,
         "context": "콩에는 렉틴, 피틴산, 사포닌, 이소플라본이 **동시에** 존재한다."
       },
       {
         "file": "part1-overview",
-        "line": 377,
+        "line": 408,
         "context": "렉틴이 장벽을 공격하고, 피틴산이 미네랄 흡수를 차단하며,"
       },
       {
         "file": "part1-overview",
-        "line": 421,
+        "line": 452,
         "context": "피틴산은 철, 아연, 칼슘, 마그네슘과 결합하여"
       },
       {
         "file": "part1-overview",
-        "line": 424,
+        "line": 455,
         "context": "정작 그 미네랄의 상당 부분은 피틴산에 묶여 그대로 배출된다."
       },
       {
         "file": "part1-overview",
-        "line": 450,
+        "line": 481,
         "context": "- **콩나물/두부** = 렉틴 + 피틴산 + 이소플라본(항영양소)"
       },
       {
@@ -8444,62 +8539,62 @@
       },
       {
         "file": "part1-overview",
-        "line": 333,
+        "line": 364,
         "context": "# 제3축: 항영양소 — 장벽을 허무는 식물의 무기"
       },
       {
         "file": "part1-overview",
-        "line": 341,
+        "line": 372,
         "context": "대신 **독소(toxins)와 항영양소(antinutrients)**라는 화학적 무기로 자신을 보호한다."
       },
       {
         "file": "part1-overview",
-        "line": 348,
+        "line": 379,
         "context": "## 주요 항영양소와 그 공격 방식"
       },
       {
         "file": "part1-overview",
-        "line": 383,
+        "line": 414,
         "context": "네 가지 항영양소를 동시에 섭취해야 한다는 사실은 언급하지 않는다."
       },
       {
         "file": "part1-overview",
-        "line": 388,
+        "line": 419,
         "context": "항영양소의 가장 파괴적인 공격은 **장벽**을 향한다."
       },
       {
         "file": "part1-overview",
-        "line": 419,
+        "line": 450,
         "context": "항영양소의 두 번째 공격은 **미네랄 흡수 차단**이다."
       },
       {
         "file": "part1-overview",
-        "line": 438,
+        "line": 469,
         "context": "| 공격축 | 탄수화물 | 식물성 기름 | 항영양소 |"
       },
       {
         "file": "part1-overview",
-        "line": 447,
+        "line": 478,
         "context": "- **빵** = 글루텐(항영양소) + 정제 탄수화물(인슐린)"
       },
       {
         "file": "part1-overview",
-        "line": 450,
+        "line": 481,
         "context": "- **콩나물/두부** = 렉틴 + 피틴산 + 이소플라본(항영양소)"
       },
       {
         "file": "part1-overview",
-        "line": 471,
+        "line": 502,
         "context": "| 항영양소 제거 | 장벽 재건 → 면역 정상화 → 염증 감소 |"
       },
       {
         "file": "part1-overview",
-        "line": 479,
+        "line": 510,
         "context": "- 장벽을 공격하는 항영양소가 **없다**"
       },
       {
         "file": "part1-overview",
-        "line": 513,
+        "line": 544,
         "context": "> **기억할 한 문장:** 현대인의 만성질환은 수십 가지로 보이지만, 원인은 세 가지다 — 탄수화물이 인슐린을 망가뜨리고, 식물성 기름이 세포"
       },
       {
