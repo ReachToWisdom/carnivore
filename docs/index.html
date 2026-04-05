@@ -8705,16 +8705,26 @@ document.addEventListener('DOMContentLoaded', async () => {
     // 롱프레스로 이미 열렸으면 무시
     if (pressTriggered) return;
 
-    // 텍스트 선택이 있으면 선택 완료 후 코멘트 열기 (모바일 텍스트 선택 지원)
     setTimeout(() => {
       const sel = window.getSelection();
-      if (sel && sel.toString().trim().length > 0) {
+      const hasSelection = sel && sel.toString().trim().length > 0;
+
+      if (hasSelection) {
+        // 텍스트 선택 → 새 코멘트 입력
         const el = sel.anchorNode?.parentElement?.closest?.('[id]');
         if (el && el.dataset.file) {
           openCommentForElement(el);
         }
+      } else if (pressTarget) {
+        // 짧은 클릭 + 기존 코멘트 있으면 → 우측 패널에 해당 코멘트 표시
+        const existing = comments.filter(c => c.targetId === pressTarget.id);
+        if (existing.length > 0) {
+          if (!commentPanelOpen) toggleComments();
+          // 해당 문단 코멘트만 필터링 표시
+          showCommentsForTarget(pressTarget.id);
+        }
       }
-    }, 300);
+    }, 200);
   }
 
   function cancelPress() { clearTimeout(pressTimer); }
@@ -8736,7 +8746,39 @@ document.addEventListener('DOMContentLoaded', async () => {
   });
 });
 
-// ── 코멘트 열기 (선택 텍스트 + 문장 하���라이트) ──
+// ── 문단별 코멘트 보기 (짧은 클릭) ──
+function showCommentsForTarget(targetId) {
+  const list = document.getElementById('commentList');
+  const targetComments = comments.filter(c => c.targetId === targetId);
+  if (targetComments.length === 0) return;
+
+  // 필터 리셋 표시
+  document.querySelectorAll('.filter-bar button').forEach(b => b.classList.remove('active'));
+
+  // 상단에 "이 문단의 코멘트" 헤더 + 전체보기 버튼
+  const header = `<div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:10px;">
+    <span style="font-size:13px;font-weight:bold;color:var(--accent);">📍 이 문단의 코멘트 (${targetComments.length}개)</span>
+    <button onclick="filterComments('all',null)" style="font-size:11px;padding:3px 8px;border-radius:4px;border:1px solid var(--border);background:white;cursor:pointer;">전체 보기</button>
+  </div>`;
+
+  // 기존 renderComments 로직 재활용
+  const prevFilter = currentFilter;
+  const prevComments = [...comments];
+  comments = targetComments;
+  currentFilter = 'all';
+  renderComments();
+  comments = prevComments;
+  currentFilter = prevFilter;
+
+  // 헤더 삽입
+  list.insertAdjacentHTML('afterbegin', header);
+
+  // 첫 코멘트 카드로 스크롤
+  const firstCard = list.querySelector('.comment-card');
+  if (firstCard) firstCard.scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+
+// ── 코멘트 열기 (선택 텍스트 + 문장 하이라이트) ──
 function openCommentForElement(el) {
   selectedEl = el;
 

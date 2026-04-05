@@ -616,16 +616,26 @@ document.addEventListener('DOMContentLoaded', async () => {
     // 롱프레스로 이미 열렸으면 무시
     if (pressTriggered) return;
 
-    // 텍스트 선택이 있으면 선택 완료 후 코멘트 열기 (모바일 텍스트 선택 지원)
     setTimeout(() => {
       const sel = window.getSelection();
-      if (sel && sel.toString().trim().length > 0) {
+      const hasSelection = sel && sel.toString().trim().length > 0;
+
+      if (hasSelection) {
+        // 텍스트 선택 → 새 코멘트 입력
         const el = sel.anchorNode?.parentElement?.closest?.('[id]');
         if (el && el.dataset.file) {
           openCommentForElement(el);
         }
+      } else if (pressTarget) {
+        // 짧은 클릭 + 기존 코멘트 있으면 → 우측 패널에 해당 코멘트 표시
+        const existing = comments.filter(c => c.targetId === pressTarget.id);
+        if (existing.length > 0) {
+          if (!commentPanelOpen) toggleComments();
+          // 해당 문단 코멘트만 필터링 표시
+          showCommentsForTarget(pressTarget.id);
+        }
       }
-    }, 300);
+    }, 200);
   }
 
   function cancelPress() { clearTimeout(pressTimer); }
@@ -647,7 +657,39 @@ document.addEventListener('DOMContentLoaded', async () => {
   });
 });
 
-// ── 코멘트 열기 (선택 텍스트 + 문장 하���라이트) ──
+// ── 문단별 코멘트 보기 (짧은 클릭) ──
+function showCommentsForTarget(targetId) {
+  const list = document.getElementById('commentList');
+  const targetComments = comments.filter(c => c.targetId === targetId);
+  if (targetComments.length === 0) return;
+
+  // 필터 리셋 표시
+  document.querySelectorAll('.filter-bar button').forEach(b => b.classList.remove('active'));
+
+  // 상단에 "이 문단의 코멘트" 헤더 + 전체보기 버튼
+  const header = `<div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:10px;">
+    <span style="font-size:13px;font-weight:bold;color:var(--accent);">📍 이 문단의 코멘트 (${targetComments.length}개)</span>
+    <button onclick="filterComments('all',null)" style="font-size:11px;padding:3px 8px;border-radius:4px;border:1px solid var(--border);background:white;cursor:pointer;">전체 보기</button>
+  </div>`;
+
+  // 기존 renderComments 로직 재활용
+  const prevFilter = currentFilter;
+  const prevComments = [...comments];
+  comments = targetComments;
+  currentFilter = 'all';
+  renderComments();
+  comments = prevComments;
+  currentFilter = prevFilter;
+
+  // 헤더 삽입
+  list.insertAdjacentHTML('afterbegin', header);
+
+  // 첫 코멘트 카드로 스크롤
+  const firstCard = list.querySelector('.comment-card');
+  if (firstCard) firstCard.scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+
+// ── 코멘트 열기 (선택 텍스트 + 문장 하이라이트) ──
 function openCommentForElement(el) {
   selectedEl = el;
 
@@ -1028,6 +1070,88 @@ function formatDate(iso) {
 """
 
 
+def build_term_index():
+    """핵심 용어 색인 생성 — 용어별 등장 위치(파일:줄) 매핑"""
+    import json
+
+    # 핵심 용어 목록 (카니보어 원고에서 반복 등장하는 전문 용어)
+    TERMS = [
+        # 호르몬/대사
+        "인슐린", "인슐린 저항성", "고인슐린혈증", "케톤", "케톤체", "BHB",
+        "렙틴", "코르티솔", "에스트로겐", "이소플라본", "mTOR", "오토파지",
+        "글루카곤", "IGF-1",
+        # 지질
+        "콜레스테롤", "LDL", "sdLDL", "HDL", "중성지방", "TG/HDL",
+        "포화지방", "불포화지방", "오메가6", "오메가3", "리놀레산",
+        "트랜스 지방", "과산화지질", "PUFA",
+        # 항영양소/독소
+        "렉틴", "글루텐", "글리아딘", "피틴산", "옥살산", "사포닌",
+        "솔라닌", "zonulin", "항영양소",
+        # 장/면역
+        "장누수", "장벽", "타이트 정션", "마이크로바이옴", "장-뇌 축",
+        "LPS", "TNF", "IL-6", "사이토카인", "자가면역",
+        # 질환
+        "당뇨", "비만", "치매", "우울", "아토피", "PCOS", "지방간",
+        "역류성 식도염", "식곤증", "브레인포그", "대사증후군",
+        # 식단/영양
+        "카니보어", "키토", "저탄고지", "간헐적 단식",
+        "비타민C", "비타민D", "비타민K2", "DHA", "EPA",
+        "DIAAS", "생체이용률",
+        # 인물/연구
+        "앤셀 키스", "Bikman", "Jason Fung", "Paul Saladino", "Fasano",
+        "웨스턴 프라이스", "이누이트", "마사이",
+        # 산업/제도
+        "스타틴", "식이지침", "맥거번", "PURE", "블루존",
+    ]
+
+    index = {}
+    for entry in CHAPTERS:
+        filepath, part_info = entry
+        if filepath is None:
+            continue
+        full_path = os.path.join(BASE_DIR, filepath)
+        if not os.path.exists(full_path):
+            continue
+        file_id = os.path.basename(filepath).replace('.md', '')
+        with open(full_path, 'r', encoding='utf-8') as f:
+            lines = f.readlines()
+
+        for term in TERMS:
+            for i, line in enumerate(lines, 1):
+                if term in line:
+                    if term not in index:
+                        index[term] = []
+                    index[term].append({
+                        "file": file_id,
+                        "line": i,
+                        "context": line.strip()[:80]
+                    })
+
+    # 중복 제거 및 정렬
+    for term in index:
+        seen = set()
+        unique = []
+        for loc in index[term]:
+            key = f"{loc['file']}:{loc['line']}"
+            if key not in seen:
+                seen.add(key)
+                unique.append(loc)
+        index[term] = sorted(unique, key=lambda x: (x['file'], x['line']))
+
+    output = {
+        "description": "카니보어 원고 용어 색인 — 용어별 등장 위치",
+        "generatedAt": __import__('datetime').datetime.now().isoformat(),
+        "totalTerms": len(index),
+        "index": dict(sorted(index.items()))
+    }
+
+    output_path = os.path.join(DOCS_DIR, "term_index.json")
+    with open(output_path, 'w', encoding='utf-8') as f:
+        json.dump(output, f, ensure_ascii=False, indent=2)
+    print(f"  용어 색인: {output_path} ({len(index)}개 용어)")
+    return index
+
+
 def main():
     os.makedirs(DOCS_DIR, exist_ok=True)
     print("  원고 변환 중...")
@@ -1037,7 +1161,11 @@ def main():
         f.write(html_out)
     size_kb = os.path.getsize(OUTPUT_HTML) // 1024
     print(f"  완료: {OUTPUT_HTML} ({size_kb}KB)")
-    print(f"  GitHub Pages: docs/index.html 배포 준비 완료")
+
+    print("  용어 색인 생성 중...")
+    build_term_index()
+
+    print(f"  GitHub Pages: docs/ 배포 준비 완료")
 
 
 if __name__ == '__main__':
