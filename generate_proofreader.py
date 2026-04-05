@@ -300,7 +300,17 @@ body {
   display: none;
 }
 .comment-input-area.active { display: block; }
-.comment-input-area .target-info { font-size: 12px; color: #888; margin-bottom: 8px; }
+.comment-input-area .target-info { font-size: 12px; color: #888; margin-bottom: 6px; }
+.comment-input-area .selected-text {
+  font-size: 14px; color: var(--text); background: #fff8e1;
+  border-left: 3px solid var(--accent); padding: 8px 12px;
+  margin-bottom: 10px; border-radius: 4px;
+  max-height: 120px; overflow-y: auto; line-height: 1.6;
+}
+.comment-input-area .selected-text mark {
+  background: rgba(200, 90, 42, 0.3); padding: 0 2px; border-radius: 2px; font-weight: bold;
+}
+.comment-input-area .selected-text:empty { display: none; }
 .comment-input-area textarea {
   width: 100%; height: 80px; border: 1px solid var(--border);
   border-radius: 6px; padding: 10px; font-size: 14px;
@@ -411,6 +421,7 @@ mark { background: #ffeb3b; padding: 0 2px; border-radius: 2px; }
 <!-- 코멘트 입력 -->
 <div class="comment-input-area" id="commentInput">
   <div class="target-info" id="targetInfo"></div>
+  <div class="selected-text" id="selectedText"></div>
   <textarea id="commentText" placeholder="수정 지시 사항을 입력하세요..."></textarea>
   <div class="input-actions">
     <button class="cancel-btn" onclick="cancelComment()">취소</button>
@@ -428,6 +439,7 @@ const BRANCH = 'main';
 // ── 상태 ──
 let comments = [];
 let selectedEl = null;
+let selectedWord = '';  // 사용자가 선택/롱프레스한 단어/텍스트
 let currentFilter = 'all';
 let commentPanelOpen = window.innerWidth > 900;
 let ghToken = localStorage.getItem('gh-token') || '';
@@ -545,18 +557,50 @@ document.addEventListener('DOMContentLoaded', async () => {
   applyCommentMarkers();
   if (commentPanelOpen) document.getElementById('commentPanel').classList.add('open');
 
-  // 문단 클릭 이벤트
-  document.getElementById('contentArea').addEventListener('click', (e) => {
-    const el = e.target.closest('[id]');
+  // 롱프레스 + 텍스트 ��택으로 코멘트 트리거
+  let pressTimer = null;
+  let pressTarget = null;
+  let pressTriggered = false;
+
+  const contentArea = document.getElementById('contentArea');
+
+  function startPress(e) {
+    pressTriggered = false;
+    const el = (e.target || e.touches?.[0]?.target)?.closest?.('[id]');
     if (!el || !el.dataset.file) return;
-    selectedEl = el;
-    const info = document.getElementById('targetInfo');
-    const excerpt = el.textContent.substring(0, 80) + (el.textContent.length > 80 ? '...' : '');
-    info.textContent = `📍 ${el.dataset.file} #${el.dataset.line}: ${excerpt}`;
-    document.getElementById('commentInput').classList.add('active');
-    document.getElementById('commentText').focus();
-    if (!commentPanelOpen) toggleComments();
-  });
+    pressTarget = el;
+    pressTimer = setTimeout(() => {
+      pressTriggered = true;
+      openCommentForElement(el);
+    }, 600); // 600ms 롱��레스
+  }
+
+  function endPress(e) {
+    clearTimeout(pressTimer);
+    // 롱프레스로 이미 열렸으면 무시
+    if (pressTriggered) return;
+
+    // 텍스트 선택이 있으면 선택 완료 후 코멘트 열기 (모바일 텍스트 선택 지원)
+    setTimeout(() => {
+      const sel = window.getSelection();
+      if (sel && sel.toString().trim().length > 0) {
+        const el = sel.anchorNode?.parentElement?.closest?.('[id]');
+        if (el && el.dataset.file) {
+          openCommentForElement(el);
+        }
+      }
+    }, 300);
+  }
+
+  function cancelPress() { clearTimeout(pressTimer); }
+
+  contentArea.addEventListener('mousedown', startPress);
+  contentArea.addEventListener('mouseup', endPress);
+  contentArea.addEventListener('mouseleave', cancelPress);
+  contentArea.addEventListener('touchstart', startPress, { passive: true });
+  contentArea.addEventListener('touchend', endPress);
+  contentArea.addEventListener('touchcancel', cancelPress);
+  contentArea.addEventListener('touchmove', cancelPress, { passive: true });
 
   // Ctrl+Enter로 저장
   document.getElementById('commentText').addEventListener('keydown', (e) => {
@@ -566,6 +610,42 @@ document.addEventListener('DOMContentLoaded', async () => {
     }
   });
 });
+
+// ── 코멘트 열기 (선택 텍스트 + 문장 하���라이트) ──
+function openCommentForElement(el) {
+  selectedEl = el;
+
+  // 선택된 텍스트 가져오기
+  const sel = window.getSelection();
+  selectedWord = (sel && sel.toString().trim()) || '';
+
+  // 문단 전체 텍스트
+  const fullText = el.textContent || '';
+
+  // 선택 단어가 속한 문장 찾기
+  let displayHtml = '';
+  if (selectedWord) {
+    // 문장 분리 (마침표, 물음표, 느낌표, 줄바꿈 기준)
+    const sentences = fullText.split(/(?<=[.?!\\uB2E4\\n])\\s*/);
+    const matchSentence = sentences.find(s => s.includes(selectedWord)) || fullText;
+    // 선택 단어를 하이라이트
+    const escaped = selectedWord.replace(/[.*+?^${}()|[\\]\\\\]/g, '\\\\$&');
+    displayHtml = matchSentence.replace(
+      new RegExp(escaped, 'g'),
+      '<mark>' + escHtml(selectedWord) + '</mark>'
+    );
+  } else {
+    // 롱프레스만 한 경우 — 문단 앞부분 표시
+    displayHtml = fullText.substring(0, 150) + (fullText.length > 150 ? '...' : '');
+  }
+
+  document.getElementById('targetInfo').textContent = `📍 ${el.dataset.file} #${el.dataset.line}`;
+  document.getElementById('selectedText').innerHTML = displayHtml;
+  document.getElementById('commentInput').classList.add('active');
+  document.getElementById('commentText').value = '';
+  document.getElementById('commentText').focus();
+  if (!commentPanelOpen) toggleComments();
+}
 
 // ── 목차 빌드 ──
 function buildToc() {
@@ -608,6 +688,7 @@ function saveComment() {
     file: selectedEl.dataset.file,
     line: parseInt(selectedEl.dataset.line),
     excerpt: selectedEl.textContent.substring(0, 100),
+    selectedWord: selectedWord || '',  // 사용자가 선택한 단어/구절
     text: text,
     status: 'pending', // pending | fixed
     createdAt: new Date().toISOString(),
@@ -683,7 +764,7 @@ function renderComments() {
         <span>${c.file}:${c.line}</span>
         <a onclick="scrollToTarget('${c.targetId}')">이동</a>
       </div>
-      <div class="excerpt">${escHtml(c.excerpt)}</div>
+      <div class="excerpt">${c.selectedWord ? '📌 "' + escHtml(c.selectedWord) + '" — ' : ''}${escHtml(c.excerpt)}</div>
       <div class="text">${escHtml(c.text)}</div>
       <div class="meta">${formatDate(c.createdAt)}${c.fixedAt ? ' → ✅ ' + formatDate(c.fixedAt) : ''}</div>
       <div class="actions">
