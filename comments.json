@@ -1,8 +1,8 @@
 {
   "project": "카니보어 탈고",
-  "updatedAt": "2026-04-05T08:40:56.078Z",
-  "totalComments": 28,
-  "pending": 28,
+  "updatedAt": "2026-04-05T08:41:29.305Z",
+  "totalComments": 29,
+  "pending": 29,
   "fixed": 0,
   "comments": [
     {
@@ -339,6 +339,18 @@
       "text": "여기서 언급하는게 역할은 무엇인지 어디에 쓰이는지 설명이 필요한듯해",
       "status": "pending",
       "createdAt": "2026-04-05T08:40:56.077Z",
+      "fixedAt": null
+    },
+    {
+      "id": "mnliihnd",
+      "targetId": "part1-chapter02-58",
+      "file": "part1-chapter02",
+      "line": 58,
+      "excerpt": "사냥을 통해 얻은 지방은\n뇌의 발달을 가능하게 한 고밀도 에너지였다.\n지방산과 콜레스테롤은\n신경세포의 막, 시냅스, 호르몬, 세포 신호전달의 핵심 구성 성분이며,\n이것이 인간의 사",
+      "selectedWord": "",
+      "text": "그리고 뇌의 가장 많은 성분이 지방 아닌가? 지방이 가장 많이 사용되기도하고?",
+      "status": "pending",
+      "createdAt": "2026-04-05T08:41:29.305Z",
       "fixedAt": null
     }
   ]
