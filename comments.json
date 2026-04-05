@@ -1,8 +1,8 @@
 {
   "project": "카니보어 탈고",
-  "updatedAt": "2026-04-05T08:43:19.802Z",
-  "totalComments": 31,
-  "pending": 31,
+  "updatedAt": "2026-04-05T08:44:33.960Z",
+  "totalComments": 32,
+  "pending": 32,
   "fixed": 0,
   "comments": [
     {
@@ -375,6 +375,18 @@
       "text": "결론이 안된다는 말이지? 즉 전분 소화라는 단순한 적응 외에는 아무것도 안되었다는거잖아? 이부분에 대한 직접적인 설명이 필요해, 간접 설명은 오해를 불러와",
       "status": "pending",
       "createdAt": "2026-04-05T08:43:19.802Z",
+      "fixedAt": null
+    },
+    {
+      "id": "mnlimg4n",
+      "targetId": "part1-chapter02-73",
+      "file": "part1-chapter02",
+      "line": 73,
+      "excerpt": "인간이 육식 기반으로 진화했다면, 자연스러운 질문이 따라온다.\n\"어째서 우리는 지금 이렇게 병들어 있는가?\"",
+      "selectedWord": "",
+      "text": "육식기반으로 진화했다면 지금 먹는게 문제구나 하는 결과가 따라오지.. 처음 책의 방향성과 많이 뒤틀렸네, 그렇다고 바꾸라는건 아니야, 여하튼 육식으로 진화했는데 지금 병들은건 결국 식단이 문제가 되고 무엇을 먹는가가 문제잖아.. 질문을 바꿀 필요가 있어..",
+      "status": "pending",
+      "createdAt": "2026-04-05T08:44:33.960Z",
       "fixedAt": null
     }
   ]
