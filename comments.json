@@ -1,6 +1,6 @@
 {
   "project": "카니보어 탈고",
-  "updatedAt": "2026-04-05T12:01:21.130Z",
+  "updatedAt": "2026-04-05T12:02:35.032Z",
   "totalComments": 55,
   "pending": 0,
   "fixed": 0,
@@ -121,12 +121,13 @@
       "excerpt": "\n4단계\n과잉 인슐린 → 지방 저장 촉진 + 지방 분해 차단 → 비만 + 만성 피로\n창고에 물건만 쌓이고 꺼낼 수 없다\n",
       "selectedWord": "",
       "text": "만성피로가 왜생기지???",
-      "status": "review",
+      "status": "suggested",
       "createdAt": "2026-04-05T07:47:51.130Z",
       "fixedAt": null,
       "original": "\n4단계\n과잉 인슐린 → 지방 저장 촉진 + 지방 분해 차단 → 비만 + 만성 피로\n창고에 물건만 쌓이고 꺼낼 수 없다\n",
       "proposed": "원고에 반영 완료 — 탈고 리더에서 확인 후 승인/취소/제안해주세요",
-      "reviewedAt": null
+      "reviewedAt": "2026-04-05T12:02:35.032Z",
+      "suggestion": "나는 4단계에 대한 의문으로 만성피로가 왜 생기지라고 질문했는데 왜 3단계에 하이라이트가 되어 있지? 그리고 설명도 그대로인거 같아"
     },
     {
       "id": "mnlgrzh2",
