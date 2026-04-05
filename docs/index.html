@@ -8589,7 +8589,9 @@ async function ghLoadComments() {
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const data = await res.json();
     fileSha = data.sha;
-    const content = JSON.parse(decodeURIComponent(escape(atob(data.content))));
+    const b64 = data.content.replace(/\n/g, '');
+    const bytes = Uint8Array.from(atob(b64), c => c.charCodeAt(0));
+    const content = JSON.parse(new TextDecoder().decode(bytes));
     comments = content.comments || content || [];
     localStorage.setItem('carnivore-comments', JSON.stringify(comments));
     setSyncStatus('idle');
