@@ -1,8 +1,8 @@
 {
   "project": "카니보어 탈고",
-  "updatedAt": "2026-04-05T08:32:28.623Z",
-  "totalComments": 23,
-  "pending": 23,
+  "updatedAt": "2026-04-05T08:32:58.175Z",
+  "totalComments": 24,
+  "pending": 24,
   "fixed": 0,
   "comments": [
     {
@@ -279,6 +279,18 @@
       "text": "이거 1960년대까지 평균 수명이 55세? 조선시대까지 소급하는거야? 아니면 전쟁이후 혹은 일제시대 이후의 시기를 말하는거야? 이부분이 불명확해",
       "status": "pending",
       "createdAt": "2026-04-05T08:32:28.623Z",
+      "fixedAt": null
+    },
+    {
+      "id": "mnli7j9b",
+      "targetId": "part1-chapter01-55",
+      "file": "part1-chapter01",
+      "line": 55,
+      "excerpt": "한국인은 그 어느 때보다 \"건강식\"에 관심이 많다.\n샐러드 전문점이 늘고, \"저탄고지\"가 유행하고,\n건강기능식품 시장은 연간 6조 원을 넘어섰다.\n그런데 건강 통계는 정반대 방향을",
+      "selectedWord": "",
+      "text": "저탄고지는 건강에 부합하는건데 여기는 잘못 언급되었네",
+      "status": "pending",
+      "createdAt": "2026-04-05T08:32:58.175Z",
       "fixedAt": null
     }
   ]
