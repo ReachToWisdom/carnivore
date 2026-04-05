@@ -1,21 +1,8 @@
 {
   "project": "카니보어 탈고",
-  "updatedAt": "2026-04-05T07:25:21.924Z",
-  "totalComments": 1,
-  "pending": 1,
+  "updatedAt": "2026-04-05T07:25:58.084Z",
+  "totalComments": 0,
+  "pending": 0,
   "fixed": 0,
-  "comments": [
-    {
-      "id": "mnlfslfo",
-      "targetId": "preface-3",
-      "file": "preface",
-      "line": 3,
-      "excerpt": "나는 어릴 적부터 비염으로 고생해왔다. 숨 쉬는 일조차 늘 불편했고, 밤이면 코가 막혀 잠을 설치기 일쑤였다. 이비인후과를 아무리 찾아도 뚜렷한 차도는 없었다. 결국 스스로 길을 ",
-      "selectedWord": "",
-      "text": "토큰 테스트",
-      "status": "pending",
-      "createdAt": "2026-04-05T07:25:21.924Z",
-      "fixedAt": null
-    }
-  ]
+  "comments": []
 }
