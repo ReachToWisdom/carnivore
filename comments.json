@@ -1,8 +1,8 @@
 {
   "project": "카니보어 탈고",
-  "updatedAt": "2026-04-05T08:00:50.672Z",
-  "totalComments": 14,
-  "pending": 14,
+  "updatedAt": "2026-04-05T08:07:59.221Z",
+  "totalComments": 15,
+  "pending": 15,
   "fixed": 0,
   "comments": [
     {
@@ -171,6 +171,18 @@
       "text": "염증을 화학적으로 유지시킨다고 했는데, 일반인은 과활성화가 염증을 화학적으로 유지시키는 최종단계까지 설명이 이어지지가 않아",
       "status": "pending",
       "createdAt": "2026-04-05T08:00:50.672Z",
+      "fixedAt": null
+    },
+    {
+      "id": "mnlhbenp",
+      "targetId": "part1-overview-75",
+      "file": "part1-overview",
+      "line": 75,
+      "excerpt": "동물은 도망치거나 싸울 수 있다.\n식물은 움직이지 못한다.\n대신 독소(toxins)와 항영양소(antinutrients)라는 화학적 무기로 자신을 보호한다.",
+      "selectedWord": "",
+      "text": "이와 관련한 내용이 현대 가공식품에서 알레르기 경고문과 연관이 있어, 동물성 식품에 대한 알레르기 경고는 없지만(간혹 갑각류는 존재) 식물성 식물관련 경고는 늘 따라다니는데 그게 이 이유, 유럽은 글루텐  프리가 식품 표면에 쓰여 있는 사유",
+      "status": "pending",
+      "createdAt": "2026-04-05T08:07:59.221Z",
       "fixedAt": null
     }
   ]
