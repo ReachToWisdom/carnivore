@@ -301,16 +301,24 @@ body {
 .comment-card .diff-box {
   margin: 8px 0; border-radius: 6px; overflow: hidden; font-size: 13px;
 }
+.comment-card .diff-label {
+  display: inline-block; font-size: 11px; font-weight: bold;
+  margin-bottom: 4px;
+}
 .comment-card .diff-original {
   background: #ffebee; padding: 8px 10px; border-left: 3px solid #e53935;
-  text-decoration: line-through; color: #888;
+  color: #888; margin-bottom: 2px;
 }
+.comment-card .diff-original .diff-label { color: #c62828; }
 .comment-card .diff-proposed {
   background: #e8f5e9; padding: 8px 10px; border-left: 3px solid #4caf50;
+  margin-bottom: 2px;
 }
+.comment-card .diff-proposed .diff-label { color: #2e7d32; }
 .comment-card .diff-suggestion {
   background: #fff3e0; padding: 8px 10px; border-left: 3px solid #ff9800;
 }
+.comment-card .diff-suggestion .diff-label { color: #e65100; }
 .comment-card .actions { display: flex; gap: 6px; flex-wrap: wrap; }
 .comment-card .actions button {
   font-size: 12px; padding: 4px 10px; border-radius: 4px;
@@ -880,12 +888,23 @@ function renderComments() {
 
     // 변경 비교 영역 (review 상태일 때)
     let diffHtml = '';
-    if (c.original && c.proposed && ['review','approved','rejected','suggested'].includes(c.status)) {
-      diffHtml = `<div class="diff-box">
-        <div class="diff-original">원본: ${escHtml(c.original)}</div>
-        <div class="diff-proposed">수정안: ${escHtml(c.proposed)}</div>
-        ${c.suggestion ? '<div class="diff-suggestion">내 제안: ' + escHtml(c.suggestion) + '</div>' : ''}
-      </div>`;
+    if (['review','approved','rejected','suggested'].includes(c.status)) {
+      const hasOriginal = c.original && c.original !== c.excerpt;
+      const hasProposed = c.proposed && c.proposed !== '원고에 반영 완료 — 탈고 리더에서 확인 후 승인/취소/제안해주세요';
+      diffHtml = '<div class="diff-box">';
+      if (hasOriginal) {
+        diffHtml += `<div class="diff-original"><span class="diff-label">❌ 수정 전</span>${escHtml(c.original)}</div>`;
+      }
+      if (hasProposed) {
+        diffHtml += `<div class="diff-proposed"><span class="diff-label">✅ 수정 후</span>${escHtml(c.proposed)}</div>`;
+      }
+      if (!hasOriginal && !hasProposed) {
+        diffHtml += `<div class="diff-proposed"><span class="diff-label">📝 반영됨</span>본문에 직접 반영 완료 — 해당 문단을 클릭하여 확인하세요</div>`;
+      }
+      if (c.suggestion) {
+        diffHtml += `<div class="diff-suggestion"><span class="diff-label">💡 내 제안</span>${escHtml(c.suggestion)}</div>`;
+      }
+      diffHtml += '</div>';
     }
 
     // 액션 버튼 (상태에 따라)
