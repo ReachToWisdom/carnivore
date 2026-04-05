@@ -1,8 +1,8 @@
 {
   "project": "카니보어 탈고",
-  "updatedAt": "2026-04-05T08:30:28.676Z",
-  "totalComments": 22,
-  "pending": 22,
+  "updatedAt": "2026-04-05T08:30:46.882Z",
+  "totalComments": 21,
+  "pending": 21,
   "fixed": 0,
   "comments": [
     {
@@ -243,18 +243,6 @@
       "text": "정제 탄수화물이 아니라 탄수화물이 없는 것이지",
       "status": "pending",
       "createdAt": "2026-04-05T08:27:06.327Z",
-      "fixedAt": null
-    },
-    {
-      "id": "mnli24zx",
-      "targetId": "part1-chapter01-35",
-      "file": "part1-chapter01",
-      "line": 35,
-      "excerpt": "4. 웨스턴 프라이스 박사의 기록 — 전통 부족의 건강",
-      "selectedWord": "",
-      "text": "본문에 웨스턴프라이스박사의 책 뉴트리션 어쩌구에 대한 추천과 더불어 프리미티브의 전래식단 이야기라는 카페 등 소개.. 필요",
-      "status": "pending",
-      "createdAt": "2026-04-05T08:28:46.413Z",
       "fixedAt": null
     },
     {
