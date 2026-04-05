@@ -1,8 +1,8 @@
 {
   "project": "카니보어 탈고",
-  "updatedAt": "2026-04-05T07:57:57.155Z",
-  "totalComments": 11,
-  "pending": 11,
+  "updatedAt": "2026-04-05T07:58:27.488Z",
+  "totalComments": 12,
+  "pending": 12,
   "fixed": 0,
   "comments": [
     {
@@ -135,6 +135,18 @@
       "text": "선택적함묵증도 추가해줘",
       "status": "pending",
       "createdAt": "2026-04-05T07:57:57.155Z",
+      "fixedAt": null
+    },
+    {
+      "id": "mnlgz5i8",
+      "targetId": "part1-overview-44",
+      "file": "part1-overview",
+      "line": 44,
+      "excerpt": "그리고 이 불안정한 에너지 공급이 만성화되면\n세로토닌과 도파민의 균형이 무너져 우울과 불안이 고착된다.\n약물로 신경전달물질을 조절하려 해도,\n식탁 위의 원인이 매 끼니 혈당을 흔들",
+      "selectedWord": "",
+      "text": "세로토닌과 도파민 균형이 무너지는 메커니즘 설명이 필요해, 여기서 자세한 설명이 어려우면 본문 관련 된 곳에서 설명하거나....",
+      "status": "pending",
+      "createdAt": "2026-04-05T07:58:27.488Z",
       "fixedAt": null
     }
   ]
