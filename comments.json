@@ -1,8 +1,8 @@
 {
   "project": "카니보어 탈고",
-  "updatedAt": "2026-04-05T08:41:51.626Z",
-  "totalComments": 30,
-  "pending": 30,
+  "updatedAt": "2026-04-05T08:43:19.802Z",
+  "totalComments": 31,
+  "pending": 31,
   "fixed": 0,
   "comments": [
     {
@@ -363,6 +363,18 @@
       "text": "선후가 바뀐부분은 없어, 그냥 결과를 짜맞춘 느낌이 들어서",
       "status": "pending",
       "createdAt": "2026-04-05T08:41:51.626Z",
+      "fixedAt": null
+    },
+    {
+      "id": "mnlikuwq",
+      "targetId": "part1-chapter02-68",
+      "file": "part1-chapter02",
+      "line": 68,
+      "excerpt": "둘째, 침에서 전분을 분해하는 것과 대사 시스템 전체의 전환은 차원이 다르다. AMY1은 소화의 첫 단계 — 입에서 전분을 맥아당으로 쪼개는 것 — 에만 관여한다. 그러나 탄수화물",
+      "selectedWord": "",
+      "text": "결론이 안된다는 말이지? 즉 전분 소화라는 단순한 적응 외에는 아무것도 안되었다는거잖아? 이부분에 대한 직접적인 설명이 필요해, 간접 설명은 오해를 불러와",
+      "status": "pending",
+      "createdAt": "2026-04-05T08:43:19.802Z",
       "fixedAt": null
     }
   ]
