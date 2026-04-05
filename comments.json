@@ -1,8 +1,8 @@
 {
   "project": "카니보어 탈고",
-  "updatedAt": "2026-04-05T09:07:50.779Z",
-  "totalComments": 42,
-  "pending": 42,
+  "updatedAt": "2026-04-05T10:44:20.662Z",
+  "totalComments": 43,
+  "pending": 43,
   "fixed": 0,
   "comments": [
     {
@@ -507,6 +507,18 @@
       "text": "케톤체 생성이 어디서 설명이 나왔나? 여기서 케톤체가 갑자기 나오네",
       "status": "pending",
       "createdAt": "2026-04-05T09:07:50.779Z",
+      "fixedAt": null
+    },
+    {
+      "id": "mnlmwhf8",
+      "targetId": "part1-chapter02-5",
+      "file": "part1-chapter02",
+      "line": 5,
+      "excerpt": "1장에서 우리는 세 가지 증거를 확인했다.\n그렇다면 건강했던 그들과 병든 현대인 사이에, 무엇이 달랐는가?",
+      "selectedWord": "",
+      "text": "세가지 증거 뭔지 환기시켜줄 필요 있음",
+      "status": "pending",
+      "createdAt": "2026-04-05T10:44:20.660Z",
       "fixedAt": null
     }
   ]
