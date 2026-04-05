@@ -1,8 +1,8 @@
 {
   "project": "카니보어 탈고",
-  "updatedAt": "2026-04-05T08:53:02.007Z",
-  "totalComments": 37,
-  "pending": 37,
+  "updatedAt": "2026-04-05T08:54:30.565Z",
+  "totalComments": 38,
+  "pending": 38,
   "fixed": 0,
   "comments": [
     {
@@ -447,6 +447,18 @@
       "text": "2026년 미국의 식이지침이 고기를 많이 먹어라로 바뀌고 있잖아 아직도 식품산업 제약산업의 방해로 완전히 바뀌진 못했지만 유의미한 변화가 일어나기 시작했음",
       "status": "pending",
       "createdAt": "2026-04-05T08:53:02.007Z",
+      "fixedAt": null
+    },
+    {
+      "id": "mnliz8h1",
+      "targetId": "part1-chapter03c-31",
+      "file": "part1-chapter03c",
+      "line": 31,
+      "excerpt": "포화지방은 Pattern A(무해한 유형)를 주로 증가시킨다.\n반면 정제 탄수화물과 설탕은 Pattern B(위험한 유형)를 증가시키고\n중성지방을 높이며 HDL을 낮춘다.",
+      "selectedWord": "",
+      "text": "메커니즘 과학적 추가 설명 필요",
+      "status": "pending",
+      "createdAt": "2026-04-05T08:54:30.565Z",
       "fixedAt": null
     }
   ]
