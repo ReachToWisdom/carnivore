@@ -1,6 +1,6 @@
 {
   "description": "카니보어 원고 용어 색인 — 용어별 등장 위치",
-  "generatedAt": "2026-04-05T21:23:36.063936",
+  "generatedAt": "2026-04-05T21:31:58.006708",
   "totalTerms": 80,
   "index": {
     "BHB": [
@@ -1916,12 +1916,12 @@
       },
       {
         "file": "part1-chapter01",
-        "line": 265,
+        "line": 278,
         "context": "그들은 당뇨·비만·심혈관 질환 없이 노년을 맞이했다."
       },
       {
         "file": "part1-chapter01",
-        "line": 310,
+        "line": 323,
         "context": "- 대한당뇨병학회, *Diabetes Fact Sheet in Korea*, 2024"
       },
       {
@@ -2461,7 +2461,7 @@
       },
       {
         "file": "part1-chapter01",
-        "line": 290,
+        "line": 303,
         "context": "| **현대 전통 부족** (이누이트, 마사이, 몽골 유목민) | 20세기 초~중반 | 현대 만성질환이 없었다 |"
       },
       {
@@ -2758,17 +2758,17 @@
       },
       {
         "file": "part1-chapter01",
-        "line": 265,
+        "line": 278,
         "context": "그들은 당뇨·비만·심혈관 질환 없이 노년을 맞이했다."
       },
       {
         "file": "part1-chapter01",
-        "line": 309,
+        "line": 322,
         "context": "- 질병관리청, 2024 지역사회건강조사 (성인 비만율·만성질환 현황)"
       },
       {
         "file": "part1-chapter01",
-        "line": 311,
+        "line": 324,
         "context": "- 대한비만학회, 2025 비만 팩트시트"
       },
       {
@@ -4403,7 +4403,7 @@
       },
       {
         "file": "part1-chapter01",
-        "line": 291,
+        "line": 304,
         "context": "| **웨스턴 프라이스 조사** | 1930년대 | 전통 부족은 건강했고, 서구화 후 무너졌다 |"
       },
       {
@@ -4485,7 +4485,7 @@
       },
       {
         "file": "part1-chapter01",
-        "line": 290,
+        "line": 303,
         "context": "| **현대 전통 부족** (이누이트, 마사이, 몽골 유목민) | 20세기 초~중반 | 현대 만성질환이 없었다 |"
       },
       {
@@ -8077,6 +8077,11 @@
         "file": "part1-chapter01",
         "line": 201,
         "context": "1980년대 미국에서 시작된 저지방 신화 — \"포화지방이 심장병을 일으킨다\"는 주장 — 이"
+      },
+      {
+        "file": "part1-chapter01",
+        "line": 239,
+        "context": "인류는 수백만 년 동안 동물성 포화지방만 먹었고,"
       },
       {
         "file": "part1-chapter03a",
