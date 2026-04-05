@@ -1,8 +1,8 @@
 {
   "project": "카니보어 탈고",
-  "updatedAt": "2026-04-05T08:46:01.116Z",
-  "totalComments": 33,
-  "pending": 33,
+  "updatedAt": "2026-04-05T08:47:01.293Z",
+  "totalComments": 34,
+  "pending": 34,
   "fixed": 0,
   "comments": [
     {
@@ -399,6 +399,18 @@
       "text": "100살을 살았네, 이거 기록 정확해? 그렇다면 이사람이 뭘 먹었는지 확인해야 하지 않을까? 식물을 먹고도 100살을 살았을거 같진 않은데?",
       "status": "pending",
       "createdAt": "2026-04-05T08:46:01.116Z",
+      "fixedAt": null
+    },
+    {
+      "id": "mnliplt8",
+      "targetId": "part1-chapter03a-20",
+      "file": "part1-chapter03a",
+      "line": 20,
+      "excerpt": "이것을 체리 피킹(cherry picking), 즉 데이터 선택 편향이라 부른다.",
+      "selectedWord": "",
+      "text": "체리패킹이 뭔지 설명 필요",
+      "status": "pending",
+      "createdAt": "2026-04-05T08:47:01.292Z",
       "fixedAt": null
     }
   ]
