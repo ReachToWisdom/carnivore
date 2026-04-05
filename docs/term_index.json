@@ -1,6 +1,6 @@
 {
   "description": "카니보어 원고 용어 색인 — 용어별 등장 위치",
-  "generatedAt": "2026-04-05T21:11:05.304072",
+  "generatedAt": "2026-04-05T21:17:42.186536",
   "totalTerms": 80,
   "index": {
     "BHB": [
@@ -640,7 +640,7 @@
     "IL-6": [
       {
         "file": "part1-overview",
-        "line": 81,
+        "line": 72,
         "context": "| **5단계** | 전신 염증(TNF-α, IL-6 증가) → 간, 근육, 뇌, 혈관 손상 | 집 전체에 불이 번진다 |"
       },
       {
@@ -1318,7 +1318,7 @@
     "TNF": [
       {
         "file": "part1-overview",
-        "line": 81,
+        "line": 72,
         "context": "| **5단계** | 전신 염증(TNF-α, IL-6 증가) → 간, 근육, 뇌, 혈관 손상 | 집 전체에 불이 번진다 |"
       },
       {
@@ -1618,17 +1618,17 @@
     "고인슐린혈증": [
       {
         "file": "part1-overview",
-        "line": 79,
+        "line": 70,
         "context": "| **3단계** | 세포가 반응하지 않음 → 췌장이 더 많은 인슐린 분비 (**고인슐린혈증**) | 경보 볼륨을 계속 높인다 |"
       },
       {
         "file": "part1-overview",
-        "line": 97,
+        "line": 88,
         "context": "이것이 3단계 **고인슐린혈증**이다."
       },
       {
         "file": "part1-overview",
-        "line": 98,
+        "line": 89,
         "context": "인슐린 저항성과 고인슐린혈증은 서로를 악화시키는 악순환 관계다."
       },
       {
@@ -2808,7 +2808,7 @@
       },
       {
         "file": "part1-overview",
-        "line": 80,
+        "line": 71,
         "context": "| **4단계** | 과잉 인슐린 → 지방 저장 촉진 + 지방 분해 차단 → 비만 + 만성 피로 | 창고에 물건만 쌓이고 꺼낼 수 없다 |"
       },
       {
@@ -4719,118 +4719,113 @@
       },
       {
         "file": "part1-overview",
-        "line": 51,
-        "context": "인슐린이 만성적으로 높으면 세포 표면의 포도당 수용체(GLUT4)가 제대로 작동하지 않는다."
-      },
-      {
-        "file": "part1-overview",
-        "line": 53,
-        "context": "동시에 인슐린은 지방 분해를 차단하고 있으므로,"
-      },
-      {
-        "file": "part1-overview",
-        "line": 57,
-        "context": "이것이 인슐린 저항성이 만드는 **만성피로의 핵심 메커니즘**이다."
-      },
-      {
-        "file": "part1-overview",
-        "line": 59,
+        "line": 50,
         "context": "## 5단계로 무너지는 인슐린 체계"
       },
       {
         "file": "part1-overview",
-        "line": 61,
+        "line": 52,
         "context": "먼저 인슐린이 정상적으로 하는 일부터 알아야 한다."
       },
       {
         "file": "part1-overview",
-        "line": 63,
+        "line": 54,
         "context": "그러면 췌장의 β세포가 **인슐린**을 분비한다."
       },
       {
         "file": "part1-overview",
-        "line": 64,
+        "line": 55,
         "context": "인슐린의 역할은 명확하다:"
       },
       {
         "file": "part1-overview",
-        "line": 71,
+        "line": 62,
         "context": "정상이라면 혈당이 떨어지면 인슐린도 떨어지고,"
       },
       {
         "file": "part1-overview",
-        "line": 77,
+        "line": 68,
         "context": "| **1단계** | 탄수화물 섭취 → 혈당 급등 → 인슐린 대량 분비 | 화재 경보가 울린다 |"
       },
       {
         "file": "part1-overview",
-        "line": 78,
+        "line": 69,
         "context": "| **2단계** | 만성적 고인슐린 → 세포 수용체 둔감화(downregulation) | 경보가 너무 자주 울려 무시하게 된다 |"
       },
       {
         "file": "part1-overview",
-        "line": 79,
+        "line": 70,
         "context": "| **3단계** | 세포가 반응하지 않음 → 췌장이 더 많은 인슐린 분비 (**고인슐린혈증**) | 경보 볼륨을 계속 높인다 |"
       },
       {
         "file": "part1-overview",
-        "line": 80,
+        "line": 71,
         "context": "| **4단계** | 과잉 인슐린 → 지방 저장 촉진 + 지방 분해 차단 → 비만 + 만성 피로 | 창고에 물건만 쌓이고 꺼낼 수 없다 |"
       },
       {
         "file": "part1-overview",
-        "line": 85,
+        "line": 76,
         "context": "**인슐린 저항성이란 정확히 무엇인가?**"
       },
       {
         "file": "part1-overview",
-        "line": 87,
+        "line": 78,
         "context": "세포 표면에는 인슐린이 결합하는 수용체가 있다."
       },
       {
         "file": "part1-overview",
-        "line": 88,
+        "line": 79,
         "context": "인슐린이 수용체에 결합하면 세포 내부로 신호가 전달되어 GLUT4가 세포 표면으로 이동하고,"
       },
       {
         "file": "part1-overview",
-        "line": 89,
+        "line": 80,
         "context": "포도당이 세포 안으로 들어간다. 이것이 정상적인 인슐린 신호 전달이다."
       },
       {
         "file": "part1-overview",
-        "line": 91,
+        "line": 82,
         "context": "그런데 인슐린이 **하루 종일, 매일, 수년간** 높은 수준으로 유지되면"
       },
       {
         "file": "part1-overview",
-        "line": 93,
+        "line": 84,
         "context": "수용체가 줄어드니 같은 양의 인슐린으로는 이전만큼 포도당을 밀어넣을 수 없다."
       },
       {
         "file": "part1-overview",
-        "line": 94,
+        "line": 85,
         "context": "이것이 **인슐린 저항성**이다 — 인슐린은 있는데 세포가 반응하지 않는 상태."
       },
       {
         "file": "part1-overview",
-        "line": 96,
+        "line": 87,
         "context": "췌장은 이 상황을 \"인슐린이 부족하다\"고 해석하여 **더 많은 인슐린을 분비**한다."
       },
       {
         "file": "part1-overview",
-        "line": 97,
+        "line": 88,
         "context": "이것이 3단계 **고인슐린혈증**이다."
       },
       {
         "file": "part1-overview",
-        "line": 98,
+        "line": 89,
         "context": "인슐린 저항성과 고인슐린혈증은 서로를 악화시키는 악순환 관계다."
       },
       {
         "file": "part1-overview",
-        "line": 101,
-        "context": "세포는 에너지가 필요한데, 인슐린이 지방 창고의 문을 잠가버렸다."
+        "line": 94,
+        "context": "인슐린 저항성이 생기면 세포 표면의 포도당 수용체(GLUT4)가 제대로 작동하지 않는다."
+      },
+      {
+        "file": "part1-overview",
+        "line": 96,
+        "context": "동시에 인슐린이 높은 상태이므로 저장된 지방의 분해도 차단되어 있다."
+      },
+      {
+        "file": "part1-overview",
+        "line": 102,
+        "context": "이것이 인슐린 저항성이 만드는 **만성피로의 핵심 메커니즘**이다."
       },
       {
         "file": "part1-overview",
@@ -5576,23 +5571,28 @@
       },
       {
         "file": "part1-overview",
-        "line": 57,
-        "context": "이것이 인슐린 저항성이 만드는 **만성피로의 핵심 메커니즘**이다."
-      },
-      {
-        "file": "part1-overview",
-        "line": 85,
+        "line": 76,
         "context": "**인슐린 저항성이란 정확히 무엇인가?**"
       },
       {
         "file": "part1-overview",
-        "line": 94,
+        "line": 85,
         "context": "이것이 **인슐린 저항성**이다 — 인슐린은 있는데 세포가 반응하지 않는 상태."
       },
       {
         "file": "part1-overview",
-        "line": 98,
+        "line": 89,
         "context": "인슐린 저항성과 고인슐린혈증은 서로를 악화시키는 악순환 관계다."
+      },
+      {
+        "file": "part1-overview",
+        "line": 94,
+        "context": "인슐린 저항성이 생기면 세포 표면의 포도당 수용체(GLUT4)가 제대로 작동하지 않는다."
+      },
+      {
+        "file": "part1-overview",
+        "line": 102,
+        "context": "이것이 인슐린 저항성이 만드는 **만성피로의 핵심 메커니즘**이다."
       },
       {
         "file": "part1-overview",
