@@ -1,8 +1,8 @@
 {
   "project": "카니보어 탈고",
-  "updatedAt": "2026-04-05T07:44:40.639Z",
-  "totalComments": 6,
-  "pending": 6,
+  "updatedAt": "2026-04-05T07:46:07.676Z",
+  "totalComments": 7,
+  "pending": 7,
   "fixed": 0,
   "comments": [
     {
@@ -75,6 +75,18 @@
       "text": "낯설지 않고 이미 배우고 있는 내용들로 꾸며져 있을 것이다. 하지만 그럼에도 불구하고 이글은 어디까지나.....로 뒷문장 연결",
       "status": "pending",
       "createdAt": "2026-04-05T07:44:40.639Z",
+      "fixedAt": null
+    },
+    {
+      "id": "mnlgjanw",
+      "targetId": "preface-29",
+      "file": "preface",
+      "line": 29,
+      "excerpt": "또한 이 책을 쓰는 과정에서 AI는 중요한 도구가 되어주었다. 생각과 방향, 목적은 모두 내 안에서 출발했지만, 자료를 찾고 문장을 다듬고 논리를 정리하는 과정에서 AI의 도움을 ",
+      "selectedWord": "",
+      "text": "자료를 찾고 문장을 다듬고 논리를 정리하는 거의 모든 과정에서 AI의 도움을 받았음을 솔직히 고백한다. 나의 배움은 나혼자만 간직하고 세상의 편견과 맞서 싸울 수 있을 만큼이지 남을 설득하고 바꾸어나갈 만큼의 실력은 쌓지 못했기에 AI가 결정적인 역할을 해주었다",
+      "status": "pending",
+      "createdAt": "2026-04-05T07:46:07.676Z",
       "fixedAt": null
     }
   ]
