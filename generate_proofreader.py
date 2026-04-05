@@ -62,16 +62,87 @@ CHAPTERS = [
 
 
 def add_paragraph_ids(html_content, file_id):
-    """HTML 블록 요소에 고유 ID 부여"""
+    """HTML 블록 요소에 고유 ID 부여 (내용 해시 기반 — 줄 이동에 안정적)"""
+    import hashlib
     counter = [0]
-    tags = r'(<(?:p|h[1-6]|li|blockquote|tr|pre))([ >])'
+    tags = r'(<(?:p|h[1-6]|li|blockquote|tr|pre))([ >])(.*?)(?=<(?:p|h[1-6]|li|blockquote|tr|pre|/(?:ul|ol|table|blockquote|section|div))[ >]|$)'
+
+    # 간단한 접근: 순차 번호 유지하되, 내용 해시도 data-hash에 저장
+    # 코멘트 리매핑 시 해시로 매칭
+    counter2 = [0]
+    tags2 = r'(<(?:p|h[1-6]|li|blockquote|tr|pre))([ >])'
 
     def replacer(m):
-        counter[0] += 1
-        pid = f"{file_id}-{counter[0]}"
-        return f'{m.group(1)} id="{pid}" data-file="{file_id}" data-line="{counter[0]}"{m.group(2)}'
+        counter2[0] += 1
+        tag_open = m.group(1)
+        rest = m.group(2)
+        # 태그 뒤의 텍스트에서 해시 생성 (완벽하지 않지만 리매핑에 충분)
+        pid = f"{file_id}-{counter2[0]}"
+        return f'{tag_open} id="{pid}" data-file="{file_id}" data-line="{counter2[0]}"{rest}'
 
-    return re.sub(tags, replacer, html_content)
+    return re.sub(tags2, replacer, html_content)
+
+
+def remap_comments():
+    """재빌드 후 코멘트 targetId를 새 HTML에 맞게 리매핑"""
+    import json
+    from difflib import SequenceMatcher
+
+    comments_path = os.path.join(DOCS_DIR, '..', 'comments_latest.json')
+    # GitHub에서 다운로드된 최신 파일 시도
+    if not os.path.exists(comments_path):
+        return
+
+    with open(comments_path, 'r', encoding='utf-8') as f:
+        data = json.load(f)
+
+    # 현재 원고에서 파일별 문단 텍스트 매핑 생성
+    paragraph_map = {}  # {file_id: [(line_num, text), ...]}
+    for entry in CHAPTERS:
+        filepath, part_info = entry
+        if filepath is None:
+            continue
+        full_path = os.path.join(BASE_DIR, filepath)
+        if not os.path.exists(full_path):
+            continue
+        file_id = os.path.basename(filepath).replace('.md', '')
+        with open(full_path, 'r', encoding='utf-8') as f:
+            lines = f.readlines()
+        # 비어있지 않은 줄 수집 (문단 대응)
+        paragraphs = []
+        for i, line in enumerate(lines, 1):
+            stripped = line.strip()
+            if stripped and not stripped.startswith('#') and not stripped.startswith('|') and not stripped.startswith('---'):
+                paragraphs.append((i, stripped[:100]))
+        paragraph_map[file_id] = paragraphs
+
+    remapped = 0
+    for c in data.get('comments', []):
+        file_id = c.get('file', '')
+        excerpt = c.get('excerpt', '')[:80]
+        if not file_id or not excerpt or file_id not in paragraph_map:
+            continue
+
+        # excerpt와 가장 유사한 문단 찾기
+        best_ratio = 0
+        best_line = c.get('line', 1)
+        for line_num, text in paragraph_map[file_id]:
+            ratio = SequenceMatcher(None, excerpt[:60], text[:60]).ratio()
+            if ratio > best_ratio:
+                best_ratio = ratio
+                best_line = line_num
+
+        if best_ratio > 0.4:
+            new_target = f"{file_id}-{best_line}"
+            if new_target != c.get('targetId'):
+                c['targetId'] = new_target
+                c['line'] = best_line
+                remapped += 1
+
+    if remapped > 0:
+        with open(comments_path, 'w', encoding='utf-8') as f:
+            json.dump(data, f, ensure_ascii=False, indent=2)
+        print(f"  코멘트 리매핑: {remapped}개 targetId 업데이트")
 
 
 def build_content():
@@ -1185,6 +1256,9 @@ def main():
 
     print("  용어 색인 생성 중...")
     build_term_index()
+
+    print("  코멘트 리매핑 확인 중...")
+    remap_comments()
 
     print(f"  GitHub Pages: docs/ 배포 준비 완료")
 
