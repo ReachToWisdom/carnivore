@@ -1,6 +1,6 @@
 {
   "description": "카니보어 원고 용어 색인 — 용어별 등장 위치",
-  "generatedAt": "2026-04-06T20:12:37.895436",
+  "generatedAt": "2026-04-06T21:20:17.004875",
   "totalTerms": 80,
   "index": {
     "BHB": [
@@ -51,38 +51,38 @@
       },
       {
         "file": "part2-chapter02",
-        "line": 223,
+        "line": 220,
         "context": "Youm et al.(*Nature Medicine*, 2015)은 쥐와 인간 단핵구를 대상으로 한 실험에서, BHB가 NLRP3 인플라마좀의 "
       },
       {
         "file": "part2-chapter02",
-        "line": 227,
-        "context": "BHB가 HDAC를 억제하여 BDNF 유전자 프로모터의 히스톤 아세틸화를 증가시키고,"
+        "line": 223,
+        "context": "우울·불안을 완화한다. 2절에서 다룬 BHB-HDAC 경로가 BDNF 유전자의 전사를 촉진하는 것이다"
       },
       {
         "file": "part2-chapter02",
-        "line": 229,
-        "context": "(Sleiman et al., *eLife*, 2016). 이 연구는 쥐에게 운동을 시킨 뒤 해마(hippocampus)에서 BHB 농도와 BD"
+        "line": 224,
+        "context": "(Sleiman et al., *eLife*, 2016). 운동으로 혈중 BHB가 상승하면 해마의 BDNF 발현이 증가하며, 케톤 식단에서도 유"
       },
       {
         "file": "part2-chapter02",
-        "line": 251,
-        "context": "BHB(케톤체)가 HDAC를 억제하여 항산화 유전자를 활성화하는 것이"
+        "line": 245,
+        "context": "2. **히스톤 변형(Histone Modification)**: 2절에서 다룬 BHB-HDAC 경로를 통해"
       },
       {
         "file": "part2-chapter02",
-        "line": 354,
-        "context": "탄수화물 제거 시 생성되는 **β-하이드록시뷰티레이트(BHB)**는 단순한 에너지원이 아니다. Youm et al.(*Nature Medicin"
+        "line": 348,
+        "context": "5절에서 다룬 BHB의 NLRP3 인플라마좀 억제 효과(Youm et al., 2015)가 여기서도 핵심적으로 작용한다. 만성 염증이 제거되면 "
       },
       {
         "file": "part2-chapter03",
-        "line": 146,
+        "line": 87,
         "context": "탄수화물을 극도로 제한하면 간에서 케톤체(BHB)가 생성되고,"
       },
       {
         "file": "part2-chapter03",
-        "line": 147,
-        "context": "이 BHB는 단순한 대체 연료가 아니라"
+        "line": 88,
+        "context": "이 BHB는 강력한 항염증 신호분자로 작용한다(2부 2장 5절의 NLRP3 억제 메커니즘 참조)."
       }
     ],
     "Bikman": [
@@ -103,12 +103,12 @@
       },
       {
         "file": "part3-chapter02b",
-        "line": 348,
-        "context": "BYU의 생리학 교수 Benjamin Bikman"
+        "line": 296,
+        "context": "핵심은 이것이다: 탄수화물의 반복적 섭취가 인슐린을 만성적으로 높이고(고인슐린혈증), 이것이 **마스터 호르몬** 인슐린의 전신 조절 기능을 교"
       },
       {
         "file": "part3-chapter02c",
-        "line": 111,
+        "line": 91,
         "context": "- Bikman BT. *Why We Get Sick*, 2020"
       },
       {
@@ -170,12 +170,12 @@
       },
       {
         "file": "part2-chapter02",
-        "line": 263,
+        "line": 257,
         "context": "| **오메가3(DHA)** | 뇌 유전자 발현 조절 | 연어, 고등어, 정어리 |"
       },
       {
         "file": "part2-chapter02",
-        "line": 270,
+        "line": 264,
         "context": "활성형 비타민A(레티놀)와 DHA도 동물성에서만 직접 얻을 수 있다."
       },
       {
@@ -249,11 +249,6 @@
         "context": "같은 영양을 식물로 채우려면 시금치 890g + 콩 880g + 통밀빵 1.1kg + 아마씨 420g + 당근 500g... **합계 약 3.7"
       },
       {
-        "file": "part3-chapter02c",
-        "line": 27,
-        "context": "연어유를 먹으면 세포막에 DHA가 늘고,"
-      },
-      {
         "file": "part5-chapter01",
         "line": 82,
         "context": "| **생선** | 연어, 고등어, 삼치, 꽁치 | EPA/DHA, 비타민D, 셀레늄 | 양식 vs 자연산 구분 |"
@@ -297,7 +292,7 @@
       },
       {
         "file": "part2-chapter02",
-        "line": 268,
+        "line": 262,
         "context": "메티오닌은 식물성 단백질에서 가장 부족한 아미노산이고(3부 3장의 DIAAS 표 참고),"
       },
       {
@@ -466,7 +461,7 @@
       },
       {
         "file": "part3-chapter02c",
-        "line": 103,
+        "line": 83,
         "context": "- Fasano A. \"Zonulin and its regulation of intestinal barrier function,\" *Physio"
       },
       {
@@ -507,11 +502,6 @@
         "context": "Araújo et al.(*Metabolic Syndrome and Related Disorders*, 2018)은 미국 성인 8,721명의 N"
       },
       {
-        "file": "part1-chapter03c",
-        "line": 112,
-        "context": "중성지방을 높이며 HDL을 낮춘다."
-      },
-      {
         "file": "part1-overview",
         "line": 148,
         "context": "인슐린 저항성 → 중성지방(TG) 상승 + HDL 저하"
@@ -528,12 +518,7 @@
       },
       {
         "file": "part2-chapter03",
-        "line": 55,
-        "context": "LDL을 올리고 HDL을 내리는, 지질 프로필에 가장 해로운 지방이다."
-      },
-      {
-        "file": "part2-chapter03",
-        "line": 140,
+        "line": 81,
         "context": "혈중 지표(TG/HDL 비율, 공복 인슐린, 염증 마커)가 계속 호전된다."
       },
       {
@@ -588,52 +573,52 @@
       },
       {
         "file": "part6-chapter01",
-        "line": 42,
+        "line": 32,
         "context": "→ 총콜레스테롤, LDL, HDL, 중성지방(TG), 공복혈당, HbA1c"
       },
       {
         "file": "part6-chapter01",
-        "line": 45,
+        "line": 35,
         "context": "→ 같은 항목 + TG/HDL 비율 계산"
       },
       {
         "file": "part6-chapter01",
-        "line": 52,
+        "line": 42,
         "context": "| TG↓ + HDL↑ + LDL↑ | 건강한 지질 프로필 (대형 LDL 전환) | **정상. 걱정 불필요** |"
       },
       {
         "file": "part6-chapter01",
-        "line": 53,
+        "line": 43,
         "context": "| TG↓ + HDL↑ + LDL 변동 없음 | 양호 | 유지 |"
       },
       {
         "file": "part6-chapter01",
-        "line": 54,
+        "line": 44,
         "context": "| TG↑ 또는 TG/HDL > 4 | 인슐린 저항성 잔존 가능 | 탄수화물 완전 제거 확인, 재검사 |"
       },
       {
         "file": "part6-chapter01",
-        "line": 57,
+        "line": 47,
         "context": "**핵심 지표: TG/HDL 비율**"
       },
       {
         "file": "part6-chapter01",
-        "line": 67,
+        "line": 57,
         "context": "> \"TG/HDL 비율이 어떤가요?\"가 진짜 질문이다.**"
       },
       {
         "file": "part6-chapter01",
-        "line": 199,
+        "line": 187,
         "context": "| **3~6개월** | 혈액검사 지표 변화 (TG↓, HDL↑), 피부 질환 개선, 소화 안정 | 만성질환자는 이 시기에 뚜렷한 변화 |"
       },
       {
         "file": "part6-chapter02a",
-        "line": 162,
-        "context": "진짜 위험 지표는 **TG/HDL 비율**이다:"
+        "line": 148,
+        "context": "3부 1장에서 상세히 다룬 것처럼, 콜레스테롤은 세포막·호르몬·담즙산의 필수 원료이며 체내의 80%는 간에서 자체 합성된다. LDL 자체가 아니"
       },
       {
         "file": "part6-chapter02a",
-        "line": 171,
+        "line": 152,
         "context": "> **핵심:** \"콜레스테롤이 높다\"는 답이 아니다. \"TG/HDL 비율이 어떤가?\"가 진짜 질문이다."
       }
     ],
@@ -652,11 +637,6 @@
         "file": "part2-chapter02",
         "line": 30,
         "context": "| **1차 회복** | 지방 대사 복귀 (케톤체 생성) | 전신 염증 감소 (TNF-α↓ IL-6↓) | 호르몬 균형 회복 |"
-      },
-      {
-        "file": "part3-chapter02b",
-        "line": 318,
-        "context": "고인슐린 상태가 지속되면 TNF-α, IL-6 같은 염증성 사이토카인이 증가하고,"
       }
     ],
     "Jason Fung": [
@@ -724,12 +704,12 @@
       },
       {
         "file": "part1-chapter02",
-        "line": 53,
+        "line": 35,
         "context": "저탄수화물·고지방 식단에서 LDL이 높아져도"
       },
       {
         "file": "part1-chapter02",
-        "line": 56,
+        "line": 38,
         "context": "LMHR 연구가 주목받는 이유는 LDL 수치만으로 심혈관 위험을 판단하는 기존 공식에 의문을 제기하기 때문이다. LDL이 높아도 실제 동맥에 칼"
       },
       {
@@ -810,36 +790,11 @@
       {
         "file": "part1-chapter03c",
         "line": 104,
-        "context": "그런데 **어떤 LDL을 올리는가**가 핵심이다."
+        "context": "그런데 3장 본문에서 다룬 것처럼, 핵심은 **어떤 LDL이 올라가느냐**다. 포화지방은 무해한 대형 LDL(Pattern A)을 주로 증가시키"
       },
       {
         "file": "part1-chapter03c",
-        "line": 106,
-        "context": "LDL에는 두 종류가 있다:"
-      },
-      {
-        "file": "part1-chapter03c",
-        "line": 107,
-        "context": "- **Pattern A (크고 가벼운 LDL)**: 동맥벽 침투 어려움, 산화 저항성 높음"
-      },
-      {
-        "file": "part1-chapter03c",
-        "line": 108,
-        "context": "- **Pattern B (작고 조밀한 sdLDL)**: 동맥벽 침투 쉬움, 산화되면 플라크 형성"
-      },
-      {
-        "file": "part1-chapter03c",
-        "line": 117,
-        "context": "따라서 \"총 LDL 수치\"만 보는 것은 불완전하다."
-      },
-      {
-        "file": "part1-chapter03c",
-        "line": 118,
-        "context": "포화지방이 LDL 수치를 올려도, 그것이 심장병 위험을 높이지 않는 이유가 여기에 있다."
-      },
-      {
-        "file": "part1-chapter03c",
-        "line": 133,
+        "line": 119,
         "context": "| **진짜 범인** | 설탕·정제 탄수화물 → 소형 LDL, 인슐린 저항성, 염증 |"
       },
       {
@@ -870,11 +825,6 @@
       {
         "file": "part1-overview",
         "line": 357,
-        "context": "LDL을 올리고 HDL을 내리는, 지질 프로필에 가장 해로운 지방이다."
-      },
-      {
-        "file": "part2-chapter03",
-        "line": 55,
         "context": "LDL을 올리고 HDL을 내리는, 지질 프로필에 가장 해로운 지방이다."
       },
       {
@@ -984,8 +934,8 @@
       },
       {
         "file": "part4-chapter01",
-        "line": 149,
-        "context": "간이 콜레스테롤을 덜 만들면 혈중 LDL 수치가 내려간다."
+        "line": 147,
+        "context": "3부 1장에서 상세히 다룬 것처럼, 스타틴은 HMG-CoA 환원효소를 억제하여 LDL 수치를 낮추지만, 근육통(10~25%), 당뇨 위험 증가("
       },
       {
         "file": "part4-chapter02",
@@ -1009,32 +959,32 @@
       },
       {
         "file": "part6-chapter01",
-        "line": 33,
+        "line": 23,
         "context": "LDL 입자 크기, sdLDL vs lbLDL, 소방관 비유까지 —"
       },
       {
         "file": "part6-chapter01",
-        "line": 42,
+        "line": 32,
         "context": "→ 총콜레스테롤, LDL, HDL, 중성지방(TG), 공복혈당, HbA1c"
       },
       {
         "file": "part6-chapter01",
-        "line": 52,
+        "line": 42,
         "context": "| TG↓ + HDL↑ + LDL↑ | 건강한 지질 프로필 (대형 LDL 전환) | **정상. 걱정 불필요** |"
       },
       {
         "file": "part6-chapter01",
-        "line": 53,
+        "line": 43,
         "context": "| TG↓ + HDL↑ + LDL 변동 없음 | 양호 | 유지 |"
       },
       {
         "file": "part6-chapter01",
-        "line": 58,
+        "line": 48,
         "context": "- **< 2**: 우수 (인슐린 민감, 대형 LDL 우세)"
       },
       {
         "file": "part6-chapter01",
-        "line": 63,
+        "line": 53,
         "context": "- **NMR Lipoprofile** — LDL 입자 크기를 직접 측정"
       },
       {
@@ -1044,28 +994,8 @@
       },
       {
         "file": "part6-chapter02a",
-        "line": 156,
-        "context": "LDL 자체가 문제가 아니다. LDL에는 두 종류가 있다:"
-      },
-      {
-        "file": "part6-chapter02a",
-        "line": 157,
-        "context": "- **대형 LDL(lbLDL)**: 크고 가벼움 → 혈관 벽을 통과하기 어려움 → **무해**"
-      },
-      {
-        "file": "part6-chapter02a",
-        "line": 158,
-        "context": "- **소형 LDL(sdLDL)**: 작고 밀도 높음 → 산화되기 쉽고 혈관 벽에 침투 → **위험**"
-      },
-      {
-        "file": "part6-chapter02a",
-        "line": 160,
-        "context": "소형 LDL을 만드는 것은 **지방이 아니라 탄수화물과 인슐린 저항성**이다."
-      },
-      {
-        "file": "part6-chapter02a",
-        "line": 163,
-        "context": "- < 2: 우수 (인슐린 민감, 대형 LDL 우세)"
+        "line": 148,
+        "context": "3부 1장에서 상세히 다룬 것처럼, 콜레스테롤은 세포막·호르몬·담즙산의 필수 원료이며 체내의 80%는 간에서 자체 합성된다. LDL 자체가 아니"
       }
     ],
     "LPS": [
@@ -1103,8 +1033,8 @@
       },
       {
         "file": "part3-chapter02b",
-        "line": 330,
-        "context": "| **2차 질환** | 지방간, 역류성 식도염 | 관절염, 아토피, 자가면역 | PCOS, 불임, 여유증 |"
+        "line": 294,
+        "context": "인슐린 저항성의 단계별 메커니즘(5단계)과 그로 인한 전신 연쇄 붕괴(비만→지방간→치매, 염증→자가면역, 호르몬 교란→PCOS·불임)는 1부 '"
       }
     ],
     "PUFA": [
@@ -1135,13 +1065,8 @@
       },
       {
         "file": "part3-chapter02c",
-        "line": 18,
-        "context": "피부의 세포막에 다불포화지방산(PUFA)이 많을 경우,"
-      },
-      {
-        "file": "part3-chapter02c",
-        "line": 22,
-        "context": "동물 실험에서도 PUFA가 풍부한 식단(옥수수유/홍화유)은"
+        "line": 12,
+        "context": "세포막 지방산 조성이 식이 지방에 따라 변하며, PUFA가 많으면 자외선에 의한 피부 손상까지 가속된다(Hulbert et al., 2005; "
       }
     ],
     "PURE": [
@@ -1172,22 +1097,22 @@
       },
       {
         "file": "part1-chapter03c",
-        "line": 131,
+        "line": 117,
         "context": "| **PURE 연구** | 13만 5천 명, 18개국 → 지방 많이 먹을수록 사망률 낮음 |"
       },
       {
         "file": "part3-chapter02c",
-        "line": 100,
+        "line": 80,
         "context": "- Dehghan M et al. \"Associations of fats and carbohydrate intake with cardiovasc"
       },
       {
         "file": "part6-chapter02a",
-        "line": 167,
-        "context": "PURE 연구(Dehghan et al., *The Lancet*, 2017: 18개국, 135,335명, 7.4년 추적)는"
+        "line": 150,
+        "context": "PURE 연구(18개국, 135,335명)는 포화지방 섭취가 높을수록 심혈관 사망률이 오히려 **낮았다**고 보고했다."
       },
       {
         "file": "part6-chapter02a",
-        "line": 208,
+        "line": 189,
         "context": "1. **PURE 연구**(Mente et al., *The Lancet*, 2018): 18개국 9만 5천 명 추적. 나트륨 섭취 3~5g/일"
       },
       {
@@ -1251,7 +1176,7 @@
       },
       {
         "file": "part2-chapter03",
-        "line": 140,
+        "line": 81,
         "context": "혈중 지표(TG/HDL 비율, 공복 인슐린, 염증 마커)가 계속 호전된다."
       },
       {
@@ -1286,32 +1211,32 @@
       },
       {
         "file": "part6-chapter01",
-        "line": 45,
+        "line": 35,
         "context": "→ 같은 항목 + TG/HDL 비율 계산"
       },
       {
         "file": "part6-chapter01",
-        "line": 54,
+        "line": 44,
         "context": "| TG↑ 또는 TG/HDL > 4 | 인슐린 저항성 잔존 가능 | 탄수화물 완전 제거 확인, 재검사 |"
       },
       {
         "file": "part6-chapter01",
-        "line": 57,
+        "line": 47,
         "context": "**핵심 지표: TG/HDL 비율**"
       },
       {
         "file": "part6-chapter01",
-        "line": 67,
+        "line": 57,
         "context": "> \"TG/HDL 비율이 어떤가요?\"가 진짜 질문이다.**"
       },
       {
         "file": "part6-chapter02a",
-        "line": 162,
-        "context": "진짜 위험 지표는 **TG/HDL 비율**이다:"
+        "line": 148,
+        "context": "3부 1장에서 상세히 다룬 것처럼, 콜레스테롤은 세포막·호르몬·담즙산의 필수 원료이며 체내의 80%는 간에서 자체 합성된다. LDL 자체가 아니"
       },
       {
         "file": "part6-chapter02a",
-        "line": 171,
+        "line": 152,
         "context": "> **핵심:** \"콜레스테롤이 높다\"는 답이 아니다. \"TG/HDL 비율이 어떤가?\"가 진짜 질문이다."
       }
     ],
@@ -1340,16 +1265,6 @@
         "file": "part3-chapter02a",
         "line": 123,
         "context": "| **4단계** | 전신 염증 (TNF-α↑) + 인슐린 저항성 | 면역 과활성 + 에너지 붕괴 |"
-      },
-      {
-        "file": "part3-chapter02b",
-        "line": 318,
-        "context": "고인슐린 상태가 지속되면 TNF-α, IL-6 같은 염증성 사이토카인이 증가하고,"
-      },
-      {
-        "file": "part3-chapter02b",
-        "line": 329,
-        "context": "| **1차 결과** | 비만 | TNF-α 증가 | 내분비 불균형 |"
       }
     ],
     "mTOR": [
@@ -1380,37 +1295,12 @@
       },
       {
         "file": "part3-chapter02b",
-        "line": 359,
-        "context": "**mTOR(mechanistic Target of Rapamycin) 경로**:"
-      },
-      {
-        "file": "part3-chapter02b",
-        "line": 360,
-        "context": "인슐린이 높으면 mTOR 신호가 과활성화되어"
-      },
-      {
-        "file": "part3-chapter02b",
-        "line": 365,
-        "context": "mTOR가 세포 성장·대사·생존의 핵심 조절자이며,"
-      },
-      {
-        "file": "part3-chapter02b",
-        "line": 369,
-        "context": "mTOR가 적절히 억제되고 **오토파지(자가포식)**가 활성화된다."
-      },
-      {
-        "file": "part3-chapter02b",
-        "line": 373,
-        "context": "- **고인슐린 상태**: mTOR 과활성 → 세포 과성장 → 노화·암 위험 증가"
-      },
-      {
-        "file": "part3-chapter02b",
-        "line": 374,
-        "context": "- **저인슐린 상태(카니보어)**: mTOR 적절 억제 → 오토파지 활성 → 세포 복구"
+        "line": 296,
+        "context": "핵심은 이것이다: 탄수화물의 반복적 섭취가 인슐린을 만성적으로 높이고(고인슐린혈증), 이것이 **마스터 호르몬** 인슐린의 전신 조절 기능을 교"
       },
       {
         "file": "part3-chapter02c",
-        "line": 112,
+        "line": 92,
         "context": "- Saxton RA, Sabatini DM. \"mTOR Signaling in Growth, Metabolism, and Disease,\" *"
       }
     ],
@@ -1442,8 +1332,8 @@
       },
       {
         "file": "part1-chapter03c",
-        "line": 108,
-        "context": "- **Pattern B (작고 조밀한 sdLDL)**: 동맥벽 침투 쉬움, 산화되면 플라크 형성"
+        "line": 104,
+        "context": "그런데 3장 본문에서 다룬 것처럼, 핵심은 **어떤 LDL이 올라가느냐**다. 포화지방은 무해한 대형 LDL(Pattern A)을 주로 증가시키"
       },
       {
         "file": "part1-overview",
@@ -1497,7 +1387,7 @@
       },
       {
         "file": "part6-chapter01",
-        "line": 33,
+        "line": 23,
         "context": "LDL 입자 크기, sdLDL vs lbLDL, 소방관 비유까지 —"
       },
       {
@@ -1507,8 +1397,8 @@
       },
       {
         "file": "part6-chapter02a",
-        "line": 158,
-        "context": "- **소형 LDL(sdLDL)**: 작고 밀도 높음 → 산화되기 쉽고 혈관 벽에 침투 → **위험**"
+        "line": 148,
+        "context": "3부 1장에서 상세히 다룬 것처럼, 콜레스테롤은 세포막·호르몬·담즙산의 필수 원료이며 체내의 80%는 간에서 자체 합성된다. LDL 자체가 아니"
       }
     ],
     "zonulin": [
@@ -1638,13 +1528,8 @@
       },
       {
         "file": "part3-chapter02b",
-        "line": 309,
-        "context": "이것이 **고인슐린혈증(hyperinsulinemia)** — 악순환의 핵심이다."
-      },
-      {
-        "file": "part3-chapter02b",
-        "line": 356,
-        "context": "인슐린이 만성적으로 높은 상태(**고인슐린혈증**)가 되면"
+        "line": 296,
+        "context": "핵심은 이것이다: 탄수화물의 반복적 섭취가 인슐린을 만성적으로 높이고(고인슐린혈증), 이것이 **마스터 호르몬** 인슐린의 전신 조절 기능을 교"
       }
     ],
     "과산화지질": [
@@ -1662,11 +1547,6 @@
         "file": "part2-chapter03",
         "line": 42,
         "context": "과산화지질은 세포막을 공격하고, 미토콘드리아를 손상시키며,"
-      },
-      {
-        "file": "part2-chapter03",
-        "line": 89,
-        "context": "산화된 지방(과산화지질, 알데하이드)은"
       },
       {
         "file": "part3-chapter02c",
@@ -1702,7 +1582,7 @@
       },
       {
         "file": "part2-chapter02",
-        "line": 340,
+        "line": 334,
         "context": "면역 세포의 **약 70%가 장에 존재**한다(GALT: 장 관련 림프 조직). 식물독소(렉틴, 글루텐)에 의한 장벽 손상은 면역 세포의 과잉 "
       },
       {
@@ -1757,7 +1637,7 @@
       },
       {
         "file": "part3-chapter02c",
-        "line": 53,
+        "line": 33,
         "context": "빵(글루텐+탄수화물), 마가린(산화된 식물성 오일), 주스(과당)."
       },
       {
@@ -1901,37 +1781,22 @@
       },
       {
         "file": "part1-chapter01",
-        "line": 219,
-        "context": "- **당뇨병 유병률 14.8%**, 환자 약 507만 명"
-      },
-      {
-        "file": "part1-chapter01",
-        "line": 220,
-        "context": "당뇨 전단계까지 포함하면 **약 2,000만 명**이 혈당 조절에 문제가 있다."
-      },
-      {
-        "file": "part1-chapter01",
-        "line": 221,
-        "context": "(대한당뇨병학회, Diabetes Fact Sheet 2024)"
-      },
-      {
-        "file": "part1-chapter01",
-        "line": 278,
+        "line": 268,
         "context": "그들은 당뇨·비만·심혈관 질환 없이 노년을 맞이했다."
       },
       {
         "file": "part1-chapter01",
-        "line": 323,
+        "line": 313,
         "context": "- 대한당뇨병학회, *Diabetes Fact Sheet in Korea*, 2024"
       },
       {
         "file": "part1-chapter02",
-        "line": 31,
+        "line": 24,
         "context": "**불과 한 세대 만에** 비만, 당뇨, 충치가 폭발적으로 증가했다."
       },
       {
         "file": "part1-chapter02",
-        "line": 249,
+        "line": 231,
         "context": "비만, 당뇨, 심혈관 질환, 자가면역질환 — 이것들은 진화의 실패가 아니라"
       },
       {
@@ -1961,42 +1826,42 @@
       },
       {
         "file": "part2-chapter02",
-        "line": 275,
+        "line": 269,
         "context": "자녀의 비만·당뇨·심혈관 유전자 발현에 영향을 미치는 것이 확인되었다"
       },
       {
         "file": "part2-chapter02",
-        "line": 280,
+        "line": 274,
         "context": "**네덜란드 대기근(1944~45) 후손 연구**: 제2차 세계대전 말, 나치의 봉쇄로 네덜란드 서부에 극심한 기근이 발생했다. 이 시기에 임신"
       },
       {
         "file": "part2-chapter02",
-        "line": 282,
+        "line": 276,
         "context": "**스웨덴 외베르칼릭스(Överkalix) 코호트 연구**: 스웨덴 북부의 작은 마을 외베르칼릭스에서 19세기 출생·사망 기록과 수확량 데이터를"
       },
       {
         "file": "part2-chapter02",
-        "line": 312,
+        "line": 306,
         "context": "제1형 당뇨, 크론병, 간질, 일부 암 환자에서의 적용 사례가 발표되어 있다."
       },
       {
         "file": "part2-chapter03",
-        "line": 230,
+        "line": 165,
         "context": "당뇨 환자의 84%가 약물을 줄이거나 중단했고,"
       },
       {
         "file": "part2-chapter03",
-        "line": 259,
+        "line": 194,
         "context": "그러나 현실은 어떤가? 저지방·고탄수화물 식단을 권고받은 당뇨 환자의 상당수는 시간이 지날수록 약이 늘고, 합병증이 진행된다. 지침을 따랐는데 "
       },
       {
         "file": "part2-chapter03",
-        "line": 287,
+        "line": 222,
         "context": "미국 당뇨병 학회(ADA)는 이미 2019년부터"
       },
       {
         "file": "part2-chapter03",
-        "line": 288,
+        "line": 223,
         "context": "저탄수화물 식단을 2형 당뇨 관리의 유효한 선택지로 인정하고 있다"
       },
       {
@@ -2031,27 +1896,17 @@
       },
       {
         "file": "part3-chapter02b",
-        "line": 332,
-        "context": "| **최종 결과** | **치매 (제3형 당뇨)** | **식곤증, 수면 장애** | **우울, 불안** |"
-      },
-      {
-        "file": "part3-chapter02b",
-        "line": 366,
-        "context": "과활성이 암·당뇨·신경퇴행성 질환과 연관됨을 규명)."
-      },
-      {
-        "file": "part3-chapter02b",
-        "line": 402,
+        "line": 323,
         "context": "이는 다시 대사증후군, 제2형 당뇨, 심혈관 질환으로 이어진다."
       },
       {
         "file": "part3-chapter02c",
-        "line": 48,
+        "line": 28,
         "context": "| **최종 결과** | 비만·당뇨 | 치매·우울 | 불임·자가면역 |"
       },
       {
         "file": "part3-chapter02c",
-        "line": 54,
+        "line": 34,
         "context": "여러 연구자들은 이 조합이 현대의 비만·당뇨·치매·우울·불임과"
       },
       {
@@ -2061,8 +1916,13 @@
       },
       {
         "file": "part4-chapter01",
-        "line": 157,
-        "context": "- **당뇨 위험 증가**: 스타틴 복용자는 제2형 당뇨 발생 위험이"
+        "line": 147,
+        "context": "3부 1장에서 상세히 다룬 것처럼, 스타틴은 HMG-CoA 환원효소를 억제하여 LDL 수치를 낮추지만, 근육통(10~25%), 당뇨 위험 증가("
+      },
+      {
+        "file": "part4-chapter01",
+        "line": 149,
+        "context": "**한국의 현실은 이 문제를 더 선명하게 보여준다.** 한국보건의료연구원(NECA)이 심혈관 질환 병력이 없는 고지혈증 환자 **103만 7천 "
       },
       {
         "file": "part4-chapter02",
@@ -2106,12 +1966,12 @@
       },
       {
         "file": "part6-chapter01",
-        "line": 160,
+        "line": 148,
         "context": "과자, 주스, 시리얼, 빵 — 성장기 아동의 식단은 정제 탄수화물과 설탕으로 가득하다. 그 결과가 눈앞에 있다. 소아비만, ADHD, 아토피는 "
       },
       {
         "file": "part6-chapter01",
-        "line": 210,
+        "line": 198,
         "context": "- **85%** 이상이 당뇨 관련 지표 개선 보고"
       },
       {
@@ -2131,37 +1991,37 @@
       },
       {
         "file": "part6-chapter02a",
-        "line": 193,
+        "line": 174,
         "context": "저탄수화물 식단을 실천한 제2형 당뇨 환자들은"
       },
       {
         "file": "part6-chapter02a",
-        "line": 224,
+        "line": 205,
         "context": "## 오해 7. \"당뇨를 악화시킨다\""
       },
       {
         "file": "part6-chapter02a",
-        "line": 226,
+        "line": 207,
         "context": "제2형 당뇨는 **인슐린 저항성**의 질환이다."
       },
       {
         "file": "part6-chapter02a",
-        "line": 229,
+        "line": 210,
         "context": "당뇨 환자에게 \"골고루 먹으라\"며 밥, 빵, 과일을 권하는 것은"
       },
       {
         "file": "part6-chapter02a",
-        "line": 235,
+        "line": 216,
         "context": "- 제2형 당뇨 환자 262명, 의료진 감독 하 저탄수화물 식단"
       },
       {
         "file": "part6-chapter02a",
-        "line": 237,
+        "line": 218,
         "context": "- **60%**가 당뇨 약물 감소 또는 중단"
       },
       {
         "file": "part6-chapter02a",
-        "line": 246,
+        "line": 227,
         "context": "> **핵심:** 당뇨를 악화시키는 것은 고기가 아니라 탄수화물이다."
       },
       {
@@ -2217,11 +2077,6 @@
         "context": "대사증후군 유병률은 2007~2009년 22.1%에서 2019~2021년 **24.9%**로 꾸준히 올랐다."
       },
       {
-        "file": "part1-chapter01",
-        "line": 222,
-        "context": "- **대사증후군 유병률 약 28.1%** (국민건강영양조사, 2022)"
-      },
-      {
         "file": "part3-chapter01",
         "line": 123,
         "context": "TG/HDL-C 비율이 심혈관 위험과 대사증후군의 강력한 예측 인자)"
@@ -2233,7 +2088,7 @@
       },
       {
         "file": "part3-chapter02b",
-        "line": 402,
+        "line": 323,
         "context": "이는 다시 대사증후군, 제2형 당뇨, 심혈관 질환으로 이어진다."
       }
     ],
@@ -2270,7 +2125,7 @@
       },
       {
         "file": "part2-chapter02",
-        "line": 340,
+        "line": 334,
         "context": "면역 세포의 **약 70%가 장에 존재**한다(GALT: 장 관련 림프 조직). 식물독소(렉틴, 글루텐)에 의한 장벽 손상은 면역 세포의 과잉 "
       },
       {
@@ -2280,7 +2135,7 @@
       },
       {
         "file": "part2-chapter03",
-        "line": 153,
+        "line": 92,
         "context": "가공식품을 끊어도 \"자연 식물\"에는 렉틴, 옥살산, 피틴산, 사포닌 등"
       },
       {
@@ -2390,12 +2245,7 @@
       {
         "file": "part3-chapter02c",
         "line": 9,
-        "context": "특히 오메가6 계열 리놀레산은"
-      },
-      {
-        "file": "part3-chapter02c",
-        "line": 28,
-        "context": "홍화유를 먹으면 리놀레산이 늘어난다"
+        "context": "특히 오메가6 계열 리놀레산은 프로스타글란딘(PGE2)을 증가시켜 염증을 만성화한다."
       },
       {
         "file": "part5-chapter01",
@@ -2461,32 +2311,27 @@
       },
       {
         "file": "part1-chapter01",
-        "line": 303,
+        "line": 293,
         "context": "| **현대 전통 부족** (이누이트, 마사이, 몽골 유목민) | 20세기 초~중반 | 현대 만성질환이 없었다 |"
       },
       {
         "file": "part1-chapter02",
-        "line": 22,
-        "context": "마사이족은 소의 피와 우유, 고기를 주식으로 삼았다."
-      },
-      {
-        "file": "part1-chapter02",
-        "line": 47,
+        "line": 29,
         "context": "### 마사이족 — 콜레스테롤의 역설"
       },
       {
         "file": "part1-chapter02",
-        "line": 49,
+        "line": 31,
         "context": "마사이족의 건강 데이터는 흥미로운 질문을 던진다."
       },
       {
         "file": "part1-chapter02",
-        "line": 57,
+        "line": 39,
         "context": "이는 마사이족의 사례와 맥을 같이한다."
       },
       {
         "file": "part2-chapter03",
-        "line": 218,
+        "line": 157,
         "context": "1부에서 살펴본 것처럼, 이누이트, 마사이, 몽골 유목민 등 동물성 식단 중심의 전통 부족들에서 현대적 만성질환은 서구 식단 유입 전까지 극히 "
       },
       {
@@ -2496,18 +2341,18 @@
       },
       {
         "file": "part6-chapter01",
-        "line": 150,
-        "context": "이누이트 아이들은 태어나서부터 물범, 고래, 순록, 생선만 먹고 자랐다. 북극에는 과일도 채소도 곡물도 없다. 아이들을 위해 따로 식물을 구해 "
+        "line": 138,
+        "context": "1부 1장에서 살펴본 이누이트, 마사이족, 몽골 유목민의 사례가 보여주듯, 전통 사회의 아이들은 거의 예외 없이 동물성 식품 중심으로 자랐다. "
       },
       {
         "file": "part6-chapter02a",
         "line": 107,
-        "context": "이누이트와 마사이족은 동물성 지방을 대량으로 섭취했지만"
+        "context": "1부 1장에서 살펴본 이누이트와 마사이족은 동물성 지방을 대량으로 섭취했지만 동맥경화 소견이 극히 드물었다."
       },
       {
         "file": "part6-chapter02b",
         "line": 225,
-        "context": "- 이누이트, 마사이족 등 전통 육식 부족에서 현대 만성질환은 **부재**했다"
+        "context": "- 1부 1장에서 살펴본 이누이트, 마사이족 등 전통 육식 부족에서 현대 만성질환은 **부재**했다"
       }
     ],
     "마이크로바이옴": [
@@ -2569,21 +2414,6 @@
         "file": "part2-chapter03",
         "line": 30,
         "context": "\"포화지방은 나쁘고, 불포화지방은 좋다.\""
-      },
-      {
-        "file": "part2-chapter03",
-        "line": 85,
-        "context": "이 과정에서 다가불포화지방산은 **열, 화학물질, 산소에 반복적으로 노출**된다."
-      },
-      {
-        "file": "part3-chapter02c",
-        "line": 17,
-        "context": "불포화지방의 문제는 내부에 그치지 않는다."
-      },
-      {
-        "file": "part3-chapter02c",
-        "line": 18,
-        "context": "피부의 세포막에 다불포화지방산(PUFA)이 많을 경우,"
       },
       {
         "file": "part5-chapter04",
@@ -2743,47 +2573,32 @@
       },
       {
         "file": "part1-chapter01",
-        "line": 217,
-        "context": "- **성인 비만율 34.4%** (국민건강영양조사, 2024)"
-      },
-      {
-        "file": "part1-chapter01",
-        "line": 218,
-        "context": "BMI 25 이상 기준. 세 명 중 한 명이 비만이다."
-      },
-      {
-        "file": "part1-chapter01",
-        "line": 223,
-        "context": "고혈압, 고혈당, 이상지질혈증, 복부비만 중 3개 이상 해당."
-      },
-      {
-        "file": "part1-chapter01",
-        "line": 278,
+        "line": 268,
         "context": "그들은 당뇨·비만·심혈관 질환 없이 노년을 맞이했다."
       },
       {
         "file": "part1-chapter01",
-        "line": 322,
+        "line": 312,
         "context": "- 질병관리청, 2024 지역사회건강조사 (성인 비만율·만성질환 현황)"
       },
       {
         "file": "part1-chapter01",
-        "line": 324,
+        "line": 314,
         "context": "- 대한비만학회, 2025 비만 팩트시트"
       },
       {
         "file": "part1-chapter02",
-        "line": 31,
+        "line": 24,
         "context": "**불과 한 세대 만에** 비만, 당뇨, 충치가 폭발적으로 증가했다."
       },
       {
         "file": "part1-chapter02",
-        "line": 221,
+        "line": 203,
         "context": "**첫째, 이 적응조차 전 인류에게 균일하게 일어나지 않았다.** AMY1 복제 수는 개인마다 2개에서 15개 이상까지 편차가 극히 크다. 같은"
       },
       {
         "file": "part1-chapter02",
-        "line": 249,
+        "line": 231,
         "context": "비만, 당뇨, 심혈관 질환, 자가면역질환 — 이것들은 진화의 실패가 아니라"
       },
       {
@@ -2793,7 +2608,7 @@
       },
       {
         "file": "part1-chapter03c",
-        "line": 141,
+        "line": 127,
         "context": "> **핵심 문장:** 앤셀 키스는 데이터를 선별하고, 설탕 산업은 자금을 댔으며, 정부는 지침을 만들었고, 식품 기업은 저지방 제품을 팔았다."
       },
       {
@@ -2838,17 +2653,17 @@
       },
       {
         "file": "part2-chapter02",
-        "line": 275,
+        "line": 269,
         "context": "자녀의 비만·당뇨·심혈관 유전자 발현에 영향을 미치는 것이 확인되었다"
       },
       {
         "file": "part2-chapter02",
-        "line": 276,
+        "line": 270,
         "context": "(Waterland & Jirtle, *Molecular and Cellular Biology*, 2003). 이 실험에서 연구팀은 유전적으로 "
       },
       {
         "file": "part2-chapter02",
-        "line": 280,
+        "line": 274,
         "context": "**네덜란드 대기근(1944~45) 후손 연구**: 제2차 세계대전 말, 나치의 봉쇄로 네덜란드 서부에 극심한 기근이 발생했다. 이 시기에 임신"
       },
       {
@@ -2868,22 +2683,22 @@
       },
       {
         "file": "part3-chapter02b",
-        "line": 329,
-        "context": "| **1차 결과** | 비만 | TNF-α 증가 | 내분비 불균형 |"
+        "line": 294,
+        "context": "인슐린 저항성의 단계별 메커니즘(5단계)과 그로 인한 전신 연쇄 붕괴(비만→지방간→치매, 염증→자가면역, 호르몬 교란→PCOS·불임)는 1부 '"
       },
       {
         "file": "part3-chapter02b",
-        "line": 335,
-        "context": "복부비만이 위를 압박하여 역류를 유발한다"
+        "line": 298,
+        "context": "**역류성 식도염**은 탄수화물이 위 체류 시간을 늘리고 복부비만이 위를 압박하여 역류를 유발한 결과다(상세 메커니즘은 3부 1장 5절). **"
       },
       {
         "file": "part3-chapter02c",
-        "line": 48,
+        "line": 28,
         "context": "| **최종 결과** | 비만·당뇨 | 치매·우울 | 불임·자가면역 |"
       },
       {
         "file": "part3-chapter02c",
-        "line": 54,
+        "line": 34,
         "context": "여러 연구자들은 이 조합이 현대의 비만·당뇨·치매·우울·불임과"
       },
       {
@@ -2903,12 +2718,12 @@
       },
       {
         "file": "part6-chapter01",
-        "line": 150,
-        "context": "이누이트 아이들은 태어나서부터 물범, 고래, 순록, 생선만 먹고 자랐다. 북극에는 과일도 채소도 곡물도 없다. 아이들을 위해 따로 식물을 구해 "
+        "line": 138,
+        "context": "1부 1장에서 살펴본 이누이트, 마사이족, 몽골 유목민의 사례가 보여주듯, 전통 사회의 아이들은 거의 예외 없이 동물성 식품 중심으로 자랐다. "
       },
       {
         "file": "part6-chapter01",
-        "line": 160,
+        "line": 148,
         "context": "과자, 주스, 시리얼, 빵 — 성장기 아동의 식단은 정제 탄수화물과 설탕으로 가득하다. 그 결과가 눈앞에 있다. 소아비만, ADHD, 아토피는 "
       },
       {
@@ -3035,12 +2850,12 @@
       },
       {
         "file": "part2-chapter03",
-        "line": 168,
+        "line": 107,
         "context": "여기서 예상되는 반문이 있다. \"채식에 케톤 전환이 없다고 문제 삼으면, 카니보어에는 비타민C가 부족하지 않은가?\" 합리적 질문이다. 그러나 비"
       },
       {
         "file": "part2-chapter03",
-        "line": 318,
+        "line": 253,
         "context": "- 비타민C 부족 우려는 탄수화물 식단이 만든 인위적 수요다"
       },
       {
@@ -3085,32 +2900,27 @@
       },
       {
         "file": "part6-chapter01",
-        "line": 78,
+        "line": 68,
         "context": "1. 탄수화물 제거 → 산화 스트레스 감소 → **비타민C 필요량 자체가 급감**"
       },
       {
         "file": "part6-chapter01",
-        "line": 80,
+        "line": 70,
         "context": "3. 간·부신·신선한 육류에 비타민C 존재 → **위의 두 요인 덕분에 충분**"
       },
       {
         "file": "part6-chapter01",
-        "line": 83,
+        "line": 73,
         "context": "- 괴혈병 예방에 필요한 비타민C: **하루 약 10mg**"
       },
       {
         "file": "part6-chapter01",
-        "line": 85,
+        "line": 75,
         "context": "- 소간 100g의 비타민C: 약 **27mg**"
       },
       {
         "file": "part6-chapter01",
-        "line": 91,
-        "context": "무엇보다 강력한 증거는 이누이트다. 이들은 수세기 동안 과일도, 채소도 없이 물범, 고래, 순록, 생선만으로 살아왔다. 비타민C 보충제는 당연히"
-      },
-      {
-        "file": "part6-chapter01",
-        "line": 95,
+        "line": 83,
         "context": "> **비타민C 부족을 걱정하는 것은"
       },
       {
@@ -3247,7 +3057,7 @@
       },
       {
         "file": "part2-chapter02",
-        "line": 347,
+        "line": 341,
         "context": "- **비타민D**: 항균 펩타이드(cathelicidin) 생성 촉진. 지방이 풍부한 생선, 달걀에 존재"
       },
       {
@@ -3292,17 +3102,12 @@
       },
       {
         "file": "part6-chapter02a",
-        "line": 153,
-        "context": "- 비타민D, 성호르몬, 담즙산의 원료다"
-      },
-      {
-        "file": "part6-chapter02a",
-        "line": 268,
+        "line": 249,
         "context": "- 칼슘 흡수에는 **비타민D와 비타민K2**가 필수적이며, 둘 다 동물성 식품에 풍부하다"
       },
       {
         "file": "part6-chapter02a",
-        "line": 277,
+        "line": 258,
         "context": "> 단백질 + 비타민D + K2 — 모두 동물성 식품에 풍부하다."
       },
       {
@@ -3329,7 +3134,7 @@
       },
       {
         "file": "part6-chapter02a",
-        "line": 268,
+        "line": 249,
         "context": "- 칼슘 흡수에는 **비타민D와 비타민K2**가 필수적이며, 둘 다 동물성 식품에 풍부하다"
       },
       {
@@ -3346,18 +3151,8 @@
       },
       {
         "file": "part2-chapter02",
-        "line": 223,
+        "line": 220,
         "context": "Youm et al.(*Nature Medicine*, 2015)은 쥐와 인간 단핵구를 대상으로 한 실험에서, BHB가 NLRP3 인플라마좀의 "
-      },
-      {
-        "file": "part2-chapter02",
-        "line": 354,
-        "context": "탄수화물 제거 시 생성되는 **β-하이드록시뷰티레이트(BHB)**는 단순한 에너지원이 아니다. Youm et al.(*Nature Medicin"
-      },
-      {
-        "file": "part3-chapter02b",
-        "line": 318,
-        "context": "고인슐린 상태가 지속되면 TNF-α, IL-6 같은 염증성 사이토카인이 증가하고,"
       }
     ],
     "사포닌": [
@@ -3383,7 +3178,7 @@
       },
       {
         "file": "part2-chapter03",
-        "line": 153,
+        "line": 92,
         "context": "가공식품을 끊어도 \"자연 식물\"에는 렉틴, 옥살산, 피틴산, 사포닌 등"
       },
       {
@@ -3420,12 +3215,12 @@
       },
       {
         "file": "part2-chapter02",
-        "line": 345,
+        "line": 339,
         "context": "- **아연**: T세포 활성화의 핵심. 붉은 고기는 최고의 생체이용률 아연 공급원"
       },
       {
         "file": "part2-chapter02",
-        "line": 350,
+        "line": 344,
         "context": "이 영양소들의 **생체이용률**이 육식에서 압도적으로 높다는 점이 핵심이다. 보충제가 아닌 음식에서 직접 공급받을 때 흡수 효율이 가장 높다."
       },
       {
@@ -3504,7 +3299,7 @@
       },
       {
         "file": "part1-chapter03c",
-        "line": 134,
+        "line": 120,
         "context": "| **제도적 유지** | 스타틴 산업(연 200억 달러), 저지방 식품 시장이 패러다임 유지 동기 |"
       },
       {
@@ -3615,47 +3410,17 @@
       {
         "file": "part4-chapter01",
         "line": 147,
-        "context": "스타틴은 간에서 콜레스테롤을 합성하는 효소인"
+        "context": "3부 1장에서 상세히 다룬 것처럼, 스타틴은 HMG-CoA 환원효소를 억제하여 LDL 수치를 낮추지만, 근육통(10~25%), 당뇨 위험 증가("
       },
       {
         "file": "part4-chapter01",
-        "line": 152,
-        "context": "스타틴의 부작용 목록은 짧지 않다."
+        "line": 149,
+        "context": "**한국의 현실은 이 문제를 더 선명하게 보여준다.** 한국보건의료연구원(NECA)이 심혈관 질환 병력이 없는 고지혈증 환자 **103만 7천 "
       },
       {
         "file": "part4-chapter01",
-        "line": 157,
-        "context": "- **당뇨 위험 증가**: 스타틴 복용자는 제2형 당뇨 발생 위험이"
-      },
-      {
-        "file": "part4-chapter01",
-        "line": 159,
-        "context": "- **인지 장애**: 미국 FDA는 2012년 스타틴 라벨에 기억력 저하,"
-      },
-      {
-        "file": "part4-chapter01",
-        "line": 164,
-        "context": "20% 미만인 사람에게 스타틴을 처방하는 것은"
-      },
-      {
-        "file": "part4-chapter01",
-        "line": 169,
-        "context": "스타틴은 **원인을 치료하는 약이 아니다**."
-      },
-      {
-        "file": "part4-chapter01",
-        "line": 176,
-        "context": "그럼에도 스타틴 시장은 거대하다."
-      },
-      {
-        "file": "part4-chapter01",
-        "line": 178,
-        "context": "글로벌 스타틴 시장은 연간 약 150억 달러 규모다."
-      },
-      {
-        "file": "part4-chapter01",
-        "line": 179,
-        "context": "제약 회사에게 스타틴은 \"평생 복용하는 약\"이라는 점에서"
+        "line": 151,
+        "context": "3부 1장에서 살펴본 핵심을 다시 떠올려보자. 스타틴은 원인을 치료하는 약이 아니다 — 콜레스테롤은 손상된 혈관을 수리하러 가는 소방관이지, 화"
       },
       {
         "file": "part4-chapter02",
@@ -3716,17 +3481,12 @@
       },
       {
         "file": "part3-chapter02b",
-        "line": 332,
-        "context": "| **최종 결과** | **치매 (제3형 당뇨)** | **식곤증, 수면 장애** | **우울, 불안** |"
+        "line": 298,
+        "context": "**역류성 식도염**은 탄수화물이 위 체류 시간을 늘리고 복부비만이 위를 압박하여 역류를 유발한 결과다(상세 메커니즘은 3부 1장 5절). **"
       },
       {
         "file": "part3-chapter02b",
-        "line": 338,
-        "context": "**식곤증**은 혈당이 급등 후 급락하는 '혈당 롤러코스터'가 원인이다."
-      },
-      {
-        "file": "part3-chapter02b",
-        "line": 381,
+        "line": 302,
         "context": "> 식곤증은 게을러서가 아니라,"
       },
       {
@@ -3736,7 +3496,7 @@
       },
       {
         "file": "part6-chapter01",
-        "line": 197,
+        "line": 185,
         "context": "| **2~4주** | 체중 감소 시작, 식곤증 소실, 피부 변화 시작 | 수분 배출이 먼저 (체지방은 이후) |"
       }
     ],
@@ -3748,7 +3508,7 @@
       },
       {
         "file": "part2-chapter03",
-        "line": 285,
+        "line": 220,
         "context": "2025년, 미국 식이지침 자문위원회(DGAC)는 처음으로"
       },
       {
@@ -3799,18 +3559,13 @@
         "context": "| **5단계** | 관절염, 아토피, 자가면역 / 비만, 당뇨, 지방간 | 염증 + 대사 장애 |"
       },
       {
-        "file": "part3-chapter02b",
-        "line": 330,
-        "context": "| **2차 질환** | 지방간, 역류성 식도염 | 관절염, 아토피, 자가면역 | PCOS, 불임, 여유증 |"
+        "file": "part6-chapter01",
+        "line": 138,
+        "context": "1부 1장에서 살펴본 이누이트, 마사이족, 몽골 유목민의 사례가 보여주듯, 전통 사회의 아이들은 거의 예외 없이 동물성 식품 중심으로 자랐다. "
       },
       {
         "file": "part6-chapter01",
-        "line": 150,
-        "context": "이누이트 아이들은 태어나서부터 물범, 고래, 순록, 생선만 먹고 자랐다. 북극에는 과일도 채소도 곡물도 없다. 아이들을 위해 따로 식물을 구해 "
-      },
-      {
-        "file": "part6-chapter01",
-        "line": 160,
+        "line": 148,
         "context": "과자, 주스, 시리얼, 빵 — 성장기 아동의 식단은 정제 탄수화물과 설탕으로 가득하다. 그 결과가 눈앞에 있다. 소아비만, ADHD, 아토피는 "
       },
       {
@@ -3837,12 +3592,12 @@
       },
       {
         "file": "part1-chapter03c",
-        "line": 122,
+        "line": 108,
         "context": "## 요약: 앤셀 키스 사건의 교훈"
       },
       {
         "file": "part1-chapter03c",
-        "line": 141,
+        "line": 127,
         "context": "> **핵심 문장:** 앤셀 키스는 데이터를 선별하고, 설탕 산업은 자금을 댔으며, 정부는 지침을 만들었고, 식품 기업은 저지방 제품을 팔았다."
       },
       {
@@ -3872,7 +3627,7 @@
       },
       {
         "file": "part6-chapter02a",
-        "line": 146,
+        "line": 144,
         "context": "이 오해의 역사는 1950년대 앤셀 키스로 거슬러 올라간다."
       }
     ],
@@ -3926,17 +3681,12 @@
       },
       {
         "file": "part3-chapter02b",
-        "line": 330,
-        "context": "| **2차 질환** | 지방간, 역류성 식도염 | 관절염, 아토피, 자가면역 | PCOS, 불임, 여유증 |"
+        "line": 298,
+        "context": "**역류성 식도염**은 탄수화물이 위 체류 시간을 늘리고 복부비만이 위를 압박하여 역류를 유발한 결과다(상세 메커니즘은 3부 1장 5절). **"
       },
       {
         "file": "part3-chapter02b",
-        "line": 334,
-        "context": "**역류성 식도염**은 탄수화물이 위 체류 시간을 늘리고"
-      },
-      {
-        "file": "part3-chapter02b",
-        "line": 379,
+        "line": 300,
         "context": "> **역류성 식도염은 위산이 많아서가 아니라,"
       }
     ],
@@ -3963,12 +3713,12 @@
       },
       {
         "file": "part2-chapter02",
-        "line": 263,
+        "line": 257,
         "context": "| **오메가3(DHA)** | 뇌 유전자 발현 조절 | 연어, 고등어, 정어리 |"
       },
       {
         "file": "part2-chapter03",
-        "line": 118,
+        "line": 59,
         "context": "비타민B12, 오메가3, 철, 아연, 칼슘의 보충제가 필수\"라고 명시했다."
       },
       {
@@ -4046,22 +3796,17 @@
       {
         "file": "part2-chapter03",
         "line": 45,
-        "context": "**오메가6 과잉의 현실:**"
-      },
-      {
-        "file": "part2-chapter03",
-        "line": 47,
-        "context": "인류 진화 과정에서의 오메가6:3 비율은 1:1~4:1이었지만,"
+        "context": "오메가6:3 비율의 극단적 불균형(Simopoulos, 2002)이 만성 염증의 화학적 기반이다(→ 1부 개요 '오메가6 폭주' 상세 설명). "
       },
       {
         "file": "part3-chapter02c",
         "line": 9,
-        "context": "특히 오메가6 계열 리놀레산은"
+        "context": "특히 오메가6 계열 리놀레산은 프로스타글란딘(PGE2)을 증가시켜 염증을 만성화한다."
       },
       {
         "file": "part3-chapter02c",
-        "line": 12,
-        "context": "Simopoulos(2002)에 따르면 인류 진화적 오메가6:3 비율은 1:1~4:1이었으나,"
+        "line": 10,
+        "context": "오메가6:3 비율의 극단적 불균형(Simopoulos, 2002)이 만성 염증의 화학적 기반이다(→ 1부 개요 '오메가6 폭주' 상세 설명)."
       },
       {
         "file": "part5-chapter01",
@@ -4132,13 +3877,8 @@
       },
       {
         "file": "part3-chapter02b",
-        "line": 369,
-        "context": "mTOR가 적절히 억제되고 **오토파지(자가포식)**가 활성화된다."
-      },
-      {
-        "file": "part3-chapter02b",
-        "line": 374,
-        "context": "- **저인슐린 상태(카니보어)**: mTOR 적절 억제 → 오토파지 활성 → 세포 복구"
+        "line": 296,
+        "context": "핵심은 이것이다: 탄수화물의 반복적 섭취가 인슐린을 만성적으로 높이고(고인슐린혈증), 이것이 **마스터 호르몬** 인슐린의 전신 조절 기능을 교"
       },
       {
         "file": "part5-chapter05",
@@ -4179,7 +3919,7 @@
       },
       {
         "file": "part2-chapter03",
-        "line": 153,
+        "line": 92,
         "context": "가공식품을 끊어도 \"자연 식물\"에는 렉틴, 옥살산, 피틴산, 사포닌 등"
       },
       {
@@ -4306,8 +4046,8 @@
       },
       {
         "file": "part2-chapter02",
-        "line": 226,
-        "context": "우울·불안을 완화한다. 이 경로는 직접적이 아니라 간접적이다 —"
+        "line": 223,
+        "context": "우울·불안을 완화한다. 2절에서 다룬 BHB-HDAC 경로가 BDNF 유전자의 전사를 촉진하는 것이다"
       },
       {
         "file": "part3-chapter02a",
@@ -4345,18 +4085,13 @@
         "context": "| **최종** | **우울, 불안, 치매** | 전신 연쇄 반응 |"
       },
       {
-        "file": "part3-chapter02b",
-        "line": 332,
-        "context": "| **최종 결과** | **치매 (제3형 당뇨)** | **식곤증, 수면 장애** | **우울, 불안** |"
-      },
-      {
         "file": "part3-chapter02c",
-        "line": 48,
+        "line": 28,
         "context": "| **최종 결과** | 비만·당뇨 | 치매·우울 | 불임·자가면역 |"
       },
       {
         "file": "part3-chapter02c",
-        "line": 54,
+        "line": 34,
         "context": "여러 연구자들은 이 조합이 현대의 비만·당뇨·치매·우울·불임과"
       },
       {
@@ -4376,12 +4111,12 @@
       },
       {
         "file": "part6-chapter01",
-        "line": 160,
+        "line": 148,
         "context": "과자, 주스, 시리얼, 빵 — 성장기 아동의 식단은 정제 탄수화물과 설탕으로 가득하다. 그 결과가 눈앞에 있다. 소아비만, ADHD, 아토피는 "
       },
       {
         "file": "part6-chapter01",
-        "line": 211,
+        "line": 199,
         "context": "- **84%**가 정신건강(우울, 불안, 집중력) 개선 보고"
       }
     ],
@@ -4403,17 +4138,12 @@
       },
       {
         "file": "part1-chapter01",
-        "line": 304,
+        "line": 294,
         "context": "| **웨스턴 프라이스 조사** | 1930년대 | 전통 부족은 건강했고, 서구화 후 무너졌다 |"
       },
       {
-        "file": "part1-chapter02",
-        "line": 36,
-        "context": "1장에서 소개한 웨스턴 프라이스 박사는 건강했던 전통 부족들의"
-      },
-      {
         "file": "part2-chapter02",
-        "line": 314,
+        "line": 308,
         "context": "**웨스턴 프라이스 전래식(Traditional Diet)**:"
       },
       {
@@ -4423,7 +4153,7 @@
       },
       {
         "file": "part6-chapter01",
-        "line": 157,
+        "line": 145,
         "context": "웨스턴 프라이스 박사는 1930년대에 전 세계 14개 전통 사회를 방문하여 아이들의 치아와 골격을 직접 조사했다. 전통 식단(간유, 버터, 내장"
       }
     ],
@@ -4485,37 +4215,32 @@
       },
       {
         "file": "part1-chapter01",
-        "line": 303,
+        "line": 293,
         "context": "| **현대 전통 부족** (이누이트, 마사이, 몽골 유목민) | 20세기 초~중반 | 현대 만성질환이 없었다 |"
       },
       {
         "file": "part1-chapter02",
         "line": 17,
-        "context": "이누이트는 북극권에서 고래, 물범, 순록, 생선을 먹었다."
+        "context": "1장에서 살펴본 이누이트를 비롯한 전통 부족들은"
       },
       {
         "file": "part1-chapter02",
-        "line": 64,
+        "line": 46,
         "context": "**\"이누이트도 심혈관 사망률이 높았다\"**는 주장이 있다"
       },
       {
         "file": "part1-chapter02",
-        "line": 66,
+        "line": 48,
         "context": "이 연구는 1950~2000년대의 이누이트 데이터를 분석한 것인데, 이 시기는 이미 서구 문명이 유입되어 설탕, 밀가루, 알코올, 담배가 전통 "
       },
       {
         "file": "part1-chapter02",
-        "line": 69,
+        "line": 51,
         "context": "**\"이누이트는 유전적으로 특별한 거 아니냐\"**는 반론도 있다. 이누이트에게 지방 대사 관련 유전적 변이(CPT1A P479L)가 존재하는 것"
       },
       {
         "file": "part1-chapter02",
-        "line": 71,
-        "context": "그렇다면 이 변이가 없는 다른 인종은 고지방 식단을 소화하지 못할까? 이에 대한 답을 준 것이 1928~1929년 뉴욕 벨뷰 병원에서 진행된 실"
-      },
-      {
-        "file": "part1-chapter02",
-        "line": 75,
+        "line": 57,
         "context": "두 명의 1년 실험, 그리고 2,000명의 자가 보고 — 시대도 방법도 규모도 다르지만, 가리키는 방향은 같다. **지방 대사 능력은 이누이트만"
       },
       {
@@ -4535,7 +4260,7 @@
       },
       {
         "file": "part2-chapter03",
-        "line": 218,
+        "line": 157,
         "context": "1부에서 살펴본 것처럼, 이누이트, 마사이, 몽골 유목민 등 동물성 식단 중심의 전통 부족들에서 현대적 만성질환은 서구 식단 유입 전까지 극히 "
       },
       {
@@ -4545,18 +4270,18 @@
       },
       {
         "file": "part6-chapter01",
-        "line": 91,
-        "context": "무엇보다 강력한 증거는 이누이트다. 이들은 수세기 동안 과일도, 채소도 없이 물범, 고래, 순록, 생선만으로 살아왔다. 비타민C 보충제는 당연히"
+        "line": 81,
+        "context": "이누이트는 수세기 동안 과일·채소 없이 동물성 식품만으로 건강하게 번성했고, 스테판슨의 1년 육식 실험(1928~29)과 하버드 2,029명 설"
       },
       {
         "file": "part6-chapter01",
-        "line": 150,
-        "context": "이누이트 아이들은 태어나서부터 물범, 고래, 순록, 생선만 먹고 자랐다. 북극에는 과일도 채소도 곡물도 없다. 아이들을 위해 따로 식물을 구해 "
+        "line": 138,
+        "context": "1부 1장에서 살펴본 이누이트, 마사이족, 몽골 유목민의 사례가 보여주듯, 전통 사회의 아이들은 거의 예외 없이 동물성 식품 중심으로 자랐다. "
       },
       {
         "file": "part6-chapter02a",
         "line": 107,
-        "context": "이누이트와 마사이족은 동물성 지방을 대량으로 섭취했지만"
+        "context": "1부 1장에서 살펴본 이누이트와 마사이족은 동물성 지방을 대량으로 섭취했지만 동맥경화 소견이 극히 드물었다."
       },
       {
         "file": "part6-chapter02b",
@@ -4576,7 +4301,7 @@
       {
         "file": "part6-chapter02b",
         "line": 225,
-        "context": "- 이누이트, 마사이족 등 전통 육식 부족에서 현대 만성질환은 **부재**했다"
+        "context": "- 1부 1장에서 살펴본 이누이트, 마사이족 등 전통 육식 부족에서 현대 만성질환은 **부재**했다"
       }
     ],
     "이소플라본": [
@@ -4664,17 +4389,17 @@
       },
       {
         "file": "part1-chapter02",
-        "line": 130,
+        "line": 112,
         "context": "탄수화물 역시 식물에서 비롯된 비상 에너지원이었다. 인체는 위기 상황에서만 포도당을 급속히 사용하도록 설계되었으며, 안정적 상태에서는 지방을 주"
       },
       {
         "file": "part1-chapter02",
-        "line": 221,
+        "line": 203,
         "context": "**첫째, 이 적응조차 전 인류에게 균일하게 일어나지 않았다.** AMY1 복제 수는 개인마다 2개에서 15개 이상까지 편차가 극히 크다. 같은"
       },
       {
         "file": "part1-chapter02",
-        "line": 223,
+        "line": 205,
         "context": "**둘째, 침에서 전분을 분해하는 것과 대사 시스템 전체의 전환은 차원이 다르다.** AMY1은 소화의 첫 단계 — 입에서 전분을 맥아당으로 쪼"
       },
       {
@@ -4684,7 +4409,7 @@
       },
       {
         "file": "part1-chapter03c",
-        "line": 133,
+        "line": 119,
         "context": "| **진짜 범인** | 설탕·정제 탄수화물 → 소형 LDL, 인슐린 저항성, 염증 |"
       },
       {
@@ -5024,22 +4749,22 @@
       },
       {
         "file": "part2-chapter03",
-        "line": 140,
+        "line": 81,
         "context": "혈중 지표(TG/HDL 비율, 공복 인슐린, 염증 마커)가 계속 호전된다."
       },
       {
         "file": "part2-chapter03",
-        "line": 206,
+        "line": 145,
         "context": "통풍의 주범은 고기의 퓨린이 아니라 **과당, 알코올, 인슐린 저항성**이다."
       },
       {
         "file": "part2-chapter03",
-        "line": 210,
+        "line": 149,
         "context": "> **→ 과당의 대사 경로와 인슐린-요산 메커니즘은 6부 2장 \"오해 4: 통풍이 심해진다\"에서 자세히 다룬다.**"
       },
       {
         "file": "part2-chapter03",
-        "line": 283,
+        "line": 218,
         "context": "미국에서는 인슐린 저항성과 대사 건강 중심의 접근이 확산되고 있으며,"
       },
       {
@@ -5100,157 +4825,62 @@
       {
         "file": "part3-chapter02b",
         "line": 292,
-        "context": "### 인슐린 저항성은 어떻게 발생하는가?"
+        "context": "### 인슐린 저항성 — 탄수화물이 촉발하는 전신 붕괴"
       },
       {
         "file": "part3-chapter02b",
-        "line": 299,
-        "context": "인슐린을 대량 분비한다."
+        "line": 294,
+        "context": "인슐린 저항성의 단계별 메커니즘(5단계)과 그로 인한 전신 연쇄 붕괴(비만→지방간→치매, 염증→자가면역, 호르몬 교란→PCOS·불임)는 1부 '"
       },
       {
         "file": "part3-chapter02b",
-        "line": 301,
-        "context": "**2단계 — 인슐린 수용체의 둔감화:**"
+        "line": 296,
+        "context": "핵심은 이것이다: 탄수화물의 반복적 섭취가 인슐린을 만성적으로 높이고(고인슐린혈증), 이것이 **마스터 호르몬** 인슐린의 전신 조절 기능을 교"
       },
       {
         "file": "part3-chapter02b",
-        "line": 302,
-        "context": "세포 표면의 인슐린 수용체가 만성적으로 높은 인슐린에 노출되면"
-      },
-      {
-        "file": "part3-chapter02b",
-        "line": 306,
-        "context": "**3단계 — 보상적 인슐린 과잉분비:**"
-      },
-      {
-        "file": "part3-chapter02b",
-        "line": 308,
-        "context": "췌장은 더 많은 인슐린을 분비한다."
-      },
-      {
-        "file": "part3-chapter02b",
-        "line": 309,
-        "context": "이것이 **고인슐린혈증(hyperinsulinemia)** — 악순환의 핵심이다."
-      },
-      {
-        "file": "part3-chapter02b",
-        "line": 312,
-        "context": "과잉 인슐린은 포도당을 지방으로 전환하여 저장하라는 강력한 신호다."
-      },
-      {
-        "file": "part3-chapter02b",
-        "line": 318,
-        "context": "고인슐린 상태가 지속되면 TNF-α, IL-6 같은 염증성 사이토카인이 증가하고,"
-      },
-      {
-        "file": "part3-chapter02b",
-        "line": 321,
-        "context": "이 다섯 단계가 인슐린 저항성의 발생 메커니즘이다."
-      },
-      {
-        "file": "part3-chapter02b",
-        "line": 325,
-        "context": "### 인슐린 저항성 → 전신 연쇄 붕괴 흐름도"
-      },
-      {
-        "file": "part3-chapter02b",
-        "line": 331,
-        "context": "| **3차 확산** | 뇌 인슐린 저항 | 혈당 롤러코스터 | 신경계 불안정 |"
-      },
-      {
-        "file": "part3-chapter02b",
-        "line": 339,
-        "context": "인슐린이 과잉 분비되어 혈당을 급격히 끌어내리면"
-      },
-      {
-        "file": "part3-chapter02b",
-        "line": 346,
-        "context": "### 인슐린 — 마스터 호르몬이 모든 것을 지배한다"
-      },
-      {
-        "file": "part3-chapter02b",
-        "line": 350,
-        "context": "**\"인슐린 저항성이 대부분의 현대 만성질환의 숨겨진 공통 원인이다.\"**"
-      },
-      {
-        "file": "part3-chapter02b",
-        "line": 352,
-        "context": "인슐린은 단순히 혈당을 조절하는 호르몬이 아니다."
-      },
-      {
-        "file": "part3-chapter02b",
-        "line": 356,
-        "context": "인슐린이 만성적으로 높은 상태(**고인슐린혈증**)가 되면"
-      },
-      {
-        "file": "part3-chapter02b",
-        "line": 360,
-        "context": "인슐린이 높으면 mTOR 신호가 과활성화되어"
-      },
-      {
-        "file": "part3-chapter02b",
-        "line": 368,
-        "context": "반대로, 인슐린이 낮고 케톤 대사 상태에서는"
-      },
-      {
-        "file": "part3-chapter02b",
-        "line": 373,
-        "context": "- **고인슐린 상태**: mTOR 과활성 → 세포 과성장 → 노화·암 위험 증가"
-      },
-      {
-        "file": "part3-chapter02b",
-        "line": 374,
-        "context": "- **저인슐린 상태(카니보어)**: mTOR 적절 억제 → 오토파지 활성 → 세포 복구"
-      },
-      {
-        "file": "part3-chapter02b",
-        "line": 396,
+        "line": 317,
         "context": "- 둘 다 인슐린 저항성을 유발한다"
       },
       {
         "file": "part3-chapter02b",
-        "line": 401,
+        "line": 322,
         "context": "간에 지방이 축적되면 인슐린 저항성이 악화되고,"
       },
       {
         "file": "part3-chapter02b",
-        "line": 428,
+        "line": 349,
         "context": "**둘째, 인슐린 반응의 문제다.**"
       },
       {
         "file": "part3-chapter02b",
-        "line": 430,
+        "line": 351,
         "context": "단맛 자체가 두정위상(cephalic phase) 인슐린 분비를 자극한다는 연구가 있다."
       },
       {
         "file": "part3-chapter02b",
-        "line": 444,
+        "line": 365,
         "context": "| 인슐린 | 직접 자극 | 두정위상 자극 가능 | 연구 중 |"
       },
       {
         "file": "part3-chapter02b",
-        "line": 449,
+        "line": 370,
         "context": "결론적으로, 설탕이 해롭다고 해서 대체당이 자동으로 안전한 것은 아니다. 가장 확실한 전략은 단맛 자체에 대한 의존을 줄이는 것이다. 탄수화물과"
       },
       {
         "file": "part3-chapter02c",
-        "line": 45,
+        "line": 25,
         "context": "| **1차 손상** | 장 점막 손상 | 인슐린 저항성 | 세포막 산화 |"
       },
       {
         "file": "part3-chapter02c",
-        "line": 74,
+        "line": 54,
         "context": "- 탄수화물의 지속적 섭취가 인슐린 저항성을 만든다"
       },
       {
         "file": "part4-chapter01",
-        "line": 172,
-        "context": "혈관 손상의 진짜 원인은 **만성 염증과 인슐린 저항성**이다."
-      },
-      {
-        "file": "part4-chapter01",
-        "line": 188,
-        "context": "인슐린 저항성을 개선하면,"
+        "line": 151,
+        "context": "3부 1장에서 살펴본 핵심을 다시 떠올려보자. 스타틴은 원인을 치료하는 약이 아니다 — 콜레스테롤은 손상된 혈관을 수리하러 가는 소방관이지, 화"
       },
       {
         "file": "part5-chapter01",
@@ -5314,12 +4944,12 @@
       },
       {
         "file": "part6-chapter01",
-        "line": 54,
+        "line": 44,
         "context": "| TG↑ 또는 TG/HDL > 4 | 인슐린 저항성 잔존 가능 | 탄수화물 완전 제거 확인, 재검사 |"
       },
       {
         "file": "part6-chapter01",
-        "line": 58,
+        "line": 48,
         "context": "- **< 2**: 우수 (인슐린 민감, 대형 LDL 우세)"
       },
       {
@@ -5334,77 +4964,72 @@
       },
       {
         "file": "part6-chapter02a",
-        "line": 130,
+        "line": 128,
         "context": "더 중요한 것은, **인슐린 저항성 자체가 신장의 요산 배출을 억제**한다는 점이다."
       },
       {
         "file": "part6-chapter02a",
-        "line": 132,
+        "line": 130,
         "context": "신장을 통해 배출되는데, 인슐린이 높으면 이 배출이 막힌다."
       },
       {
         "file": "part6-chapter02a",
-        "line": 135,
+        "line": 133,
         "context": "인슐린 저항성이 해소되면,"
       },
       {
         "file": "part6-chapter02a",
-        "line": 139,
+        "line": 137,
         "context": "> **핵심:** 통풍의 주범은 고기가 아니라 과당·알코올·인슐린 저항성이다."
       },
       {
         "file": "part6-chapter02a",
-        "line": 160,
-        "context": "소형 LDL을 만드는 것은 **지방이 아니라 탄수화물과 인슐린 저항성**이다."
+        "line": 148,
+        "context": "3부 1장에서 상세히 다룬 것처럼, 콜레스테롤은 세포막·호르몬·담즙산의 필수 원료이며 체내의 80%는 간에서 자체 합성된다. LDL 자체가 아니"
       },
       {
         "file": "part6-chapter02a",
-        "line": 163,
-        "context": "- < 2: 우수 (인슐린 민감, 대형 LDL 우세)"
-      },
-      {
-        "file": "part6-chapter02a",
-        "line": 181,
+        "line": 162,
         "context": "그러나 고혈압의 핵심 원인은 **인슐린 저항성**이다."
       },
       {
         "file": "part6-chapter02a",
-        "line": 182,
+        "line": 163,
         "context": "인슐린은 신장에서 **나트륨 재흡수를 촉진**한다."
       },
       {
         "file": "part6-chapter02a",
-        "line": 183,
+        "line": 164,
         "context": "인슐린이 만성적으로 높으면 나트륨이 과다 보유되고,"
       },
       {
         "file": "part6-chapter02a",
-        "line": 187,
+        "line": 168,
         "context": "1. 인슐린이 낮아진다"
       },
       {
         "file": "part6-chapter02a",
-        "line": 196,
+        "line": 177,
         "context": "> **핵심:** 고혈압의 주범은 고기가 아니라 인슐린 저항성이다."
       },
       {
         "file": "part6-chapter02a",
-        "line": 210,
+        "line": 191,
         "context": "3. **DiNicolantonio**(Open Heart, 2014): 저염식의 심혈관 보호 효과에 대한 근거가 불충분하며, 인슐린 저항성 악"
       },
       {
         "file": "part6-chapter02a",
-        "line": 214,
+        "line": 195,
         "context": "탄수화물을 제거하면 인슐린이 낮아지고, 신장이 나트륨을 적극적으로 배출한다. 이 때문에 카니보어 초기에 두통·피로·근육 경련이 나타나는 것은 *"
       },
       {
         "file": "part6-chapter02a",
-        "line": 226,
+        "line": 207,
         "context": "제2형 당뇨는 **인슐린 저항성**의 질환이다."
       },
       {
         "file": "part6-chapter02a",
-        "line": 238,
+        "line": 219,
         "context": "- **94%**가 인슐린 사용량 감소"
       },
       {
@@ -5551,7 +5176,7 @@
       },
       {
         "file": "part1-chapter02",
-        "line": 221,
+        "line": 203,
         "context": "**첫째, 이 적응조차 전 인류에게 균일하게 일어나지 않았다.** AMY1 복제 수는 개인마다 2개에서 15개 이상까지 편차가 극히 크다. 같은"
       },
       {
@@ -5561,7 +5186,7 @@
       },
       {
         "file": "part1-chapter03c",
-        "line": 133,
+        "line": 119,
         "context": "| **진짜 범인** | 설탕·정제 탄수화물 → 소형 LDL, 인슐린 저항성, 염증 |"
       },
       {
@@ -5651,12 +5276,12 @@
       },
       {
         "file": "part2-chapter03",
-        "line": 206,
+        "line": 145,
         "context": "통풍의 주범은 고기의 퓨린이 아니라 **과당, 알코올, 인슐린 저항성**이다."
       },
       {
         "file": "part2-chapter03",
-        "line": 283,
+        "line": 218,
         "context": "미국에서는 인슐린 저항성과 대사 건강 중심의 접근이 확산되고 있으며,"
       },
       {
@@ -5697,52 +5322,37 @@
       {
         "file": "part3-chapter02b",
         "line": 292,
-        "context": "### 인슐린 저항성은 어떻게 발생하는가?"
+        "context": "### 인슐린 저항성 — 탄수화물이 촉발하는 전신 붕괴"
       },
       {
         "file": "part3-chapter02b",
-        "line": 321,
-        "context": "이 다섯 단계가 인슐린 저항성의 발생 메커니즘이다."
+        "line": 294,
+        "context": "인슐린 저항성의 단계별 메커니즘(5단계)과 그로 인한 전신 연쇄 붕괴(비만→지방간→치매, 염증→자가면역, 호르몬 교란→PCOS·불임)는 1부 '"
       },
       {
         "file": "part3-chapter02b",
-        "line": 325,
-        "context": "### 인슐린 저항성 → 전신 연쇄 붕괴 흐름도"
-      },
-      {
-        "file": "part3-chapter02b",
-        "line": 350,
-        "context": "**\"인슐린 저항성이 대부분의 현대 만성질환의 숨겨진 공통 원인이다.\"**"
-      },
-      {
-        "file": "part3-chapter02b",
-        "line": 396,
+        "line": 317,
         "context": "- 둘 다 인슐린 저항성을 유발한다"
       },
       {
         "file": "part3-chapter02b",
-        "line": 401,
+        "line": 322,
         "context": "간에 지방이 축적되면 인슐린 저항성이 악화되고,"
       },
       {
         "file": "part3-chapter02c",
-        "line": 45,
+        "line": 25,
         "context": "| **1차 손상** | 장 점막 손상 | 인슐린 저항성 | 세포막 산화 |"
       },
       {
         "file": "part3-chapter02c",
-        "line": 74,
+        "line": 54,
         "context": "- 탄수화물의 지속적 섭취가 인슐린 저항성을 만든다"
       },
       {
         "file": "part4-chapter01",
-        "line": 172,
-        "context": "혈관 손상의 진짜 원인은 **만성 염증과 인슐린 저항성**이다."
-      },
-      {
-        "file": "part4-chapter01",
-        "line": 188,
-        "context": "인슐린 저항성을 개선하면,"
+        "line": 151,
+        "context": "3부 1장에서 살펴본 핵심을 다시 떠올려보자. 스타틴은 원인을 치료하는 약이 아니다 — 콜레스테롤은 손상된 혈관을 수리하러 가는 소방관이지, 화"
       },
       {
         "file": "part5-chapter05",
@@ -5751,7 +5361,7 @@
       },
       {
         "file": "part6-chapter01",
-        "line": 54,
+        "line": 44,
         "context": "| TG↑ 또는 TG/HDL > 4 | 인슐린 저항성 잔존 가능 | 탄수화물 완전 제거 확인, 재검사 |"
       },
       {
@@ -5761,42 +5371,42 @@
       },
       {
         "file": "part6-chapter02a",
-        "line": 130,
+        "line": 128,
         "context": "더 중요한 것은, **인슐린 저항성 자체가 신장의 요산 배출을 억제**한다는 점이다."
       },
       {
         "file": "part6-chapter02a",
-        "line": 135,
+        "line": 133,
         "context": "인슐린 저항성이 해소되면,"
       },
       {
         "file": "part6-chapter02a",
-        "line": 139,
+        "line": 137,
         "context": "> **핵심:** 통풍의 주범은 고기가 아니라 과당·알코올·인슐린 저항성이다."
       },
       {
         "file": "part6-chapter02a",
-        "line": 160,
-        "context": "소형 LDL을 만드는 것은 **지방이 아니라 탄수화물과 인슐린 저항성**이다."
+        "line": 148,
+        "context": "3부 1장에서 상세히 다룬 것처럼, 콜레스테롤은 세포막·호르몬·담즙산의 필수 원료이며 체내의 80%는 간에서 자체 합성된다. LDL 자체가 아니"
       },
       {
         "file": "part6-chapter02a",
-        "line": 181,
+        "line": 162,
         "context": "그러나 고혈압의 핵심 원인은 **인슐린 저항성**이다."
       },
       {
         "file": "part6-chapter02a",
-        "line": 196,
+        "line": 177,
         "context": "> **핵심:** 고혈압의 주범은 고기가 아니라 인슐린 저항성이다."
       },
       {
         "file": "part6-chapter02a",
-        "line": 210,
+        "line": 191,
         "context": "3. **DiNicolantonio**(Open Heart, 2014): 저염식의 심혈관 보호 효과에 대한 근거가 불충분하며, 인슐린 저항성 악"
       },
       {
         "file": "part6-chapter02a",
-        "line": 226,
+        "line": 207,
         "context": "제2형 당뇨는 **인슐린 저항성**의 질환이다."
       }
     ],
@@ -5818,7 +5428,7 @@
       },
       {
         "file": "part1-chapter02",
-        "line": 249,
+        "line": 231,
         "context": "비만, 당뇨, 심혈관 질환, 자가면역질환 — 이것들은 진화의 실패가 아니라"
       },
       {
@@ -5863,17 +5473,17 @@
       },
       {
         "file": "part2-chapter02",
-        "line": 223,
+        "line": 220,
         "context": "Youm et al.(*Nature Medicine*, 2015)은 쥐와 인간 단핵구를 대상으로 한 실험에서, BHB가 NLRP3 인플라마좀의 "
       },
       {
         "file": "part2-chapter02",
-        "line": 301,
+        "line": 295,
         "context": "장누수와 자가면역질환, 자폐 스펙트럼 증상의 개선을 목표로 한다."
       },
       {
         "file": "part2-chapter03",
-        "line": 156,
+        "line": 95,
         "context": "만성 장 염증과 자가면역 반응의 촉발 요인 자체가 사라진다."
       },
       {
@@ -5898,12 +5508,12 @@
       },
       {
         "file": "part3-chapter02b",
-        "line": 330,
-        "context": "| **2차 질환** | 지방간, 역류성 식도염 | 관절염, 아토피, 자가면역 | PCOS, 불임, 여유증 |"
+        "line": 294,
+        "context": "인슐린 저항성의 단계별 메커니즘(5단계)과 그로 인한 전신 연쇄 붕괴(비만→지방간→치매, 염증→자가면역, 호르몬 교란→PCOS·불임)는 1부 '"
       },
       {
         "file": "part3-chapter02c",
-        "line": 48,
+        "line": 28,
         "context": "| **최종 결과** | 비만·당뇨 | 치매·우울 | 불임·자가면역 |"
       },
       {
@@ -5923,12 +5533,12 @@
       },
       {
         "file": "part6-chapter01",
-        "line": 198,
+        "line": 186,
         "context": "| **1~2개월** | 에너지 안정, 관절통·부종 감소, 수면 개선 | 자가면역 증상 개선 보고 빈번 |"
       },
       {
         "file": "part6-chapter01",
-        "line": 201,
+        "line": 189,
         "context": "| **1~2년** | 깊은 체질 변화, 알레르기 반응 감소, 전반적 회복 | 일부 자가면역질환의 완전 관해 보고 |"
       }
     ],
@@ -5947,7 +5557,7 @@
       },
       {
         "file": "part2-chapter02",
-        "line": 301,
+        "line": 295,
         "context": "장누수와 자가면역질환, 자폐 스펙트럼 증상의 개선을 목표로 한다."
       },
       {
@@ -6054,12 +5664,12 @@
       },
       {
         "file": "part2-chapter02",
-        "line": 310,
+        "line": 304,
         "context": "PKD 식단이 장벽 기능을 정상화시킴을 보고했다"
       },
       {
         "file": "part2-chapter02",
-        "line": 340,
+        "line": 334,
         "context": "면역 세포의 **약 70%가 장에 존재**한다(GALT: 장 관련 림프 조직). 식물독소(렉틴, 글루텐)에 의한 장벽 손상은 면역 세포의 과잉 "
       },
       {
@@ -6232,11 +5842,6 @@
         "context": "- 중성지방(트리글리세리드) 수치 감소"
       },
       {
-        "file": "part1-chapter03c",
-        "line": 112,
-        "context": "중성지방을 높이며 HDL을 낮춘다."
-      },
-      {
         "file": "part1-overview",
         "line": 148,
         "context": "인슐린 저항성 → 중성지방(TG) 상승 + HDL 저하"
@@ -6283,16 +5888,11 @@
       },
       {
         "file": "part6-chapter01",
-        "line": 42,
+        "line": 32,
         "context": "→ 총콜레스테롤, LDL, HDL, 중성지방(TG), 공복혈당, HbA1c"
       }
     ],
     "지방간": [
-      {
-        "file": "part1-chapter01",
-        "line": 224,
-        "context": "- **간질환**: 비알코올성 지방간(NAFLD) 유병률 약 30%"
-      },
       {
         "file": "part1-overview",
         "line": 134,
@@ -6320,22 +5920,22 @@
       },
       {
         "file": "part3-chapter02b",
-        "line": 330,
-        "context": "| **2차 질환** | 지방간, 역류성 식도염 | 관절염, 아토피, 자가면역 | PCOS, 불임, 여유증 |"
+        "line": 294,
+        "context": "인슐린 저항성의 단계별 메커니즘(5단계)과 그로 인한 전신 연쇄 붕괴(비만→지방간→치매, 염증→자가면역, 호르몬 교란→PCOS·불임)는 1부 '"
       },
       {
         "file": "part3-chapter02b",
-        "line": 400,
+        "line": 321,
         "context": "**과당의 만성적 과잉 섭취는 비알콜성 지방간질환(NAFLD)의 핵심 원인으로 지목된다.**"
       },
       {
         "file": "part3-chapter02b",
-        "line": 446,
+        "line": 367,
         "context": "| 간 손상 | 과당 → 지방간 | 직접 손상 보고 없음 | 에리스리톨 우려 |"
       },
       {
         "file": "part6-chapter01",
-        "line": 160,
+        "line": 148,
         "context": "과자, 주스, 시리얼, 빵 — 성장기 아동의 식단은 정제 탄수화물과 설탕으로 가득하다. 그 결과가 눈앞에 있다. 소아비만, ADHD, 아토피는 "
       }
     ],
@@ -6367,7 +5967,7 @@
       },
       {
         "file": "part2-chapter02",
-        "line": 223,
+        "line": 220,
         "context": "Youm et al.(*Nature Medicine*, 2015)은 쥐와 인간 단핵구를 대상으로 한 실험에서, BHB가 NLRP3 인플라마좀의 "
       },
       {
@@ -6382,17 +5982,17 @@
       },
       {
         "file": "part3-chapter02b",
-        "line": 332,
-        "context": "| **최종 결과** | **치매 (제3형 당뇨)** | **식곤증, 수면 장애** | **우울, 불안** |"
+        "line": 294,
+        "context": "인슐린 저항성의 단계별 메커니즘(5단계)과 그로 인한 전신 연쇄 붕괴(비만→지방간→치매, 염증→자가면역, 호르몬 교란→PCOS·불임)는 1부 '"
       },
       {
         "file": "part3-chapter02c",
-        "line": 48,
+        "line": 28,
         "context": "| **최종 결과** | 비만·당뇨 | 치매·우울 | 불임·자가면역 |"
       },
       {
         "file": "part3-chapter02c",
-        "line": 54,
+        "line": 34,
         "context": "여러 연구자들은 이 조합이 현대의 비만·당뇨·치매·우울·불임과"
       }
     ],
@@ -6489,7 +6089,7 @@
       },
       {
         "file": "part1-chapter02",
-        "line": 73,
+        "line": 55,
         "context": "그로부터 약 90년 뒤, 하버드 연구팀은 훨씬 큰 규모의 조사를 수행했다. Lennerz et al.(*Current Developments i"
       },
       {
@@ -6534,22 +6134,17 @@
       },
       {
         "file": "part2-chapter02",
-        "line": 197,
-        "context": "하버드 연구팀이 2,029명의 카니보어 식단 실천자를 설문 조사한 결과,"
-      },
-      {
-        "file": "part2-chapter02",
-        "line": 294,
+        "line": 288,
         "context": "카니보어 식단이 유일한 답이라는 뜻은 아니다."
       },
       {
         "file": "part2-chapter02",
-        "line": 330,
+        "line": 324,
         "context": "카니보어 실천자들 사이에서 가장 빈번하게 보고되는 변화 중 하나가 **\"감기에 안 걸리게 되었다\"**는 것이다. 이것은 주관적 느낌이 아니라, "
       },
       {
         "file": "part2-chapter02",
-        "line": 369,
+        "line": 363,
         "context": "카니보어 식단은 새로운 발명이 아니다."
       },
       {
@@ -6559,77 +6154,77 @@
       },
       {
         "file": "part2-chapter03",
-        "line": 131,
+        "line": 72,
         "context": "카니보어 식단 역시 가공식품, 설탕, 인스턴트를 완전히 끊는다."
       },
       {
         "file": "part2-chapter03",
-        "line": 139,
+        "line": 80,
         "context": "반면 카니보어 식단은 6개월, 1년, 그 이후에도 개선이 지속되며"
       },
       {
         "file": "part2-chapter03",
-        "line": 155,
+        "line": 94,
         "context": "카니보어 식단은 이 모든 식물 독소를 동시에 제거하므로,"
       },
       {
         "file": "part2-chapter03",
-        "line": 160,
+        "line": 99,
         "context": "| 효과 요인 | 채식 | 카니보어 |"
       },
       {
         "file": "part2-chapter03",
-        "line": 168,
+        "line": 107,
         "context": "여기서 예상되는 반문이 있다. \"채식에 케톤 전환이 없다고 문제 삼으면, 카니보어에는 비타민C가 부족하지 않은가?\" 합리적 질문이다. 그러나 비"
       },
       {
         "file": "part2-chapter03",
-        "line": 171,
+        "line": 110,
         "context": "채식과 카니보어는 같은 곳에서 출발하지만,"
       },
       {
         "file": "part2-chapter03",
-        "line": 180,
+        "line": 119,
         "context": "## 4. 정직하게 마주하기 — 카니보어에 대한 반론과 답변"
       },
       {
         "file": "part2-chapter03",
-        "line": 182,
+        "line": 121,
         "context": "카니보어 식단에 대해 가장 흔히 제기되는 의문들이 있다."
       },
       {
         "file": "part2-chapter03",
-        "line": 207,
+        "line": 146,
         "context": "카니보어 식단으로 이 세 가지가 제거되면"
       },
       {
         "file": "part2-chapter03",
-        "line": 214,
+        "line": 153,
         "context": "정직하게 말하겠다. **카니보어 식단만을 대상으로 한 수십 년짜리 무작위 대조시험(RCT)은 존재하지 않는다.**"
       },
       {
         "file": "part2-chapter03",
-        "line": 228,
+        "line": 163,
         "context": "**2,029명의 카니보어 식단 실천자**를 대상으로 대규모 설문 연구를 수행했다."
       },
       {
         "file": "part2-chapter03",
-        "line": 236,
+        "line": 171,
         "context": "이것은 카니보어만의 문제가 아니다 — 비건 식단의 장기 RCT도 존재하지 않는다."
       },
       {
         "file": "part2-chapter03",
-        "line": 295,
+        "line": 230,
         "context": "> **카니보어 식단은 만병통치약이 아니다."
       },
       {
         "file": "part2-chapter03",
-        "line": 319,
+        "line": 254,
         "context": "- 카니보어에 대한 주요 반론(신장, WHO 분류, 통풍)은 맥락과 근거로 답할 수 있다"
       },
       {
         "file": "part2-chapter03",
-        "line": 326,
+        "line": 261,
         "context": "3부에서 우리는 인체가 왜 육식에 최적화되어 있는지, 카니보어 식단이 어떤 과학적 근거 위에 서 있는지, 그리고 식물식에 대한 주요 오해들을 살"
       },
       {
@@ -6641,21 +6236,6 @@
         "file": "part3-chapter02a",
         "line": 64,
         "context": "카니보어 식단은 이 연쇄를 근본에서 차단한다. 글루텐·렉틴·옥살산 등 장벽 파괴 물질의 섭취가 **제로**가 되므로, 장 투과성이 회복되고 LP"
-      },
-      {
-        "file": "part3-chapter02a",
-        "line": 68,
-        "context": "실제로 이런 개선이 보고되고 있다. Lennerz et al.(*Current Developments in Nutrition*, 2021)이 카"
-      },
-      {
-        "file": "part3-chapter02b",
-        "line": 374,
-        "context": "- **저인슐린 상태(카니보어)**: mTOR 적절 억제 → 오토파지 활성 → 세포 복구"
-      },
-      {
-        "file": "part3-chapter02b",
-        "line": 376,
-        "context": "이것이 카니보어 식단이 단순한 체중 감량을 넘어"
       },
       {
         "file": "part4-chapter02",
@@ -6904,72 +6484,67 @@
       },
       {
         "file": "part6-chapter01",
-        "line": 20,
-        "context": "따라서 카니보어 식단에서 변비가 생긴다면"
+        "line": 11,
+        "context": "카니보어 식단에서 변비가 생긴다면 대부분 **지방 섭취 부족** 또는 **수분·전해질 부족**이 원인이다."
       },
       {
         "file": "part6-chapter01",
-        "line": 38,
+        "line": 28,
         "context": "**카니보어 시작 후 혈액검사 로드맵:**"
       },
       {
         "file": "part6-chapter01",
-        "line": 73,
+        "line": 63,
         "context": "이 질문은 카니보어에 대한 가장 빈번한 반론이다."
       },
       {
         "file": "part6-chapter01",
-        "line": 93,
-        "context": "현대의 관찰도 같은 방향이다. 스테판슨과 앤더슨은 벨뷰 병원에서 1년간 매일 의료 검사를 받으며 육식만 했지만 괴혈병 징후가 없었다(1928~2"
-      },
-      {
-        "file": "part6-chapter01",
-        "line": 96,
+        "line": 84,
         "context": "> 탄수화물 식단의 규칙을 카니보어에 적용한 오류다."
       },
       {
         "file": "part6-chapter01",
-        "line": 181,
+        "line": 169,
         "context": "> '카니보어 식단'이라는 라벨이 아니라,"
       },
       {
         "file": "part6-chapter01",
-        "line": 189,
+        "line": 177,
         "context": "사람마다 다르다. 그러나 카니보어 실천자들의"
       },
       {
         "file": "part6-chapter01",
-        "line": 206,
+        "line": 194,
         "context": "2,029명 카니보어 실천자 설문 조사 결과:"
       },
       {
         "file": "part6-chapter02a",
-        "line": 134,
+        "line": 132,
         "context": "카니보어 식단으로 과당과 알코올을 제거하고"
       },
       {
         "file": "part6-chapter02a",
-        "line": 186,
+        "line": 167,
         "context": "카니보어 식단으로 탄수화물을 제거하면:"
       },
       {
         "file": "part6-chapter02a",
-        "line": 212,
+        "line": 193,
         "context": "**카니보어와 소금의 관계:**"
       },
       {
         "file": "part6-chapter02a",
-        "line": 214,
+        "line": 195,
         "context": "탄수화물을 제거하면 인슐린이 낮아지고, 신장이 나트륨을 적극적으로 배출한다. 이 때문에 카니보어 초기에 두통·피로·근육 경련이 나타나는 것은 *"
       },
       {
         "file": "part6-chapter02a",
-        "line": 216,
+        "line": 197,
         "context": "적정 섭취량은 개인차가 있지만, 카니보어 실천자들은 일반적으로 하루 소금 **10~15g**(나트륨 4~6g)을 권장한다. 맛에 따라 음식에 자"
       },
       {
         "file": "part6-chapter02a",
-        "line": 220,
+        "line": 201,
         "context": "> 카니보어에서는 소금을 충분히 섭취해야 전해질 균형이 유지된다."
       },
       {
@@ -7226,62 +6801,57 @@
       },
       {
         "file": "part2-chapter02",
-        "line": 219,
+        "line": 216,
         "context": "## 5. 케톤 대사의 항염·항노화 효과"
       },
       {
         "file": "part2-chapter02",
-        "line": 221,
+        "line": 218,
         "context": "케톤체는 염증 유전자의 발현을 억제하고"
       },
       {
         "file": "part2-chapter02",
-        "line": 223,
+        "line": 220,
         "context": "Youm et al.(*Nature Medicine*, 2015)은 쥐와 인간 단핵구를 대상으로 한 실험에서, BHB가 NLRP3 인플라마좀의 "
       },
       {
         "file": "part2-chapter02",
-        "line": 225,
+        "line": 222,
         "context": "또한 케톤 대사 상태는 BDNF(뇌유래신경영양인자)의 생성을 촉진해"
       },
       {
         "file": "part2-chapter02",
-        "line": 229,
-        "context": "(Sleiman et al., *eLife*, 2016). 이 연구는 쥐에게 운동을 시킨 뒤 해마(hippocampus)에서 BHB 농도와 BD"
+        "line": 224,
+        "context": "(Sleiman et al., *eLife*, 2016). 운동으로 혈중 BHB가 상승하면 해마의 BDNF 발현이 증가하며, 케톤 식단에서도 유"
       },
       {
         "file": "part2-chapter02",
-        "line": 231,
+        "line": 226,
         "context": "> **케톤 대사는 단순한 연료 전환이 아니라,"
       },
       {
         "file": "part2-chapter02",
-        "line": 251,
-        "context": "BHB(케톤체)가 HDAC를 억제하여 항산화 유전자를 활성화하는 것이"
-      },
-      {
-        "file": "part2-chapter02",
-        "line": 352,
+        "line": 346,
         "context": "### 케톤체의 항염증 효과"
       },
       {
         "file": "part2-chapter03",
-        "line": 146,
+        "line": 87,
         "context": "탄수화물을 극도로 제한하면 간에서 케톤체(BHB)가 생성되고,"
       },
       {
         "file": "part2-chapter03",
-        "line": 163,
+        "line": 102,
         "context": "| 케톤 대사 전환 | X | O |"
       },
       {
         "file": "part2-chapter03",
-        "line": 168,
+        "line": 107,
         "context": "여기서 예상되는 반문이 있다. \"채식에 케톤 전환이 없다고 문제 삼으면, 카니보어에는 비타민C가 부족하지 않은가?\" 합리적 질문이다. 그러나 비"
       },
       {
         "file": "part2-chapter03",
-        "line": 317,
+        "line": 252,
         "context": "- 케톤 대사는 뇌와 세포를 회복시키는 신호 체계다"
       },
       {
@@ -7291,8 +6861,8 @@
       },
       {
         "file": "part3-chapter02b",
-        "line": 368,
-        "context": "반대로, 인슐린이 낮고 케톤 대사 상태에서는"
+        "line": 296,
+        "context": "핵심은 이것이다: 탄수화물의 반복적 섭취가 인슐린을 만성적으로 높이고(고인슐린혈증), 이것이 **마스터 호르몬** 인슐린의 전신 조절 기능을 교"
       },
       {
         "file": "part5-chapter01",
@@ -7438,22 +7008,17 @@
       },
       {
         "file": "part2-chapter02",
-        "line": 221,
+        "line": 218,
         "context": "케톤체는 염증 유전자의 발현을 억제하고"
       },
       {
         "file": "part2-chapter02",
-        "line": 251,
-        "context": "BHB(케톤체)가 HDAC를 억제하여 항산화 유전자를 활성화하는 것이"
-      },
-      {
-        "file": "part2-chapter02",
-        "line": 352,
+        "line": 346,
         "context": "### 케톤체의 항염증 효과"
       },
       {
         "file": "part2-chapter03",
-        "line": 146,
+        "line": 87,
         "context": "탄수화물을 극도로 제한하면 간에서 케톤체(BHB)가 생성되고,"
       },
       {
@@ -7517,22 +7082,22 @@
       },
       {
         "file": "part1-chapter02",
-        "line": 47,
+        "line": 29,
         "context": "### 마사이족 — 콜레스테롤의 역설"
       },
       {
         "file": "part1-chapter02",
-        "line": 50,
+        "line": 32,
         "context": "고지방 식단을 하는데 콜레스테롤이 낮고 심장병이 없다 —"
       },
       {
         "file": "part1-chapter02",
-        "line": 58,
+        "line": 40,
         "context": "(콜레스테롤에 대해서는 2부 2장에서 집중적으로 다룬다.)"
       },
       {
         "file": "part1-chapter02",
-        "line": 194,
+        "line": 176,
         "context": "지방산과 콜레스테롤은"
       },
       {
@@ -7827,28 +7392,13 @@
       },
       {
         "file": "part4-chapter01",
-        "line": 147,
-        "context": "스타틴은 간에서 콜레스테롤을 합성하는 효소인"
-      },
-      {
-        "file": "part4-chapter01",
         "line": 149,
-        "context": "간이 콜레스테롤을 덜 만들면 혈중 LDL 수치가 내려간다."
+        "context": "**한국의 현실은 이 문제를 더 선명하게 보여준다.** 한국보건의료연구원(NECA)이 심혈관 질환 병력이 없는 고지혈증 환자 **103만 7천 "
       },
       {
         "file": "part4-chapter01",
-        "line": 170,
-        "context": "콜레스테롤 합성을 억제할 뿐, 왜 몸이 콜레스테롤을 많이 만드는지에는"
-      },
-      {
-        "file": "part4-chapter01",
-        "line": 173,
-        "context": "콜레스테롤은 손상된 혈관을 수리하러 가는 소방관에 가깝다."
-      },
-      {
-        "file": "part4-chapter01",
-        "line": 189,
-        "context": "콜레스테롤 수치는 약 없이도 정상화되는 경우가 많다."
+        "line": 151,
+        "context": "3부 1장에서 살펴본 핵심을 다시 떠올려보자. 스타틴은 원인을 치료하는 약이 아니다 — 콜레스테롤은 손상된 혈관을 수리하러 가는 소방관이지, 화"
       },
       {
         "file": "part4-chapter02",
@@ -7912,57 +7462,47 @@
       },
       {
         "file": "part6-chapter01",
-        "line": 30,
+        "line": 20,
         "context": "## 2. \"콜레스테롤이 올라가면 어떡하나요?\""
       },
       {
         "file": "part6-chapter01",
-        "line": 32,
+        "line": 22,
         "context": "콜레스테롤의 과학적 진실은 2부 1장 4절에서 상세히 다루었다."
       },
       {
         "file": "part6-chapter01",
-        "line": 42,
+        "line": 32,
         "context": "→ 총콜레스테롤, LDL, HDL, 중성지방(TG), 공복혈당, HbA1c"
       },
       {
         "file": "part6-chapter01",
-        "line": 66,
+        "line": 56,
         "context": "> **\"콜레스테롤이 올라갔어요\"는 답이 아니다."
       },
       {
         "file": "part6-chapter02a",
-        "line": 112,
+        "line": 110,
         "context": "> *(상세: 2부 2장 \"콜레스테롤의 진실\" 참조)*"
       },
       {
         "file": "part6-chapter02a",
-        "line": 144,
+        "line": 142,
         "context": "## 오해 5. \"콜레스테롤이 올라서 심장병에 걸린다\""
       },
       {
         "file": "part6-chapter02a",
-        "line": 151,
-        "context": "- 콜레스테롤은 **모든 세포막의 구성 성분**이다"
+        "line": 148,
+        "context": "3부 1장에서 상세히 다룬 것처럼, 콜레스테롤은 세포막·호르몬·담즙산의 필수 원료이며 체내의 80%는 간에서 자체 합성된다. LDL 자체가 아니"
       },
       {
         "file": "part6-chapter02a",
         "line": 152,
-        "context": "- 뇌 건조 중량의 **25%**가 콜레스테롤이다"
-      },
-      {
-        "file": "part6-chapter02a",
-        "line": 154,
-        "context": "- 체내 콜레스테롤의 **80%는 간에서 자체 합성**된다"
-      },
-      {
-        "file": "part6-chapter02a",
-        "line": 171,
         "context": "> **핵심:** \"콜레스테롤이 높다\"는 답이 아니다. \"TG/HDL 비율이 어떤가?\"가 진짜 질문이다."
       },
       {
         "file": "part6-chapter02a",
-        "line": 172,
+        "line": 153,
         "context": "> *(상세: 2부 2장 \"콜레스테롤의 진실\" 전체 참조)*"
       },
       {
@@ -8042,21 +7582,6 @@
         "context": "이 과정에서 생성되는 트랜스 지방은"
       },
       {
-        "file": "part2-chapter03",
-        "line": 52,
-        "context": "**트랜스 지방의 역사:**"
-      },
-      {
-        "file": "part2-chapter03",
-        "line": 54,
-        "context": "이 과정에서 생성되는 트랜스 지방은"
-      },
-      {
-        "file": "part2-chapter03",
-        "line": 100,
-        "context": "트랜스 지방과 알데하이드 생성이 증가한다는 연구가 있다"
-      },
-      {
         "file": "part5-chapter02",
         "line": 129,
         "context": "| 카놀라유 | 고온 정제 과정에서 트랜스 지방 생성 |"
@@ -8080,7 +7605,7 @@
       },
       {
         "file": "part1-chapter01",
-        "line": 239,
+        "line": 229,
         "context": "인류는 수백만 년 동안 동물성 포화지방만 먹었고,"
       },
       {
@@ -8285,27 +7810,22 @@
       },
       {
         "file": "part1-chapter03c",
-        "line": 110,
-        "context": "포화지방은 **Pattern A(무해한 유형)**를 주로 증가시킨다."
+        "line": 104,
+        "context": "그런데 3장 본문에서 다룬 것처럼, 핵심은 **어떤 LDL이 올라가느냐**다. 포화지방은 무해한 대형 LDL(Pattern A)을 주로 증가시키"
       },
       {
         "file": "part1-chapter03c",
-        "line": 118,
-        "context": "포화지방이 LDL 수치를 올려도, 그것이 심장병 위험을 높이지 않는 이유가 여기에 있다."
-      },
-      {
-        "file": "part1-chapter03c",
-        "line": 128,
+        "line": 114,
         "context": "| **숨겨진 데이터** | 미네소타 관상동맥 실험 — 포화지방 그룹이 더 건강했지만 40년간 미발표 |"
       },
       {
         "file": "part1-chapter03c",
-        "line": 130,
+        "line": 116,
         "context": "| **반박 메타분석** | 34만 명(2010), 60만 명(2014) 분석 → 포화지방-심장병 무관 |"
       },
       {
         "file": "part1-chapter03c",
-        "line": 132,
+        "line": 118,
         "context": "| **코크란 리뷰** | 56,675명 RCT → 포화지방 감소가 전체 사망률 줄이지 않음 |"
       },
       {
@@ -8340,13 +7860,8 @@
       },
       {
         "file": "part2-chapter03",
-        "line": 85,
-        "context": "이 과정에서 다가불포화지방산은 **열, 화학물질, 산소에 반복적으로 노출**된다."
-      },
-      {
-        "file": "part2-chapter03",
-        "line": 103,
-        "context": "반면 포화지방(우지, 라드, 코코넛 오일)은 구조적으로 안정적이어서"
+        "line": 45,
+        "context": "오메가6:3 비율의 극단적 불균형(Simopoulos, 2002)이 만성 염증의 화학적 기반이다(→ 1부 개요 '오메가6 폭주' 상세 설명). "
       },
       {
         "file": "part3-chapter01",
@@ -8360,18 +7875,8 @@
       },
       {
         "file": "part3-chapter02c",
-        "line": 17,
-        "context": "불포화지방의 문제는 내부에 그치지 않는다."
-      },
-      {
-        "file": "part3-chapter02c",
-        "line": 18,
-        "context": "피부의 세포막에 다불포화지방산(PUFA)이 많을 경우,"
-      },
-      {
-        "file": "part3-chapter02c",
-        "line": 23,
-        "context": "포화지방 식단보다 더 많은 UV 유발 종양을 일으켰다"
+        "line": 14,
+        "context": "반면 동물성 포화지방은 구조적으로 안정적이어서 산화에 강하다(→ 2부 3장 상세 비교)."
       },
       {
         "file": "part3-intro",
@@ -8435,12 +7940,12 @@
       },
       {
         "file": "part6-chapter02a",
-        "line": 168,
-        "context": "포화지방 섭취가 높을수록 심혈관 사망률이 오히려 **낮았고**,"
+        "line": 150,
+        "context": "PURE 연구(18개국, 135,335명)는 포화지방 섭취가 높을수록 심혈관 사망률이 오히려 **낮았다**고 보고했다."
       },
       {
         "file": "part6-chapter02a",
-        "line": 179,
+        "line": 160,
         "context": "소금과 포화지방을 연결시킨 오래된 가설에서 비롯되었다."
       },
       {
@@ -8492,7 +7997,7 @@
       },
       {
         "file": "part2-chapter03",
-        "line": 153,
+        "line": 92,
         "context": "가공식품을 끊어도 \"자연 식물\"에는 렉틴, 옥살산, 피틴산, 사포닌 등"
       },
       {
