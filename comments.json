@@ -1,8 +1,21 @@
 {
   "project": "카니보어 탈고",
-  "updatedAt": "2026-04-05T12:13:23.577Z",
-  "totalComments": 0,
-  "pending": 0,
+  "updatedAt": "2026-04-06T11:28:00.727Z",
+  "totalComments": 1,
+  "pending": 1,
   "fixed": 0,
-  "comments": []
+  "comments": [
+    {
+      "id": "mnn3whqr",
+      "targetId": "preface-22",
+      "file": "preface",
+      "line": 22,
+      "excerpt": "카니보어 실천자들은 건강을 온전히 회복하기까지 반년에서 2년 정도가 걸린다고 한다. 나는 아직 그 과정 한가운데에 있다. 아내는 내 생각을 존중하며 식단을 어느 정도 따라와 주지만",
+      "selectedWord": "",
+      "text": "선을 넘을때가 있다와 다음 문장에서도 비슷한 분위기 좀 더 세세하게 적혔을 뿐 중복인 느낌을 지울 수가 없어",
+      "status": "pending",
+      "createdAt": "2026-04-06T11:28:00.723Z",
+      "fixedAt": null
+    }
+  ]
 }
