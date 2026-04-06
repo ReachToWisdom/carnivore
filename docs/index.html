@@ -9062,6 +9062,20 @@ function formatDate(iso) {
   const d = new Date(iso);
   return `${d.getMonth()+1}/${d.getDate()} ${d.getHours()}:${String(d.getMinutes()).padStart(2,'0')}`;
 }
+// Service Worker 등록 — 항상 최신 버전 로드
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('sw.js').then(reg => {
+    // 새 버전 감지 시 즉시 활성화
+    reg.addEventListener('updatefound', () => {
+      const newWorker = reg.installing;
+      newWorker.addEventListener('statechange', () => {
+        if (newWorker.state === 'activated') {
+          window.location.reload();
+        }
+      });
+    });
+  });
+}
 </script>
 
 </body>
