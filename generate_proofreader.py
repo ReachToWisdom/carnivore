@@ -261,6 +261,7 @@ body {
   z-index: 100;
   transition: transform 0.3s;
 }
+.toc-panel.collapsed { transform: translateX(-100%); }
 .toc-panel h2 { font-size: 15px; margin-bottom: 12px; color: var(--accent); }
 .toc-panel ul { list-style: none; }
 .toc-panel li { margin: 4px 0; }
@@ -277,8 +278,14 @@ body {
   margin-right: 0;
   padding: 40px 60px;
   max-width: 800px;
-  transition: margin 0.3s;
+  transition: margin 0.3s, max-width 0.3s;
 }
+body.toc-collapsed .content-area {
+  margin-left: 0;
+  max-width: 1100px;
+  padding: 40px 40px;
+}
+body.toc-collapsed .toolbar { left: 0; }
 .comment-panel {
   width: 360px;
   background: var(--sidebar-bg);
@@ -498,7 +505,7 @@ body {
   .toolbar .menu-btn { display: inline-block !important; }
 }
 @media (min-width: 901px) {
-  .toolbar .menu-btn { display: none; }
+  .toolbar .menu-btn { display: inline-block; }
 }
 
 /* 스크롤바 */
@@ -1158,7 +1165,24 @@ function toggleComments() {
 }
 
 function toggleToc() {
-  document.getElementById('tocPanel').classList.toggle('open');
+  const isMobile = window.innerWidth <= 900;
+  if (isMobile) {
+    document.getElementById('tocPanel').classList.toggle('open');
+  } else {
+    // 데스크톱/태블릿: 본문 너비 확장
+    document.getElementById('tocPanel').classList.toggle('collapsed');
+    document.body.classList.toggle('toc-collapsed');
+    localStorage.setItem('toc-collapsed', document.body.classList.contains('toc-collapsed') ? '1' : '0');
+  }
+}
+
+// 페이지 로드 시 이전 상태 복원
+if (localStorage.getItem('toc-collapsed') === '1' && window.innerWidth > 900) {
+  document.documentElement.classList.add('toc-collapsed-init');
+  document.addEventListener('DOMContentLoaded', () => {
+    document.body.classList.add('toc-collapsed');
+    document.getElementById('tocPanel').classList.add('collapsed');
+  });
 }
 
 function scrollToTarget(targetId) {
