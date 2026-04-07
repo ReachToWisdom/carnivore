@@ -657,9 +657,26 @@ function setSyncStatus(s) {
 }
 
 function setupToken() {
+  // 기존 토큰이 있으면 먼저 보여주고 복사 옵션 제공
+  if (ghToken) {
+    const action = confirm(
+      '현재 저장된 토큰:\\n\\n'
+      + ghToken + '\\n\\n'
+      + '[확인] = 클립보드에 복사\\n'
+      + '[취소] = 새 토큰 입력하기'
+    );
+    if (action) {
+      navigator.clipboard.writeText(ghToken).then(() => {
+        alert('토큰이 클립보드에 복사되었습니다');
+      }).catch(() => {
+        alert('복사 실패. 수동으로 복사하세요:\\n\\n' + ghToken);
+      });
+      return;
+    }
+  }
   const token = prompt(
     'GitHub Personal Access Token을 입력하세요.\\n'
-    + '(repo 권한 필요, Settings > Developer settings > Fine-grained tokens)\\n'
+    + '(repo 권한 필요, Settings > Developer settings > Tokens)\\n'
     + '비워두면 로컬 전용 모드로 전환됩니다.',
     ghToken
   );
