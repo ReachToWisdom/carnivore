@@ -255,7 +255,8 @@ body.toc-collapsed .toolbar { left: 0; }
   z-index: 100;
   transition: transform 0.3s;
 }
-.comment-panel.open ~ .content-area { margin-right: 360px; }
+body.comments-open .content-area { margin-right: 360px; }
+body.comments-open.toc-collapsed .content-area { max-width: calc(100vw - 360px - 80px); }
 
 /* 콘텐츠 스타일 */
 .chapter { margin-bottom: 60px; }
@@ -666,7 +667,10 @@ document.addEventListener('DOMContentLoaded', async () => {
   renderComments();
   updateStats();
   applyCommentMarkers();
-  if (commentPanelOpen) document.getElementById('commentPanel').classList.add('open');
+  if (commentPanelOpen) {
+    document.getElementById('commentPanel').classList.add('open');
+    document.body.classList.add('comments-open');
+  }
 
   // 롱프레스 + 텍스트 ��택으로 코멘트 트리거
   let pressTimer = null;
@@ -1119,7 +1123,8 @@ function handleImport(event) {
 function toggleComments() {
   const panel = document.getElementById('commentPanel');
   commentPanelOpen = !commentPanelOpen;
-  panel.classList.toggle('open');
+  panel.classList.toggle('open', commentPanelOpen);
+  document.body.classList.toggle('comments-open', commentPanelOpen);
   const btn = document.getElementById('commentToggle');
   btn.classList.toggle('active', commentPanelOpen);
 }
