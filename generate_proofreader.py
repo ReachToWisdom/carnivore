@@ -16,49 +16,7 @@ DOCS_DIR = os.path.join(BASE_DIR, "docs")
 OUTPUT_HTML = os.path.join(DOCS_DIR, "index.html")
 
 # 빌드 순서 (generate_book_latex.py와 동일)
-CHAPTERS = [
-    ("chapters/preface.md", None),
-    (None, ("제1부", "우리는 왜 아플까?")),
-    ("chapters/part1-overview.md", None),
-    ("chapters/part1-chapter01.md", None),
-    ("chapters/part1-chapter02.md", None),
-    ("chapters/part1-chapter03a.md", None),
-    ("chapters/part1-chapter03b.md", None),
-    ("chapters/part1-chapter03c.md", None),
-    (None, ("제2부", "회복의 시작 — 본래의 식단으로 돌아가다")),
-    ("chapters/part2-intro.md", None),
-    ("chapters/part2-chapter01.md", None),
-    ("chapters/part2-chapter02.md", None),
-    ("chapters/part2-chapter03.md", None),
-    (None, ("제3부", "잃어버린 균형 — 식물 문명이 만든 병든 인류")),
-    ("chapters/part3-intro.md", None),
-    ("chapters/part3-chapter01.md", None),
-    ("chapters/part3-chapter02a.md", None),
-    ("chapters/part3-chapter02b.md", None),
-    ("chapters/part3-chapter02c.md", None),
-    (None, ("제4부", "잘못된 믿음과 진실의 회복")),
-    ("chapters/part4-intro.md", None),
-    ("chapters/part4-chapter01.md", None),
-    ("chapters/part4-chapter02.md", None),
-    ("chapters/part4-chapter03.md", None),
-    (None, ("제5부", "실천 가이드 — 카니보어 시작하기")),
-    ("chapters/part5-intro.md", None),
-    ("chapters/part5-chapter01.md", None),
-    ("chapters/part5-chapter02.md", None),
-    ("chapters/part5-chapter03.md", None),
-    ("chapters/part5-chapter04.md", None),
-    ("chapters/part5-chapter05.md", None),
-    (None, ("제6부", "자주 묻는 질문과 사례")),
-    ("chapters/part6-intro.md", None),
-    ("chapters/part6-chapter01.md", None),
-    ("chapters/part6-chapter02a.md", None),
-    ("chapters/part6-chapter02b.md", None),
-    ("chapters/part6-chapter03.md", None),
-    ("chapters/epilogue.md", None),
-    ("chapters/appendix-a.md", None),
-    ("chapters/appendix-b.md", None),
-    ("chapters/appendix-c.md", None),
-]
+from book_config import CHAPTERS, GH_API_COMMENTS, GITHUB_OWNER, GITHUB_REPO, GITHUB_BRANCH, LS_COMMENTS_KEY, LS_TOKEN_KEY
 
 
 def add_paragraph_ids(html_content, file_id):
@@ -88,7 +46,7 @@ def remap_comments():
     # 1. GitHub에서 최신 comments.json 다운로드
     try:
         result = subprocess.run(
-            ['gh', 'api', 'repos/ReachToWisdom/carnivore/contents/comments.json'],
+            ['gh', 'api', GH_API_COMMENTS],
             capture_output=True, text=True, timeout=15
         )
         if result.returncode != 0:
@@ -163,7 +121,7 @@ def remap_comments():
         with open(payload_path, 'w') as f:
             json.dump(payload, f)
         subprocess.run(
-            ['gh', 'api', 'repos/ReachToWisdom/carnivore/contents/comments.json',
+            ['gh', 'api', GH_API_COMMENTS,
              '-X', 'PUT', '--input', payload_path],
             capture_output=True, text=True, timeout=15
         )
@@ -579,11 +537,13 @@ mark { background: #ffeb3b; padding: 0 2px; border-radius: 2px; }
 </div>
 
 <script>
-// ── GitHub 설정 ──
-const GITHUB_OWNER = 'ReachToWisdom';
-const GITHUB_REPO = 'carnivore';
-const COMMENTS_PATH = 'comments.json';
-const BRANCH = 'main';
+// ── GitHub 설정 (book_config.py에서 주입) ──
+const GITHUB_OWNER = '{{GITHUB_OWNER}}';
+const GITHUB_REPO = '{{GITHUB_REPO}}';
+const COMMENTS_PATH = '{{COMMENTS_FILE}}';
+const BRANCH = '{{GITHUB_BRANCH}}';
+const LS_COMMENTS_KEY = '{{LS_COMMENTS_KEY}}';
+const LS_TOKEN_KEY = '{{LS_TOKEN_KEY}}';
 
 // ── 상태 ──
 let comments = [];
@@ -591,7 +551,7 @@ let selectedEl = null;
 let selectedWord = '';  // 사용자가 선택/롱프레스한 단어/텍스트
 let currentFilter = 'all';
 let commentPanelOpen = window.innerWidth > 900;
-let ghToken = localStorage.getItem('gh-token') || '';
+let ghToken = localStorage.getItem(LS_TOKEN_KEY) || '';
 let fileSha = null; // GitHub 파일 SHA (업데이트 시 필요)
 let syncStatus = 'idle'; // idle | syncing | error
 
@@ -617,7 +577,7 @@ async function ghLoadComments() {
     const bytes = Uint8Array.from(atob(b64), c => c.charCodeAt(0));
     const content = JSON.parse(new TextDecoder().decode(bytes));
     comments = content.comments || content || [];
-    localStorage.setItem('carnivore-comments', JSON.stringify(comments));
+    localStorage.setItem(LS_COMMENTS_KEY, JSON.stringify(comments));
     setSyncStatus('idle');
   } catch (err) {
     console.error('GitHub load failed:', err);
@@ -664,10 +624,10 @@ async function ghSaveComments() {
 }
 
 function loadLocal() {
-  comments = JSON.parse(localStorage.getItem('carnivore-comments') || '[]');
+  comments = JSON.parse(localStorage.getItem(LS_COMMENTS_KEY) || '[]');
 }
 function persistLocal() {
-  localStorage.setItem('carnivore-comments', JSON.stringify(comments));
+  localStorage.setItem(LS_COMMENTS_KEY, JSON.stringify(comments));
 }
 
 function setSyncStatus(s) {
@@ -688,9 +648,9 @@ function setupToken() {
   if (token === null) return;
   ghToken = token.trim();
   if (ghToken) {
-    localStorage.setItem('gh-token', ghToken);
+    localStorage.setItem(LS_TOKEN_KEY, ghToken);
   } else {
-    localStorage.removeItem('gh-token');
+    localStorage.removeItem(LS_TOKEN_KEY);
   }
   ghLoadComments().then(() => {
     renderComments();
@@ -1313,7 +1273,15 @@ def main():
     os.makedirs(DOCS_DIR, exist_ok=True)
     print("  원고 변환 중...")
     content = build_content()
-    html_out = HTML_TEMPLATE.replace('{{CONTENT}}', content)
+    from book_config import COMMENTS_FILE
+    html_out = (HTML_TEMPLATE
+        .replace('{{CONTENT}}', content)
+        .replace('{{GITHUB_OWNER}}', GITHUB_OWNER)
+        .replace('{{GITHUB_REPO}}', GITHUB_REPO)
+        .replace('{{GITHUB_BRANCH}}', GITHUB_BRANCH)
+        .replace('{{COMMENTS_FILE}}', COMMENTS_FILE)
+        .replace('{{LS_COMMENTS_KEY}}', LS_COMMENTS_KEY)
+        .replace('{{LS_TOKEN_KEY}}', LS_TOKEN_KEY))
     with open(OUTPUT_HTML, 'w', encoding='utf-8') as f:
         f.write(html_out)
     size_kb = os.path.getsize(OUTPUT_HTML) // 1024

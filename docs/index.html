@@ -8459,11 +8459,13 @@ Hallberg et al.(<em>Diabetes Therapy</em>, 2018)은 제2형 당뇨 환자 262명
 </div>
 
 <script>
-// ── GitHub 설정 ──
+// ── GitHub 설정 (book_config.py에서 주입) ──
 const GITHUB_OWNER = 'ReachToWisdom';
 const GITHUB_REPO = 'carnivore';
 const COMMENTS_PATH = 'comments.json';
 const BRANCH = 'main';
+const LS_COMMENTS_KEY = 'carnivore-comments';
+const LS_TOKEN_KEY = 'gh-token';
 
 // ── 상태 ──
 let comments = [];
@@ -8471,7 +8473,7 @@ let selectedEl = null;
 let selectedWord = '';  // 사용자가 선택/롱프레스한 단어/텍스트
 let currentFilter = 'all';
 let commentPanelOpen = window.innerWidth > 900;
-let ghToken = localStorage.getItem('gh-token') || '';
+let ghToken = localStorage.getItem(LS_TOKEN_KEY) || '';
 let fileSha = null; // GitHub 파일 SHA (업데이트 시 필요)
 let syncStatus = 'idle'; // idle | syncing | error
 
@@ -8497,7 +8499,7 @@ async function ghLoadComments() {
     const bytes = Uint8Array.from(atob(b64), c => c.charCodeAt(0));
     const content = JSON.parse(new TextDecoder().decode(bytes));
     comments = content.comments || content || [];
-    localStorage.setItem('carnivore-comments', JSON.stringify(comments));
+    localStorage.setItem(LS_COMMENTS_KEY, JSON.stringify(comments));
     setSyncStatus('idle');
   } catch (err) {
     console.error('GitHub load failed:', err);
@@ -8544,10 +8546,10 @@ async function ghSaveComments() {
 }
 
 function loadLocal() {
-  comments = JSON.parse(localStorage.getItem('carnivore-comments') || '[]');
+  comments = JSON.parse(localStorage.getItem(LS_COMMENTS_KEY) || '[]');
 }
 function persistLocal() {
-  localStorage.setItem('carnivore-comments', JSON.stringify(comments));
+  localStorage.setItem(LS_COMMENTS_KEY, JSON.stringify(comments));
 }
 
 function setSyncStatus(s) {
@@ -8568,9 +8570,9 @@ function setupToken() {
   if (token === null) return;
   ghToken = token.trim();
   if (ghToken) {
-    localStorage.setItem('gh-token', ghToken);
+    localStorage.setItem(LS_TOKEN_KEY, ghToken);
   } else {
-    localStorage.removeItem('gh-token');
+    localStorage.removeItem(LS_TOKEN_KEY);
   }
   ghLoadComments().then(() => {
     renderComments();
