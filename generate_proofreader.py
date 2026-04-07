@@ -195,6 +195,11 @@ HTML_TEMPLATE = """<!DOCTYPE html>
   --highlight-fixed: rgba(76, 175, 80, 0.08);
 }
 * { box-sizing: border-box; margin: 0; padding: 0; }
+html, body {
+  height: 100%;
+  overflow: hidden;  /* 본문은 .content-area가 자체 스크롤 */
+  overscroll-behavior: none;
+}
 body {
   font-family: 'Noto Serif KR', 'Batang', Georgia, serif;
   background: var(--bg);
@@ -216,6 +221,8 @@ body {
   position: fixed;
   top: 0; left: 0; bottom: 0;
   overflow-y: auto;
+  overscroll-behavior: contain;
+  -webkit-overflow-scrolling: touch;
   z-index: 100;
   transition: transform 0.3s;
 }
@@ -231,18 +238,25 @@ body {
 .toc-panel a.part { font-weight: bold; color: var(--accent); margin-top: 12px; }
 
 .content-area {
-  flex: 1;
-  margin-left: 260px;
-  margin-right: 0;
-  padding: 40px 60px;
+  position: fixed;
+  top: 0; bottom: 0;
+  left: 260px; right: 0;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  -webkit-overflow-scrolling: touch;
+  padding: 70px 60px 40px;
+  transition: left 0.3s, right 0.3s;
+}
+.content-area > * {
   max-width: 800px;
-  transition: margin 0.3s, max-width 0.3s;
+  margin-left: auto;
+  margin-right: auto;
 }
 body.toc-collapsed .content-area {
-  margin-left: 0;
-  max-width: 1100px;
-  padding: 40px 40px;
+  left: 0;
+  padding: 70px 40px 40px;
 }
+body.toc-collapsed .content-area > * { max-width: 1100px; }
 body.toc-collapsed .toolbar { left: 0; }
 .comment-panel {
   width: 360px;
@@ -251,12 +265,13 @@ body.toc-collapsed .toolbar { left: 0; }
   position: fixed;
   top: 0; right: 0; bottom: 0;
   overflow-y: auto;
+  overscroll-behavior: contain;
+  -webkit-overflow-scrolling: touch;
   padding: 20px 16px;
   z-index: 100;
   transition: transform 0.3s;
 }
-body.comments-open .content-area { margin-right: 360px; }
-body.comments-open.toc-collapsed .content-area { max-width: calc(100vw - 360px - 80px); }
+body.comments-open .content-area { right: 360px; }
 
 /* 콘텐츠 스타일 */
 .chapter { margin-bottom: 60px; }
@@ -450,13 +465,15 @@ body.comments-open.toc-collapsed .content-area { max-width: calc(100vw - 360px -
 .toolbar .stats { margin-left: auto; color: #888; }
 .toolbar .stats span { font-weight: bold; color: var(--accent); }
 
-.content-area { padding-top: 70px; }
+/* content-area padding은 위에서 지정 */
 
 /* 모바일 */
 @media (max-width: 900px) {
   .toc-panel { transform: translateX(-100%); }
   .toc-panel.open { transform: translateX(0); }
-  .content-area { margin-left: 0; padding: 70px 20px 20px; max-width: 100%; }
+  .content-area { left: 0; padding: 70px 20px 40px; }
+  .content-area > * { max-width: 100%; }
+  body.comments-open .content-area { right: 0; }
   .comment-panel { width: 100%; transform: translateX(100%); }
   .comment-panel.open { transform: translateX(0); }
   .comment-input-area { width: 100%; }
